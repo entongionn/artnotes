@@ -1,0 +1,341 @@
+{
+  "schema": "artnotes-prototipo/0.1",
+  "generato_il": "2026-11-06T12:04:13",
+  "modalita": "pubblico",
+  "opera": {
+    "id": "met:435809",
+    "catalogo": {
+      "titoli": [
+        {
+          "fonte": "met-435809",
+          "valore": "The Harvesters",
+          "lingua": "en"
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "valore": "Mietitura",
+          "lingua": "it"
+        }
+      ],
+      "attribuzioni": [
+        {
+          "fonte": "met-435809",
+          "autore": "Pieter Bruegel the Elder",
+          "id_wikidata": "Q43270",
+          "qualifica_originale": "",
+          "nota_biografica": "Netherlandish, Breda (?) ca. 1525–1569 Brussels",
+          "ulan": "http://vocab.getty.edu/page/ulan/500013247"
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "autore": "Pieter Bruegel il Vecchio",
+          "id_wikidata": "Q43270",
+          "qualifica_originale": "",
+          "riferimenti": 1
+        }
+      ],
+      "attribuzione_in_evidenza": {
+        "fonte": "met-435809",
+        "motivazione": "Scheda dell'istituzione che conserva l'opera. Wikidata indica la stessa persona, senza qualifiche diverse."
+      },
+      "datazioni": [
+        {
+          "fonte": "met-435809",
+          "testo_originale": "1565",
+          "intervallo": [
+            1565,
+            1565
+          ]
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "testo_originale": "1565",
+          "riferimenti": 1
+        }
+      ],
+      "tecnica": [
+        {
+          "fonte": "met-435809",
+          "valore": "Oil on oak"
+        }
+      ],
+      "dimensioni": [
+        {
+          "fonte": "met-435809",
+          "valore": "Overall, including added strips at top, bottom, and right, 46 7/8 x 63 3/4 in. (119 x 162 cm); original painted surface 45 7/8 x 62 7/8 in. (116.5 x 159.5 cm)"
+        }
+      ],
+      "istituzione": [
+        {
+          "fonte": "met-435809",
+          "valore": "Metropolitan Museum of Art, New York, NY",
+          "inventario": "19.164",
+          "linea_di_credito": "Rogers Fund, 1919"
+        }
+      ],
+      "identificativi": {
+        "met": "435809",
+        "wikidata": "Q776175",
+        "ulan_artista": "http://vocab.getty.edu/page/ulan/500013247"
+      },
+      "soggetti_wikidata": [
+        {
+          "valore": "mietitura",
+          "riferimenti": 0
+        },
+        {
+          "valore": "contadino",
+          "riferimenti": 0
+        },
+        {
+          "valore": "falce",
+          "riferimenti": 0
+        },
+        {
+          "valore": "campo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "latifoglie",
+          "riferimenti": 0
+        },
+        {
+          "valore": "campagna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "estate",
+          "riferimenti": 0
+        },
+        {
+          "valore": "pasto",
+          "riferimenti": 0
+        },
+        {
+          "valore": "gruppo di umani",
+          "riferimenti": 0
+        },
+        {
+          "valore": "cesto",
+          "riferimenti": 0
+        },
+        {
+          "valore": "alimento",
+          "riferimenti": 0
+        },
+        {
+          "valore": "chiesa",
+          "riferimenti": 0
+        },
+        {
+          "valore": "collina",
+          "riferimenti": 0
+        },
+        {
+          "valore": "riviera",
+          "riferimenti": 0
+        },
+        {
+          "valore": "mare",
+          "riferimenti": 0
+        },
+        {
+          "valore": "prospettiva aerea",
+          "riferimenti": 0
+        },
+        {
+          "valore": "cielo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "brocca",
+          "riferimenti": 0
+        },
+        {
+          "valore": "bevanda",
+          "riferimenti": 0
+        },
+        {
+          "valore": "posizione seduta",
+          "riferimenti": 0
+        },
+        {
+          "valore": "posizione eretta",
+          "riferimenti": 0
+        },
+        {
+          "valore": "sonno",
+          "riferimenti": 0
+        },
+        {
+          "valore": "grains",
+          "riferimenti": 0
+        },
+        {
+          "valore": "donna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "uomo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "pittura paesaggistica",
+          "riferimenti": 0
+        },
+        {
+          "valore": "lavoro",
+          "riferimenti": 0
+        },
+        {
+          "valore": "alimentazione",
+          "riferimenti": 0
+        }
+      ],
+      "proprietari_wikidata": [
+        {
+          "valore": "Nicolaes Jonghelinck",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Ernesto d'Austria",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Rodolfo II d'Asburgo",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Leopoldo Guglielmo d'Austria",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Antoine François Andréossy",
+          "qualificatori": {
+            "fino al": [
+              "1816"
+            ]
+          },
+          "riferimenti": 1
+        },
+        {
+          "valore": "Metropolitan Museum of Art",
+          "qualificatori": {
+            "dal": [
+              "1919"
+            ]
+          },
+          "riferimenti": 1
+        },
+        {
+          "valore": "Jacques Doucet",
+          "qualificatori": {
+            "fino al": [
+              "1912"
+            ]
+          },
+          "riferimenti": 0
+        }
+      ]
+    }
+  },
+  "immagine": {
+    "id": "met-435809-3d2a611f7787",
+    "sha256": "3d2a611f7787bee1a38ba1e9976535ea5497c2e4a26cd52ae2142c5f74dc6a49",
+    "larghezza": 3811,
+    "altezza": 2809,
+    "a_colori": true,
+    "vista": "recto, intero",
+    "diritti": {
+      "metadati": "CC0 (Met Open Access)",
+      "fotografia": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+      "opera": "pubblico dominio (opera del 1565)",
+      "verificato_il": "2026-11-06"
+    },
+    "crediti": "The Metropolitan Museum of Art, Open Access",
+    "dzi": "immagini/3d2a611f7787/immagine.dzi",
+    "file_fotografia": "DP119115.jpg"
+  },
+  "copertura": {
+    "catalogo": "Dati essenziali presenti (Met, Wikidata).",
+    "approfondimenti_documentati": "0 interpretazioni con fonte bibliografica. Testo critico ancora assente.",
+    "annotazioni": "0 regioni, nessuna revisionata.",
+    "revisione_umana": "Nessun contenuto revisionato."
+  },
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": []
+    },
+    {
+      "id": "osserva",
+      "titolo": "Osserva",
+      "blocchi": [],
+      "livello_annotazioni": "osservazione"
+    },
+    {
+      "id": "analisi",
+      "titolo": "Analisi",
+      "blocchi": [],
+      "livello_annotazioni": "composizione"
+    },
+    {
+      "id": "iconografia",
+      "titolo": "Iconografia",
+      "blocchi": [],
+      "livello_annotazioni": "iconografia"
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": []
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": []
+    }
+  ],
+  "annotazioni": [],
+  "fonti": {
+    "met-435809": {
+      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "url": "https://www.metmuseum.org/art/collection/search/435809",
+      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+      "consultato": "2026-11-06",
+      "licenza": "CC0 (metadati)",
+      "note": "metadataDate della fonte: 2026-08-21"
+    },
+    "wikidata-Q776175": {
+      "titolo": "Wikidata, elemento Q776175",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q776175",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q776175",
+      "consultato": "2026-11-06",
+      "licenza": "CC0",
+      "note": "Molte asserzioni non hanno riferimenti: vanno lette come dato da verificare."
+    },
+    "iconclass": {
+      "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",
+      "tipo": "sistema di classificazione iconografica",
+      "url": "https://iconclass.org/47I14",
+      "consultato": "2026-11-06",
+      "licenza": "da verificare",
+      "note": "Etichette italiane lette da iconclass.org. Le notazioni provengono da Wikidata."
+    },
+    "foto-met-DP119115": {
+      "titolo": "Fotografia DP119115.jpg (3811 × 2809 px)",
+      "tipo": "immagine di riferimento per le osservazioni visive",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+      "note": "SHA-256 3d2a611f7787…"
+    }
+  }
+}

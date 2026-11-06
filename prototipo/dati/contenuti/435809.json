@@ -1,0 +1,169 @@
+{
+  "opera": "met:435809",
+  "nota": "Contenuti redazionali del prototipo. Tutti i blocchi sono bozze generate da AI e non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": [
+        {
+          "id": "b01",
+          "registro": "documentato",
+          "testo": "The Harvesters (titolo italiano su Wikidata: «Mietitura») è un dipinto di Pieter Bruegel il Vecchio. La scheda del Metropolitan Museum of Art di New York lo data al 1565 e ne indica la tecnica: olio su tavola di quercia («Oil on oak»).",
+          "fonti": [
+            {"fonte": "met-435809", "campi": ["title", "artistDisplayName", "objectDate", "medium"]},
+            {"fonte": "wikidata-Q776175", "campi": ["etichetta it"]}
+          ],
+          "stato": "bozza"
+        },
+        {
+          "id": "b02",
+          "registro": "documentato",
+          "testo": "La scheda registra due misure. Le dimensioni complessive sono 119 × 162 cm e comprendono strisce aggiunte in alto, in basso e a destra. La superficie dipinta originale misura 116,5 × 159,5 cm.",
+          "fonti": [{"fonte": "met-435809", "campi": ["dimensions"]}],
+          "stato": "bozza"
+        },
+        {
+          "id": "b03",
+          "registro": "osservazione",
+          "testo": "In primo piano, a destra, un gruppo di contadini mangia all'ombra di un albero, accanto a un uomo che dorme. A sinistra altri continuano a mietere. Alle loro spalle il paesaggio scende per gradi fino a una pianura e a un tratto di mare con alcune navi.",
+          "fonti": [{"fonte": "foto-met-DP119115"}],
+          "stato": "bozza"
+        },
+        {
+          "id": "b04",
+          "registro": "documentato",
+          "testo": "Wikidata classifica il soggetto con due notazioni Iconclass: «raccolto» (47I14) ed «estate ~ attività umane (le quattro stagioni dell'anno)» (23E43). Nessuna delle due asserzioni cita un riferimento.",
+          "fonti": [
+            {"fonte": "wikidata-Q776175", "campi": ["P1257"], "nota": "asserzioni senza riferimenti"},
+            {"fonte": "iconclass", "campi": ["47I14", "23E43"]}
+          ],
+          "stato": "bozza"
+        },
+        {
+          "id": "b05",
+          "registro": "lacuna",
+          "testo": "Il prototipo non contiene ancora un testo critico. Il 6 novembre 2026 la pagina del museo, con commento e bibliografia, non era raggiungibile. Committenza, funzione originaria ed eventuale appartenenza a una serie verranno inserite solo con fonti puntuali.",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ]
+    },
+    {
+      "id": "osserva",
+      "titolo": "Osserva",
+      "blocchi": [
+        {
+          "id": "b10",
+          "registro": "osservazione",
+          "testo": "Ogni dettaglio parte da una domanda. Cerca la risposta sull'immagine, poi apri la spiegazione. Gli stessi dettagli sono raggiungibili dall'elenco testuale, senza dover trovare le regioni sull'immagine.",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ],
+      "livello_annotazioni": "osservazione"
+    },
+    {
+      "id": "analisi",
+      "titolo": "Analisi",
+      "blocchi": [
+        {
+          "id": "b20",
+          "registro": "ipotesi",
+          "testo": "La scena sembra costruita su due piani. A destra, il primo piano è occupato dall'albero e dal pasto. A sinistra, la veduta si allarga e scende verso la pianura e il mare. È una lettura proposta dall'AI guardando la fotografia, non un'analisi pubblicata.",
+          "fonti": [{"fonte": "foto-met-DP119115"}],
+          "stato": "bozza"
+        },
+        {
+          "id": "b21",
+          "registro": "documentato",
+          "testo": "Tecnica: olio su quercia («Oil on oak»). Wikidata indica «colore a olio» e «tavola». Solo il primo dato cita un riferimento (RKDimages).",
+          "fonti": [
+            {"fonte": "met-435809", "campi": ["medium"]},
+            {"fonte": "wikidata-Q776175", "campi": ["P186"]}
+          ],
+          "stato": "bozza"
+        },
+        {
+          "id": "b22",
+          "registro": "lacuna",
+          "testo": "Luce, colore e stesura non sono analizzati. Il corpus non contiene ancora studi tecnici, e questa fotografia (3811 × 2809 px) non permette di esaminare la pennellata da vicino.",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ],
+      "livello_annotazioni": "composizione"
+    },
+    {
+      "id": "iconografia",
+      "titolo": "Iconografia",
+      "blocchi": [
+        {
+          "id": "b30",
+          "registro": "documentato",
+          "testo": "Wikidata elenca i soggetti raffigurati: l'elenco completo è più sotto. Nessuna di queste asserzioni cita un riferimento. Alcuni soggetti sono collegati alle regioni dell'immagine in cui l'AI li ha individuati.",
+          "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "asserzioni senza riferimenti"}],
+          "stato": "bozza",
+          "mostra_elenco": "soggetti_wikidata"
+        },
+        {
+          "id": "b31",
+          "registro": "documentato",
+          "testo": "Il Met indicizza l'opera con sei termini collegati al thesaurus Getty AAT: Food, Men, Women, Landscapes, Working, Eating.",
+          "fonti": [{"fonte": "met-435809", "campi": ["tags"]}],
+          "stato": "bozza"
+        },
+        {
+          "id": "b32",
+          "registro": "lacuna",
+          "testo": "Il prototipo non include letture simboliche o allegoriche: richiedono fonti interpretative non ancora presenti nel corpus.",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ],
+      "livello_annotazioni": "iconografia"
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": [
+        {
+          "id": "b40",
+          "registro": "documentato",
+          "testo": "Il Met indica come linea di credito «Rogers Fund, 1919» e come numero di inventario 19.164.",
+          "fonti": [{"fonte": "met-435809", "campi": ["creditLine", "accessionNumber"]}],
+          "stato": "bozza"
+        },
+        {
+          "id": "b41",
+          "registro": "documentato",
+          "testo": "Wikidata elenca sette proprietari. L'elenco con i riferimenti di ciascuna asserzione è più sotto.",
+          "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P127"]}],
+          "stato": "bozza",
+          "mostra_elenco": "proprietari_wikidata"
+        },
+        {
+          "id": "b42",
+          "registro": "lacuna",
+          "testo": "I passaggi di proprietà non sono verificati su fonti di provenienza puntuali, e le date mancanti non sono note al prototipo. L'ordine dell'elenco è quello di Wikidata e non indica necessariamente una cronologia.",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ]
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": [
+        {
+          "id": "b50",
+          "registro": "lacuna",
+          "testo": "Non ci sono ancora confronti curati. Arriveranno nella Fase 4, ciascuno con il proprio criterio esplicito (soggetto, soluzione formale, tecnica, funzione o rapporto storico documentato).",
+          "fonti": [],
+          "stato": "bozza"
+        }
+      ]
+    }
+  ]
+}

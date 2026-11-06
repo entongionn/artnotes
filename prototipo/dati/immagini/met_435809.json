@@ -1,0 +1,21 @@
+{
+  "id": "met-435809-3d2a611f7787",
+  "sha256": "3d2a611f7787bee1a38ba1e9976535ea5497c2e4a26cd52ae2142c5f74dc6a49",
+  "fonte": "met",
+  "record_fonte": "435809",
+  "url_originale": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+  "file_fotografia": "DP119115.jpg",
+  "larghezza": 3811,
+  "altezza": 2809,
+  "a_colori": true,
+  "vista": "recto, intero",
+  "diritti": {
+    "metadati": "CC0 (Met Open Access)",
+    "fotografia": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+    "opera": "pubblico dominio (opera del 1565)",
+    "verificato_il": "2026-11-06"
+  },
+  "crediti": "The Metropolitan Museum of Art, Open Access",
+  "acquisita_il": "2026-11-06T10:55:10+00:00",
+  "dzi": "immagini/3d2a611f7787/immagine.dzi"
+}

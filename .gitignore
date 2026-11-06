@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Immagini sorgente: le tile pubblicate sono in prototipo/web/immagini
+prototipo/originali/

@@ -1,0 +1,1285 @@
+{
+  "schema": "artnotes-prototipo/0.1",
+  "generato_il": "2026-11-06T12:04:12",
+  "modalita": "anteprima_redazionale",
+  "opera": {
+    "id": "met:435809",
+    "catalogo": {
+      "titoli": [
+        {
+          "fonte": "met-435809",
+          "valore": "The Harvesters",
+          "lingua": "en"
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "valore": "Mietitura",
+          "lingua": "it"
+        }
+      ],
+      "attribuzioni": [
+        {
+          "fonte": "met-435809",
+          "autore": "Pieter Bruegel the Elder",
+          "id_wikidata": "Q43270",
+          "qualifica_originale": "",
+          "nota_biografica": "Netherlandish, Breda (?) ca. 1525–1569 Brussels",
+          "ulan": "http://vocab.getty.edu/page/ulan/500013247"
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "autore": "Pieter Bruegel il Vecchio",
+          "id_wikidata": "Q43270",
+          "qualifica_originale": "",
+          "riferimenti": 1
+        }
+      ],
+      "attribuzione_in_evidenza": {
+        "fonte": "met-435809",
+        "motivazione": "Scheda dell'istituzione che conserva l'opera. Wikidata indica la stessa persona, senza qualifiche diverse."
+      },
+      "datazioni": [
+        {
+          "fonte": "met-435809",
+          "testo_originale": "1565",
+          "intervallo": [
+            1565,
+            1565
+          ]
+        },
+        {
+          "fonte": "wikidata-Q776175",
+          "testo_originale": "1565",
+          "riferimenti": 1
+        }
+      ],
+      "tecnica": [
+        {
+          "fonte": "met-435809",
+          "valore": "Oil on oak"
+        }
+      ],
+      "dimensioni": [
+        {
+          "fonte": "met-435809",
+          "valore": "Overall, including added strips at top, bottom, and right, 46 7/8 x 63 3/4 in. (119 x 162 cm); original painted surface 45 7/8 x 62 7/8 in. (116.5 x 159.5 cm)"
+        }
+      ],
+      "istituzione": [
+        {
+          "fonte": "met-435809",
+          "valore": "Metropolitan Museum of Art, New York, NY",
+          "inventario": "19.164",
+          "linea_di_credito": "Rogers Fund, 1919"
+        }
+      ],
+      "identificativi": {
+        "met": "435809",
+        "wikidata": "Q776175",
+        "ulan_artista": "http://vocab.getty.edu/page/ulan/500013247"
+      },
+      "soggetti_wikidata": [
+        {
+          "valore": "mietitura",
+          "riferimenti": 0
+        },
+        {
+          "valore": "contadino",
+          "riferimenti": 0
+        },
+        {
+          "valore": "falce",
+          "riferimenti": 0
+        },
+        {
+          "valore": "campo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "latifoglie",
+          "riferimenti": 0
+        },
+        {
+          "valore": "campagna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "estate",
+          "riferimenti": 0
+        },
+        {
+          "valore": "pasto",
+          "riferimenti": 0
+        },
+        {
+          "valore": "gruppo di umani",
+          "riferimenti": 0
+        },
+        {
+          "valore": "cesto",
+          "riferimenti": 0
+        },
+        {
+          "valore": "alimento",
+          "riferimenti": 0
+        },
+        {
+          "valore": "chiesa",
+          "riferimenti": 0
+        },
+        {
+          "valore": "collina",
+          "riferimenti": 0
+        },
+        {
+          "valore": "riviera",
+          "riferimenti": 0
+        },
+        {
+          "valore": "mare",
+          "riferimenti": 0
+        },
+        {
+          "valore": "prospettiva aerea",
+          "riferimenti": 0
+        },
+        {
+          "valore": "cielo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "brocca",
+          "riferimenti": 0
+        },
+        {
+          "valore": "bevanda",
+          "riferimenti": 0
+        },
+        {
+          "valore": "posizione seduta",
+          "riferimenti": 0
+        },
+        {
+          "valore": "posizione eretta",
+          "riferimenti": 0
+        },
+        {
+          "valore": "sonno",
+          "riferimenti": 0
+        },
+        {
+          "valore": "grains",
+          "riferimenti": 0
+        },
+        {
+          "valore": "donna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "uomo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "pittura paesaggistica",
+          "riferimenti": 0
+        },
+        {
+          "valore": "lavoro",
+          "riferimenti": 0
+        },
+        {
+          "valore": "alimentazione",
+          "riferimenti": 0
+        }
+      ],
+      "proprietari_wikidata": [
+        {
+          "valore": "Nicolaes Jonghelinck",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Ernesto d'Austria",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Rodolfo II d'Asburgo",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Leopoldo Guglielmo d'Austria",
+          "qualificatori": {},
+          "riferimenti": 0
+        },
+        {
+          "valore": "Antoine François Andréossy",
+          "qualificatori": {
+            "fino al": [
+              "1816"
+            ]
+          },
+          "riferimenti": 1
+        },
+        {
+          "valore": "Metropolitan Museum of Art",
+          "qualificatori": {
+            "dal": [
+              "1919"
+            ]
+          },
+          "riferimenti": 1
+        },
+        {
+          "valore": "Jacques Doucet",
+          "qualificatori": {
+            "fino al": [
+              "1912"
+            ]
+          },
+          "riferimenti": 0
+        }
+      ]
+    }
+  },
+  "immagine": {
+    "id": "met-435809-3d2a611f7787",
+    "sha256": "3d2a611f7787bee1a38ba1e9976535ea5497c2e4a26cd52ae2142c5f74dc6a49",
+    "larghezza": 3811,
+    "altezza": 2809,
+    "a_colori": true,
+    "vista": "recto, intero",
+    "diritti": {
+      "metadati": "CC0 (Met Open Access)",
+      "fotografia": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+      "opera": "pubblico dominio (opera del 1565)",
+      "verificato_il": "2026-11-06"
+    },
+    "crediti": "The Metropolitan Museum of Art, Open Access",
+    "dzi": "immagini/3d2a611f7787/immagine.dzi",
+    "file_fotografia": "DP119115.jpg"
+  },
+  "copertura": {
+    "catalogo": "Dati essenziali presenti (Met, Wikidata).",
+    "approfondimenti_documentati": "0 interpretazioni con fonte bibliografica. Testo critico ancora assente.",
+    "annotazioni": "14 regioni, nessuna revisionata.",
+    "revisione_umana": "Nessun contenuto revisionato."
+  },
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": [
+        {
+          "id": "b01",
+          "registro": "documentato",
+          "testo": "The Harvesters (titolo italiano su Wikidata: «Mietitura») è un dipinto di Pieter Bruegel il Vecchio. La scheda del Metropolitan Museum of Art di New York lo data al 1565 e ne indica la tecnica: olio su tavola di quercia («Oil on oak»).",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "title",
+                "artistDisplayName",
+                "objectDate",
+                "medium"
+              ]
+            },
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "etichetta it"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b02",
+          "registro": "documentato",
+          "testo": "La scheda registra due misure. Le dimensioni complessive sono 119 × 162 cm e comprendono strisce aggiunte in alto, in basso e a destra. La superficie dipinta originale misura 116,5 × 159,5 cm.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "dimensions"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b03",
+          "registro": "osservazione",
+          "testo": "In primo piano, a destra, un gruppo di contadini mangia all'ombra di un albero, accanto a un uomo che dorme. A sinistra altri continuano a mietere. Alle loro spalle il paesaggio scende per gradi fino a una pianura e a un tratto di mare con alcune navi.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b04",
+          "registro": "documentato",
+          "testo": "Wikidata classifica il soggetto con due notazioni Iconclass: «raccolto» (47I14) ed «estate ~ attività umane (le quattro stagioni dell'anno)» (23E43). Nessuna delle due asserzioni cita un riferimento.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P1257"
+              ],
+              "nota": "asserzioni senza riferimenti"
+            },
+            {
+              "fonte": "iconclass",
+              "campi": [
+                "47I14",
+                "23E43"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b05",
+          "registro": "lacuna",
+          "testo": "Il prototipo non contiene ancora un testo critico. Il 6 novembre 2026 la pagina del museo, con commento e bibliografia, non era raggiungibile. Committenza, funzione originaria ed eventuale appartenenza a una serie verranno inserite solo con fonti puntuali.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ]
+    },
+    {
+      "id": "osserva",
+      "titolo": "Osserva",
+      "blocchi": [
+        {
+          "id": "b10",
+          "registro": "osservazione",
+          "testo": "Ogni dettaglio parte da una domanda. Cerca la risposta sull'immagine, poi apri la spiegazione. Gli stessi dettagli sono raggiungibili dall'elenco testuale, senza dover trovare le regioni sull'immagine.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ],
+      "livello_annotazioni": "osservazione"
+    },
+    {
+      "id": "analisi",
+      "titolo": "Analisi",
+      "blocchi": [
+        {
+          "id": "b20",
+          "registro": "ipotesi",
+          "testo": "La scena sembra costruita su due piani. A destra, il primo piano è occupato dall'albero e dal pasto. A sinistra, la veduta si allarga e scende verso la pianura e il mare. È una lettura proposta dall'AI guardando la fotografia, non un'analisi pubblicata.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b21",
+          "registro": "documentato",
+          "testo": "Tecnica: olio su quercia («Oil on oak»). Wikidata indica «colore a olio» e «tavola». Solo il primo dato cita un riferimento (RKDimages).",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "medium"
+              ]
+            },
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P186"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b22",
+          "registro": "lacuna",
+          "testo": "Luce, colore e stesura non sono analizzati. Il corpus non contiene ancora studi tecnici, e questa fotografia (3811 × 2809 px) non permette di esaminare la pennellata da vicino.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ],
+      "livello_annotazioni": "composizione"
+    },
+    {
+      "id": "iconografia",
+      "titolo": "Iconografia",
+      "blocchi": [
+        {
+          "id": "b30",
+          "registro": "documentato",
+          "testo": "Wikidata elenca i soggetti raffigurati: l'elenco completo è più sotto. Nessuna di queste asserzioni cita un riferimento. Alcuni soggetti sono collegati alle regioni dell'immagine in cui l'AI li ha individuati.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "asserzioni senza riferimenti"
+            }
+          ],
+          "stato": "bozza",
+          "mostra_elenco": "soggetti_wikidata",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b31",
+          "registro": "documentato",
+          "testo": "Il Met indicizza l'opera con sei termini collegati al thesaurus Getty AAT: Food, Men, Women, Landscapes, Working, Eating.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "tags"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b32",
+          "registro": "lacuna",
+          "testo": "Il prototipo non include letture simboliche o allegoriche: richiedono fonti interpretative non ancora presenti nel corpus.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ],
+      "livello_annotazioni": "iconografia"
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": [
+        {
+          "id": "b40",
+          "registro": "documentato",
+          "testo": "Il Met indica come linea di credito «Rogers Fund, 1919» e come numero di inventario 19.164.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "creditLine",
+                "accessionNumber"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b41",
+          "registro": "documentato",
+          "testo": "Wikidata elenca sette proprietari. L'elenco con i riferimenti di ciascuna asserzione è più sotto.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P127"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "mostra_elenco": "proprietari_wikidata",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "b42",
+          "registro": "lacuna",
+          "testo": "I passaggi di proprietà non sono verificati su fonti di provenienza puntuali, e le date mancanti non sono note al prototipo. L'ordine dell'elenco è quello di Wikidata e non indica necessariamente una cronologia.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ]
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": [
+        {
+          "id": "b50",
+          "registro": "lacuna",
+          "testo": "Non ci sono ancora confronti curati. Arriveranno nella Fase 4, ciascuno con il proprio criterio esplicito (soggetto, soluzione formale, tecnica, funzione o rapporto storico documentato).",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ]
+    }
+  ],
+  "annotazioni": [
+    {
+      "id": "a01",
+      "categoria": "osservazione",
+      "titolo": "Il pasto all'ombra",
+      "regione": "xywh=percent:65,69,28,28",
+      "domanda": "Quante persone riesci a contare nel gruppo? Che cosa fa ciascuna?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Il gruppo è seduto a terra, sui covoni, all'ombra dell'albero. Diversi mangiano da scodelle con il cucchiaio. Uno, in piedi in secondo piano, beve da una brocca sollevata. Un uomo chino taglia con un coltello qualcosa dentro un cesto. Si vedono anche pani tondi e un telo bianco steso a terra.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca fra i soggetti «pasto», «alimento», «cesto» e «posizione seduta», senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a02",
+        "a10"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.65,
+        "y": 0.69,
+        "w": 0.28,
+        "h": 0.28
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a02",
+      "categoria": "osservazione",
+      "titolo": "L'uomo che dorme",
+      "regione": "xywh=percent:45,77,18,21",
+      "domanda": "Che cosa distingue quest'uomo da tutte le altre figure della scena?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "È disteso sulla schiena ai piedi dell'albero, a gambe divaricate, con la camicia slacciata e un braccio abbandonato a terra. Sotto la testa ha un panno rosso. Accanto al tronco è appoggiato un attrezzo dal lungo manico con i rebbi.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «sonno» fra i soggetti raffigurati, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "Il corpus del prototipo non contiene fonti su un eventuale significato di questa figura.",
+          "fonti": []
+        }
+      ],
+      "collegamenti": [
+        "a01"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.45,
+        "y": 0.77,
+        "w": 0.18,
+        "h": 0.21
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a03",
+      "categoria": "osservazione",
+      "titolo": "Chi porta da bere",
+      "regione": "xywh=percent:32.5,63,4.5,14",
+      "domanda": "Da dove arriva quest'uomo, e che cosa porta?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Esce da un passaggio aperto nel grano ancora in piedi. Ha una brocca rossa in una mano e un recipiente scuro nell'altra.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a04",
+        "a12"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.325,
+        "y": 0.63,
+        "w": 0.045,
+        "h": 0.14
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a04",
+      "categoria": "osservazione",
+      "titolo": "La brocca nel grano",
+      "regione": "xywh=percent:8.5,86.5,4,11",
+      "domanda": "Vicino ai mietitori c'è un oggetto lasciato fra le spighe. Riesci a trovarlo?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Una brocca dal collo stretto è posata fra le spighe, in basso a sinistra, accanto al mietitore con il cappello di paglia.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «brocca» e «bevanda» fra i soggetti, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a03"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.085,
+        "y": 0.865,
+        "w": 0.04,
+        "h": 0.11
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a05",
+      "categoria": "osservazione",
+      "titolo": "Mietere",
+      "regione": "xywh=percent:15,68,13.5,27",
+      "domanda": "Come lavorano questi due uomini? Segui la lama.",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Due uomini tagliano il grano. Quello in secondo piano, di spalle, maneggia un attrezzo dal lungo manico. Quello davanti, con il cappello di paglia, è chino sulle spighe; in basso si vede una lunga lama ricurva. Il grano già tagliato giace a terra in strisce.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «mietitura», «falce» e «contadino» fra i soggetti, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a04"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.15,
+        "y": 0.68,
+        "w": 0.135,
+        "h": 0.27
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a06",
+      "categoria": "osservazione",
+      "titolo": "Le figure lontane nel prato",
+      "regione": "xywh=percent:36,46.5,8,4.5",
+      "domanda": "Che cosa succede nel prato del villaggio? Prova a ingrandire: fin dove arriva il dettaglio di questa fotografia?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Nel prato, fra le case, ci sono piccole figure in gruppo; alcune sembrano in movimento.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "A questa risoluzione non è possibile capire con sicurezza che cosa stiano facendo. Il prototipo non lo interpreta.",
+          "fonti": []
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.36,
+        "y": 0.465,
+        "w": 0.08,
+        "h": 0.045
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a07",
+      "categoria": "osservazione",
+      "titolo": "Il lavoro continua sullo sfondo",
+      "regione": "xywh=percent:75,56.5,7.5,10",
+      "domanda": "Mentre alcuni mangiano, chi sta ancora lavorando?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Nel campo già mietuto, dietro il gruppo del pasto, due figure sono chine sui covoni. Una porta un copricapo bianco, l'altra una veste rossa. Più lontano, i covoni sono già in piedi.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a01"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.75,
+        "y": 0.565,
+        "w": 0.075,
+        "h": 0.1
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a08",
+      "categoria": "iconografia",
+      "titolo": "Mare e navi",
+      "regione": "xywh=percent:27,31.5,27,5.5",
+      "domanda": "Dove finisce la terra?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «mare» e «riviera» fra i soggetti, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "Oltre la pianura si apre uno specchio d'acqua chiaro con alcune navi a vela. Sulla riva si vedono un abitato e un campanile.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "Il prototipo non dispone di fonti sull'eventuale identificazione del luogo.",
+          "fonti": []
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.27,
+        "y": 0.315,
+        "w": 0.27,
+        "h": 0.055
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a09",
+      "categoria": "iconografia",
+      "titolo": "La chiesa fra gli alberi",
+      "regione": "xywh=percent:69,25,11,15",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «chiesa» fra i soggetti, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "A destra, dietro gli alberi, si vede una chiesa con il tetto azzurro-grigio e un campanile appuntito.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.69,
+        "y": 0.25,
+        "w": 0.11,
+        "h": 0.15
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a10",
+      "categoria": "iconografia",
+      "titolo": "Bere dalla brocca",
+      "regione": "xywh=percent:68.5,69,5.5,8",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Wikidata elenca «brocca» e «bevanda» fra i soggetti, senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P180"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "Un uomo in rosso solleva una grande brocca e beve direttamente dal beccuccio.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a01",
+        "a03"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.685,
+        "y": 0.69,
+        "w": 0.055,
+        "h": 0.08
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a11",
+      "categoria": "composizione",
+      "titolo": "Il tronco come asse",
+      "regione": "xywh=percent:60.5,28,7,52",
+      "domanda": "Prova a coprire il tronco con un dito: che cosa cambia nella divisione della scena?",
+      "blocchi": [
+        {
+          "registro": "ipotesi",
+          "testo": "Il tronco sale quasi verticale poco a destra del centro e separa il primo piano del pasto dalla veduta aperta a sinistra. È una lettura compositiva proposta dall'AI, non un'analisi pubblicata.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a12"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.605,
+        "y": 0.28,
+        "w": 0.07,
+        "h": 0.52
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a12",
+      "categoria": "composizione",
+      "titolo": "Il grano ancora in piedi",
+      "regione": "xywh=percent:33,47,38,28",
+      "domanda": "Dove finisce il grano tagliato e dove comincia quello ancora in piedi?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Un grande blocco di grano non ancora mietuto occupa il centro. Il suo bordo superiore sale da sinistra verso destra, e un passaggio stretto lo attraversa.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "Il blocco di grano potrebbe fare da quinta fra il primo piano e la veduta lontana. È una lettura proposta dall'AI, non documentata.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "a03",
+        "a11"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.33,
+        "y": 0.47,
+        "w": 0.38,
+        "h": 0.28
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a13",
+      "categoria": "tecnica",
+      "titolo": "Lettere in basso a destra",
+      "regione": "xywh=percent:94,94.5,4,2.5",
+      "domanda": "Ingrandisci l'angolo in basso a destra: che cosa riesci a leggere?",
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "Sulla zona scura in basso a destra si leggono lettere maiuscole che sembrano formare «BRVEGE…». Il seguito non si distingue con sicurezza in questa fotografia.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "L'API del Met non riporta iscrizioni. Trascrizione completa e natura dell'iscrizione (firma, data) vanno verificate sulla scheda del museo prima di essere presentate come dato.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "nota": "nessun campo iscrizioni"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.94,
+        "y": 0.945,
+        "w": 0.04,
+        "h": 0.025
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "a14",
+      "categoria": "tecnica",
+      "titolo": "La striscia aggiunta a destra",
+      "regione": "xywh=percent:98.5,0,1.5,100",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Secondo la scheda del Met, il pannello comprende strisce aggiunte in alto, in basso e a destra: 119 × 162 cm in tutto, contro 116,5 × 159,5 cm di superficie dipinta originale.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "dimensions"
+              ]
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "La posizione della regione è calcolata dalle misure (2,5 cm su 162 cm di larghezza, circa l'1,5%), supponendo che la fotografia mostri il pannello intero senza bordi. Non è stata verificata sull'immagine. Per le strisce in alto e in basso le misure non dicono come si ripartiscono i 2,5 cm, quindi non sono state tracciate.",
+          "fonti": [
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "dimensions"
+              ]
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.985,
+        "y": 0.0,
+        "w": 0.015,
+        "h": 1.0
+      },
+      "immagine_riferimento": "met-435809-3d2a611f7787",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    }
+  ],
+  "fonti": {
+    "met-435809": {
+      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "url": "https://www.metmuseum.org/art/collection/search/435809",
+      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+      "consultato": "2026-11-06",
+      "licenza": "CC0 (metadati)",
+      "note": "metadataDate della fonte: 2026-08-21"
+    },
+    "wikidata-Q776175": {
+      "titolo": "Wikidata, elemento Q776175",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q776175",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q776175",
+      "consultato": "2026-11-06",
+      "licenza": "CC0",
+      "note": "Molte asserzioni non hanno riferimenti: vanno lette come dato da verificare."
+    },
+    "iconclass": {
+      "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",
+      "tipo": "sistema di classificazione iconografica",
+      "url": "https://iconclass.org/47I14",
+      "consultato": "2026-11-06",
+      "licenza": "da verificare",
+      "note": "Etichette italiane lette da iconclass.org. Le notazioni provengono da Wikidata."
+    },
+    "foto-met-DP119115": {
+      "titolo": "Fotografia DP119115.jpg (3811 × 2809 px)",
+      "tipo": "immagine di riferimento per le osservazioni visive",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+      "note": "SHA-256 3d2a611f7787…"
+    }
+  }
+}

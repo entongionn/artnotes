@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArtNotes — prototipo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+</head>
+<body>
+  <a class="salta" href="#pannello">Vai ai contenuti testuali</a>
+
+  <div id="banner" class="banner" role="status"></div>
+
+  <header class="testata">
+    <p class="marchio">ArtNotes <span>prototipo · Fase 2</span></p>
+    <h1 id="titolo">Caricamento…</h1>
+    <p id="sottotitolo" class="sottotitolo"></p>
+  </header>
+
+  <main class="impianto">
+    <section class="colonna-immagine" aria-label="Immagine e dettagli">
+      <div class="comandi" role="toolbar" aria-label="Comandi del visualizzatore">
+        <button type="button" id="zoom-piu" aria-label="Ingrandisci">+</button>
+        <button type="button" id="zoom-meno" aria-label="Riduci">−</button>
+        <button type="button" id="adatta">Adatta</button>
+        <button type="button" id="schermo">Schermo intero</button>
+        <label class="interruttore"><input type="checkbox" id="animazioni"> Animazioni</label>
+      </div>
+      <div id="visore" class="visore" role="img"></div>
+      <p id="info-immagine" class="info-immagine"></p>
+
+      <fieldset class="livelli">
+        <legend>Livelli di lettura</legend>
+        <div id="livelli"></div>
+      </fieldset>
+
+      <nav aria-labelledby="titolo-elenco" class="elenco-annotazioni">
+        <h2 id="titolo-elenco">Dettagli <span id="conteggio"></span></h2>
+        <ol id="elenco"></ol>
+      </nav>
+    </section>
+
+    <section id="pannello" class="pannello" aria-label="Contenuti" tabindex="-1">
+      <aside class="copertura" aria-labelledby="titolo-copertura">
+        <h2 id="titolo-copertura">Su cosa si basa questa scheda</h2>
+        <dl id="copertura"></dl>
+      </aside>
+
+      <div id="dettaglio" class="dettaglio" hidden></div>
+
+      <div class="schede" role="tablist" aria-label="Sezioni della scheda" id="schede"></div>
+      <div id="contenuto-scheda" class="contenuto-scheda" role="tabpanel" tabindex="0"></div>
+    </section>
+  </main>
+
+  <footer class="piede">
+    <p>Prototipo dimostrativo: testi e regioni sono bozze generate da AI, non revisionate, mostrate in anteprima redazionale. Immagine e metadati: The Metropolitan Museum of Art, Open Access (CC0). Dati: Wikidata (CC0).</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

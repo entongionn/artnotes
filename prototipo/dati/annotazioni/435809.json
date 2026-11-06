@@ -1,0 +1,194 @@
+{
+  "opera": "met:435809",
+  "nota": "Coordinate in percentuale della fotografia di riferimento (Media Fragments, xywh=percent:x,y,w,h; origine in alto a sinistra). Valgono solo per l'immagine con l'impronta SHA-256 indicata. Regioni tracciate dall'AI sulla fotografia, non revisionate.",
+  "immagine_riferimento": {
+    "id": "met-435809-3d2a611f7787",
+    "sha256": "3d2a611f7787bee1a38ba1e9976535ea5497c2e4a26cd52ae2142c5f74dc6a49",
+    "larghezza": 3811,
+    "altezza": 2809
+  },
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "annotazioni": [
+    {
+      "id": "a01",
+      "categoria": "osservazione",
+      "titolo": "Il pasto all'ombra",
+      "regione": "xywh=percent:65,69,28,28",
+      "domanda": "Quante persone riesci a contare nel gruppo? Che cosa fa ciascuna?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Il gruppo è seduto a terra, sui covoni, all'ombra dell'albero. Diversi mangiano da scodelle con il cucchiaio. Uno, in piedi in secondo piano, beve da una brocca sollevata. Un uomo chino taglia con un coltello qualcosa dentro un cesto. Si vedono anche pani tondi e un telo bianco steso a terra.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "documentato", "testo": "Wikidata elenca fra i soggetti «pasto», «alimento», «cesto» e «posizione seduta», senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]}
+      ],
+      "collegamenti": ["a02", "a10"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a02",
+      "categoria": "osservazione",
+      "titolo": "L'uomo che dorme",
+      "regione": "xywh=percent:45,77,18,21",
+      "domanda": "Che cosa distingue quest'uomo da tutte le altre figure della scena?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "È disteso sulla schiena ai piedi dell'albero, a gambe divaricate, con la camicia slacciata e un braccio abbandonato a terra. Sotto la testa ha un panno rosso. Accanto al tronco è appoggiato un attrezzo dal lungo manico con i rebbi.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "documentato", "testo": "Wikidata elenca «sonno» fra i soggetti raffigurati, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]},
+        {"registro": "lacuna", "testo": "Il corpus del prototipo non contiene fonti su un eventuale significato di questa figura.", "fonti": []}
+      ],
+      "collegamenti": ["a01"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a03",
+      "categoria": "osservazione",
+      "titolo": "Chi porta da bere",
+      "regione": "xywh=percent:32.5,63,4.5,14",
+      "domanda": "Da dove arriva quest'uomo, e che cosa porta?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Esce da un passaggio aperto nel grano ancora in piedi. Ha una brocca rossa in una mano e un recipiente scuro nell'altra.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": ["a04", "a12"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a04",
+      "categoria": "osservazione",
+      "titolo": "La brocca nel grano",
+      "regione": "xywh=percent:8.5,86.5,4,11",
+      "domanda": "Vicino ai mietitori c'è un oggetto lasciato fra le spighe. Riesci a trovarlo?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Una brocca dal collo stretto è posata fra le spighe, in basso a sinistra, accanto al mietitore con il cappello di paglia.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "documentato", "testo": "Wikidata elenca «brocca» e «bevanda» fra i soggetti, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]}
+      ],
+      "collegamenti": ["a03"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a05",
+      "categoria": "osservazione",
+      "titolo": "Mietere",
+      "regione": "xywh=percent:15,68,13.5,27",
+      "domanda": "Come lavorano questi due uomini? Segui la lama.",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Due uomini tagliano il grano. Quello in secondo piano, di spalle, maneggia un attrezzo dal lungo manico. Quello davanti, con il cappello di paglia, è chino sulle spighe; in basso si vede una lunga lama ricurva. Il grano già tagliato giace a terra in strisce.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "documentato", "testo": "Wikidata elenca «mietitura», «falce» e «contadino» fra i soggetti, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]}
+      ],
+      "collegamenti": ["a04"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a06",
+      "categoria": "osservazione",
+      "titolo": "Le figure lontane nel prato",
+      "regione": "xywh=percent:36,46.5,8,4.5",
+      "domanda": "Che cosa succede nel prato del villaggio? Prova a ingrandire: fin dove arriva il dettaglio di questa fotografia?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Nel prato, fra le case, ci sono piccole figure in gruppo; alcune sembrano in movimento.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "lacuna", "testo": "A questa risoluzione non è possibile capire con sicurezza che cosa stiano facendo. Il prototipo non lo interpreta.", "fonti": []}
+      ],
+      "collegamenti": [],
+      "stato": "bozza"
+    },
+    {
+      "id": "a07",
+      "categoria": "osservazione",
+      "titolo": "Il lavoro continua sullo sfondo",
+      "regione": "xywh=percent:75,56.5,7.5,10",
+      "domanda": "Mentre alcuni mangiano, chi sta ancora lavorando?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Nel campo già mietuto, dietro il gruppo del pasto, due figure sono chine sui covoni. Una porta un copricapo bianco, l'altra una veste rossa. Più lontano, i covoni sono già in piedi.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": ["a01"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a08",
+      "categoria": "iconografia",
+      "titolo": "Mare e navi",
+      "regione": "xywh=percent:27,31.5,27,5.5",
+      "domanda": "Dove finisce la terra?",
+      "blocchi": [
+        {"registro": "documentato", "testo": "Wikidata elenca «mare» e «riviera» fra i soggetti, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]},
+        {"registro": "osservazione", "testo": "Oltre la pianura si apre uno specchio d'acqua chiaro con alcune navi a vela. Sulla riva si vedono un abitato e un campanile.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "lacuna", "testo": "Il prototipo non dispone di fonti sull'eventuale identificazione del luogo.", "fonti": []}
+      ],
+      "collegamenti": [],
+      "stato": "bozza"
+    },
+    {
+      "id": "a09",
+      "categoria": "iconografia",
+      "titolo": "La chiesa fra gli alberi",
+      "regione": "xywh=percent:69,25,11,15",
+      "domanda": null,
+      "blocchi": [
+        {"registro": "documentato", "testo": "Wikidata elenca «chiesa» fra i soggetti, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]},
+        {"registro": "osservazione", "testo": "A destra, dietro gli alberi, si vede una chiesa con il tetto azzurro-grigio e un campanile appuntito.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": [],
+      "stato": "bozza"
+    },
+    {
+      "id": "a10",
+      "categoria": "iconografia",
+      "titolo": "Bere dalla brocca",
+      "regione": "xywh=percent:68.5,69,5.5,8",
+      "domanda": null,
+      "blocchi": [
+        {"registro": "documentato", "testo": "Wikidata elenca «brocca» e «bevanda» fra i soggetti, senza riferimenti.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]},
+        {"registro": "osservazione", "testo": "Un uomo in rosso solleva una grande brocca e beve direttamente dal beccuccio.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": ["a01", "a03"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a11",
+      "categoria": "composizione",
+      "titolo": "Il tronco come asse",
+      "regione": "xywh=percent:60.5,28,7,52",
+      "domanda": "Prova a coprire il tronco con un dito: che cosa cambia nella divisione della scena?",
+      "blocchi": [
+        {"registro": "ipotesi", "testo": "Il tronco sale quasi verticale poco a destra del centro e separa il primo piano del pasto dalla veduta aperta a sinistra. È una lettura compositiva proposta dall'AI, non un'analisi pubblicata.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": ["a12"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a12",
+      "categoria": "composizione",
+      "titolo": "Il grano ancora in piedi",
+      "regione": "xywh=percent:33,47,38,28",
+      "domanda": "Dove finisce il grano tagliato e dove comincia quello ancora in piedi?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Un grande blocco di grano non ancora mietuto occupa il centro. Il suo bordo superiore sale da sinistra verso destra, e un passaggio stretto lo attraversa.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "ipotesi", "testo": "Il blocco di grano potrebbe fare da quinta fra il primo piano e la veduta lontana. È una lettura proposta dall'AI, non documentata.", "fonti": [{"fonte": "foto-met-DP119115"}]}
+      ],
+      "collegamenti": ["a03", "a11"],
+      "stato": "bozza"
+    },
+    {
+      "id": "a13",
+      "categoria": "tecnica",
+      "titolo": "Lettere in basso a destra",
+      "regione": "xywh=percent:94,94.5,4,2.5",
+      "domanda": "Ingrandisci l'angolo in basso a destra: che cosa riesci a leggere?",
+      "blocchi": [
+        {"registro": "osservazione", "testo": "Sulla zona scura in basso a destra si leggono lettere maiuscole che sembrano formare «BRVEGE…». Il seguito non si distingue con sicurezza in questa fotografia.", "fonti": [{"fonte": "foto-met-DP119115"}]},
+        {"registro": "lacuna", "testo": "L'API del Met non riporta iscrizioni. Trascrizione completa e natura dell'iscrizione (firma, data) vanno verificate sulla scheda del museo prima di essere presentate come dato.", "fonti": [{"fonte": "met-435809", "nota": "nessun campo iscrizioni"}]}
+      ],
+      "collegamenti": [],
+      "stato": "bozza"
+    },
+    {
+      "id": "a14",
+      "categoria": "tecnica",
+      "titolo": "La striscia aggiunta a destra",
+      "regione": "xywh=percent:98.5,0,1.5,100",
+      "domanda": null,
+      "blocchi": [
+        {"registro": "documentato", "testo": "Secondo la scheda del Met, il pannello comprende strisce aggiunte in alto, in basso e a destra: 119 × 162 cm in tutto, contro 116,5 × 159,5 cm di superficie dipinta originale.", "fonti": [{"fonte": "met-435809", "campi": ["dimensions"]}]},
+        {"registro": "ipotesi", "testo": "La posizione della regione è calcolata dalle misure (2,5 cm su 162 cm di larghezza, circa l'1,5%), supponendo che la fotografia mostri il pannello intero senza bordi. Non è stata verificata sull'immagine. Per le strisce in alto e in basso le misure non dicono come si ripartiscono i 2,5 cm, quindi non sono state tracciate.", "fonti": [{"fonte": "met-435809", "campi": ["dimensions"]}]}
+      ],
+      "collegamenti": [],
+      "stato": "bozza"
+    }
+  ]
+}
