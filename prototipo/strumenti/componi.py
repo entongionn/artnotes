@@ -14,20 +14,52 @@ attuale (impronta SHA-256 differente), viene marcata «da_riverificare».
 
 from __future__ import annotations
 
+import hashlib
 import json
+import math
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 RADICE = Path(__file__).resolve().parent.parent
 DATI = RADICE / "dati"
 USCITA = RADICE / "web" / "api" / "opere"
+WEB = RADICE / "web"
 
 REGISTRI = {"documentato", "interpretazione", "osservazione", "ipotesi", "lacuna"}
 CATEGORIE = {"osservazione", "iconografia", "composizione", "tecnica"}
 STATI = {"bozza", "in_revisione", "pubblicato", "da_aggiornare"}
 RE_REGIONE = re.compile(r"^xywh=percent:([\d.]+),([\d.]+),([\d.]+),([\d.]+)$")
+
+# --- Fase 2.5: percorsi, connessioni, contenuti esterni ---
+PERCORSI = ("curioso", "studio", "ispirazione")
+TIPI_TAPPA = {"scelta", "scopri", "scrivi", "leggi", "evidenze", "connessioni", "pulse", "rielabora"}
+TIPI_CONNESSIONE = {"documentata", "interpretativa", "algoritmica"}
+RELAZIONI_ESTERNE = {
+    "opera_esatta": "Parla direttamente dell'opera",
+    "dettaglio": "Approfondisce un dettaglio",
+    "contesto": "Contesto: serie, pittore, epoca",
+    "analogia": "Collegamento tematico, non analisi dell'opera",
+    "falso_positivo": "Non pertinente",
+}
+STATI_ESTERNI = {"candidato", "revisionato", "pubblicato", "respinto"}
+AFFIDABILITA = {
+    "istituzionale": (1.0, "Istituzione culturale"),
+    "editoriale": (0.8, "Editore o emittente"),
+    "divulgazione": (0.6, "Divulgazione indipendente"),
+    "da_verificare": (0.3, "Affermazioni da verificare"),
+}
+CATEGORIE_PULSE = {
+    "opera_raccontata": "L'opera raccontata",
+    "dettagli": "Dettagli da scoprire",
+    "cultura_pop": "Arte e cultura pop",
+    "conversazioni": "Conversazioni sull'opera",
+}
+# Punteggio sperimentale della Fase 2.5 (§6.3): pesi da calibrare con giudizi umani.
+PESI = {"pertinenza": 0.35, "qualita": 0.25, "intento": 0.15, "diversita": 0.10, "freschezza": 0.10, "interesse": 0.05}
+PERTINENZA = {"opera_esatta": 1.0, "dettaglio": 0.9, "contesto": 0.6, "analogia": 0.4}
+VALIDITA_ESTERNI_GIORNI = 30
 
 
 class ErroreValidazione(Exception):
@@ -218,6 +250,412 @@ def _verifica_blocchi(blocchi, fonti, dove):
             raise ErroreValidazione(f"{dove}: blocco «documentato» senza fonti")
 
 
+# ---------- Fase 2.5: fonti aggiuntive e opere collegate ----------
+
+def _senza_html(s: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
+
+
+def fonti_aggiuntive() -> dict:
+    """Altri elementi Wikidata e file Commons acquisiti con importa.py."""
+    out = {}
+    for p in sorted((DATI / "fonti" / "wikidata").glob("Q*.json")):
+        d = _leggi(p)
+        e = d["payload"]["entita"]
+        lab = (e.get("labels", {}).get("it") or e.get("labels", {}).get("en") or {}).get("value") or p.stem
+        out[f"wikidata-{p.stem}"] = {
+            "titolo": f"Wikidata, elemento {p.stem} ({lab})",
+            "tipo": "base di conoscenza collaborativa",
+            "url": f"https://www.wikidata.org/wiki/{p.stem}",
+            "url_dati": d["acquisizione"]["url"],
+            "consultato": d["acquisizione"]["data"][:10],
+            "licenza": "CC0",
+        }
+    cartella = DATI / "fonti" / "commons"
+    for p in sorted(cartella.glob("*.json")) if cartella.exists() else []:
+        d = _leggi(p)
+        info = d["payload"]["pagina"]["imageinfo"][0]
+        meta = info.get("extmetadata", {})
+        v = lambda k: _senza_html((meta.get(k) or {}).get("value", ""))
+        out[f"commons-{p.stem}"] = {
+            "titolo": f"Wikimedia Commons, {d['payload']['file']}",
+            "tipo": "riproduzione fotografica",
+            "url": info["descriptionurl"],
+            "url_dati": d["acquisizione"]["url"],
+            "consultato": d["acquisizione"]["data"][:10],
+            "licenza": v("LicenseShortName") or "da verificare",
+            "note": f"{info['width']} × {info['height']} px. Crediti: {v('Credit')[:160] or 'non indicati'}",
+        }
+    return out
+
+
+def _id_commons(nome_file: str) -> str:
+    return hashlib.sha1(nome_file.encode("utf-8")).hexdigest()[:12]
+
+
+def scheda_opera_wd(qid: str, fonti: dict) -> dict:
+    """Dati essenziali di un'opera collegata, ciascuno con il conteggio dei riferimenti."""
+    p = DATI / "fonti" / "wikidata" / f"{qid}.json"
+    if not p.exists():
+        raise ErroreValidazione(f"opera collegata {qid}: elemento Wikidata non acquisito")
+    d = _leggi(p)
+    e, et = d["payload"]["entita"], d["payload"]["etichette"]
+    c = e.get("claims", {})
+    refs = lambda a: len(a.get("references", []))
+    voci = lambda k: [{"valore": _valore_wd(a, et), "riferimenti": refs(a)} for a in c.get(k, [])]
+    titolo = (e.get("labels", {}).get("it") or e.get("labels", {}).get("en") or {}).get("value") or qid
+    immagine, avvisi = None, []
+    file_p18 = [a["mainsnak"]["datavalue"]["value"] for a in c.get("P18", []) if a["mainsnak"].get("datavalue")]
+    if file_p18:
+        ident = _id_commons(file_p18[0])
+        if (WEB / "immagini" / "confronti" / f"{ident}.jpg").exists() and f"commons-{ident}" in fonti:
+            immagine = {
+                "src": f"immagini/confronti/{ident}.jpg",
+                "fonte": f"commons-{ident}",
+                "licenza": fonti[f"commons-{ident}"]["licenza"],
+                "pagina": fonti[f"commons-{ident}"]["url"],
+            }
+    if len(file_p18) > 1:
+        avvisi.append("Wikidata associa più immagini a questo elemento: quella mostrata è la prima.")
+    collezioni = []
+    for a in c.get("P195", []):
+        q = _qualificatori_wd(a, et)
+        valore = _valore_wd(a, et)
+        if a["mainsnak"].get("snaktype") == "somevalue":
+            valore = f"{q.get('P2868', ['collezione'])[0]}, nome non indicato"
+        quando = q.get("P585") or [f"{x}–{y}" for x, y in zip(q.get("P580", ["?"]), q.get("P582", ["?"]))
+                                   if "P580" in q or "P582" in q]
+        collezioni.append({"valore": valore + (f" ({', '.join(quando)})" if quando else ""), "riferimenti": refs(a)})
+    if len({x["valore"] for x in collezioni}) > 1:
+        avvisi.append("Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare.")
+    return {
+        "wikidata": qid,
+        "fonte": f"wikidata-{qid}",
+        "titolo": titolo,
+        "autori": voci("P170"),
+        "date": voci("P571"),
+        "collezioni": collezioni,
+        "iconclass": [a["mainsnak"]["datavalue"]["value"] for a in c.get("P1257", []) if a["mainsnak"].get("datavalue")],
+        "immagine": immagine,
+        "avvisi": avvisi,
+    }
+
+
+def connessioni(object_id: str, qid_opera: str, fonti: dict, ids_annotazioni: set, pubblico: bool) -> list:
+    p = DATI / "connessioni" / f"{object_id}.json"
+    if not p.exists():
+        return []
+    dati = _leggi(p)
+    origine = dati["origine_predefinita"]
+    base_iconclass = set(scheda_opera_wd(qid_opera, fonti)["iconclass"])
+    out, visti = [], set()
+    for k in dati["connessioni"]:
+        dove = f"connessione {k['id']}"
+        if k["id"] in visti:
+            raise ErroreValidazione(f"{dove}: identificativo duplicato")
+        visti.add(k["id"])
+        if k["tipo"] not in TIPI_CONNESSIONE:
+            raise ErroreValidazione(f"{dove}: tipo non valido {k['tipo']!r}")
+        if k["stato"] not in STATI:
+            raise ErroreValidazione(f"{dove}: stato non valido {k['stato']!r}")
+        _verifica_blocchi(k["blocchi"], fonti, dove)
+        registri = {b["registro"] for b in k["blocchi"]}
+        # Il tipo dichiarato deve essere sostenuto dai blocchi.
+        if k["tipo"] == "documentata" and not any(b["registro"] == "documentato" and b.get("fonti") for b in k["blocchi"]):
+            raise ErroreValidazione(f"{dove}: una connessione documentata richiede un blocco «documentato» con fonti")
+        if k["tipo"] == "interpretativa" and not registri & {"ipotesi", "interpretazione"}:
+            raise ErroreValidazione(f"{dove}: una connessione interpretativa richiede un'ipotesi o un'interpretazione")
+        if k["tipo"] == "algoritmica" and "calcolo" not in k:
+            raise ErroreValidazione(f"{dove}: una connessione algoritmica richiede il metodo di calcolo")
+        for a in k.get("annotazioni", []):
+            if a not in ids_annotazioni:
+                raise ErroreValidazione(f"{dove}: annotazione inesistente {a!r}")
+        if pubblico and k["stato"] != "pubblicato":
+            continue
+        voce = {
+            **{x: k[x] for x in ("id", "tipo", "relazione", "titolo", "stato")},
+            "annotazioni": k.get("annotazioni", []),
+            "blocchi": k["blocchi"],
+            "origine": k.get("origine", origine),
+            "revisione": k.get("revisione"),
+            "opere": [scheda_opera_wd(q, fonti) for q in k.get("opere", [])],
+        }
+        if k["tipo"] == "algoritmica":
+            calc = k["calcolo"]
+            if calc["metodo"] != "iconclass_condivise":
+                raise ErroreValidazione(f"{dove}: metodo di calcolo sconosciuto {calc['metodo']!r}")
+            risultati = []
+            for q in calc["candidati"]:
+                altra = scheda_opera_wd(q, fonti)
+                comuni = sorted(base_iconclass & set(altra["iconclass"]))
+                if len(comuni) >= calc["soglia"]:
+                    unione = base_iconclass | set(altra["iconclass"])
+                    risultati.append({
+                        "opera": altra,
+                        "in_comune": comuni,
+                        "jaccard": round(len(comuni) / len(unione), 2),
+                    })
+            risultati.sort(key=lambda r: (-len(r["in_comune"]), -r["jaccard"]))
+            voce["calcolo"] = {
+                **calc,
+                "notazioni_opera": sorted(base_iconclass),
+                "esaminati": len(calc["candidati"]),
+                "risultati": risultati,
+                "spiegazione": (
+                    f"Su {len(calc['candidati'])} opere esaminate, {len(risultati)} condividono almeno "
+                    f"{calc['soglia']} notazioni Iconclass con quest'opera. Indice di Jaccard = notazioni in comune / notazioni totali delle due opere."
+                ),
+            }
+        out.append(voce)
+    return out
+
+
+# ---------- Fase 2.5: contenuti esterni (ArtNotes Pulse) ----------
+
+def _anni_da(iso: str | None, adesso: datetime) -> float | None:
+    if not iso:
+        return None
+    t = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    return (adesso - t).days / 365.25
+
+
+def _componenti(c: dict, m: dict, percorso: str, adesso: datetime) -> dict | None:
+    """Componenti del punteggio, ciascuna fra 0 e 1. None se il contenuto non è adatto al percorso."""
+    if percorso not in c["percorsi"]:
+        return None
+    d = m.get("durata_s") or 0
+    if percorso == "curioso":
+        intento = 1.0 if d <= 360 else 0.6 if d <= 900 else 0.2
+    elif percorso == "studio":
+        intento = 1.0 if d >= 300 else 0.6 if d >= 120 else 0.3
+    else:
+        intento = 1.0 if c["relazione"] in ("analogia", "contesto") or c["categoria"] == "cultura_pop" else 0.6
+    anni = _anni_da(m.get("pubblicato_il"), adesso)
+    freschezza = 0.5 if anni is None else max(0.2, 1 - anni / 10)
+    viste = m.get("visualizzazioni")
+    interesse = 0.0 if viste is None else min(1.0, math.log10(viste + 1) / 6)
+    return {
+        "pertinenza": PERTINENZA[c["relazione"]],
+        "qualita": AFFIDABILITA[c["affidabilita"]][0],
+        "intento": intento,
+        "freschezza": round(freschezza, 2),
+        "interesse": round(interesse, 2),
+    }
+
+
+def classifica(contenuti: list, percorso: str, adesso: datetime) -> list:
+    """Ordinamento avido: a ogni passo sceglie il punteggio più alto, con la
+    diversità calcolata rispetto ai canali già scelti."""
+    candidati = []
+    for c in contenuti:
+        comp = _componenti(c, c, percorso, adesso)
+        if comp:
+            candidati.append((c, comp))
+    scelti, canali = [], set()
+    while candidati:
+        migliori = []
+        for c, comp in candidati:
+            tutte = {**comp, "diversita": 0.0 if c["canale_id"] in canali else 1.0}
+            punteggio = sum(PESI[k] * v for k, v in tutte.items())
+            migliori.append((round(punteggio, 3), c, tutte))
+        migliori.sort(key=lambda x: (-x[0], x[1]["video_id"]))
+        punteggio, c, tutte = migliori[0]
+        scelti.append({"id": c["video_id"], "punteggio": punteggio, "componenti": tutte})
+        canali.add(c["canale_id"])
+        candidati = [x for x in candidati if x[0]["video_id"] != c["video_id"]]
+    return scelti
+
+
+def pulse(object_id: str, ids_annotazioni: set, pubblico: bool, adesso: datetime | None = None) -> dict:
+    adesso = adesso or datetime.now(timezone.utc)
+    politica = (
+        "ArtNotes Pulse segnala contenuti pubblici di terzi. Non sono contenuti di ArtNotes e non sono verificati "
+        "scientificamente: ogni suggerimento dice perché è stato scelto e che cosa lo collega all'opera. "
+        "La popolarità pesa poco (5%) e non equivale ad accuratezza. I video non sono incorporati: "
+        "i link aprono la piattaforma originale. Le miniature sono caricate dai server di YouTube."
+    )
+    vuoto = {"politica": politica, "contenuti": [], "selezioni": {p: [] for p in PERCORSI}, "conteggi": {}, "pesi": PESI}
+    f = DATI / "esterni" / f"{object_id}.json"
+    if not f.exists():
+        return {**vuoto, "stato_fonte": "assente"}
+    cura = _leggi(f)
+    fm = DATI / "esterni" / "youtube" / f"{object_id}.metadati.json"
+    meta = _leggi(fm)["video"] if fm.exists() else None
+    giudizio_def = cura.get("giudizio_predefinito")
+    conteggi = {"curati": 0, "respinti": 0, "non_disponibili": 0, "da_ricontrollare": 0, "non_pubblicati": 0}
+    contenuti, visti = [], set()
+    for c in cura["contenuti"]:
+        vid = c.get("video_id", "")
+        dove = f"contenuto esterno {vid}"
+        if vid in visti:
+            raise ErroreValidazione(f"{dove}: duplicato")
+        visti.add(vid)
+        if c.get("piattaforma") != "youtube" or not re.fullmatch(r"[A-Za-z0-9_-]{11}", vid):
+            raise ErroreValidazione(f"{dove}: piattaforma o identificativo non validi")
+        if c["relazione"] not in RELAZIONI_ESTERNE:
+            raise ErroreValidazione(f"{dove}: relazione non valida {c['relazione']!r}")
+        if c["stato"] not in STATI_ESTERNI:
+            raise ErroreValidazione(f"{dove}: stato non valido {c['stato']!r}")
+        if c["affidabilita"] not in AFFIDABILITA or c["categoria"] not in CATEGORIE_PULSE:
+            raise ErroreValidazione(f"{dove}: affidabilità o categoria non valide")
+        if not set(c["percorsi"]) <= set(PERCORSI):
+            raise ErroreValidazione(f"{dove}: percorso sconosciuto")
+        if not c.get("motivazione", "").strip() or not c.get("evidenza"):
+            raise ErroreValidazione(f"{dove}: ogni classificazione richiede motivazione ed evidenza")
+        if c["relazione"] == "falso_positivo" and c["stato"] != "respinto":
+            raise ErroreValidazione(f"{dove}: un falso positivo può essere solo respinto")
+        for a in c["annotazioni"]:
+            if a["id"] not in ids_annotazioni:
+                raise ErroreValidazione(f"{dove}: annotazione inesistente {a['id']!r}")
+            if not a.get("motivazione", "").strip():
+                raise ErroreValidazione(f"{dove}: il collegamento a {a['id']} richiede una motivazione")
+        if c["stato"] == "respinto":
+            conteggi["respinti"] += 1
+            continue
+        conteggi["curati"] += 1
+        if meta is None:
+            continue
+        m = meta.get(vid)
+        if m is None:
+            # Nessun video senza metadati restituiti dalla piattaforma: niente risultati inventati.
+            raise ErroreValidazione(f"{dove}: nessun metadato verificato (eseguire youtube.py verifica)")
+        if not m.get("disponibile"):
+            conteggi["non_disponibili"] += 1
+            continue
+        verificato = datetime.fromisoformat(m["verificato_il"])
+        scaduto = adesso - verificato > timedelta(days=VALIDITA_ESTERNI_GIORNI)
+        if scaduto:
+            conteggi["da_ricontrollare"] += 1
+        if pubblico and (c["stato"] != "pubblicato" or scaduto):
+            conteggi["non_pubblicati"] += 1
+            continue
+        contenuti.append({
+            "piattaforma": "youtube",
+            "video_id": vid,
+            # URL costruito dall'identificativo, mai preso dal testo della cura.
+            "url": f"https://www.youtube.com/watch?v={vid}",
+            "titolo": m["titolo"],
+            "canale": m["canale"],
+            "canale_id": m["canale_id"],
+            "canale_url": f"https://www.youtube.com/channel/{m['canale_id']}",
+            "durata_s": m.get("durata_s"),
+            "lingua": m.get("lingua"),
+            "pubblicato_il": m.get("pubblicato_il"),
+            "visualizzazioni": m.get("visualizzazioni"),
+            "miniatura": m.get("miniatura") if (m.get("miniatura") or "").startswith("https://i.ytimg.com/") else None,
+            "verificato_il": m["verificato_il"],
+            "da_ricontrollare": scaduto,
+            "relazione": c["relazione"],
+            "relazione_testo": RELAZIONI_ESTERNE[c["relazione"]],
+            "evidenza": c["evidenza"],
+            "motivazione": c["motivazione"],
+            "affidabilita": c["affidabilita"],
+            "affidabilita_testo": AFFIDABILITA[c["affidabilita"]][1],
+            "avvertenze": c.get("avvertenze", []),
+            "categoria": c["categoria"],
+            "categoria_testo": CATEGORIE_PULSE[c["categoria"]],
+            "percorsi": c["percorsi"],
+            "annotazioni": c["annotazioni"],
+            "stato": c["stato"],
+            "giudizio": c.get("giudizio", giudizio_def),
+        })
+    stato_fonte = "metadati_mancanti" if meta is None else "ok"
+    return {
+        **vuoto,
+        "stato_fonte": stato_fonte,
+        "verificato_il": _leggi(fm)["verificato_il"] if meta is not None else None,
+        "contenuti": contenuti,
+        "selezioni": {p: classifica(contenuti, p, adesso) for p in PERCORSI},
+        "conteggi": conteggi,
+    }
+
+
+# ---------- Fase 2.5: percorsi ----------
+
+def certezza(b: dict) -> dict:
+    """Grado di certezza di un blocco, derivato da registro e fonti (§4.2, mappa delle evidenze)."""
+    r = b["registro"]
+    if r == "lacuna":
+        return {"livello": "non_nota", "testo": "Non nota: lacuna dichiarata"}
+    if r == "ipotesi":
+        return {"livello": "proposta", "testo": "Proposta, non documentata"}
+    if r == "osservazione":
+        return {"livello": "verificabile", "testo": "Verificabile guardando l'immagine"}
+    fonti = b.get("fonti", [])
+    note = " ".join(f.get("nota", "") for f in fonti)
+    if "senza riferimenti" in note or all(f["fonte"].startswith("wikidata-") for f in fonti):
+        return {"livello": "da_verificare", "testo": "Dato di una base collaborativa senza riferimenti: da verificare"}
+    if any(f["fonte"].startswith("met-") for f in fonti):
+        return {"livello": "istituzionale", "testo": "Dato dell'istituzione che conserva l'opera"}
+    return {"livello": "attribuito", "testo": "Attribuito a una fonte"}
+
+
+def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: set,
+             ids_esterni: set, pubblico: bool) -> list:
+    p = DATI / "percorsi" / f"{object_id}.json"
+    if not p.exists():
+        return []
+    dati = _leggi(p)
+    origine = dati["origine_predefinita"]
+    out = []
+    for perc in dati["percorsi"]:
+        if perc["id"] not in PERCORSI:
+            raise ErroreValidazione(f"percorso sconosciuto {perc['id']!r}")
+        if perc["stato"] not in STATI:
+            raise ErroreValidazione(f"percorso {perc['id']}: stato non valido")
+        tappe, viste = [], set()
+        for t in perc["tappe"]:
+            dove = f"percorso {perc['id']}, tappa {t.get('id')}"
+            if t["id"] in viste:
+                raise ErroreValidazione(f"{dove}: identificativo duplicato")
+            viste.add(t["id"])
+            if t["tipo"] not in TIPI_TAPPA:
+                raise ErroreValidazione(f"{dove}: tipo non valido {t['tipo']!r}")
+            richiesti = {
+                "scelta": ("domanda", "scelte"), "scopri": ("annotazione",), "scrivi": ("consegna", "nota"),
+                "leggi": ("blocchi",), "evidenze": ("righe",), "connessioni": ("connessioni",),
+                "pulse": (), "rielabora": ("consegna", "nota"),
+            }[t["tipo"]]
+            for campo in richiesti:
+                if not t.get(campo):
+                    raise ErroreValidazione(f"{dove}: campo obbligatorio mancante {campo!r}")
+            rif_annot = ([t["annotazione"]] if t.get("annotazione") else []) + t.get("scelte", [])
+            rif_blocchi = t.get("blocchi", [])
+            for r in t.get("righe", []):
+                (rif_annot if r.startswith("a") else rif_blocchi).append(r)
+            for a in rif_annot:
+                if a not in annotazioni:
+                    raise ErroreValidazione(f"{dove}: annotazione inesistente {a!r}")
+            for b in rif_blocchi:
+                if b not in blocchi:
+                    raise ErroreValidazione(f"{dove}: blocco inesistente {b!r}")
+            for k in t.get("connessioni", []):
+                if k not in ids_connessioni:
+                    raise ErroreValidazione(f"{dove}: connessione inesistente {k!r}")
+            if t.get("pulse_categoria") and t["pulse_categoria"] not in CATEGORIE_PULSE:
+                raise ErroreValidazione(f"{dove}: categoria Pulse sconosciuta")
+            voce = dict(t)
+            if t["tipo"] == "evidenze":
+                righe = []
+                for r in t["righe"]:
+                    if r.startswith("a"):
+                        a = annotazioni[r]
+                        for b in a["blocchi"]:
+                            righe.append({"rif": r, "dettaglio": r, "titolo": a["titolo"], "registro": b["registro"],
+                                          "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b)})
+                    else:
+                        b = blocchi[r]
+                        righe.append({"rif": r, "dettaglio": None, "titolo": None, "registro": b["registro"],
+                                      "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b)})
+                voce["righe_risolte"] = righe
+            tappe.append(voce)
+        if pubblico and perc["stato"] != "pubblicato":
+            continue
+        out.append({**{k: perc[k] for k in ("id", "titolo", "invito", "durata", "stato")},
+                    "origine": perc.get("origine", origine), "tappe": tappe})
+    return out
+
+
 def componi(object_id: str, pubblico: bool = False) -> dict:
     met = _leggi(DATI / "fonti" / "met" / f"{object_id}.json")
     qid = met["payload"]["objectWikidata_URL"].rsplit("/", 1)[-1]
@@ -225,7 +663,7 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
     img = _leggi(DATI / "immagini" / f"met_{object_id}.json")
     contenuti = _leggi(DATI / "contenuti" / f"{object_id}.json")
     annot = _leggi(DATI / "annotazioni" / f"{object_id}.json")
-    fonti = registro_fonti(met, wd, img)
+    fonti = {**fonti_aggiuntive(), **registro_fonti(met, wd, img)}
 
     def visibile(stato):
         if stato not in STATI:
@@ -270,15 +708,32 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
             }
         )
 
+    # Fase 2.5: livelli di presentazione e collegamenti, sulla stessa base di conoscenza.
+    tutte_annot = {a["id"]: a for a in annot["annotazioni"]}
+    tutti_blocchi_sez = {b["id"]: b for s in contenuti["sezioni"] for b in s["blocchi"] if "id" in b}
+    conn = connessioni(object_id, qid, fonti, set(tutte_annot), pubblico)
+    ids_conn_tutte = {k["id"] for k in _leggi(DATI / "connessioni" / f"{object_id}.json")["connessioni"]} \
+        if (DATI / "connessioni" / f"{object_id}.json").exists() else set()
+    esterni = pulse(object_id, set(tutte_annot), pubblico)
+    perc = percorsi(object_id, tutti_blocchi_sez, tutte_annot, ids_conn_tutte,
+                    {c["video_id"] for c in esterni["contenuti"]}, pubblico)
+
     tutti_blocchi = [b for s in sezioni for b in s["blocchi"]] + [
         b for a in annotazioni for b in a["blocchi"]
     ]
     revisionati = [x for x in tutti_blocchi if x.get("revisione")]
+    n_interp = sum(1 for b in tutti_blocchi if b["registro"] == "interpretazione")
+    n_critiche = sum(
+        1 for b in tutti_blocchi
+        if b["registro"] == "interpretazione"
+        and any("letteratura" in fonti.get(f["fonte"], {}).get("tipo", "") for f in b.get("fonti", []))
+    )
     copertura = {
         "catalogo": "Dati essenziali presenti (Met, Wikidata).",
         "approfondimenti_documentati": (
-            f"{sum(1 for b in tutti_blocchi if b['registro'] == 'interpretazione')} interpretazioni "
-            "con fonte bibliografica. Testo critico ancora assente."
+            f"{n_interp} {'interpretazione attribuita' if n_interp == 1 else 'interpretazioni attribuite'} a fonti, "
+            f"{n_critiche} da letteratura critica."
+            + (" Testo critico ancora assente." if not n_critiche else "")
         ),
         "annotazioni": f"{len(annotazioni)} regioni, nessuna revisionata."
         if not any(a.get("revisione") for a in annotazioni)
@@ -303,8 +758,26 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
         "copertura": copertura,
         "sezioni": sezioni,
         "annotazioni": annotazioni,
-        "fonti": fonti,
+        "percorsi": perc,
+        "connessioni": conn,
+        "pulse": esterni,
+        "fonti": _fonti_citate(fonti, sezioni, annotazioni, conn, perc),
     }
+
+
+def _fonti_citate(fonti, sezioni, annotazioni, conn, perc) -> dict:
+    """Solo le fonti effettivamente citate, più quelle di catalogo e dell'immagine."""
+    usate = {"met-435809", "wikidata-Q776175", "foto-met-DP119115"}
+    for gruppo in ([b for s in sezioni for b in s["blocchi"]], [b for a in annotazioni for b in a["blocchi"]],
+                   [b for k in conn for b in k["blocchi"]]):
+        for b in gruppo:
+            usate |= {f["fonte"] for f in b.get("fonti", [])}
+    for k in conn:
+        for o in k["opere"] + [r["opera"] for r in k.get("calcolo", {}).get("risultati", [])]:
+            usate.add(o["fonte"])
+            if o["immagine"]:
+                usate.add(o["immagine"]["fonte"])
+    return {k: v for k, v in fonti.items() if k in usate}
 
 
 if __name__ == "__main__":

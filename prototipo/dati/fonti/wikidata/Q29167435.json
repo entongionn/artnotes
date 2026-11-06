@@ -1,0 +1,499 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q29167435",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q29167435",
+    "data": "2026-11-06T15:01:35+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q29167435",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Metropolitan Museum of Art Guide (2012 edition)"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "f9e0405fb26abe116b4aa21c1140bf6a216dab10",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47114558,
+                  "id": "Q47114558"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$329c1c02-48f9-16cb-abf6-b26ad6bb9ad3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7c018eaac1263444ccaa60f15b19dd4b27db14b2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 223638,
+                  "id": "Q223638"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$bc9a1e5a-4be8-e654-5d2c-dc93244c6fd7",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "734267771e85b0fe3687a520c0e2ce8b6e73ae05",
+              "datavalue": {
+                "value": "http://www.metmuseum.org/art/metpublications/The_Metropolitan_Museum_of_Art_Guide",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q29167435$eb6b0444-450e-6647-8ddd-53cd3637380c",
+            "rank": "normal"
+          }
+        ],
+        "P243": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P243",
+              "hash": "cfa95f379435d135ceb09acb36f757393364efa1",
+              "datavalue": {
+                "value": "759174356",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q29167435$66c0e6e4-4553-faff-fbb3-7a7e23465927",
+            "rank": "normal"
+          }
+        ],
+        "P123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P123",
+              "hash": "ab01761666cf0556daa585aa971a170cee5aedd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160236,
+                  "id": "Q160236"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$dc1882d5-4c60-9789-e18e-5aa53159493e",
+            "rank": "normal"
+          }
+        ],
+        "P750": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P750",
+              "hash": "f39b53131e2d13d95284d7da61e7988019fa087a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 255147,
+                  "id": "Q255147"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$cd597585-4ed5-cb9f-3a60-2ef33a442819",
+            "rank": "normal"
+          }
+        ],
+        "P1104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1104",
+              "hash": "fa55e0835135480fe9c4dfa278af8ab997d91afc",
+              "datavalue": {
+                "value": {
+                  "amount": "+456",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q29167435$8eab9184-4790-4794-fff8-7b92d6f18428",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "f0800cac1103b4224d1643fcdabe15ed258f426e",
+              "datavalue": {
+                "value": {
+                  "time": "+2012-04-24T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q29167435$93d243c1-4b9c-975f-ef48-ffed3d4a71fb",
+            "rank": "normal"
+          }
+        ],
+        "P957": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P957",
+              "hash": "beacc13b8db24d20efbb84f61d4b37d8d179fd37",
+              "datavalue": {
+                "value": "0-300-17949-9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q29167435$e294f750-4fe6-3f78-036c-2982c0bd86fa",
+            "rank": "normal"
+          }
+        ],
+        "P212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P212",
+              "hash": "d2de28313e07d7bc8743a23e2b78084ed9707575",
+              "datavalue": {
+                "value": "978-0-300-17949-1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q29167435$b616253d-4951-6236-03c1-1b830b457019",
+            "rank": "normal"
+          }
+        ],
+        "P2048": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2048",
+              "hash": "0e853604de22cbcd57bfd27381dbfcc2e9a24846",
+              "datavalue": {
+                "value": {
+                  "amount": "+24.8",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q29167435$92d04ac6-466f-9bd6-b9db-a8d671b24551",
+            "rank": "normal"
+          }
+        ],
+        "P2049": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2049",
+              "hash": "4643bb3de02dbf56aef5aabd1949e6589055ed8e",
+              "datavalue": {
+                "value": {
+                  "amount": "+17.1",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q29167435$abf46422-4010-0114-06f8-169fbdcaee92",
+            "rank": "normal"
+          }
+        ],
+        "P2670": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2670",
+              "hash": "823c7c2962bffcfd97c05241d192d92e0c50f273",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 178659,
+                  "id": "Q178659"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1114": [
+                {
+                  "snaktype": "value",
+                  "property": "P1114",
+                  "hash": "db58f2e8fd89f26a92a8687a1ab08a90daa0be1d",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+600",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1114"
+            ],
+            "id": "Q29167435$c824c20c-4e12-2368-27ee-2c8bdeb2e9a0",
+            "rank": "normal"
+          }
+        ],
+        "P4989": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4989",
+              "hash": "5b55653eb7ee64b6c385160357533cf9c20b465d",
+              "datavalue": {
+                "value": "261459",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q29167435$8d469566-4dc7-cf87-cc8d-1ac4f20c50ef",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "a87fdc217d6fc496f43ec3ba07899f18cff25827",
+              "datavalue": {
+                "value": "Gérôme-Black Bashi-Bazouk-c. 1869 (cropped).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "ed749ab43d5f8412af7d907dbe5f2982c749d3da",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2260076,
+                      "id": "Q2260076"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q29167435$7bb18719-41aa-0827-5b30-ecb45f8eebb5",
+            "rank": "normal"
+          }
+        ],
+        "P973": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "hash": "2bc431758794ea08d995633988846fe976af8d23",
+              "datavalue": {
+                "value": "https://www.metmuseum.org/blogs/now-at-the-met/features/2013/fun-facts",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q29167435$868435ea-4b36-0b88-71d9-e8b8ea4911f6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "hash": "f8d73d573d07cf4ad50030b724f554da9d0e28f6",
+              "datavalue": {
+                "value": "https://library.metmuseum.org:443/record=b1774645~S1",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q29167435$327f300e-4503-63b4-1832-6165386815ea",
+            "rank": "normal"
+          }
+        ],
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "88c8ec455579a1509ad39abae9251bb1626d4c27",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160236,
+                  "id": "Q160236"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$8c61a475-43d5-948a-1b90-76fd26c26b75",
+            "rank": "normal"
+          }
+        ],
+        "P675": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P675",
+              "hash": "6b0a2c1da7b4dfc24588c415573b5a97f9bc5f8b",
+              "datavalue": {
+                "value": "3C4AFXFLmZEC",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q29167435$6d28a0f6-4bef-bbf4-acc4-ba2c9211abd0",
+            "rank": "normal"
+          }
+        ],
+        "P629": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P629",
+              "hash": "882ac3067d4bc4e8abeb8837f700dd1aef5c463d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16739618,
+                  "id": "Q16739618"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q29167435$F2A1923F-3591-47B4-83BC-2357A23E1929",
+            "rank": "normal"
+          }
+        ],
+        "P648": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P648",
+              "hash": "7b554c4a0b4be8f13dc8e758d5666d87216a8f9c",
+              "datavalue": {
+                "value": "OL25157062M",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q29167435$4003C669-93AF-45B3-90CF-8343CBF8DFB1",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "wikidatawiki": {
+          "site": "wikidatawiki",
+          "title": "Wikidata:WikiProject sum of all paintings/Catalog/The Metropolitan Museum of Art Guide",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q160236": "Metropolitan Museum of Art",
+      "Q16739618": "The Metropolitan Museum of Art guide",
+      "Q178659": "illustrazione",
+      "Q1860": "inglese",
+      "Q223638": "guida turistica",
+      "Q2260076": "book cover design",
+      "Q255147": "Yale University Press",
+      "Q47114558": "catalogo d'arte"
+    }
+  }
+}

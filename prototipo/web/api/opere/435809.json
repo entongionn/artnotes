@@ -1,6 +1,6 @@
 {
   "schema": "artnotes-prototipo/0.1",
-  "generato_il": "2026-11-06T12:04:12",
+  "generato_il": "2026-11-06T16:26:52",
   "modalita": "anteprima_redazionale",
   "opera": {
     "id": "met:435809",
@@ -262,7 +262,7 @@
   },
   "copertura": {
     "catalogo": "Dati essenziali presenti (Met, Wikidata).",
-    "approfondimenti_documentati": "0 interpretazioni con fonte bibliografica. Testo critico ancora assente.",
+    "approfondimenti_documentati": "1 interpretazione attribuita a fonti, 0 da letteratura critica. Testo critico ancora assente.",
     "annotazioni": "14 regioni, nessuna revisionata.",
     "revisione_umana": "Nessun contenuto revisionato."
   },
@@ -510,6 +510,35 @@
           "revisione": null
         },
         {
+          "id": "b33",
+          "registro": "interpretazione",
+          "testo": "I cataloghi propongono due chiavi di lettura, che non si escludono. Wikidata colloca l'opera in una serie sui mesi e la classifica con le notazioni Iconclass dell'estate e del raccolto: il quadro come momento di un ciclo dell'anno. La stessa fonte la classifica anche come «arte di genere», e il Met la indicizza con Landscapes, Working, Eating: il quadro come scena di vita e di paesaggio. Sono classificazioni di catalogo, non interpretazioni critiche argomentate.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P361",
+                "P1257",
+                "P136"
+              ],
+              "nota": "asserzioni senza riferimenti"
+            },
+            {
+              "fonte": "met-435809",
+              "campi": [
+                "tags"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
           "id": "b32",
           "registro": "lacuna",
           "testo": "Il prototipo non include letture simboliche o allegoriche: richiedono fonti interpretative non ancora presenti nel corpus.",
@@ -572,6 +601,35 @@
           "revisione": null
         },
         {
+          "id": "b43",
+          "registro": "documentato",
+          "testo": "Secondo Wikidata l'opera fa parte di una serie di Pieter Bruegel il Vecchio, i «Mesi», di cui risultano conservate cinque tavole. L'asserzione non cita riferimenti: va letta come dato da verificare.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P361"
+              ],
+              "nota": "senza riferimenti"
+            },
+            {
+              "fonte": "wikidata-Q3855265",
+              "campi": [
+                "P527",
+                "P2635"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
           "id": "b42",
           "registro": "lacuna",
           "testo": "I passaggi di proprietà non sono verificati su fonti di provenienza puntuali, e le date mancanti non sono note al prototipo. L'ordine dell'elenco è quello di Wikidata e non indica necessariamente una cronologia.",
@@ -593,7 +651,7 @@
         {
           "id": "b50",
           "registro": "lacuna",
-          "testo": "Non ci sono ancora confronti curati. Arriveranno nella Fase 4, ciascuno con il proprio criterio esplicito (soggetto, soluzione formale, tecnica, funzione o rapporto storico documentato).",
+          "testo": "Le connessioni qui sotto sono le prime bozze, ciascuna con il proprio tipo: documentata, interpretativa o calcolata dai dati. Confronti con altre tradizioni e periodi non sono ancora stati curati.",
           "fonti": [],
           "stato": "bozza",
           "origine": {
@@ -603,7 +661,8 @@
           },
           "revisione": null
         }
-      ]
+      ],
+      "mostra_connessioni": true
     }
   ],
   "annotazioni": [
@@ -1246,15 +1305,2738 @@
       "revisione": null
     }
   ],
+  "percorsi": [
+    {
+      "id": "curioso",
+      "titolo": "Sono curioso",
+      "invito": "Fammi vedere qualcosa che non avrei notato.",
+      "durata": "circa 3 minuti",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "c1",
+          "tipo": "scelta",
+          "titolo": "Il primo sguardo",
+          "domanda": "Guarda il quadro intero per qualche secondo. Dove è andato per primo il tuo sguardo?",
+          "scelte": [
+            "a01",
+            "a05",
+            "a08"
+          ],
+          "raccordo": "Non c'è una risposta giusta. Ecco una lettura di come è organizzata la scena: è un'ipotesi, e puoi metterla alla prova.",
+          "blocchi": [
+            "b20"
+          ]
+        },
+        {
+          "id": "c2",
+          "tipo": "scopri",
+          "titolo": "Un oggetto fra le spighe",
+          "annotazione": "a04"
+        },
+        {
+          "id": "c3",
+          "tipo": "scopri",
+          "titolo": "Chi porta da bere",
+          "raccordo": "Qualcuno, intanto, sta arrivando dal campo.",
+          "annotazione": "a03"
+        },
+        {
+          "id": "c4",
+          "tipo": "scopri",
+          "titolo": "L'uomo che dorme",
+          "annotazione": "a02"
+        },
+        {
+          "id": "c5",
+          "tipo": "scopri",
+          "titolo": "Le lettere nell'angolo",
+          "raccordo": "Un'ultima cosa, nell'angolo in basso a destra.",
+          "annotazione": "a13"
+        },
+        {
+          "id": "c6",
+          "tipo": "pulse",
+          "titolo": "Per continuare",
+          "raccordo": "Altri hanno raccontato quest'opera in video. Sono contenuti esterni: ArtNotes li segnala con il motivo della scelta, non ne garantisce l'accuratezza.",
+          "quanti": 4
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "titolo": "Voglio approfondire",
+      "invito": "Aiutami a capire come si costruisce un'interpretazione.",
+      "durata": "circa 15 minuti",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "s1",
+          "tipo": "scrivi",
+          "titolo": "Osserva",
+          "annotazione": "a12",
+          "consegna": "Guarda la zona centrale del quadro. Descrivi con parole tue che cosa vedi: forme, figure, colori. Per ora non interpretare.",
+          "nota": "osserva",
+          "rivela": true
+        },
+        {
+          "id": "s2",
+          "tipo": "scrivi",
+          "titolo": "Formula",
+          "consegna": "Scrivi una domanda o un'ipotesi sul quadro. Per esempio: perché il pittore dà tanto spazio al pasto e al riposo, in una scena di lavoro?",
+          "nota": "ipotesi"
+        },
+        {
+          "id": "s3",
+          "tipo": "leggi",
+          "titolo": "Confronta",
+          "raccordo": "Ecco che cosa dicono le fonti raccolte finora. Confrontale con la tua ipotesi: una lettura diversa, se argomentata, non è un errore.",
+          "blocchi": [
+            "b33",
+            "b20",
+            "b32"
+          ],
+          "pulse_categoria": "conversazioni",
+          "raccordo_pulse": "Fuori da ArtNotes circolano altre letture, anche simboliche. Non sono state verificate: confrontale con le fonti, non prenderle per certe."
+        },
+        {
+          "id": "s4",
+          "tipo": "evidenze",
+          "titolo": "Verifica",
+          "raccordo": "Ogni affermazione ha una base diversa. Questa mappa mostra da dove viene ciascuna e quanto è solida.",
+          "righe": [
+            "b01",
+            "b02",
+            "b43",
+            "b33",
+            "a13",
+            "a14",
+            "b20",
+            "b05"
+          ],
+          "righe_risolte": [
+            {
+              "rif": "b01",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "documentato",
+              "testo": "The Harvesters (titolo italiano su Wikidata: «Mietitura») è un dipinto di Pieter Bruegel il Vecchio. La scheda del Metropolitan Museum of Art di New York lo data al 1565 e ne indica la tecnica: olio su tavola di quercia («Oil on oak»).",
+              "fonti": [
+                {
+                  "fonte": "met-435809",
+                  "campi": [
+                    "title",
+                    "artistDisplayName",
+                    "objectDate",
+                    "medium"
+                  ]
+                },
+                {
+                  "fonte": "wikidata-Q776175",
+                  "campi": [
+                    "etichetta it"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "istituzionale",
+                "testo": "Dato dell'istituzione che conserva l'opera"
+              }
+            },
+            {
+              "rif": "b02",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "documentato",
+              "testo": "La scheda registra due misure. Le dimensioni complessive sono 119 × 162 cm e comprendono strisce aggiunte in alto, in basso e a destra. La superficie dipinta originale misura 116,5 × 159,5 cm.",
+              "fonti": [
+                {
+                  "fonte": "met-435809",
+                  "campi": [
+                    "dimensions"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "istituzionale",
+                "testo": "Dato dell'istituzione che conserva l'opera"
+              }
+            },
+            {
+              "rif": "b43",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "documentato",
+              "testo": "Secondo Wikidata l'opera fa parte di una serie di Pieter Bruegel il Vecchio, i «Mesi», di cui risultano conservate cinque tavole. L'asserzione non cita riferimenti: va letta come dato da verificare.",
+              "fonti": [
+                {
+                  "fonte": "wikidata-Q776175",
+                  "campi": [
+                    "P361"
+                  ],
+                  "nota": "senza riferimenti"
+                },
+                {
+                  "fonte": "wikidata-Q3855265",
+                  "campi": [
+                    "P527",
+                    "P2635"
+                  ],
+                  "nota": "senza riferimenti"
+                }
+              ],
+              "certezza": {
+                "livello": "da_verificare",
+                "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+              }
+            },
+            {
+              "rif": "b33",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "interpretazione",
+              "testo": "I cataloghi propongono due chiavi di lettura, che non si escludono. Wikidata colloca l'opera in una serie sui mesi e la classifica con le notazioni Iconclass dell'estate e del raccolto: il quadro come momento di un ciclo dell'anno. La stessa fonte la classifica anche come «arte di genere», e il Met la indicizza con Landscapes, Working, Eating: il quadro come scena di vita e di paesaggio. Sono classificazioni di catalogo, non interpretazioni critiche argomentate.",
+              "fonti": [
+                {
+                  "fonte": "wikidata-Q776175",
+                  "campi": [
+                    "P361",
+                    "P1257",
+                    "P136"
+                  ],
+                  "nota": "asserzioni senza riferimenti"
+                },
+                {
+                  "fonte": "met-435809",
+                  "campi": [
+                    "tags"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "da_verificare",
+                "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+              }
+            },
+            {
+              "rif": "a13",
+              "dettaglio": "a13",
+              "titolo": "Lettere in basso a destra",
+              "registro": "osservazione",
+              "testo": "Sulla zona scura in basso a destra si leggono lettere maiuscole che sembrano formare «BRVEGE…». Il seguito non si distingue con sicurezza in questa fotografia.",
+              "fonti": [
+                {
+                  "fonte": "foto-met-DP119115"
+                }
+              ],
+              "certezza": {
+                "livello": "verificabile",
+                "testo": "Verificabile guardando l'immagine"
+              }
+            },
+            {
+              "rif": "a13",
+              "dettaglio": "a13",
+              "titolo": "Lettere in basso a destra",
+              "registro": "lacuna",
+              "testo": "L'API del Met non riporta iscrizioni. Trascrizione completa e natura dell'iscrizione (firma, data) vanno verificate sulla scheda del museo prima di essere presentate come dato.",
+              "fonti": [
+                {
+                  "fonte": "met-435809",
+                  "nota": "nessun campo iscrizioni"
+                }
+              ],
+              "certezza": {
+                "livello": "non_nota",
+                "testo": "Non nota: lacuna dichiarata"
+              }
+            },
+            {
+              "rif": "a14",
+              "dettaglio": "a14",
+              "titolo": "La striscia aggiunta a destra",
+              "registro": "documentato",
+              "testo": "Secondo la scheda del Met, il pannello comprende strisce aggiunte in alto, in basso e a destra: 119 × 162 cm in tutto, contro 116,5 × 159,5 cm di superficie dipinta originale.",
+              "fonti": [
+                {
+                  "fonte": "met-435809",
+                  "campi": [
+                    "dimensions"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "istituzionale",
+                "testo": "Dato dell'istituzione che conserva l'opera"
+              }
+            },
+            {
+              "rif": "a14",
+              "dettaglio": "a14",
+              "titolo": "La striscia aggiunta a destra",
+              "registro": "ipotesi",
+              "testo": "La posizione della regione è calcolata dalle misure (2,5 cm su 162 cm di larghezza, circa l'1,5%), supponendo che la fotografia mostri il pannello intero senza bordi. Non è stata verificata sull'immagine. Per le strisce in alto e in basso le misure non dicono come si ripartiscono i 2,5 cm, quindi non sono state tracciate.",
+              "fonti": [
+                {
+                  "fonte": "met-435809",
+                  "campi": [
+                    "dimensions"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "proposta",
+                "testo": "Proposta, non documentata"
+              }
+            },
+            {
+              "rif": "b20",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "ipotesi",
+              "testo": "La scena sembra costruita su due piani. A destra, il primo piano è occupato dall'albero e dal pasto. A sinistra, la veduta si allarga e scende verso la pianura e il mare. È una lettura proposta dall'AI guardando la fotografia, non un'analisi pubblicata.",
+              "fonti": [
+                {
+                  "fonte": "foto-met-DP119115"
+                }
+              ],
+              "certezza": {
+                "livello": "proposta",
+                "testo": "Proposta, non documentata"
+              }
+            },
+            {
+              "rif": "b05",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "lacuna",
+              "testo": "Il prototipo non contiene ancora un testo critico. Il 6 novembre 2026 la pagina del museo, con commento e bibliografia, non era raggiungibile. Committenza, funzione originaria ed eventuale appartenenza a una serie verranno inserite solo con fonti puntuali.",
+              "fonti": [],
+              "certezza": {
+                "livello": "non_nota",
+                "testo": "Non nota: lacuna dichiarata"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "tipo": "connessioni",
+          "titolo": "Collega",
+          "raccordo": "Un'opera si capisce anche dalle sue vicine. Ogni collegamento dice di che tipo è.",
+          "connessioni": [
+            "k01",
+            "k03"
+          ]
+        },
+        {
+          "id": "s6",
+          "tipo": "rielabora",
+          "titolo": "Rielabora",
+          "consegna": "Scrivi in 3–5 frasi la tua lettura del quadro. Distingui ciò che hai visto, ciò che hai letto nelle fonti e ciò che ipotizzi tu.",
+          "nota": "lettura"
+        }
+      ]
+    },
+    {
+      "id": "ispirazione",
+      "titolo": "Cerco ispirazione",
+      "invito": "Mostrami idee, connessioni e reinterpretazioni.",
+      "durata": "libera",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "i1",
+          "tipo": "connessioni",
+          "titolo": "Le altre stagioni",
+          "raccordo": "Questo quadro non era solo: faceva parte di una serie.",
+          "connessioni": [
+            "k01"
+          ]
+        },
+        {
+          "id": "i2",
+          "tipo": "connessioni",
+          "titolo": "Una veduta allo specchio",
+          "raccordo": "Una somiglianza di composizione con un'altra tavola della serie.",
+          "connessioni": [
+            "k03"
+          ]
+        },
+        {
+          "id": "i3",
+          "tipo": "connessioni",
+          "titolo": "Dopo Bruegel",
+          "raccordo": "Che cosa hanno ripreso, e che cosa hanno cambiato, i pittori venuti dopo?",
+          "connessioni": [
+            "k02"
+          ]
+        },
+        {
+          "id": "i4",
+          "tipo": "connessioni",
+          "titolo": "Somiglianze calcolate",
+          "raccordo": "Una somiglianza calcolata dai dati, non dallo sguardo.",
+          "connessioni": [
+            "k04"
+          ]
+        },
+        {
+          "id": "i5",
+          "tipo": "pulse",
+          "titolo": "Altri sguardi",
+          "raccordo": "Il tema del raccolto, della falce e dei mesi ritorna in altre epoche e in altri linguaggi. Questi video sono punti di partenza esterni, non fonti.",
+          "quanti": 5
+        }
+      ]
+    }
+  ],
+  "connessioni": [
+    {
+      "id": "k01",
+      "tipo": "documentata",
+      "relazione": "stessa serie",
+      "titolo": "Le altre tavole della serie dei Mesi",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Secondo Wikidata I mietitori fa parte della serie «Mesi» (in inglese «Labours of the months»), dipinta da Pieter Bruegel il Vecchio e datata 1565. L'elemento della serie elenca cinque tavole: I mietitori, Cacciatori nella neve, Giornata buia, Ritorno della mandria e Fienagione. Né l'appartenenza alla serie né l'elenco delle tavole citano un riferimento.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P361"
+              ],
+              "nota": "senza riferimenti"
+            },
+            {
+              "fonte": "wikidata-Q3855265",
+              "campi": [
+                "P527",
+                "P170",
+                "P571"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata registra per la serie sei dipinti in tutto, di cui cinque conservati, e indica come collezione Nicolaes Jonghelinck. Anche queste asserzioni sono senza riferimenti.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q3855265",
+              "campi": [
+                "P2635",
+                "P195"
+              ],
+              "nota": "senza riferimenti"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "Per Fienagione l'elemento Wikidata elenca più collezioni in momenti diversi, più numeri d'inventario e, fra le immagini, una versione attribuita a Pieter Brueghel il Giovane. Non è chiaro se tutti questi dati riguardino lo stesso dipinto: collocazione e immagine vanno verificate prima di essere presentate come certe.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q1213437",
+              "campi": [
+                "P195",
+                "P217",
+                "P18"
+              ]
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "Le fonti del prototipo non dicono a quale mese o periodo dell'anno corrisponda ciascuna tavola, né come la serie fosse esposta.",
+          "fonti": []
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q500985",
+          "fonte": "wikidata-Q500985",
+          "titolo": "Cacciatori nella neve",
+          "autori": [
+            {
+              "valore": "Pieter Bruegel il Vecchio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1565",
+              "riferimenti": 2
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Kunsthistorisches Museum",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [
+            "23F42"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/0026b770944a.jpg",
+            "fonte": "commons-0026b770944a",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg"
+          },
+          "avvisi": []
+        },
+        {
+          "wikidata": "Q698219",
+          "fonte": "wikidata-Q698219",
+          "titolo": "Giornata buia",
+          "autori": [
+            {
+              "valore": "Pieter Bruegel il Vecchio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1565",
+              "riferimenti": 2
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Kunsthistorisches Museum",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [
+            "23E622"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/fd2192fcd325.jpg",
+            "fonte": "commons-fd2192fcd325",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:The_Gloomy_Day_(Bruegel).jpg"
+          },
+          "avvisi": []
+        },
+        {
+          "wikidata": "Q698254",
+          "fonte": "wikidata-Q698254",
+          "titolo": "Ritorno della mandria",
+          "autori": [
+            {
+              "valore": "Pieter Bruegel il Vecchio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1565",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Kunsthistorisches Museum",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [
+            "47I228",
+            "46C13141",
+            "47I21",
+            "23E44"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/1641dcdcb9d8.jpg",
+            "fonte": "commons-1641dcdcb9d8",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84.,_,_Kunsthistorisches_Museum_Wien,_Gem%C3%A4ldegalerie_-_Heimkehr_der_Herde_(Herbst)_-_GG_1018_-_Kunsthistorisches_Museum.jpg"
+          },
+          "avvisi": []
+        },
+        {
+          "wikidata": "Q1213437",
+          "fonte": "wikidata-Q1213437",
+          "titolo": "Fienagione",
+          "autori": [
+            {
+              "valore": "Pieter Bruegel il Vecchio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1565",
+              "riferimenti": 1
+            },
+            {
+              "valore": "1589",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "The Lobkowicz Collections (1992–?)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Národní galerie (1946–1992)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Munich Central Collecting Point (1945–1946)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Führermuseum",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Munich Central Collecting Point",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [
+            "47I14",
+            "23K23",
+            "23D43",
+            "23K31",
+            "25H"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/7fb02c4590f6.jpg",
+            "fonte": "commons-7fb02c4590f6",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:The_haymaking,_by_Pieter_Bruegel_(I).jpg"
+          },
+          "avvisi": [
+            "Wikidata associa più immagini a questo elemento: quella mostrata è la prima.",
+            "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "tipo": "documentata",
+      "relazione": "opera derivata",
+      "titolo": "Dopo Bruegel: due «Estate» di Pieter Brueghel il Giovane",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Wikidata registra opere derivate dai Mietitori. La prima è «Summer: the wheat harvest» di Pieter Brueghel il Giovane, datata 1624: la relazione cita come riferimento la scheda RKDimages 54304. La seconda è un gruppo di dipinti intitolato «estate», senza riferimenti; ne fa parte un'«Estate» dello stesso pittore conservata al Museo nazionale d'arte rumena di Bucarest.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P4969"
+              ]
+            },
+            {
+              "fonte": "wikidata-Q114707348",
+              "campi": [
+                "P144",
+                "P170",
+                "P571"
+              ],
+              "nota": "riferimento: RKDimages 54304"
+            },
+            {
+              "fonte": "wikidata-Q119001118",
+              "campi": [
+                "P144",
+                "P527"
+              ],
+              "nota": "senza riferimenti"
+            },
+            {
+              "fonte": "wikidata-Q68838092",
+              "campi": [
+                "P170",
+                "P195"
+              ]
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "Nelle due «Estate» la scena non ripete quella dei Mietitori. Il campanile è a sinistra, un corso d'acqua a destra, e in primo piano compaiono figure che nel dipinto del Met non ci sono, come l'uomo che beve da una grande brocca nella versione di Bucarest. Ritornano invece motivi simili: il gruppo che mangia, i covoni, una figura distesa nella versione del 1624.",
+          "fonti": [
+            {
+              "fonte": "commons-064b8e50756c"
+            },
+            {
+              "fonte": "commons-d42300e2d84a"
+            },
+            {
+              "fonte": "foto-met-DP119115"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "In che senso queste opere siano «basate» sui Mietitori (copia, ripresa di singoli motivi, derivazione da un altro modello) le fonti lette non lo dicono. Il record RKD citato da Wikidata è stato consultato in formato dati (data.rkd.nl/images/54304), ma la nota sulla relazione non era leggibile senza strumenti ulteriori.",
+          "fonti": []
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q114707348",
+          "fonte": "wikidata-Q114707348",
+          "titolo": "Summer: the wheat harvest",
+          "autori": [
+            {
+              "valore": "Pieter Brueghel il Giovane",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1624",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Kunsthandel P. de Boer (1934)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "collezione privata, nome non indicato",
+              "riferimenti": 0
+            }
+          ],
+          "iconclass": [
+            "23D43",
+            "47I14",
+            "46A14",
+            "23E43"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/064b8e50756c.jpg",
+            "fonte": "commons-064b8e50756c",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg"
+          },
+          "avvisi": [
+            "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+          ]
+        },
+        {
+          "wikidata": "Q68838092",
+          "fonte": "wikidata-Q68838092",
+          "titolo": "Estate",
+          "autori": [
+            {
+              "valore": "Pieter Brueghel il Giovane",
+              "riferimenti": 1
+            }
+          ],
+          "date": [],
+          "collezioni": [
+            {
+              "valore": "Museo nazionale d'arte rumena",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/d42300e2d84a.jpg",
+            "fonte": "commons-d42300e2d84a",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_(II)_-_The_four_seasons,_summer_(Bukarest).jpg"
+          },
+          "avvisi": []
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "tipo": "interpretativa",
+      "relazione": "soluzione compositiva simile",
+      "titolo": "Due vedute che scendono verso la pianura",
+      "stato": "bozza",
+      "annotazioni": [
+        "a11",
+        "a12"
+      ],
+      "blocchi": [
+        {
+          "registro": "ipotesi",
+          "testo": "In entrambe le tavole un primo piano rialzato, con alberi alti e verticali, si affaccia su una pianura lontana. Nei Mietitori la veduta si apre a sinistra dell'albero; nei Cacciatori nella neve, a destra della fila di alberi. È un confronto proposto dall'AI guardando le due immagini: una somiglianza formale, non la prova di un rapporto voluto.",
+          "fonti": [
+            {
+              "fonte": "foto-met-DP119115"
+            },
+            {
+              "fonte": "commons-0026b770944a"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q500985",
+          "fonte": "wikidata-Q500985",
+          "titolo": "Cacciatori nella neve",
+          "autori": [
+            {
+              "valore": "Pieter Bruegel il Vecchio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1565",
+              "riferimenti": 2
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Kunsthistorisches Museum",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [
+            "23F42"
+          ],
+          "immagine": {
+            "src": "immagini/confronti/0026b770944a.jpg",
+            "fonte": "commons-0026b770944a",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg"
+          },
+          "avvisi": []
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "tipo": "algoritmica",
+      "relazione": "notazioni Iconclass in comune",
+      "titolo": "Soggetti classificati in comune",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Confronto calcolato sulle notazioni Iconclass che Wikidata assegna a ciascuna opera (proprietà P1257). Misura quanti soggetti classificati due opere hanno in comune: non è una somiglianza visiva né un rapporto storico.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q776175",
+              "campi": [
+                "P1257"
+              ],
+              "nota": "asserzioni senza riferimenti"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [],
+      "calcolo": {
+        "metodo": "iconclass_condivise",
+        "soglia": 2,
+        "candidati": [
+          "Q500985",
+          "Q698219",
+          "Q698254",
+          "Q1213437",
+          "Q114707348"
+        ],
+        "notazioni_opera": [
+          "23D43",
+          "23E43",
+          "25H",
+          "41C",
+          "47I14"
+        ],
+        "esaminati": 5,
+        "risultati": [
+          {
+            "opera": {
+              "wikidata": "Q114707348",
+              "fonte": "wikidata-Q114707348",
+              "titolo": "Summer: the wheat harvest",
+              "autori": [
+                {
+                  "valore": "Pieter Brueghel il Giovane",
+                  "riferimenti": 1
+                }
+              ],
+              "date": [
+                {
+                  "valore": "1624",
+                  "riferimenti": 1
+                }
+              ],
+              "collezioni": [
+                {
+                  "valore": "Kunsthandel P. de Boer (1934)",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "collezione privata, nome non indicato",
+                  "riferimenti": 0
+                }
+              ],
+              "iconclass": [
+                "23D43",
+                "47I14",
+                "46A14",
+                "23E43"
+              ],
+              "immagine": {
+                "src": "immagini/confronti/064b8e50756c.jpg",
+                "fonte": "commons-064b8e50756c",
+                "licenza": "Public domain",
+                "pagina": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg"
+              },
+              "avvisi": [
+                "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+              ]
+            },
+            "in_comune": [
+              "23D43",
+              "23E43",
+              "47I14"
+            ],
+            "jaccard": 0.5
+          },
+          {
+            "opera": {
+              "wikidata": "Q1213437",
+              "fonte": "wikidata-Q1213437",
+              "titolo": "Fienagione",
+              "autori": [
+                {
+                  "valore": "Pieter Bruegel il Vecchio",
+                  "riferimenti": 1
+                }
+              ],
+              "date": [
+                {
+                  "valore": "1565",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "1589",
+                  "riferimenti": 1
+                }
+              ],
+              "collezioni": [
+                {
+                  "valore": "The Lobkowicz Collections (1992–?)",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "Národní galerie (1946–1992)",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "Munich Central Collecting Point (1945–1946)",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "Führermuseum",
+                  "riferimenti": 1
+                },
+                {
+                  "valore": "Munich Central Collecting Point",
+                  "riferimenti": 1
+                }
+              ],
+              "iconclass": [
+                "47I14",
+                "23K23",
+                "23D43",
+                "23K31",
+                "25H"
+              ],
+              "immagine": {
+                "src": "immagini/confronti/7fb02c4590f6.jpg",
+                "fonte": "commons-7fb02c4590f6",
+                "licenza": "Public domain",
+                "pagina": "https://commons.wikimedia.org/wiki/File:The_haymaking,_by_Pieter_Bruegel_(I).jpg"
+              },
+              "avvisi": [
+                "Wikidata associa più immagini a questo elemento: quella mostrata è la prima.",
+                "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+              ]
+            },
+            "in_comune": [
+              "23D43",
+              "25H",
+              "47I14"
+            ],
+            "jaccard": 0.43
+          }
+        ],
+        "spiegazione": "Su 5 opere esaminate, 2 condividono almeno 2 notazioni Iconclass con quest'opera. Indice di Jaccard = notazioni in comune / notazioni totali delle due opere."
+      }
+    }
+  ],
+  "pulse": {
+    "politica": "ArtNotes Pulse segnala contenuti pubblici di terzi. Non sono contenuti di ArtNotes e non sono verificati scientificamente: ogni suggerimento dice perché è stato scelto e che cosa lo collega all'opera. La popolarità pesa poco (5%) e non equivale ad accuratezza. I video non sono incorporati: i link aprono la piattaforma originale. Le miniature sono caricate dai server di YouTube.",
+    "contenuti": [
+      {
+        "piattaforma": "youtube",
+        "video_id": "T-XAR-p790c",
+        "url": "https://www.youtube.com/watch?v=T-XAR-p790c",
+        "titolo": "The Harvesters",
+        "canale": "The Met",
+        "canale_id": "UCDlz9C2bhSW6dcVn_PO5mYw",
+        "canale_url": "https://www.youtube.com/channel/UCDlz9C2bhSW6dcVn_PO5mYw",
+        "durata_s": 326,
+        "lingua": "en-US",
+        "pubblicato_il": "2010-07-19T20:09:54Z",
+        "visualizzazioni": 122006,
+        "miniatura": "https://i.ytimg.com/vi/T-XAR-p790c/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione",
+          "canale"
+        ],
+        "motivazione": "Canale ufficiale del Metropolitan Museum. La descrizione indica che direttore, curatori e una restauratrice del museo discutono l'opera.",
+        "affidabilita": "istituzionale",
+        "affidabilita_testo": "Istituzione culturale",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "TGXg60Dh040",
+        "url": "https://www.youtube.com/watch?v=TGXg60Dh040",
+        "titolo": "The Harvesters by Pieter Bruegel the Elder",
+        "canale": "Faces of Ancient Europe",
+        "canale_id": "UCXqfbPOyADaV_v38Gp4CiiA",
+        "canale_url": "https://www.youtube.com/channel/UCXqfbPOyADaV_v38Gp4CiiA",
+        "durata_s": 1636,
+        "lingua": "en",
+        "pubblicato_il": "2018-03-18T13:00:04Z",
+        "visualizzazioni": 2337,
+        "miniatura": "https://i.ytimg.com/vi/TGXg60Dh040/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Episodio di 27 minuti dedicato all'opera. La descrizione annuncia interventi di esperti e l'uso di un'immagine ad alta risoluzione.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "HaI877BIU94",
+        "url": "https://www.youtube.com/watch?v=HaI877BIU94",
+        "titolo": "Mietitura di Pieter Bruegel",
+        "canale": "HUB Scuola",
+        "canale_id": "UCOW-Vxx6WpH3R2fACK5iyJw",
+        "canale_url": "https://www.youtube.com/channel/UCOW-Vxx6WpH3R2fACK5iyJw",
+        "durata_s": 167,
+        "lingua": "it",
+        "pubblicato_il": "2020-08-03T06:49:51Z",
+        "visualizzazioni": 1673,
+        "miniatura": "https://i.ytimg.com/vi/HaI877BIU94/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione",
+          "canale"
+        ],
+        "motivazione": "Breve scheda in italiano di una piattaforma editoriale scolastica. La descrizione presenta l'opera come parte di un ciclo sui mesi.",
+        "affidabilita": "editoriale",
+        "affidabilita_testo": "Editore o emittente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "meKnasmBuc8",
+        "url": "https://www.youtube.com/watch?v=meKnasmBuc8",
+        "titolo": "Pieter Bruegel il Vecchio | Mietitura",
+        "canale": "Artesplorando",
+        "canale_id": "UCGE_wbbHqiptf-sjYa4q-ig",
+        "canale_url": "https://www.youtube.com/channel/UCGE_wbbHqiptf-sjYa4q-ig",
+        "durata_s": 136,
+        "lingua": "it",
+        "pubblicato_il": "2022-07-26T10:00:23Z",
+        "visualizzazioni": 761,
+        "miniatura": "https://i.ytimg.com/vi/meKnasmBuc8/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Commento audio in italiano di pochi minuti, dedicato all'opera.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "kK9WuFk-Pto",
+        "url": "https://www.youtube.com/watch?v=kK9WuFk-Pto",
+        "titolo": "1565 P. Bruegel il Vecchio – Ciclo dei Mesi - Estate: i mietitori",
+        "canale": "Giovanni Tucci",
+        "canale_id": "UCWO_Y0inmEXRFQn4n9r3BwA",
+        "canale_url": "https://www.youtube.com/channel/UCWO_Y0inmEXRFQn4n9r3BwA",
+        "durata_s": 569,
+        "lingua": "it",
+        "pubblicato_il": "2024-12-28T15:17:13Z",
+        "visualizzazioni": 106,
+        "miniatura": "https://i.ytimg.com/vi/kK9WuFk-Pto/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo"
+        ],
+        "motivazione": "Video in italiano sull'opera, presentata nel titolo come «Estate» del ciclo dei Mesi.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "M9LGTv71Fbg",
+        "url": "https://www.youtube.com/watch?v=M9LGTv71Fbg",
+        "titolo": "La Moisson de Bruegel analyse de tableau",
+        "canale": "bac2philo",
+        "canale_id": "UCR8NkTIZkG0Q2r5hV5YA8Bg",
+        "canale_url": "https://www.youtube.com/channel/UCR8NkTIZkG0Q2r5hV5YA8Bg",
+        "durata_s": 90,
+        "lingua": "fr",
+        "pubblicato_il": "2024-11-18T00:45:00Z",
+        "visualizzazioni": 112,
+        "miniatura": "https://i.ytimg.com/vi/M9LGTv71Fbg/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Analisi in francese. La descrizione parla di una commissione di Niclaes Jonghelinck e della tradizione dei calendari: affermazioni che il prototipo non ha ancora verificato su fonti puntuali.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "XXeMcv93I3s",
+        "url": "https://www.youtube.com/watch?v=XXeMcv93I3s",
+        "titolo": "Bruegels Kornernte einfach erklärt: Arbeit, Rast und eine ganze Welt",
+        "canale": "Ein Bild erzählt",
+        "canale_id": "UCwXNAKYYCCZqJ2bR7vIUkNg",
+        "canale_url": "https://www.youtube.com/channel/UCwXNAKYYCCZqJ2bR7vIUkNg",
+        "durata_s": 653,
+        "lingua": "de",
+        "pubblicato_il": "2026-10-18T08:19:23Z",
+        "visualizzazioni": 50,
+        "miniatura": "https://i.ytimg.com/vi/XXeMcv93I3s/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Lettura guidata in tedesco. La descrizione cita l'uomo che riposa sotto l'albero, il pasto e chi continua a lavorare.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a02",
+            "motivazione": "la descrizione cita un uomo che riposa sotto un albero"
+          },
+          {
+            "id": "a01",
+            "motivazione": "la descrizione cita il pasto"
+          },
+          {
+            "id": "a07",
+            "motivazione": "la descrizione cita chi continua a lavorare"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "Pf4qo_2odwQ",
+        "url": "https://www.youtube.com/watch?v=Pf4qo_2odwQ",
+        "titolo": "Why Is This Man Asleep? Bruegel's The Harvesters, Slowly",
+        "canale": "Still Mind Gallery",
+        "canale_id": "UCfFMe80YiK3Eum5C04R2uaA",
+        "canale_url": "https://www.youtube.com/channel/UCfFMe80YiK3Eum5C04R2uaA",
+        "durata_s": 682,
+        "lingua": "en",
+        "pubblicato_il": "2026-10-18T14:00:00Z",
+        "visualizzazioni": 101,
+        "miniatura": "https://i.ytimg.com/vi/Pf4qo_2odwQ/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Osservazione lenta dell'opera. La descrizione elenca i dettagli mostrati: il pasto sotto l'albero, la brocca nascosta nel grano, i bagnanti, il gioco nel villaggio, le navi nella baia.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a01",
+            "motivazione": "la descrizione cita il pasto sotto l'albero"
+          },
+          {
+            "id": "a04",
+            "motivazione": "la descrizione cita la brocca nascosta nel grano"
+          },
+          {
+            "id": "a06",
+            "motivazione": "la descrizione cita un gioco nel villaggio"
+          },
+          {
+            "id": "a08",
+            "motivazione": "la descrizione cita le navi nella baia"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "6n-d5rpscdQ",
+        "url": "https://www.youtube.com/watch?v=6n-d5rpscdQ",
+        "titolo": "A lunch break from 1565, and a man who gave up | Masterpiece #003",
+        "canale": "One Masterpiece a Day",
+        "canale_id": "UCPXc_YhaUBaUUrqwTI5PuzQ",
+        "canale_url": "https://www.youtube.com/channel/UCPXc_YhaUBaUUrqwTI5PuzQ",
+        "durata_s": 53,
+        "lingua": "en",
+        "pubblicato_il": "2026-10-24T17:00:15Z",
+        "visualizzazioni": 254,
+        "miniatura": "https://i.ytimg.com/vi/6n-d5rpscdQ/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video breve sul pasto e sull'uomo che dorme. La descrizione cita anche i bagnanti, un gioco nel prato del villaggio e le navi.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [
+          {
+            "id": "a01",
+            "motivazione": "la descrizione cita il pasto sotto il pero"
+          },
+          {
+            "id": "a02",
+            "motivazione": "la descrizione cita un uomo che dorme"
+          },
+          {
+            "id": "a06",
+            "motivazione": "la descrizione cita un gioco nel prato del villaggio"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "5D6Z0nEcOUs",
+        "url": "https://www.youtube.com/watch?v=5D6Z0nEcOUs",
+        "titolo": "Lunch Break in the Wheat — Bruegel's The Harvesters (1565) 🎨👨🏼‍🎨",
+        "canale": "Sapiens Verbum ",
+        "canale_id": "UC7p33RDDbp8aesBxJBfksMA",
+        "canale_url": "https://www.youtube.com/channel/UC7p33RDDbp8aesBxJBfksMA",
+        "durata_s": 311,
+        "lingua": "en",
+        "pubblicato_il": "2026-09-26T00:37:14Z",
+        "visualizzazioni": 395,
+        "miniatura": "https://i.ytimg.com/vi/5D6Z0nEcOUs/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video sul pasto di mezzogiorno nel campo. La descrizione cita il gruppo che mangia sotto il pero e l'uomo disteso che dorme.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [
+          {
+            "id": "a01",
+            "motivazione": "la descrizione cita il pasto"
+          },
+          {
+            "id": "a02",
+            "motivazione": "la descrizione cita l'uomo che dorme"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "95YEry3UQtw",
+        "url": "https://www.youtube.com/watch?v=95YEry3UQtw",
+        "titolo": "The Sleeper Hidden Inside Bruegel's Harvest",
+        "canale": "Gallery 33",
+        "canale_id": "UCMCvUnnI8j2wTeXctLyFTrQ",
+        "canale_url": "https://www.youtube.com/channel/UCMCvUnnI8j2wTeXctLyFTrQ",
+        "durata_s": 46,
+        "lingua": "en",
+        "pubblicato_il": "2026-08-12T01:00:48Z",
+        "visualizzazioni": 9,
+        "miniatura": "https://i.ytimg.com/vi/95YEry3UQtw/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video breve sull'uomo che dorme. La descrizione distingue ciò che considera documentato da ciò che resta interpretazione.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a02",
+            "motivazione": "titolo e descrizione sono dedicati all'uomo che dorme"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "CFP_c_VPwc8",
+        "url": "https://www.youtube.com/watch?v=CFP_c_VPwc8",
+        "titolo": "Pieter Bruegel Painted a Harvester Fast Asleep Under a Tree",
+        "canale": "PaintingDetective",
+        "canale_id": "UC2G_qkWj507UrxzsoDsRlsA",
+        "canale_url": "https://www.youtube.com/channel/UC2G_qkWj507UrxzsoDsRlsA",
+        "durata_s": 41,
+        "lingua": "en",
+        "pubblicato_il": "2026-10-18T23:00:26Z",
+        "visualizzazioni": 28,
+        "miniatura": "https://i.ytimg.com/vi/CFP_c_VPwc8/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video breve sull'uomo addormentato sotto l'albero; la descrizione cita come fonte dell'immagine l'Open Access del Met.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [
+          {
+            "id": "a02",
+            "motivazione": "titolo e descrizione sono dedicati all'uomo che dorme"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "iJQrnnDPOVY",
+        "url": "https://www.youtube.com/watch?v=iJQrnnDPOVY",
+        "titolo": "Bruegels Kornernte: Das Detail, das fast jeder ÜBERSIEHT",
+        "canale": "Malerei Enthüllt",
+        "canale_id": "UCJL1s_E2QZLhhbCicZzJfZA",
+        "canale_url": "https://www.youtube.com/channel/UCJL1s_E2QZLhhbCicZzJfZA",
+        "durata_s": 574,
+        "lingua": "de",
+        "pubblicato_il": "2026-11-04T17:00:39Z",
+        "visualizzazioni": 9,
+        "miniatura": "https://i.ytimg.com/vi/iJQrnnDPOVY/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video in tedesco su un dettaglio «che quasi tutti trascurano»; la descrizione parla dell'uomo disteso sotto l'albero.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [
+          {
+            "id": "a02",
+            "motivazione": "la descrizione cita un uomo disteso sotto l'albero"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "9UeFR4TuUuY",
+        "url": "https://www.youtube.com/watch?v=9UeFR4TuUuY",
+        "titolo": "The Hidden Meaning in Bruegel's Harvesters That Art Historians Debate",
+        "canale": "FramedSecrets",
+        "canale_id": "UCuhIE-J6nngyS40wGJdrb4Q",
+        "canale_url": "https://www.youtube.com/channel/UCuhIE-J6nngyS40wGJdrb4Q",
+        "durata_s": 135,
+        "lingua": "en",
+        "pubblicato_il": "2026-09-19T04:38:24Z",
+        "visualizzazioni": 116,
+        "miniatura": "https://i.ytimg.com/vi/9UeFR4TuUuY/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video breve su letture discusse dell'opera. La descrizione cita l'uomo che dorme, l'albero che divide la scena e il campanile lontano.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "conversazioni",
+        "categoria_testo": "Conversazioni sull'opera",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a11",
+            "motivazione": "la descrizione dice che l'albero divide la scena: vicina all'ipotesi della regione"
+          },
+          {
+            "id": "a09",
+            "motivazione": "la descrizione cita il campanile lontano"
+          },
+          {
+            "id": "a02",
+            "motivazione": "la descrizione cita l'uomo che dorme"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "vPhiX8QgMiA",
+        "url": "https://www.youtube.com/watch?v=vPhiX8QgMiA",
+        "titolo": "How this innocent painting hides a dangerous reality",
+        "canale": "Nirva",
+        "canale_id": "UCR4Ifg_vTcE8JSP4x23_jWw",
+        "canale_url": "https://www.youtube.com/channel/UCR4Ifg_vTcE8JSP4x23_jWw",
+        "durata_s": 512,
+        "lingua": "en",
+        "pubblicato_il": "2026-01-23T17:41:51Z",
+        "visualizzazioni": 2767,
+        "miniatura": "https://i.ytimg.com/vi/vPhiX8QgMiA/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "descrizione"
+        ],
+        "motivazione": "La descrizione propone letture simboliche: il pero come tentazione, il dormiente come accidia, la chiesa come incertezza religiosa. Sono interpretazioni del video, senza fonti indicate.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [
+          "propone letture simboliche non documentate nel prototipo"
+        ],
+        "categoria": "conversazioni",
+        "categoria_testo": "Conversazioni sull'opera",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a02",
+            "motivazione": "la descrizione interpreta il dormiente"
+          },
+          {
+            "id": "a09",
+            "motivazione": "la descrizione interpreta la chiesa"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "yQroU4AleEg",
+        "url": "https://www.youtube.com/watch?v=yQroU4AleEg",
+        "titolo": "Bruegel creates a reverse panorama in The Harvesters",
+        "canale": "Robert Najlis",
+        "canale_id": "UCnwS1Hrcev-GX5g31qxVwag",
+        "canale_url": "https://www.youtube.com/channel/UCnwS1Hrcev-GX5g31qxVwag",
+        "durata_s": 1193,
+        "lingua": "en",
+        "pubblicato_il": "2025-08-14T16:38:37Z",
+        "visualizzazioni": 530,
+        "miniatura": "https://i.ytimg.com/vi/yQroU4AleEg/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Analisi di quasi 20 minuti dello spazio pittorico dell'opera («panorama rovesciato», secondo il titolo).",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "conversazioni",
+        "categoria_testo": "Conversazioni sull'opera",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [
+          {
+            "id": "a12",
+            "motivazione": "il video tratta la costruzione dello spazio, tema della regione"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "iQJKH4rRWIw",
+        "url": "https://www.youtube.com/watch?v=iQJKH4rRWIw",
+        "titolo": "A cleaning revealed the painter's own signature on Bruegel's The Harvesters 🌾",
+        "canale": "Living Art Ambience",
+        "canale_id": "UCrSJIKg-W6dEiBEhJfZ4dmA",
+        "canale_url": "https://www.youtube.com/channel/UCrSJIKg-W6dEiBEhJfZ4dmA",
+        "durata_s": 33,
+        "lingua": "en",
+        "pubblicato_il": "2026-10-16T15:02:48Z",
+        "visualizzazioni": 271,
+        "miniatura": "https://i.ytimg.com/vi/iQJKH4rRWIw/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Il titolo afferma che una pulitura ha rivelato la firma del pittore; la descrizione attribuisce a Keith Christiansen del Met una lettura dei bagnanti. Affermazioni non verificate dal prototipo.",
+        "affidabilita": "da_verificare",
+        "affidabilita_testo": "Affermazioni da verificare",
+        "avvertenze": [
+          "affermazioni non verificate",
+          "canale di contenuti d'ambiente"
+        ],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [
+          {
+            "id": "a13",
+            "motivazione": "il titolo parla della firma, che il prototipo legge solo in parte (lacuna)"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "S_hA6AlC7aw",
+        "url": "https://www.youtube.com/watch?v=S_hA6AlC7aw",
+        "titolo": "The Fingerprint Hidden in Bruegel's Harvesters",
+        "canale": "Under the Paint",
+        "canale_id": "UCRSYRkMEFcUBpH5K1by5jyA",
+        "canale_url": "https://www.youtube.com/channel/UCRSYRkMEFcUBpH5K1by5jyA",
+        "durata_s": 101,
+        "lingua": "en",
+        "pubblicato_il": "2026-10-11T14:40:54Z",
+        "visualizzazioni": 24,
+        "miniatura": "https://i.ytimg.com/vi/S_hA6AlC7aw/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "opera_esatta",
+        "relazione_testo": "Parla direttamente dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Il video dichiara di mostrare immagini a infrarossi, raggi X e microscopio con un'impronta digitale nel colore. Il prototipo non ha verificato queste immagini né la loro provenienza.",
+        "affidabilita": "da_verificare",
+        "affidabilita_testo": "Affermazioni da verificare",
+        "avvertenze": [
+          "affermazioni tecniche non verificate"
+        ],
+        "categoria": "dettagli",
+        "categoria_testo": "Dettagli da scoprire",
+        "percorsi": [
+          "curioso",
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "oNJsgVVHEZE",
+        "url": "https://www.youtube.com/watch?v=oNJsgVVHEZE",
+        "titolo": "What's the blue ball in the sky? Bruegel's Harvesters, brought to life by AI",
+        "canale": "What the Frame?",
+        "canale_id": "UC86vOgZ4mvQLK72dTrvLCrA",
+        "canale_url": "https://www.youtube.com/channel/UC86vOgZ4mvQLK72dTrvLCrA",
+        "durata_s": 49,
+        "lingua": "en",
+        "pubblicato_il": "2026-11-04T09:10:28Z",
+        "visualizzazioni": 605,
+        "miniatura": "https://i.ytimg.com/vi/oNJsgVVHEZE/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "dettaglio",
+        "relazione_testo": "Approfondisce un dettaglio",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Video breve sulla sfera blu nel cielo; la descrizione riporta una frase attribuita al Met. Il titolo dichiara un'animazione generata con AI.",
+        "affidabilita": "da_verificare",
+        "affidabilita_testo": "Affermazioni da verificare",
+        "avvertenze": [
+          "immagini animate con AI (dichiarato nel titolo)",
+          "citazione non verificata"
+        ],
+        "categoria": "cultura_pop",
+        "categoria_testo": "Arte e cultura pop",
+        "percorsi": [
+          "curioso",
+          "ispirazione"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "2_4Eob5h2-I",
+        "url": "https://www.youtube.com/watch?v=2_4Eob5h2-I",
+        "titolo": "My Analysis on Pieter Bruegel the Elder Masterpiece “Haymaking” at Prague Castle, Czechia",
+        "canale": "Roland 'Roly' Keates aka Lost Histories",
+        "canale_id": "UCDfS5FR9XCVxSMB-V4Q7iTw",
+        "canale_url": "https://www.youtube.com/channel/UCDfS5FR9XCVxSMB-V4Q7iTw",
+        "durata_s": 340,
+        "lingua": "en-GB",
+        "pubblicato_il": "2024-12-17T15:31:08Z",
+        "visualizzazioni": 150,
+        "miniatura": "https://i.ytimg.com/vi/2_4Eob5h2-I/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "contesto",
+        "relazione_testo": "Contesto: serie, pittore, epoca",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Analisi di Fienagione, un'altra tavola della stessa serie secondo Wikidata. La descrizione parla della serie e del suo committente.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "studio",
+          "ispirazione"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "8SmfkUDc2_4",
+        "url": "https://www.youtube.com/watch?v=8SmfkUDc2_4",
+        "titolo": "The Hunters in the Snow",
+        "canale": "Faces of Ancient Europe",
+        "canale_id": "UCXqfbPOyADaV_v38Gp4CiiA",
+        "canale_url": "https://www.youtube.com/channel/UCXqfbPOyADaV_v38Gp4CiiA",
+        "durata_s": 390,
+        "lingua": "en",
+        "pubblicato_il": "2018-10-29T17:57:39Z",
+        "visualizzazioni": 3701,
+        "miniatura": "https://i.ytimg.com/vi/8SmfkUDc2_4/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "contesto",
+        "relazione_testo": "Contesto: serie, pittore, epoca",
+        "evidenza": [
+          "titolo",
+          "canale"
+        ],
+        "motivazione": "Episodio su Cacciatori nella neve, altra tavola della serie, dello stesso canale dell'episodio sui Mietitori.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "ispirazione"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "2XOV7V2Sj3k",
+        "url": "https://www.youtube.com/watch?v=2XOV7V2Sj3k",
+        "titolo": "1565 P. Bruegel il Vecchio - Ciclo dei Mesi - La fienagione",
+        "canale": "Giovanni Tucci",
+        "canale_id": "UCWO_Y0inmEXRFQn4n9r3BwA",
+        "canale_url": "https://www.youtube.com/channel/UCWO_Y0inmEXRFQn4n9r3BwA",
+        "durata_s": 644,
+        "lingua": "it",
+        "pubblicato_il": "2025-01-17T21:41:55Z",
+        "visualizzazioni": 36,
+        "miniatura": "https://i.ytimg.com/vi/2XOV7V2Sj3k/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "contesto",
+        "relazione_testo": "Contesto: serie, pittore, epoca",
+        "evidenza": [
+          "titolo"
+        ],
+        "motivazione": "Video in italiano su Fienagione, presentata nel titolo come parte del ciclo dei Mesi.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "ispirazione"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "AIjKb5NDaoc",
+        "url": "https://www.youtube.com/watch?v=AIjKb5NDaoc",
+        "titolo": "10 choses à savoir sur Pieter Brueghel l’Ancien • FRANCE 24",
+        "canale": "FRANCE 24",
+        "canale_id": "UCCCPCZNChQdGa9EkATeye4g",
+        "canale_url": "https://www.youtube.com/channel/UCCCPCZNChQdGa9EkATeye4g",
+        "durata_s": 454,
+        "lingua": "fr",
+        "pubblicato_il": "2023-05-25T07:26:55Z",
+        "visualizzazioni": 17721,
+        "miniatura": "https://i.ytimg.com/vi/AIjKb5NDaoc/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "contesto",
+        "relazione_testo": "Contesto: serie, pittore, epoca",
+        "evidenza": [
+          "titolo",
+          "canale"
+        ],
+        "motivazione": "Presentazione del pittore in dieci punti, prodotta da un'emittente pubblica francese. Non è dedicata a quest'opera.",
+        "affidabilita": "editoriale",
+        "affidabilita_testo": "Editore o emittente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "curioso"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "4Vql8jH_XIA",
+        "url": "https://www.youtube.com/watch?v=4Vql8jH_XIA",
+        "titolo": "Pieter BRUEGEL Explained in 10 Minutes (updated)",
+        "canale": "TheHistoryOfArt",
+        "canale_id": "UC2JIYe-LsG3qHbKfQpAXWBw",
+        "canale_url": "https://www.youtube.com/channel/UC2JIYe-LsG3qHbKfQpAXWBw",
+        "durata_s": 593,
+        "lingua": "en-GB",
+        "pubblicato_il": "2025-07-18T08:37:31Z",
+        "visualizzazioni": 20193,
+        "miniatura": "https://i.ytimg.com/vi/4Vql8jH_XIA/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "contesto",
+        "relazione_testo": "Contesto: serie, pittore, epoca",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Introduzione di dieci minuti all'opera complessiva del pittore. Non è dedicata a quest'opera.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "opera_raccontata",
+        "categoria_testo": "L'opera raccontata",
+        "percorsi": [
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "qm69uhPH-Kc",
+        "url": "https://www.youtube.com/watch?v=qm69uhPH-Kc",
+        "titolo": "Why Death Carries a Scythe | Van Gogh, Bruegel, Homer, Monet",
+        "canale": "9 Art Prints",
+        "canale_id": "UCZS38XY_FZf0ih8WBrSFqPQ",
+        "canale_url": "https://www.youtube.com/channel/UCZS38XY_FZf0ih8WBrSFqPQ",
+        "durata_s": 52,
+        "lingua": "en",
+        "pubblicato_il": "2026-11-05T00:37:44Z",
+        "visualizzazioni": 1038,
+        "miniatura": "https://i.ytimg.com/vi/qm69uhPH-Kc/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "analogia",
+        "relazione_testo": "Collegamento tematico, non analisi dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione"
+        ],
+        "motivazione": "Collegamento tematico: la falce e il mietitore in pittori di epoche diverse (Bruegel, Van Gogh, Homer, Monet). Non è un'analisi diretta di quest'opera.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [],
+        "categoria": "cultura_pop",
+        "categoria_testo": "Arte e cultura pop",
+        "percorsi": [
+          "ispirazione"
+        ],
+        "annotazioni": [
+          {
+            "id": "a05",
+            "motivazione": "collegamento tematico: la falce e il gesto del mietere"
+          }
+        ],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "BEvxUxXEr-Y",
+        "url": "https://www.youtube.com/watch?v=BEvxUxXEr-Y",
+        "titolo": "Reforming Nature: Agriculture and Moral Renewal in Leandro Bassano’s series of the Months",
+        "canale": "Kunsthistorisches Museum Wien",
+        "canale_id": "UC4n0woAs2nZXNCTY-Dlo1hw",
+        "canale_url": "https://www.youtube.com/channel/UC4n0woAs2nZXNCTY-Dlo1hw",
+        "durata_s": 3091,
+        "lingua": "de",
+        "pubblicato_il": "2025-06-25T10:56:45Z",
+        "visualizzazioni": 609,
+        "miniatura": "https://i.ytimg.com/vi/BEvxUxXEr-Y/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "analogia",
+        "relazione_testo": "Collegamento tematico, non analisi dell'opera",
+        "evidenza": [
+          "titolo",
+          "descrizione",
+          "canale"
+        ],
+        "motivazione": "Conferenza del Kunsthistorisches Museum di Vienna su una serie dei Mesi di Leandro Bassano, pittore veneto. Collegamento tematico con la serie di Bruegel, non un'analisi di quest'opera.",
+        "affidabilita": "istituzionale",
+        "affidabilita_testo": "Istituzione culturale",
+        "avvertenze": [],
+        "categoria": "conversazioni",
+        "categoria_testo": "Conversazioni sull'opera",
+        "percorsi": [
+          "ispirazione",
+          "studio"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      },
+      {
+        "piattaforma": "youtube",
+        "video_id": "lfmmkNf7DVg",
+        "url": "https://www.youtube.com/watch?v=lfmmkNf7DVg",
+        "titolo": "\"Il Regno dei cieli è simile a...\" -La mietitura da Bruegel a Van Gogh - Vangelo con arte don Ruzzi",
+        "canale": "Parrocchie 3.1",
+        "canale_id": "UCqRmapW1JscOFa6oXPJ2HDQ",
+        "canale_url": "https://www.youtube.com/channel/UCqRmapW1JscOFa6oXPJ2HDQ",
+        "durata_s": 322,
+        "lingua": "it",
+        "pubblicato_il": "2023-07-23T03:33:24Z",
+        "visualizzazioni": 68,
+        "miniatura": "https://i.ytimg.com/vi/lfmmkNf7DVg/mqdefault.jpg",
+        "verificato_il": "2026-11-06T15:13:46+00:00",
+        "da_ricontrollare": false,
+        "relazione": "analogia",
+        "relazione_testo": "Collegamento tematico, non analisi dell'opera",
+        "evidenza": [
+          "titolo"
+        ],
+        "motivazione": "Commento a un passo del Vangelo attraverso immagini della mietitura, da Bruegel a Van Gogh. Lettura religiosa e tematica, non analisi storico-artistica.",
+        "affidabilita": "divulgazione",
+        "affidabilita_testo": "Divulgazione indipendente",
+        "avvertenze": [
+          "lettura religiosa"
+        ],
+        "categoria": "cultura_pop",
+        "categoria_testo": "Arte e cultura pop",
+        "percorsi": [
+          "ispirazione"
+        ],
+        "annotazioni": [],
+        "stato": "candidato",
+        "giudizio": {
+          "tipo": "ai",
+          "modello": "claude-opus-5-5",
+          "data": "2026-11-06",
+          "base": "titolo, descrizione e canale; video non guardato"
+        }
+      }
+    ],
+    "selezioni": {
+      "curioso": [
+        {
+          "id": "T-XAR-p790c",
+          "punteggio": 0.912,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 1.0,
+            "intento": 1.0,
+            "freschezza": 0.2,
+            "interesse": 0.85,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "HaI877BIU94",
+          "punteggio": 0.864,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.8,
+            "intento": 1.0,
+            "freschezza": 0.37,
+            "interesse": 0.54,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "5D6Z0nEcOUs",
+          "punteggio": 0.836,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.43,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "6n-d5rpscdQ",
+          "punteggio": 0.835,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 1.0,
+            "interesse": 0.4,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "9UeFR4TuUuY",
+          "punteggio": 0.831,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.34,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "meKnasmBuc8",
+          "punteggio": 0.831,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.57,
+            "interesse": 0.48,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "CFP_c_VPwc8",
+          "punteggio": 0.827,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 1.0,
+            "interesse": 0.24,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "95YEry3UQtw",
+          "punteggio": 0.822,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.98,
+            "interesse": 0.17,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "S_hA6AlC7aw",
+          "punteggio": 0.785,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.3,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.23,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "Pf4qo_2odwQ",
+          "punteggio": 0.77,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 0.6,
+            "freschezza": 0.99,
+            "interesse": 0.33,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "XXeMcv93I3s",
+          "punteggio": 0.768,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 0.6,
+            "freschezza": 0.99,
+            "interesse": 0.28,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "iJQrnnDPOVY",
+          "punteggio": 0.763,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 0.6,
+            "freschezza": 1.0,
+            "interesse": 0.17,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "oNJsgVVHEZE",
+          "punteggio": 0.763,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.3,
+            "intento": 1.0,
+            "freschezza": 1.0,
+            "interesse": 0.46,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "iQJKH4rRWIw",
+          "punteggio": 0.759,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.3,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.41,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "AIjKb5NDaoc",
+          "punteggio": 0.701,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.8,
+            "intento": 0.6,
+            "freschezza": 0.65,
+            "interesse": 0.71,
+            "diversita": 1.0
+          }
+        }
+      ],
+      "studio": [
+        {
+          "id": "T-XAR-p790c",
+          "punteggio": 0.912,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 1.0,
+            "intento": 1.0,
+            "freschezza": 0.2,
+            "interesse": 0.85,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "vPhiX8QgMiA",
+          "punteggio": 0.87,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.92,
+            "interesse": 0.57,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "yQroU4AleEg",
+          "punteggio": 0.86,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.88,
+            "interesse": 0.45,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "kK9WuFk-Pto",
+          "punteggio": 0.848,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.81,
+            "interesse": 0.34,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "Pf4qo_2odwQ",
+          "punteggio": 0.831,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.33,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "XXeMcv93I3s",
+          "punteggio": 0.828,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.99,
+            "interesse": 0.28,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "HaI877BIU94",
+          "punteggio": 0.804,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.8,
+            "intento": 0.6,
+            "freschezza": 0.37,
+            "interesse": 0.54,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "TGXg60Dh040",
+          "punteggio": 0.798,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.2,
+            "interesse": 0.56,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "9UeFR4TuUuY",
+          "punteggio": 0.771,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 0.6,
+            "freschezza": 0.99,
+            "interesse": 0.34,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "BEvxUxXEr-Y",
+          "punteggio": 0.749,
+          "componenti": {
+            "pertinenza": 0.4,
+            "qualita": 1.0,
+            "intento": 1.0,
+            "freschezza": 0.86,
+            "interesse": 0.46,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "M9LGTv71Fbg",
+          "punteggio": 0.742,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.6,
+            "intento": 0.3,
+            "freschezza": 0.8,
+            "interesse": 0.34,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "4Vql8jH_XIA",
+          "punteggio": 0.733,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.87,
+            "interesse": 0.72,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "95YEry3UQtw",
+          "punteggio": 0.717,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.6,
+            "intento": 0.3,
+            "freschezza": 0.98,
+            "interesse": 0.17,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "2_4Eob5h2-I",
+          "punteggio": 0.709,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.81,
+            "interesse": 0.36,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "S_hA6AlC7aw",
+          "punteggio": 0.68,
+          "componenti": {
+            "pertinenza": 1.0,
+            "qualita": 0.3,
+            "intento": 0.3,
+            "freschezza": 0.99,
+            "interesse": 0.23,
+            "diversita": 1.0
+          }
+        }
+      ],
+      "ispirazione": [
+        {
+          "id": "oNJsgVVHEZE",
+          "punteggio": 0.763,
+          "componenti": {
+            "pertinenza": 0.9,
+            "qualita": 0.3,
+            "intento": 1.0,
+            "freschezza": 1.0,
+            "interesse": 0.46,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "BEvxUxXEr-Y",
+          "punteggio": 0.749,
+          "componenti": {
+            "pertinenza": 0.4,
+            "qualita": 1.0,
+            "intento": 1.0,
+            "freschezza": 0.86,
+            "interesse": 0.46,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "2_4Eob5h2-I",
+          "punteggio": 0.709,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.81,
+            "interesse": 0.36,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "2XOV7V2Sj3k",
+          "punteggio": 0.705,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.82,
+            "interesse": 0.26,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "qm69uhPH-Kc",
+          "punteggio": 0.665,
+          "componenti": {
+            "pertinenza": 0.4,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 1.0,
+            "interesse": 0.5,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "8SmfkUDc2_4",
+          "punteggio": 0.659,
+          "componenti": {
+            "pertinenza": 0.6,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.2,
+            "interesse": 0.59,
+            "diversita": 1.0
+          }
+        },
+        {
+          "id": "lfmmkNf7DVg",
+          "punteggio": 0.622,
+          "componenti": {
+            "pertinenza": 0.4,
+            "qualita": 0.6,
+            "intento": 1.0,
+            "freschezza": 0.67,
+            "interesse": 0.31,
+            "diversita": 1.0
+          }
+        }
+      ]
+    },
+    "conteggi": {
+      "curati": 27,
+      "respinti": 7,
+      "non_disponibili": 0,
+      "da_ricontrollare": 0,
+      "non_pubblicati": 0
+    },
+    "pesi": {
+      "pertinenza": 0.35,
+      "qualita": 0.25,
+      "intento": 0.15,
+      "diversita": 0.1,
+      "freschezza": 0.1,
+      "interesse": 0.05
+    },
+    "stato_fonte": "ok",
+    "verificato_il": "2026-11-06T15:13:46+00:00"
+  },
   "fonti": {
-    "met-435809": {
-      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
-      "tipo": "scheda istituzionale (dati strutturati)",
-      "url": "https://www.metmuseum.org/art/collection/search/435809",
-      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+    "wikidata-Q114707348": {
+      "titolo": "Wikidata, elemento Q114707348 (Summer: the wheat harvest)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q114707348",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q114707348",
       "consultato": "2026-11-06",
-      "licenza": "CC0 (metadati)",
-      "note": "metadataDate della fonte: 2026-08-21"
+      "licenza": "CC0"
+    },
+    "wikidata-Q119001118": {
+      "titolo": "Wikidata, elemento Q119001118 (estate)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q119001118",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q119001118",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q1213437": {
+      "titolo": "Wikidata, elemento Q1213437 (Fienagione)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q1213437",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q1213437",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q3855265": {
+      "titolo": "Wikidata, elemento Q3855265 (Mesi)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q3855265",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q3855265",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q500985": {
+      "titolo": "Wikidata, elemento Q500985 (Cacciatori nella neve)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q500985",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q500985",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q68838092": {
+      "titolo": "Wikidata, elemento Q68838092 (Estate)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q68838092",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q68838092",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q698219": {
+      "titolo": "Wikidata, elemento Q698219 (Giornata buia)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q698219",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q698219",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q698254": {
+      "titolo": "Wikidata, elemento Q698254 (Ritorno della mandria)",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q698254",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q698254",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
     },
     "wikidata-Q776175": {
       "titolo": "Wikidata, elemento Q776175",
@@ -1264,6 +4046,69 @@
       "consultato": "2026-11-06",
       "licenza": "CC0",
       "note": "Molte asserzioni non hanno riferimenti: vanno lette come dato da verificare."
+    },
+    "commons-0026b770944a": {
+      "titolo": "Wikimedia Commons, Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20the%20Elder%20-%20Hunters%20in%20the%20Snow%20%28Winter%29%20-%20Google%20Art%20Project.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "6819 × 4853 px. Crediti: WgFmzFNNN74nUg at Google Cultural Institute maximum zoom level"
+    },
+    "commons-064b8e50756c": {
+      "titolo": "Wikimedia Commons, Breughel, Pieter (II) - Summer - E632.jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ABreughel%2C%20Pieter%20%28II%29%20-%20Summer%20-%20E632.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "650 × 454 px. Crediti: https://rkd.nl/en/explore/images/54304"
+    },
+    "commons-1641dcdcb9d8": {
+      "titolo": "Wikimedia Commons, Pieter Bruegel d. Ä., , Kunsthistorisches Museum Wien, Gemäldegalerie - Heimkehr der Herde (Herbst) - GG 1018 - Kunsthistorisches Museum.jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84.,_,_Kunsthistorisches_Museum_Wien,_Gem%C3%A4ldegalerie_-_Heimkehr_der_Herde_(Herbst)_-_GG_1018_-_Kunsthistorisches_Museum.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20d.%20%C3%84.%2C%20%2C%20Kunsthistorisches%20Museum%20Wien%2C%20Gem%C3%A4ldegalerie%20-%20Heimkehr%20der%20Herde%20%28Herbst%29%20-%20GG%201018%20-%20Kunsthistorisches%20Museum.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "3000 × 2192 px. Crediti: Kunsthistorisches Museum"
+    },
+    "commons-7fb02c4590f6": {
+      "titolo": "Wikimedia Commons, The haymaking, by Pieter Bruegel (I).jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:The_haymaking,_by_Pieter_Bruegel_(I).jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20haymaking%2C%20by%20Pieter%20Bruegel%20%28I%29.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "2117 × 1528 px. Crediti: https://archive.is/Iy5v3/77829be0b0be73d3ab55f7d17c08bf458090357f.jpg https://archive.is/Yc0Gs Kunsthistorisches Museum Webarchive snapshot"
+    },
+    "commons-d42300e2d84a": {
+      "titolo": "Wikimedia Commons, Pieter Brueghel (II) - The four seasons, summer (Bukarest).jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_(II)_-_The_four_seasons,_summer_(Bukarest).jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Brueghel%20%28II%29%20-%20The%20four%20seasons%2C%20summer%20%28Bukarest%29.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "3094 × 2290 px. Crediti: Muzeul Național de Artă al României"
+    },
+    "commons-fd2192fcd325": {
+      "titolo": "Wikimedia Commons, The Gloomy Day (Bruegel).jpg",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Gloomy_Day_(Bruegel).jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20Gloomy%20Day%20%28Bruegel%29.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "41296 × 30072 px. Crediti: http://insidebruegel.net/"
+    },
+    "met-435809": {
+      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "url": "https://www.metmuseum.org/art/collection/search/435809",
+      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+      "consultato": "2026-11-06",
+      "licenza": "CC0 (metadati)",
+      "note": "metadataDate della fonte: 2026-08-21"
     },
     "iconclass": {
       "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",

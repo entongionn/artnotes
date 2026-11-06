@@ -1,0 +1,57 @@
+{
+  "opera": "met:435809",
+  "nota": "Connessioni con altre opere. Tipo: documentata (rapporto registrato da una fonte), interpretativa (somiglianza argomentata), algoritmica (calcolata dai dati). Nessun legame storico è dedotto da una somiglianza. Bozze generate da AI, non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "connessioni": [
+    {
+      "id": "k01",
+      "tipo": "documentata",
+      "relazione": "stessa serie",
+      "titolo": "Le altre tavole della serie dei Mesi",
+      "opere": ["Q500985", "Q698219", "Q698254", "Q1213437"],
+      "blocchi": [
+        {"registro": "documentato", "testo": "Secondo Wikidata I mietitori fa parte della serie «Mesi» (in inglese «Labours of the months»), dipinta da Pieter Bruegel il Vecchio e datata 1565. L'elemento della serie elenca cinque tavole: I mietitori, Cacciatori nella neve, Giornata buia, Ritorno della mandria e Fienagione. Né l'appartenenza alla serie né l'elenco delle tavole citano un riferimento.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P361"], "nota": "senza riferimenti"}, {"fonte": "wikidata-Q3855265", "campi": ["P527", "P170", "P571"], "nota": "senza riferimenti"}]},
+        {"registro": "documentato", "testo": "Wikidata registra per la serie sei dipinti in tutto, di cui cinque conservati, e indica come collezione Nicolaes Jonghelinck. Anche queste asserzioni sono senza riferimenti.", "fonti": [{"fonte": "wikidata-Q3855265", "campi": ["P2635", "P195"], "nota": "senza riferimenti"}]},
+        {"registro": "lacuna", "testo": "Per Fienagione l'elemento Wikidata elenca più collezioni in momenti diversi, più numeri d'inventario e, fra le immagini, una versione attribuita a Pieter Brueghel il Giovane. Non è chiaro se tutti questi dati riguardino lo stesso dipinto: collocazione e immagine vanno verificate prima di essere presentate come certe.", "fonti": [{"fonte": "wikidata-Q1213437", "campi": ["P195", "P217", "P18"]}]},
+        {"registro": "lacuna", "testo": "Le fonti del prototipo non dicono a quale mese o periodo dell'anno corrisponda ciascuna tavola, né come la serie fosse esposta.", "fonti": []}
+      ],
+      "stato": "bozza"
+    },
+    {
+      "id": "k02",
+      "tipo": "documentata",
+      "relazione": "opera derivata",
+      "titolo": "Dopo Bruegel: due «Estate» di Pieter Brueghel il Giovane",
+      "opere": ["Q114707348", "Q68838092"],
+      "blocchi": [
+        {"registro": "documentato", "testo": "Wikidata registra opere derivate dai Mietitori. La prima è «Summer: the wheat harvest» di Pieter Brueghel il Giovane, datata 1624: la relazione cita come riferimento la scheda RKDimages 54304. La seconda è un gruppo di dipinti intitolato «estate», senza riferimenti; ne fa parte un'«Estate» dello stesso pittore conservata al Museo nazionale d'arte rumena di Bucarest.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P4969"]}, {"fonte": "wikidata-Q114707348", "campi": ["P144", "P170", "P571"], "nota": "riferimento: RKDimages 54304"}, {"fonte": "wikidata-Q119001118", "campi": ["P144", "P527"], "nota": "senza riferimenti"}, {"fonte": "wikidata-Q68838092", "campi": ["P170", "P195"]}]},
+        {"registro": "osservazione", "testo": "Nelle due «Estate» la scena non ripete quella dei Mietitori. Il campanile è a sinistra, un corso d'acqua a destra, e in primo piano compaiono figure che nel dipinto del Met non ci sono, come l'uomo che beve da una grande brocca nella versione di Bucarest. Ritornano invece motivi simili: il gruppo che mangia, i covoni, una figura distesa nella versione del 1624.", "fonti": [{"fonte": "commons-064b8e50756c"}, {"fonte": "commons-d42300e2d84a"}, {"fonte": "foto-met-DP119115"}]},
+        {"registro": "lacuna", "testo": "In che senso queste opere siano «basate» sui Mietitori (copia, ripresa di singoli motivi, derivazione da un altro modello) le fonti lette non lo dicono. Il record RKD citato da Wikidata è stato consultato in formato dati (data.rkd.nl/images/54304), ma la nota sulla relazione non era leggibile senza strumenti ulteriori.", "fonti": []}
+      ],
+      "stato": "bozza"
+    },
+    {
+      "id": "k03",
+      "tipo": "interpretativa",
+      "relazione": "soluzione compositiva simile",
+      "titolo": "Due vedute che scendono verso la pianura",
+      "opere": ["Q500985"],
+      "blocchi": [
+        {"registro": "ipotesi", "testo": "In entrambe le tavole un primo piano rialzato, con alberi alti e verticali, si affaccia su una pianura lontana. Nei Mietitori la veduta si apre a sinistra dell'albero; nei Cacciatori nella neve, a destra della fila di alberi. È un confronto proposto dall'AI guardando le due immagini: una somiglianza formale, non la prova di un rapporto voluto.", "fonti": [{"fonte": "foto-met-DP119115"}, {"fonte": "commons-0026b770944a"}]}
+      ],
+      "annotazioni": ["a11", "a12"],
+      "stato": "bozza"
+    },
+    {
+      "id": "k04",
+      "tipo": "algoritmica",
+      "relazione": "notazioni Iconclass in comune",
+      "titolo": "Soggetti classificati in comune",
+      "calcolo": {"metodo": "iconclass_condivise", "soglia": 2, "candidati": ["Q500985", "Q698219", "Q698254", "Q1213437", "Q114707348"]},
+      "blocchi": [
+        {"registro": "documentato", "testo": "Confronto calcolato sulle notazioni Iconclass che Wikidata assegna a ciascuna opera (proprietà P1257). Misura quanti soggetti classificati due opere hanno in comune: non è una somiglianza visiva né un rapporto storico.", "fonti": [{"fonte": "wikidata-Q776175", "campi": ["P1257"], "nota": "asserzioni senza riferimenti"}]}
+      ],
+      "stato": "bozza"
+    }
+  ]
+}

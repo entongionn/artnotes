@@ -1,6 +1,6 @@
 {
   "schema": "artnotes-prototipo/0.1",
-  "generato_il": "2026-11-06T12:04:13",
+  "generato_il": "2026-11-06T16:26:52",
   "modalita": "pubblico",
   "opera": {
     "id": "met:435809",
@@ -262,7 +262,7 @@
   },
   "copertura": {
     "catalogo": "Dati essenziali presenti (Met, Wikidata).",
-    "approfondimenti_documentati": "0 interpretazioni con fonte bibliografica. Testo critico ancora assente.",
+    "approfondimenti_documentati": "0 interpretazioni attribuite a fonti, 0 da letteratura critica. Testo critico ancora assente.",
     "annotazioni": "0 regioni, nessuna revisionata.",
     "revisione_umana": "Nessun contenuto revisionato."
   },
@@ -298,20 +298,40 @@
     {
       "id": "confronti",
       "titolo": "Confronti",
-      "blocchi": []
+      "blocchi": [],
+      "mostra_connessioni": true
     }
   ],
   "annotazioni": [],
-  "fonti": {
-    "met-435809": {
-      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
-      "tipo": "scheda istituzionale (dati strutturati)",
-      "url": "https://www.metmuseum.org/art/collection/search/435809",
-      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
-      "consultato": "2026-11-06",
-      "licenza": "CC0 (metadati)",
-      "note": "metadataDate della fonte: 2026-08-21"
+  "percorsi": [],
+  "connessioni": [],
+  "pulse": {
+    "politica": "ArtNotes Pulse segnala contenuti pubblici di terzi. Non sono contenuti di ArtNotes e non sono verificati scientificamente: ogni suggerimento dice perché è stato scelto e che cosa lo collega all'opera. La popolarità pesa poco (5%) e non equivale ad accuratezza. I video non sono incorporati: i link aprono la piattaforma originale. Le miniature sono caricate dai server di YouTube.",
+    "contenuti": [],
+    "selezioni": {
+      "curioso": [],
+      "studio": [],
+      "ispirazione": []
     },
+    "conteggi": {
+      "curati": 27,
+      "respinti": 7,
+      "non_disponibili": 0,
+      "da_ricontrollare": 0,
+      "non_pubblicati": 27
+    },
+    "pesi": {
+      "pertinenza": 0.35,
+      "qualita": 0.25,
+      "intento": 0.15,
+      "diversita": 0.1,
+      "freschezza": 0.1,
+      "interesse": 0.05
+    },
+    "stato_fonte": "ok",
+    "verificato_il": "2026-11-06T15:13:46+00:00"
+  },
+  "fonti": {
     "wikidata-Q776175": {
       "titolo": "Wikidata, elemento Q776175",
       "tipo": "base di conoscenza collaborativa",
@@ -321,13 +341,14 @@
       "licenza": "CC0",
       "note": "Molte asserzioni non hanno riferimenti: vanno lette come dato da verificare."
     },
-    "iconclass": {
-      "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",
-      "tipo": "sistema di classificazione iconografica",
-      "url": "https://iconclass.org/47I14",
+    "met-435809": {
+      "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "url": "https://www.metmuseum.org/art/collection/search/435809",
+      "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
       "consultato": "2026-11-06",
-      "licenza": "da verificare",
-      "note": "Etichette italiane lette da iconclass.org. Le notazioni provengono da Wikidata."
+      "licenza": "CC0 (metadati)",
+      "note": "metadataDate della fonte: 2026-08-21"
     },
     "foto-met-DP119115": {
       "titolo": "Fotografia DP119115.jpg (3811 × 2809 px)",

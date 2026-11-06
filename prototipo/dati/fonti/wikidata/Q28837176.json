@@ -1,0 +1,233 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q28837176",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q28837176",
+    "data": "2026-11-06T15:01:33+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q28837176",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Heilbrunn Timeline of Art History"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b8abbe4be41b51322810e319a338d2a04d824c35",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 186117,
+                  "id": "Q186117"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q28837176$3b1130d1-43d7-94e9-e0dc-023e509ccd79",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "164098cbe8f341cad3e6ee5aecd93125eb769059",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 615699,
+                  "id": "Q615699"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q28837176$eae8526c-4ce5-e544-c26f-ccb08a24e3c2",
+            "rank": "normal"
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "99d2ec87f1b21d45ea72c1f1409bc0b47793a6e7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160236,
+                  "id": "Q160236"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q28837176$e424ec6e-4ec0-146f-da6a-2a5e39a24484",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "87ecae0f4a08c15fc6d8fc2921463c0c26275303",
+              "datavalue": {
+                "value": {
+                  "time": "+1928-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q28837176$85bf2d88-46b6-a92f-0b23-b466a28b90ca",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a94e0e3806c1be3e40cba11283e5ab78e892eed1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ac268b2b3d30bdca19e090062750ee8683ecb037",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 160236,
+                          "id": "Q160236"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P3634": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3634",
+                      "hash": "b28fbd58d365c0bfb8654e622efb0ff936ab0c47",
+                      "datavalue": {
+                        "value": "488315",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e1135d930fd3f12f0bcbe6805cc02a148a9eb452",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-02-24T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P3634",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "26fae4c09e182db55edfe0ec125742ddce0ed714",
+              "datavalue": {
+                "value": "http://www.metmuseum.org/toah/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q28837176$b5ad2cf8-4321-456b-cd37-344d2c5ad898",
+            "rank": "normal"
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "ad9b2d97c5dbf4a166289aabb9c4f22afa5eec59",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 50637,
+                  "id": "Q50637"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q28837176$6a4bc458-4caf-0ee8-ff4c-5b79338bd69b",
+            "rank": "normal"
+          }
+        ],
+        "P123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P123",
+              "hash": "ab01761666cf0556daa585aa971a170cee5aedd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160236,
+                  "id": "Q160236"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q28837176$0dc07e15-42e3-e81d-a93e-9d9999aeba87",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {}
+    },
+    "etichette": {
+      "Q160236": "Metropolitan Museum of Art",
+      "Q186117": "linea del tempo",
+      "Q50637": "storia dell'arte",
+      "Q615699": "enciclopedia online"
+    }
+  }
+}

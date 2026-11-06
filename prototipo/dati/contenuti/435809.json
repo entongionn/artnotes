@@ -115,6 +115,16 @@
           "stato": "bozza"
         },
         {
+          "id": "b33",
+          "registro": "interpretazione",
+          "testo": "I cataloghi propongono due chiavi di lettura, che non si escludono. Wikidata colloca l'opera in una serie sui mesi e la classifica con le notazioni Iconclass dell'estate e del raccolto: il quadro come momento di un ciclo dell'anno. La stessa fonte la classifica anche come «arte di genere», e il Met la indicizza con Landscapes, Working, Eating: il quadro come scena di vita e di paesaggio. Sono classificazioni di catalogo, non interpretazioni critiche argomentate.",
+          "fonti": [
+            {"fonte": "wikidata-Q776175", "campi": ["P361", "P1257", "P136"], "nota": "asserzioni senza riferimenti"},
+            {"fonte": "met-435809", "campi": ["tags"]}
+          ],
+          "stato": "bozza"
+        },
+        {
           "id": "b32",
           "registro": "lacuna",
           "testo": "Il prototipo non include letture simboliche o allegoriche: richiedono fonti interpretative non ancora presenti nel corpus.",
@@ -144,6 +154,16 @@
           "mostra_elenco": "proprietari_wikidata"
         },
         {
+          "id": "b43",
+          "registro": "documentato",
+          "testo": "Secondo Wikidata l'opera fa parte di una serie di Pieter Bruegel il Vecchio, i «Mesi», di cui risultano conservate cinque tavole. L'asserzione non cita riferimenti: va letta come dato da verificare.",
+          "fonti": [
+            {"fonte": "wikidata-Q776175", "campi": ["P361"], "nota": "senza riferimenti"},
+            {"fonte": "wikidata-Q3855265", "campi": ["P527", "P2635"], "nota": "senza riferimenti"}
+          ],
+          "stato": "bozza"
+        },
+        {
           "id": "b42",
           "registro": "lacuna",
           "testo": "I passaggi di proprietà non sono verificati su fonti di provenienza puntuali, e le date mancanti non sono note al prototipo. L'ordine dell'elenco è quello di Wikidata e non indica necessariamente una cronologia.",
@@ -159,11 +179,12 @@
         {
           "id": "b50",
           "registro": "lacuna",
-          "testo": "Non ci sono ancora confronti curati. Arriveranno nella Fase 4, ciascuno con il proprio criterio esplicito (soggetto, soluzione formale, tecnica, funzione o rapporto storico documentato).",
+          "testo": "Le connessioni qui sotto sono le prime bozze, ciascuna con il proprio tipo: documentata, interpretativa o calcolata dai dati. Confronti con altre tradizioni e periodi non sono ancora stati curati.",
           "fonti": [],
           "stato": "bozza"
         }
-      ]
+      ],
+      "mostra_connessioni": true
     }
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "7fb02c4590f6",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20haymaking%2C%20by%20Pieter%20Bruegel%20%28I%29.jpg",
+    "data": "2026-11-06T15:08:44+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "The haymaking, by Pieter Bruegel (I).jpg",
+    "pagina": {
+      "pageid": 74067609,
+      "ns": 6,
+      "title": "File:The haymaking, by Pieter Bruegel (I).jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 1790561,
+          "width": 2117,
+          "height": 1528,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg/500px-The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 346,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg/960px-The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg/500px-The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 346,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg/960px-The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/The_haymaking%2C_by_Pieter_Bruegel_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_haymaking,_by_Pieter_Bruegel_(I).jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74067609",
+          "sha1": "3557fee38bc85ea506b6f8e4be375724292f3a64",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2018-11-17 02:06:42",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "The haymaking",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "The Hay Harvest by Pieter Bruegel (I)|Taken with Hasselblad Imacon Ixpress CF 528-39|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|CC-PD-Mark|Artworks with accession number from Wikidata|Uploads by Jan Arkesteijn with EXIF claim of Public Domain Mark|Artworks digital representation of 2D work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Pieter_Bruegel_il_Vecchio\" class=\"extiw\" title=\"w:it:Pieter Bruegel il Vecchio\"><span title=\"pittore fiammingo\">Pieter Bruegel il Vecchio</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1565<div style=\"display: none;\">date QS:P571,+1565-00-00T00:00:00Z/9</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.is/Iy5v3/77829be0b0be73d3ab55f7d17c08bf458090357f.jpg\">https://archive.is/Iy5v3/77829be0b0be73d3ab55f7d17c08bf458090357f.jpg</a>\n</p><p><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.is/Yc0Gs\">https://archive.is/Yc0Gs</a>\n</p><p><a rel=\"nofollow\" class=\"external text\" href=\"http://press.khm.at/en/pr/kunsthistorisches-museum/bruegel/\">Kunsthistorisches Museum</a>\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181107131220/http://press.khm.at/fileadmin/content/KHM/Presse/2018/Bruegel/Highres_LR11560_Bruegel_Haymaking_Weigl.jpg\">Webarchive snapshot</a></li></ul>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

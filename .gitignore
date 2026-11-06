@@ -2,3 +2,12 @@ __pycache__/
 *.pyc
 # Immagini sorgente: le tile pubblicate sono in prototipo/web/immagini
 prototipo/originali/
+# Dati grezzi di YouTube: conservati solo in locale (policy di conservazione dell'API).
+# Nel repository restano solo i metadati minimi dei video curati.
+prototipo/dati/fonti/youtube/
+prototipo/dati/esterni/youtube/*.candidati.json
+# Credenziali: mai nel repository (la chiave sta in ~/.artnotes/)
+*api_key*
+*.key
+.env
+.env.*

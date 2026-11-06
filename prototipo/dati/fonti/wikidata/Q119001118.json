@@ -1,0 +1,135 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q119001118",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q119001118",
+    "data": "2026-11-06T15:01:30+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q119001118",
+      "labels": {
+        "it": {
+          "language": "it",
+          "value": "estate"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "4e087a5950057a28beb33deba575f13e70c64b7b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18573970,
+                  "id": "Q18573970"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q119001118$553d9114-4cb9-2a5d-00ea-0a16cc528108",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "97ab7365170019f0be89c94085cd03856e667275",
+              "datavalue": {
+                "value": "Summer by Pieter Breughel the Younger",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q119001118$c8215bd3-45c3-6b61-fe79-27d208f1eca3",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "d2e7d45754317892a31cd4e873ad8b024cad5612",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 68838092,
+                  "id": "Q68838092"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q119001118$71bb48c8-484d-ba11-2fcb-1cda13bd0607",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "1cefa18413b5ee6b5a167b1d1c1f0c7cfad38426",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 114707348,
+                  "id": "Q114707348"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q119001118$bb18afe9-45c1-bc8a-7470-3f80d479a170",
+            "rank": "normal"
+          }
+        ],
+        "P144": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P144",
+              "hash": "705b2a1e4fea47cbecd2ee486036a964e32bf49a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 776175,
+                  "id": "Q776175"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q119001118$4b9ee184-4b7c-baf6-5a3f-aa937df08aed",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Summer by Pieter Breughel the Younger",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q114707348": "Summer: the wheat harvest",
+      "Q18573970": "gruppo di dipinti",
+      "Q68838092": "Estate",
+      "Q776175": "Mietitura"
+    }
+  }
+}

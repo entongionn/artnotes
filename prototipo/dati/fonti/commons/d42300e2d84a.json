@@ -1,0 +1,106 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "d42300e2d84a",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Brueghel%20%28II%29%20-%20The%20four%20seasons%2C%20summer%20%28Bukarest%29.jpg",
+    "data": "2026-11-06T15:08:52+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Pieter Brueghel (II) - The four seasons, summer (Bukarest).jpg",
+    "pagina": {
+      "pageid": 54135731,
+      "ns": 6,
+      "title": "File:Pieter Brueghel (II) - The four seasons, summer (Bukarest).jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 3526032,
+          "width": 3094,
+          "height": 2290,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg/500px-Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 355,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg/960px-Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg/500px-Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 355,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg/960px-Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pieter_Brueghel_%28II%29_-_The_four_seasons%2C_summer_%28Bukarest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_(II)_-_The_four_seasons,_summer_(Bukarest).jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54135731",
+          "sha1": "fa393c22b1d5f5346af5ddfa1c2b98d56ab886fc",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2016-12-15 21:28:27",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Estate</i></div></div><div style=\"display: none;\">label QS:Lit,\"Estate\"</div><div style=\"display: none;\">label QS:Lja,\"四季\"</div><div style=\"display: none;\">label QS:Lfr,\"l'été\"</div><div style=\"display: none;\">label QS:Lnl,\"Zomer: de korenoogst\"</div><div style=\"display: none;\">label QS:Lde,\"Sommer\"</div><div style=\"display: none;\">label QS:Len,\"Summer\"</div><div style=\"display: none;\">label QS:Lmk,\"Четири годишни времиња\"</div><div style=\"display: none;\">label QS:Lro,\"Cele patru anotimpuri\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "PD-old-100-expired|Summer by Pieter Breughel the Younger|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks with Wikidata item missing genre|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Summer by Pieter Brueghel (II) in the National Museum of Art of Romania|Artworks digital representation of 2D work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Pieter_Brueghel_il_Giovane\" class=\"extiw\" title=\"w:it:Pieter Brueghel il Giovane\"><span title=\"pittore fiammingo (1564-1638)\">Pieter Brueghel il Giovane</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://mnar.arts.ro/en/?option=com_content&amp;view=article&amp;id=266&amp;catid=113&amp;Itemid=258\">Muzeul Național de Artă al României</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

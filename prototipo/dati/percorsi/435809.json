@@ -1,0 +1,157 @@
+{
+  "opera": "met:435809",
+  "nota": "Livello di presentazione. Le tappe ordinano e introducono contenuti esistenti (annotazioni, blocchi, connessioni, contenuti esterni) richiamandoli per identificativo. I testi propri delle tappe (domande, consegne, raccordi) non contengono affermazioni sull'opera. Bozze generate da AI, non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "percorsi": [
+    {
+      "id": "curioso",
+      "titolo": "Sono curioso",
+      "invito": "Fammi vedere qualcosa che non avrei notato.",
+      "durata": "circa 3 minuti",
+      "stato": "bozza",
+      "tappe": [
+        {
+          "id": "c1",
+          "tipo": "scelta",
+          "titolo": "Il primo sguardo",
+          "domanda": "Guarda il quadro intero per qualche secondo. Dove è andato per primo il tuo sguardo?",
+          "scelte": ["a01", "a05", "a08"],
+          "raccordo": "Non c'è una risposta giusta. Ecco una lettura di come è organizzata la scena: è un'ipotesi, e puoi metterla alla prova.",
+          "blocchi": ["b20"]
+        },
+        {
+          "id": "c2",
+          "tipo": "scopri",
+          "titolo": "Un oggetto fra le spighe",
+          "annotazione": "a04"
+        },
+        {
+          "id": "c3",
+          "tipo": "scopri",
+          "titolo": "Chi porta da bere",
+          "raccordo": "Qualcuno, intanto, sta arrivando dal campo.",
+          "annotazione": "a03"
+        },
+        {
+          "id": "c4",
+          "tipo": "scopri",
+          "titolo": "L'uomo che dorme",
+          "annotazione": "a02"
+        },
+        {
+          "id": "c5",
+          "tipo": "scopri",
+          "titolo": "Le lettere nell'angolo",
+          "raccordo": "Un'ultima cosa, nell'angolo in basso a destra.",
+          "annotazione": "a13"
+        },
+        {
+          "id": "c6",
+          "tipo": "pulse",
+          "titolo": "Per continuare",
+          "raccordo": "Altri hanno raccontato quest'opera in video. Sono contenuti esterni: ArtNotes li segnala con il motivo della scelta, non ne garantisce l'accuratezza.",
+          "quanti": 4
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "titolo": "Voglio approfondire",
+      "invito": "Aiutami a capire come si costruisce un'interpretazione.",
+      "durata": "circa 15 minuti",
+      "stato": "bozza",
+      "tappe": [
+        {
+          "id": "s1",
+          "tipo": "scrivi",
+          "titolo": "Osserva",
+          "annotazione": "a12",
+          "consegna": "Guarda la zona centrale del quadro. Descrivi con parole tue che cosa vedi: forme, figure, colori. Per ora non interpretare.",
+          "nota": "osserva",
+          "rivela": true
+        },
+        {
+          "id": "s2",
+          "tipo": "scrivi",
+          "titolo": "Formula",
+          "consegna": "Scrivi una domanda o un'ipotesi sul quadro. Per esempio: perché il pittore dà tanto spazio al pasto e al riposo, in una scena di lavoro?",
+          "nota": "ipotesi"
+        },
+        {
+          "id": "s3",
+          "tipo": "leggi",
+          "titolo": "Confronta",
+          "raccordo": "Ecco che cosa dicono le fonti raccolte finora. Confrontale con la tua ipotesi: una lettura diversa, se argomentata, non è un errore.",
+          "blocchi": ["b33", "b20", "b32"],
+          "pulse_categoria": "conversazioni",
+          "raccordo_pulse": "Fuori da ArtNotes circolano altre letture, anche simboliche. Non sono state verificate: confrontale con le fonti, non prenderle per certe."
+        },
+        {
+          "id": "s4",
+          "tipo": "evidenze",
+          "titolo": "Verifica",
+          "raccordo": "Ogni affermazione ha una base diversa. Questa mappa mostra da dove viene ciascuna e quanto è solida.",
+          "righe": ["b01", "b02", "b43", "b33", "a13", "a14", "b20", "b05"]
+        },
+        {
+          "id": "s5",
+          "tipo": "connessioni",
+          "titolo": "Collega",
+          "raccordo": "Un'opera si capisce anche dalle sue vicine. Ogni collegamento dice di che tipo è.",
+          "connessioni": ["k01", "k03"]
+        },
+        {
+          "id": "s6",
+          "tipo": "rielabora",
+          "titolo": "Rielabora",
+          "consegna": "Scrivi in 3–5 frasi la tua lettura del quadro. Distingui ciò che hai visto, ciò che hai letto nelle fonti e ciò che ipotizzi tu.",
+          "nota": "lettura"
+        }
+      ]
+    },
+    {
+      "id": "ispirazione",
+      "titolo": "Cerco ispirazione",
+      "invito": "Mostrami idee, connessioni e reinterpretazioni.",
+      "durata": "libera",
+      "stato": "bozza",
+      "tappe": [
+        {
+          "id": "i1",
+          "tipo": "connessioni",
+          "titolo": "Le altre stagioni",
+          "raccordo": "Questo quadro non era solo: faceva parte di una serie.",
+          "connessioni": ["k01"]
+        },
+        {
+          "id": "i2",
+          "tipo": "connessioni",
+          "titolo": "Una veduta allo specchio",
+          "raccordo": "Una somiglianza di composizione con un'altra tavola della serie.",
+          "connessioni": ["k03"]
+        },
+        {
+          "id": "i3",
+          "tipo": "connessioni",
+          "titolo": "Dopo Bruegel",
+          "raccordo": "Che cosa hanno ripreso, e che cosa hanno cambiato, i pittori venuti dopo?",
+          "connessioni": ["k02"]
+        },
+        {
+          "id": "i4",
+          "tipo": "connessioni",
+          "titolo": "Somiglianze calcolate",
+          "raccordo": "Una somiglianza calcolata dai dati, non dallo sguardo.",
+          "connessioni": ["k04"]
+        },
+        {
+          "id": "i5",
+          "tipo": "pulse",
+          "titolo": "Altri sguardi",
+          "raccordo": "Il tema del raccolto, della falce e dei mesi ritorna in altre epoche e in altri linguaggi. Questi video sono punti di partenza esterni, non fonti.",
+          "quanti": 5
+        }
+      ]
+    }
+  ]
+}

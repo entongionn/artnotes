@@ -158,5 +158,94 @@ h1 { margin: 4px 0 2px; font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: norm
 .fonte h3 { margin: 0; font-size: 16px; font-weight: normal; }
 .collegamento { display: inline-block; margin: 2px 4px 2px 0; }
 
+/* ---------- Fase 2.5 ---------- */
+.nascosto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+textarea, select { font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--testo); background: var(--superficie); border: 1px solid var(--bordo); border-radius: 6px; }
+textarea { width: 100%; padding: 8px 10px; resize: vertical; }
+select { padding: 6px 8px; min-height: 36px; }
+
+.commutatore { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 10px; font-family: system-ui, sans-serif; }
+.etichetta-commutatore { font-size: 14px; color: var(--testo-tenue); }
+.commutatore button, .percorso button, .connessione button, .esterno button, .contenuto-scheda .azioni button, .bottone {
+  border: 1px solid var(--bordo); background: var(--superficie); color: var(--testo);
+  border-radius: 6px; padding: 6px 10px; font: 14px/1.3 system-ui, sans-serif; cursor: pointer; min-height: 36px; text-decoration: none; display: inline-flex; align-items: center;
+}
+.commutatore button[aria-pressed="true"] { background: var(--accento); border-color: var(--accento); color: var(--superficie); }
+.commutatore button:hover, .percorso button:hover { border-color: var(--accento); }
+button.primario { background: var(--accento); border-color: var(--accento); color: var(--superficie); }
+button:disabled { opacity: .7; cursor: default; }
+
+.percorso { background: var(--superficie); border: 1px solid var(--bordo); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
+.percorso[hidden] { display: none; }
+.percorso h2 { margin: 0 0 8px; font-weight: normal; font-size: 1.35rem; }
+.scelte-percorso { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: 8px; margin: 8px 0; }
+.percorso .scelta-percorso { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left; padding: 12px; min-height: 0; }
+.scelta-percorso strong { font-size: 16px; }
+.scelta-percorso span { font-family: Georgia, serif; font-style: italic; }
+.scelta-percorso .meta { font-style: normal; font-family: system-ui, sans-serif; }
+.tappe-elenco { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-wrap: wrap; gap: 4px; }
+.percorso .tappe-elenco button { font-size: 13px; min-height: 32px; padding: 4px 8px; }
+.tappe-elenco button[aria-current="step"] { border-color: var(--accento); border-width: 2px; font-weight: 600; }
+.tappa { border-top: 1px solid var(--bordo); padding-top: 10px; }
+.raccordo { margin: 4px 0 10px; }
+.scelte { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+.scelte button[aria-pressed="true"] { border-color: var(--accento); border-width: 2px; }
+.navigazione-tappe { display: flex; flex-wrap: wrap; gap: 6px; justify-content: space-between; margin: 14px 0 6px; }
+.azioni { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.campo-nota label { display: block; margin: 6px 0; }
+.nota-salvata { white-space: pre-wrap; background: var(--sfondo); border-radius: 6px; padding: 8px 10px; }
+
+.evidenze td { font-size: 13.5px; }
+@media (min-width: 641px) { .evidenze td:first-child { width: 46%; } }
+.certezza { font-weight: 600; }
+.cert-istituzionale { color: var(--reg-documentato); }
+.cert-verificabile { color: var(--reg-osservazione); }
+.cert-da_verificare, .cert-proposta { color: var(--reg-ipotesi); }
+.cert-non_nota { color: var(--reg-lacuna); }
+@media (max-width: 640px) {
+  .evidenze thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .evidenze tr { display: block; border-bottom: 1px solid var(--bordo); padding: 6px 0; }
+  .evidenze td { display: block; border: 0; padding: 2px 0; }
+  .evidenze td::before { content: attr(data-col) ": "; font-weight: 600; color: var(--testo-tenue); }
+}
+
+.connessione { border: 1px solid var(--bordo); border-left: 4px solid var(--con, var(--accento)); border-radius: 8px; padding: 10px 12px; margin: 0 0 14px; background: var(--superficie); }
+.con-documentata { --con: var(--reg-documentato); }
+.con-interpretativa { --con: var(--reg-interpretazione); }
+.con-algoritmica { --con: var(--reg-ipotesi); }
+.connessione h3 { margin: 2px 0 4px; font-weight: normal; font-size: 1.15rem; }
+.tipo-connessione { margin: 0; font: 600 12px/1.3 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .05em; color: var(--con); }
+.opere { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr)); gap: 10px; margin: 8px 0; }
+.opera-collegata { margin: 0; font: 13px/1.35 system-ui, sans-serif; }
+.opera-collegata img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; background: var(--visore); display: block; }
+.opera-collegata figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 4px; }
+.senza-immagine { aspect-ratio: 4 / 3; display: grid; place-items: center; background: var(--sfondo); color: var(--testo-tenue); border-radius: 4px; }
+.risultato-calcolo { display: grid; grid-template-columns: minmax(0, 180px) 1fr; gap: 10px; align-items: start; margin: 8px 0; }
+@media (max-width: 480px) { .risultato-calcolo { grid-template-columns: 1fr; } }
+
+.politica { background: var(--sfondo); border-radius: 6px; padding: 8px 10px; font: 14px/1.45 system-ui, sans-serif; }
+.esterno { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 12px; border: 1px solid var(--bordo); border-radius: 8px; padding: 10px; margin: 0 0 12px; background: var(--superficie); }
+.esterno img { width: 160px; height: 90px; object-fit: cover; border-radius: 4px; background: var(--visore); }
+@media (max-width: 520px) { .esterno { grid-template-columns: 1fr; } .esterno img { width: 100%; max-width: 220px; height: auto; aspect-ratio: 16 / 9; } }
+.esterno h3 { margin: 0 0 2px; font-size: 16px; font-weight: normal; }
+.esterno p { margin: 4px 0; }
+.esterno-testo > p:not(.meta) { font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.esterno-testo strong { font-weight: 600; }
+.esterno .avviso, .opera-collegata .avviso { font-weight: 600; font-size: 13px; }
+.link-esterno { color: var(--testo); }
+.etichette { display: flex; flex-wrap: wrap; gap: 6px; }
+.etichetta { font: 600 12px/1.3 system-ui, sans-serif; border-radius: 999px; padding: 2px 8px; border: 1px solid currentColor; }
+.rel-opera_esatta, .rel-dettaglio { color: var(--reg-documentato); }
+.rel-contesto { color: var(--reg-osservazione); }
+.rel-analogia { color: var(--reg-interpretazione); }
+.aff-istituzionale, .aff-editoriale { color: var(--reg-documentato); }
+.aff-divulgazione { color: var(--testo-tenue); }
+.aff-da_verificare { color: var(--reg-ipotesi); }
+.punteggio summary, .esterni-regione summary { cursor: pointer; font: 13px/1.4 system-ui, sans-serif; color: var(--testo-tenue); }
+.esterni-regione { margin: 10px 0; }
+.esterni-regione ul { margin: 6px 0; padding-left: 18px; font-size: 14px; }
+.gruppo { font-weight: normal; margin: 16px 0 8px; }
+.voci-taccuino { padding-left: 18px; }
+
 .piede { max-width: 1400px; margin: 0 auto; padding: 8px 16px 24px; font: 13px/1.4 system-ui, sans-serif; color: var(--testo-tenue); }
 .vuoto { color: var(--testo-tenue); font-style: italic; }

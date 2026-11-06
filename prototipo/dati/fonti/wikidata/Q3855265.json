@@ -1,0 +1,530 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q3855265",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q3855265",
+    "data": "2026-11-06T15:01:25+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q3855265",
+      "labels": {
+        "it": {
+          "language": "it",
+          "value": "Mesi"
+        },
+        "en": {
+          "language": "en",
+          "value": "Labours of the months"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5d67c7d6e7652e2b681338cd82edadae37720163",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16905563,
+                  "id": "Q16905563"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$5A68E078-7F33-4E39-953D-882C893C6F93",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "e808854ee4baa5e7062a9ba895e6ff47bc6abdf4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 15727816,
+                  "id": "Q15727816"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$EC093142-6750-44E9-B33B-E0913B0D4C33",
+            "rank": "normal"
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "23063ac1b46bdfd791f074106b6a7c65150738db",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 43270,
+                  "id": "Q43270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$9d67f04d-47a6-eaa6-58ff-3820f63c4538",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "ed00830a21093ea2e88d2605bd4031ef5f4a3422",
+              "datavalue": {
+                "value": "Labours of the months by Pieter Bruegel the Elder",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q3855265$31d5b75e-4d58-28fd-4602-7e5880d3e996",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "a355f69c8c120cf7e94ee3fad0bbf9758a1bd2c7",
+              "datavalue": {
+                "value": "Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3855265$FB1C13EE-33EC-4E9A-BB69-BA9788D05A69",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9424852ca7d9d48269148c57acbefacca1899882",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "b7f8bea3bb10c237323eb448dc4798948923bd5c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11921,
+                          "id": "Q11921"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "96a382d2ef7d574865705709cbbe9f090d66c203",
+              "datavalue": {
+                "value": "Der düstere Tag.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3855265$67c3d00c-494e-831a-2047-850b762b44ee",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "7e3470d9c7e40029fcb0c93efcfb7f5804f51628",
+              "datavalue": {
+                "value": "Die Heuernte.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3855265$1a27d51b-4224-b8ab-2d40-75011ea87c45",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "a5cbc8849c49ae08938c0c9d26f7e23671c2c0d0",
+              "datavalue": {
+                "value": "Pieter Bruegel d. Ä. 103b.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3855265$95782640-4f03-c20a-990c-c9f2f7cd5ab3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "cffd2c632b93c0d5789e297db33590774daed791",
+              "datavalue": {
+                "value": "Pieter Bruegel the Elder - The Corn Harvest (August) - WGA03451.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q3855265$ba546ae1-40b7-924f-e91f-29a2d00e1a88",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "d950a79387f529a35770821458bf155a031ceb91",
+              "datavalue": {
+                "value": "/g/12377dtv",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3855265$88CFCCB1-6908-47EF-8C4F-8C973CA6233D",
+            "rank": "normal"
+          }
+        ],
+        "P2635": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2635",
+              "hash": "a8313966e7d3acccf99733083ceaf86741814067",
+              "datavalue": {
+                "value": {
+                  "amount": "+6",
+                  "unit": "http://www.wikidata.org/entity/Q3305213"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q3855265$63176f57-485d-8a98-54dc-80276257d2d5",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2635",
+              "hash": "fcce59b32c2a91064d7aa15c0cf00e8868251ee7",
+              "datavalue": {
+                "value": {
+                  "amount": "+5",
+                  "unit": "http://www.wikidata.org/entity/Q3305213"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P518": [
+                {
+                  "snaktype": "value",
+                  "property": "P518",
+                  "hash": "f1650acb4556ad5e3139ce0dacdaafd4f02fb254",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 56557591,
+                      "id": "Q56557591"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P518"
+            ],
+            "id": "Q3855265$a9fafae5-45b2-178b-9fe1-68b392cce11f",
+            "rank": "preferred"
+          }
+        ],
+        "P195": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "3d44558d3aa3b13c11a0b15680719ab62a157ea2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1768402,
+                  "id": "Q1768402"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$41BCBB5B-CF53-48BC-A9B5-142DA72A7CDE",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "70a84944ea68c1dd1ca21dedb62578f6bda4d914",
+              "datavalue": {
+                "value": {
+                  "time": "+1565-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q3855265$B51BDBC9-FA74-489E-8EF9-FACCE28B7418",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "644ea02d064390f365d13dd329b0d309fabff54e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1524901,
+                  "id": "Q1524901"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$22DC3522-6034-4FCA-8C9F-AE2756FEB47B",
+            "rank": "normal"
+          }
+        ],
+        "P527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "23076439a8d3798eec83f87328263a6f9807f05d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 500985,
+                  "id": "Q500985"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$9E7897FC-3224-49E6-9033-B0E6594CFE3B",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "872813b3a0bf59ce0a5317831509c31a333b2459",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1213437,
+                  "id": "Q1213437"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$81972AEC-7C25-402A-923A-D3E76F5D8F1F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "100e6d0e72a19587656cb554634b4746c94daf7c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 698219,
+                  "id": "Q698219"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$5E6D75DC-3DFA-455C-AD28-29DB6AC1DB8D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "4e7fa9b03da14f7c5e91480f45abcb47a5b1c2c6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 698254,
+                  "id": "Q698254"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$DE1823FF-1A78-4449-983A-C2FD42CBC91E",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P527",
+              "hash": "7ead667dc612eac442cb5a8c9f45364cd8804ff2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 776175,
+                  "id": "Q776175"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$52E7D829-E696-4316-9AD1-A852EE63A52D",
+            "rank": "normal"
+          }
+        ],
+        "P1424": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1424",
+              "hash": "bd297fb62ec1088bba7a8a8d300db4e1808f3aaa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20325016,
+                  "id": "Q20325016"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3855265$D0E868E5-D5AB-4A25-A735-A2CA199DC1F3",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Labours of the months by Pieter Bruegel the Elder",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Mesi (Bruegel)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "De twaalf maanden",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Os Meses (Bruegel)",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q1213437": "Fienagione",
+      "Q1524901": "le quattro stagioni",
+      "Q15727816": "serie di dipinti",
+      "Q16905563": "ciclo di dipinti",
+      "Q1768402": "Nicolaes Jonghelinck",
+      "Q20325016": "Template:Labours of the months by Pieter Bruegel the Elder",
+      "Q43270": "Pieter Bruegel il Vecchio",
+      "Q500985": "Cacciatori nella neve",
+      "Q56557591": "in buono stato",
+      "Q698219": "Giornata buia",
+      "Q698254": "Ritorno della mandria",
+      "Q776175": "Mietitura"
+    }
+  }
+}

@@ -3,6 +3,7 @@
 Uso:
     python strumenti/importa.py met 435809
     python strumenti/importa.py wikidata Q776175
+    python strumenti/importa.py commons "Nome del file.jpg"
 
 Per ogni fonte salva il payload originale con i metadati di acquisizione
 (URL, data, versione del connettore). Per un oggetto Met scarica anche
@@ -200,8 +201,37 @@ def importa_wikidata(qid: str) -> None:
     print("payload salvato:", _salva_payload("wikidata", qid, url, {"entita": ent, "etichette": etichette}))
 
 
+def importa_commons(nome_file: str, larghezza: int = 480) -> dict:
+    """Metadati e licenza di un file Commons, più una miniatura locale.
+
+    La miniatura è salvata nel sito (web/immagini/confronti) per non far
+    caricare al visitatore immagini da server terzi.
+    """
+    import urllib.parse
+
+    nome_file = nome_file.removeprefix("File:")
+    url = (
+        "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
+        "&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it"
+        f"&iiurlwidth={larghezza}&titles=" + urllib.parse.quote("File:" + nome_file)
+    )
+    pagina = next(iter(json.loads(_scarica(url))["query"]["pages"].values()))
+    info = pagina["imageinfo"][0]
+    ident = hashlib.sha1(nome_file.encode("utf-8")).hexdigest()[:12]
+    _salva_payload("commons", ident, url, {"file": nome_file, "pagina": pagina})
+    dest = DIR_TILE / "confronti" / f"{ident}.jpg"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if not dest.exists():
+        dest.write_bytes(_scarica(info["thumburl"]))
+        time.sleep(0.5)
+    meta = info.get("extmetadata", {})
+    valore = lambda k: (meta.get(k) or {}).get("value", "")
+    print("commons:", nome_file, "->", dest.name, "|", valore("LicenseShortName"))
+    return {"id": ident, "licenza": valore("LicenseShortName")}
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 3 or sys.argv[1] not in ("met", "wikidata"):
+    if len(sys.argv) != 3 or sys.argv[1] not in ("met", "wikidata", "commons"):
         print(__doc__)
         sys.exit(1)
-    {"met": importa_met, "wikidata": importa_wikidata}[sys.argv[1]](sys.argv[2])
+    {"met": importa_met, "wikidata": importa_wikidata, "commons": importa_commons}[sys.argv[1]](sys.argv[2])

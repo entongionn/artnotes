@@ -14,10 +14,12 @@
   <div id="banner" class="banner" role="status"></div>
 
   <header class="testata">
-    <p class="marchio">ArtNotes <span>prototipo · Fase 2</span></p>
+    <p class="marchio">ArtNotes <span>prototipo · Fase 2.5</span></p>
     <h1 id="titolo">Caricamento…</h1>
     <p id="sottotitolo" class="sottotitolo"></p>
+    <nav id="commutatore" class="commutatore" aria-labelledby="etichetta-commutatore" hidden></nav>
   </header>
+  <p id="annuncio" class="nascosto" aria-live="polite"></p>
 
   <main class="impianto">
     <section class="colonna-immagine" aria-label="Immagine e dettagli">
@@ -43,12 +45,14 @@
     </section>
 
     <section id="pannello" class="pannello" aria-label="Contenuti" tabindex="-1">
+      <section id="percorso" class="percorso" aria-labelledby="titolo-percorso"></section>
+
+      <div id="dettaglio" class="dettaglio" hidden></div>
+
       <aside class="copertura" aria-labelledby="titolo-copertura">
         <h2 id="titolo-copertura">Su cosa si basa questa scheda</h2>
         <dl id="copertura"></dl>
       </aside>
-
-      <div id="dettaglio" class="dettaglio" hidden></div>
 
       <div class="schede" role="tablist" aria-label="Sezioni della scheda" id="schede"></div>
       <div id="contenuto-scheda" class="contenuto-scheda" role="tabpanel" tabindex="0"></div>
@@ -56,7 +60,7 @@
   </main>
 
   <footer class="piede">
-    <p>Prototipo dimostrativo: testi e regioni sono bozze generate da AI, non revisionate, mostrate in anteprima redazionale. Immagine e metadati: The Metropolitan Museum of Art, Open Access (CC0). Dati: Wikidata (CC0).</p>
+    <p>Prototipo dimostrativo: testi, regioni, percorsi e suggerimenti sono bozze generate da AI, non revisionate, mostrate in anteprima redazionale. Immagine e metadati: The Metropolitan Museum of Art, Open Access (CC0). Dati: Wikidata (CC0). Immagini delle opere collegate: Wikimedia Commons. Video suggeriti: contenuti di terzi su YouTube, collegati e non ospitati.</p>
   </footer>
 
   <script src="app.js"></script>

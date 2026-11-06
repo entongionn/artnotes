@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "064b8e50756c",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ABreughel%2C%20Pieter%20%28II%29%20-%20Summer%20-%20E632.jpg",
+    "data": "2026-11-06T15:08:50+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Breughel, Pieter (II) - Summer - E632.jpg",
+    "pagina": {
+      "pageid": 133896198,
+      "ns": 6,
+      "title": "File:Breughel, Pieter (II) - Summer - E632.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 120874,
+          "width": 650,
+          "height": 454,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg/500px-Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 335,
+          "responsiveUrls": {
+            "2": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg/500px-Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 335,
+            "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Breughel%2C_Pieter_%28II%29_-_Summer_-_E632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133896198",
+          "sha1": "206e74da574014a4130647a62b604523d09eab97",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2023-07-03 11:14:05",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">inglese:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Summer: the wheat harvest <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q114707348#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Summer: the wheat harvest <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q114707348#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Summer: the wheat harvest <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q114707348#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lde,\"Sommer: Weizenernte\"</div><div style=\"display: none;\">label QS:Lnl,\"Zomer: de korenoogst\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "PD-old-100-expired|Summer by Pieter Breughel the Younger|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|CC-PD-Mark|Artworks digital representation of 2D work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Pieter_Brueghel_il_Giovane\" class=\"extiw\" title=\"w:it:Pieter Brueghel il Giovane\"><span title=\"pittore fiammingo (1564-1638)\">Pieter Brueghel il Giovane</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1624 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q114707348#P571\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://rkd.nl/en/explore/images/54304\">https://rkd.nl/en/explore/images/54304</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}
