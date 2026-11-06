@@ -2,7 +2,7 @@
 
 Progetto in fase di prototipo. Opere, dettagli visivi e conoscenza storico-artistica documentata, con una base documentale sempre visibile.
 
-**Prototipo online:** <https://entongionn.github.io/artnotes/>
+**Prototipo online:** <https://entongionn.github.io/artnotes/>, con *I mietitori* di Bruegel e la *Gioconda* di Leonardo (`?opera=gioconda`). Su entrambe c'è una visita guidata a schermo intero.
 
 ## Documenti
 

@@ -1,0 +1,127 @@
+{
+  "opera": "met:435809",
+  "titolo": "L'uomo che guardava i contadini",
+  "sottotitolo": "Un campo d'estate, un pittore travestito, sei tavole per un anno: I mietitori raccontati con le loro fonti",
+  "durata": "circa 6 minuti",
+  "origine": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "stato": "bozza",
+  "scene": [
+    {
+      "id": "s1", "titolo": "Una pausa nel grano", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Metà del grano è ancora in piedi, un muro dorato che taglia il quadro.", "r": "osservazione", "a": "a12",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "Sotto un albero, un gruppo di contadini ha smesso di lavorare: mangiano da scodelle, tagliano il pane, uno beve da una brocca sollevata.", "r": "osservazione", "a": "a01",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "Uno di loro non mangia. Dorme, disteso sulla schiena, la camicia slacciata, un braccio abbandonato a terra.", "r": "osservazione", "a": "a02",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "Il Metropolitan Museum di New York data il quadro al 1565: olio su tavola di quercia.", "r": "documentato",
+         "f": [{"fonte": "met-435809", "campi": ["objectDate", "medium"]}]},
+        {"t": "Chi l'ha dipinto aveva passato anni a guardare i contadini da vicino. Letteralmente.", "r": "raccordo"}
+      ]
+    },
+    {
+      "id": "s2", "titolo": "Pietro il buffo", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Nel 1604 il pittore e scrittore Karel van Mander raccoglie la vita di Pieter Bruegel nel suo Libro dei pittori.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}],
+         "fuori": {"tipo": "persona", "wikidata": "Q43270", "didascalia": "«Il pittore e il compratore» (c. 1566), disegno che Wikidata usa come immagine di Bruegel: non è un ritratto documentato"}},
+        {"t": "Racconta che nacque non lontano da Breda, in un villaggio chiamato Brueghel, e che da quel villaggio prese il nome.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Imparò il mestiere da Pieter Coecke van Aelst, e anni dopo ne sposò la figlia, che da bambina aveva portato tante volte in braccio.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Ad Anversa lavorava molto per un mercante, Hans Franckert, e con lui andava spesso nei villaggi, alle sagre e ai matrimoni, vestito da contadino.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Portavano doni come gli altri invitati e si spacciavano per parenti della sposa o dello sposo.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Lì Bruegel si divertiva a osservare come i contadini mangiavano, bevevano, ballavano, corteggiavano, e poi lo rifaceva con i colori, con grande arguzia.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Lo chiamavano «Pier den Drol», Pietro il buffo: dei suoi quadri, scrive van Mander, se ne vedono pochi che si possano guardare senza ridere.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Van Mander non parla dei Mietitori. Ma riguarda il gruppo che mangia: ha tutta l'aria di una scena vista da vicino.", "r": "ipotesi", "a": "a01"}
+      ]
+    },
+    {
+      "id": "s3", "titolo": "Le montagne inghiottite", "inquadra": {"tipo": "regione", "regione": "a08"},
+      "frasi": [
+        {"t": "Bruegel aveva viaggiato in Francia e in Italia.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Si raccontava che, attraversando le Alpi, avesse inghiottito monti e rocce, per risputarli una volta a casa su tele e tavole: tanto bene sapeva imitare la natura.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Qui le Alpi non ci sono. Il paesaggio scende per gradi verso una pianura, un abitato con un campanile, un tratto di mare con le navi.", "r": "osservazione", "a": "a08",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "La scena sembra costruita su due piani: a destra l'albero e il pasto, a sinistra la veduta che si apre e si allontana.", "r": "ipotesi", "a": "a11"},
+        {"t": "Ma questo paesaggio non era solo.", "r": "raccordo"}
+      ]
+    },
+    {
+      "id": "s4", "titolo": "Sei tavole per un anno", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "I mietitori fanno parte di una serie di grandi tavole sulle stagioni. Secondo uno studio dell'Università Beykent di Istanbul erano sei, e ciascuna rappresentava due mesi dell'anno.", "r": "documentato",
+         "f": [{"fonte": "pehlivan-2021"}]},
+        {"t": "Wikidata ne registra cinque conservate: con i Mietitori, Cacciatori nella neve, Giornata buia, Ritorno della mandria e Fienagione.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q3855265", "campi": ["P527", "P2635"], "nota": "senza riferimenti"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q500985", "didascalia": "Pieter Bruegel il Vecchio, Cacciatori nella neve (1565), Vienna, Kunsthistorisches Museum"}},
+        {"t": "Tre sono oggi a Vienna, al Kunsthistorisches Museum.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q500985", "campi": ["P195"]}, {"fonte": "wikidata-Q698219", "campi": ["P195"]}, {"fonte": "wikidata-Q698254", "campi": ["P195"]}]},
+        {"t": "Il tema aveva una lunga storia: i lavori dei mesi illustravano i calendari dei manoscritti medievali, dei libri d'ore e degli almanacchi.", "r": "documentato",
+         "f": [{"fonte": "pehlivan-2021"}, {"fonte": "fischer-2025"}]},
+        {"t": "Bruegel mette quei lavori all'aperto, dentro un paesaggio che cambia con la stagione.", "r": "interpretazione",
+         "f": [{"fonte": "pehlivan-2021"}]},
+        {"t": "Per chi fu dipinta la serie? Wikidata indica il collezionista Nicolaes Jonghelinck, ma senza riferimenti: è un dato da verificare.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q3855265", "campi": ["P195"], "nota": "senza riferimenti"}]},
+        {"t": "Le fonti consultate non dicono quale coppia di mesi spettasse a ciascuna tavola.", "r": "lacuna"}
+      ]
+    },
+    {
+      "id": "s5", "titolo": "Le cose da trovare", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "In basso a sinistra, fra le spighe, qualcuno ha lasciato una brocca dal collo stretto.", "r": "osservazione", "a": "a04",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "Nel campo, un uomo esce da un passaggio aperto nel grano: in una mano ha una brocca rossa.", "r": "osservazione", "a": "a03",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "E sotto l'albero, un altro beve direttamente dal beccuccio di una grande brocca.", "r": "osservazione", "a": "a10",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "Brocche e bevande compaiono anche fra i soggetti che Wikidata assegna al quadro, senza riferimenti.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q776175", "campi": ["P180"], "nota": "senza riferimenti"}]},
+        {"t": "Lontano, nel prato del villaggio, piccole figure in gruppo: a questa risoluzione non si capisce che cosa facciano.", "r": "lacuna", "a": "a06"}
+      ]
+    },
+    {
+      "id": "s6", "titolo": "Le lettere nell'angolo", "inquadra": {"tipo": "regione", "regione": "a13"},
+      "frasi": [
+        {"t": "Nell'angolo in basso a destra si leggono lettere maiuscole: «BRVEGE…». Il resto non si distingue con sicurezza.", "r": "osservazione", "a": "a13",
+         "f": [{"fonte": "foto-met-DP119115"}]},
+        {"t": "I dati del Met consultati non riportano iscrizioni: firma e data andranno verificate sulla scheda completa del museo.", "r": "lacuna"},
+        {"t": "Il Met registra invece due misure: 119 × 162 cm in tutto, con strisce aggiunte in alto, in basso e a destra, e 116,5 × 159,5 cm di superficie dipinta originale.", "r": "documentato", "a": "a14", "etichetta": "Striscia aggiunta (posizione calcolata)",
+         "f": [{"fonte": "met-435809", "campi": ["dimensions"]}]}
+      ]
+    },
+    {
+      "id": "s7", "titolo": "Dopo Bruegel", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Bruegel morì lasciando due figli pittori, Pieter e Jan.", "r": "documentato",
+         "f": [{"fonte": "vanmander-1604"}]},
+        {"t": "Le sue immagini di contadini divennero il ritratto stesso dell'arte fiamminga di metà Cinquecento: le collezionò l'imperatore Rodolfo II, e per un secolo furono imitate, fino a Brouwer, Teniers e Jan Steen.", "r": "interpretazione",
+         "f": [{"fonte": "payne-2017"}]},
+        {"t": "Wikidata registra un'«Estate» di Pieter Brueghel il Giovane, datata 1624, come derivata dai Mietitori, citando l'archivio olandese RKD.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q114707348", "campi": ["P144", "P170", "P571"], "nota": "riferimento: RKDimages 54304"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q114707348", "didascalia": "Pieter Brueghel il Giovane, «Summer: the wheat harvest» (1624)"}},
+        {"t": "Ma mettile accanto: la scena è un'altra. Ritornano il pasto, i covoni, una figura distesa; il resto cambia.", "r": "osservazione",
+         "f": [{"fonte": "commons-064b8e50756c"}, {"fonte": "foto-met-DP119115"}]},
+        {"t": "In che senso sia «derivata», le fonti lette non lo dicono.", "r": "lacuna"}
+      ]
+    },
+    {
+      "id": "s8", "titolo": "Da Anversa a New York", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Wikidata elenca sette proprietari del quadro; solo per due cita un riferimento.", "r": "documentato",
+         "f": [{"fonte": "wikidata-Q776175", "campi": ["P127"]}]},
+        {"t": "Nel 1919 lo acquistò il Metropolitan Museum, con il Rogers Fund: inventario 19.164.", "r": "documentato",
+         "f": [{"fonte": "met-435809", "campi": ["creditLine", "accessionNumber"]}]},
+        {"t": "Il commento critico del museo non è stato raggiungibile: per quest'opera manca ancora un testo di letteratura specifica letto per intero.", "r": "lacuna"},
+        {"t": "Torna al campo. Mentre gli altri mangiano, chi sta ancora lavorando?", "r": "raccordo", "a": "a07"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "e50786e43344",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ARaffaello%20Sanzio%20-%20Lady%20with%20unicorn.jpg",
+    "data": "2026-11-06T15:58:25+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Raffaello Sanzio - Lady with unicorn.jpg",
+    "pagina": {
+      "pageid": 179274975,
+      "ns": 6,
+      "title": "File:Raffaello Sanzio - Lady with unicorn.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 611284,
+          "width": 1765,
+          "height": 2270,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Raffaello_Sanzio_-_Lady_with_unicorn.jpg/500px-Raffaello_Sanzio_-_Lady_with_unicorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 617,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Raffaello_Sanzio_-_Lady_with_unicorn.jpg/960px-Raffaello_Sanzio_-_Lady_with_unicorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Raffaello_Sanzio_-_Lady_with_unicorn.jpg/500px-Raffaello_Sanzio_-_Lady_with_unicorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 617,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Raffaello_Sanzio_-_Lady_with_unicorn.jpg/960px-Raffaello_Sanzio_-_Lady_with_unicorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Raffaello_Sanzio_-_Lady_with_unicorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Lady_with_unicorn.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179274975",
+          "sha1": "c7d44fd8156fb845c1da2165640e6cd4d3b0c0ff",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2025-12-01 21:22:49",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Dama col liocornoj <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2344396#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,it:\"Dama col liocornoj <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2344396#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Dama col liocornoj <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2344396#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Dama del unicornio\"</div><div style=\"display: none;\">label QS:Lfr,\"La Dame à la licorne\"</div><div style=\"display: none;\">label QS:Lca,\"La Dama de l'Unicorni\"</div><div style=\"display: none;\">label QS:Lde,\"Dame mit dem Einhorn\"</div><div style=\"display: none;\">label QS:Lbe,\"Дама з аднарогам\"</div><div style=\"display: none;\">label QS:Lhy,\"Միաեղջյուրով կինը (կտավ)\"</div><div style=\"display: none;\">label QS:Lzh,\"獨角獸與年輕女子\"</div><div style=\"display: none;\">label QS:Ltr,\"Unicorn'lu Genç Kadın\"</div><div style=\"display: none;\">label QS:Lja,\"ユニコーンと若い女性\"</div><div style=\"display: none;\">label QS:Lru,\"Дама с единорогом\"</div><div style=\"display: none;\">label QS:Lbr,\"Poltred un itron gant un unkorneg\"</div><div style=\"display: none;\">label QS:Larz,\"امراه شابه مع يونيكورن\"</div><div style=\"display: none;\">label QS:Lpl,\"Dama z jednorożcem\"</div><div style=\"display: none;\">label QS:Luk,\"Пані з однорогом\"</div><div style=\"display: none;\">label QS:Laz,\"Gənc qadın təkbuynuzla\"</div><div style=\"display: none;\">label QS:Lnl,\"De dame met de eenhoorn\"</div><div style=\"display: none;\">label QS:Lml,\"യംഗ് വുമൺ വിത് യൂണികോൺ\"</div><div style=\"display: none;\">label QS:Lko,\"유니콘을 든 젊은 여인\"</div><div style=\"display: none;\">label QS:Len,\"Portrait of a Lady with a Unicorn\"</div><div style=\"display: none;\">label QS:Lar,\"امرأة شابة مع وحيد القرن\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Dama con Liocorno (Raffaello Sanzio)|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks missing digital representation of for 2D work|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks with SDC link missing|Images by Villa Borghese (Rome)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Raffaello_Sanzio\" class=\"extiw\" title=\"w:it:Raffaello Sanzio\"><span title=\"pittore e architetto italiano del Rinascimento (1483-1520)\">Raffaello Sanzio</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "tra il 1505 e il 1506<div style=\"display: none;\">date QS:P,+1505-00-00T00:00:00Z/8,P1319,+1505-00-00T00:00:00Z/9,P1326,+1506-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2344396#P571\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno\">https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

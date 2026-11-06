@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "a493a6524749",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ARitratto%20di%20maddalena%20strozzi.jpg",
+    "data": "2026-11-06T15:58:24+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Ritratto di maddalena strozzi.jpg",
+    "pagina": {
+      "pageid": 12042112,
+      "ns": 6,
+      "title": "File:Ritratto di maddalena strozzi.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 535857,
+          "width": 1723,
+          "height": 2500,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ritratto_di_maddalena_strozzi.jpg/500px-Ritratto_di_maddalena_strozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 696,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ritratto_di_maddalena_strozzi.jpg/960px-Ritratto_di_maddalena_strozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ritratto_di_maddalena_strozzi.jpg/500px-Ritratto_di_maddalena_strozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 696,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ritratto_di_maddalena_strozzi.jpg/960px-Ritratto_di_maddalena_strozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ritratto_di_maddalena_strozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ritratto_di_maddalena_strozzi.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12042112",
+          "sha1": "bd4e0b5f67cafbe61da1db5c081f51f57c33bf03",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2020-04-04 14:05:19",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Ritratto di Maddalena Doni <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2607055#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,it:\"Ritratto di Maddalena Doni <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2607055#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Ritratto di Maddalena Doni <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2607055#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Retrato de Maddalena Doni\"</div><div style=\"display: none;\">label QS:Lfr,\"Portrait de Maddalena Doni\"</div><div style=\"display: none;\">label QS:Lde,\"Porträt der Maddalena Doni\"</div><div style=\"display: none;\">label QS:Lpt,\"Retrato de Maddalena Doni\"</div><div style=\"display: none;\">label QS:Lzh,\"瑪達萊娜·多尼肖像\"</div><div style=\"display: none;\">label QS:Lka,\"მადალენა დონი\"</div><div style=\"display: none;\">label QS:Lja,\"マッダレーナ・ドーニの肖像\"</div><div style=\"display: none;\">label QS:Larz,\"صوره مادالينا دونى\"</div><div style=\"display: none;\">label QS:Lpl,\"Portret Maddaleny Doni\"</div><div style=\"display: none;\">label QS:Lml,\"പോർട്രെയ്റ്റ് ഓഫ് മദ്ദലീന ഡോണി\"</div><div style=\"display: none;\">label QS:Lnl,\"Portret van Maddalena Doni\"</div><div style=\"display: none;\">label QS:Len,\"Portrait of Maddalena Doni\"</div><div style=\"display: none;\">label QS:Ltr,\"Maddalena Doni Portresi\"</div><div style=\"display: none;\">label QS:Laz,\"Maddalena Doninin porterti\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Magdalena Strozzi's portrait paintings by Raffaello Sanzio|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|16th-century pendant portrait paintings of wedded couples",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Raffaello_Sanzio\" class=\"extiw\" title=\"w:it:Raffaello Sanzio\"><span title=\"pittore e architetto italiano del Rinascimento (1483-1520)\">Raffaello Sanzio</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "tra il 1505 e il 1506<div style=\"display: none;\">date QS:P,+1505-00-00T00:00:00Z/8,P1319,+1505-00-00T00:00:00Z/9,P1326,+1506-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2607055#P571\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "www.aiwaz.net",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

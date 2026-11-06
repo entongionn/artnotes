@@ -154,7 +154,70 @@ Nel repository va solo ciò che il sito mostra.
 - **Accessibilità**: provata con tastiera ed emulazione nel browser, non con tecnologie assistive reali (UX-03 parziale).
 - **Quota usata oggi**: circa 810 unità su 10.000 (8 ricerche da 100 unità più alcune chiamate da 1 unità).
 
-## 7. Da decidere prima della Fase 3
+## 7. Seconda iterazione: racconto, fonti più ampie, visita guidata, Gioconda
+
+Questa iterazione nasce da tre osservazioni:
+- le fonti erano troppo poche;
+- la narrazione era scarsa, frammentata e poco coinvolgente;
+- serviva una guida interattiva sull'immagine.
+
+Per verificarla ho aggiunto un'opera molto più famosa: la Gioconda.
+
+**Che cosa è cambiato:**
+- **Racconto a scene** per entrambe le opere. Prosa continua, con note numerate alle fonti e un segno per il tipo di frase (◆ interpretazione, ● osservazione, ▲ ipotesi, ○ lacuna).
+  - Origine AI e stato di revisione compaiono una sola volta, in testa al racconto e alle sezioni, non più su ogni blocco.
+  - Un pulsante ◉ dentro il testo inquadra il dettaglio sull'immagine.
+- **Visita guidata a schermo intero.**
+  - La camera segue la narrazione frase per frase, e lo zoom si sposta sul dettaglio quando il racconto ci si sofferma.
+  - L'etichetta compare insieme alla frase e il resto del quadro viene oscurato.
+  - Quando il racconto cita l'autore o un'altra opera esce dal quadro e ne mostra l'immagine (sono 7 uscite nella Gioconda).
+  - Comandi da tastiera, voce narrante facoltativa (sintesi vocale del browser) e niente animazioni con "movimento ridotto".
+- **Strato bibliografico.** C'è un connettore per OpenAlex, HAL, Wikisource e testi ad accesso aperto, e un registro curato per ogni opera.
+  - Ogni fonte dichiara categoria e **livello di lettura** (testo completo, passi pertinenti, abstract, non consultato).
+  - **La composizione rifiuta qualunque frase appoggiata a una fonte non consultata.**
+- **Più istituzioni.** Il motore non dipende più dal Met: la Gioconda arriva dal Louvre, i cui testi sono sotto Licence Ouverte Etalab, con l'immagine da Commons (scansione C2RMF non ritoccata).
+- **Certezza più fine.** Oltre a "dato dell'istituzione" e "da verificare" ora distingue "sostenuto dalla letteratura", "attestato da una fonte d'epoca" e "N fonti indipendenti concordano".
+
+| | I mietitori | La Gioconda |
+|---|---|---|
+| Fonti nel registro | 24 | 32 |
+| di cui letteratura, laboratorio, fonti d'epoca | 4 | 14 |
+| Frasi del racconto / note | 42 / 32 | 76 / 67 |
+| Interpretazioni da letteratura critica | 0 | 7 |
+| Frasi con 2+ fonti indipendenti concordi | 1 | 10 |
+| Candidati bibliografici ad accesso aperto pertinenti | 78, di cui più di metà sull'omonimo centro studi «Bruegel» | 103 |
+
+**Fonti nuove effettivamente lette:**
+- **Gioconda:**
+  - Vasari, *Vite* (Wikisource);
+  - il commento del conservatore del Louvre (Delieuvin, 2021);
+  - Probst, Biblioteca universitaria di Heidelberg, sulla nota di Vespucci del 1503;
+  - lo studio sullo spolvero di Cotte e Simonot (HAL);
+  - gli abstract di studi delle università di Firenze, Bologna, Urbino, della Calabria, Milano-Bicocca e Sheffield Hallam, del CNRS e del C2RMF.
+- **Mietitori:**
+  - van Mander, *Schilder-boeck* (1604);
+  - gli abstract di una tesi di dottorato dell'Università del Maryland e di due articoli sulla serie delle stagioni.
+
+**Che cosa si è visto:**
+- **La fama porta letteratura e fa il racconto.** Per la Gioconda la scheda del museo contiene un saggio critico firmato. Per i Mietitori il commento del Met resta irraggiungibile (errore 429) e il racconto si appoggia su van Mander, sui dati e sull'osservazione. La differenza si legge nella tabella sopra.
+- **Le fonti non sempre concordano, e il racconto lo mostra:**
+  - Vasari contro de Beatis sul committente;
+  - il Louvre, che non cita lo studio sullo spolvero;
+  - l'Università di Bologna, che attribuisce a Leonardo anche la Gioconda di Isleworth;
+  - l'Università di Urbino, che riconosce nel paesaggio il Montefeltro, mentre il Louvre non adotta nessuna identificazione.
+- **Le tracce materiali si vedono sulla fotografia**, quando la fonte le descrive con precisione: la fenditura di 11 cm, il ricamo e l'orlo del velo. Il ponte invece no: la regione è segnata come stima.
+- **Su YouTube la Gioconda produce meno falsi positivi ma più rumore di popolarità.**
+  - 72 titoli pertinenti su 76.
+  - I video più visti sono "challenge" e video virali da 23–30 milioni di visualizzazioni.
+  - Una puntata Rai è ricaricata da un canale di terzi.
+  - Ci sono anche i canali del Louvre, di Smarthistory e di ARTE.
+  - La cura dei video della Gioconda non è ancora fatta.
+- **Limiti:**
+  - le parafrasi di van Mander dall'olandese del 1604 sono dell'AI e vanno controllate su un'edizione critica;
+  - Smarthistory e la pagina del Met rifiutano l'accesso automatico;
+  - i libri a pagamento della bibliografia del Louvre (52 voci) sono elencati ma non letti.
+
+## 8. Da decidere prima della Fase 3
 
 1. **Chi revisiona** percorsi, connessioni e video, e con quale rubrica. Finché nulla passa a «pubblicato», il sito pubblico mostra solo il catalogo.
 2. Se i contenuti «da verificare» debbano essere **esclusi** da alcuni percorsi, oppure solo **penalizzati** nel punteggio.

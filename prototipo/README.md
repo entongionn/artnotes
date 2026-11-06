@@ -1,6 +1,11 @@
 # ArtNotes — prototipo (Fasi 2 e 2.5)
 
-Una sola opera completa: Pieter Bruegel il Vecchio, *The Harvesters* (Met 435809). Comprende immagine esplorabile, livelli di lettura, annotazioni collegate al testo, registri narrativi etichettati e fonti (Fase 2). Ci sono poi tre percorsi di visita, connessioni con altre opere, i video suggeriti di ArtNotes Pulse e un taccuino locale (Fase 2.5).
+Due opere: Pieter Bruegel il Vecchio, *I mietitori* (Met 435809), e Leonardo, *La Gioconda* (Louvre, `?opera=gioconda`). Per ciascuna:
+
+- un **racconto a scene**, leggibile come testo con note alle fonti oppure come **visita guidata** a schermo intero: la camera segue la narrazione, le etichette compaiono al momento giusto, il racconto esce dal quadro per mostrare l'autore o altre opere;
+- immagine esplorabile, livelli di lettura e annotazioni collegate al testo, con registri etichettati (Fase 2);
+- tre percorsi di visita, connessioni tipizzate con altre opere, video suggeriti (ArtNotes Pulse, per ora solo sui Mietitori) e un taccuino locale (Fase 2.5);
+- un **registro delle fonti** per categoria (museo, fonte d'epoca, letteratura, laboratorio, dati collaborativi, immagini), ciascuna con il livello di lettura dichiarato. Una fonte non letta non può sostenere nessuna frase: la composizione si ferma.
 
 ## Avvio
 
@@ -14,6 +19,7 @@ python -m http.server 8765 --bind 127.0.0.1
 Poi aprire:
 
 - <http://127.0.0.1:8765/> — anteprima redazionale, con la scelta «Che cosa vuoi scoprire oggi?»;
+- <http://127.0.0.1:8765/?opera=gioconda> — la Gioconda; il pulsante «▶ Visita guidata» apre la visita a schermo intero (Esc per uscire, ←/→ frasi, PagSu/PagGiù scene, barra spaziatrice per la pausa);
 - <http://127.0.0.1:8765/?percorso=curioso> — un percorso (`curioso`, `studio`, `ispirazione`, `libera`);
 - <http://127.0.0.1:8765/?percorso=studio&tappa=s4#a13> — percorso, tappa e dettaglio insieme, da condividere;
 - <http://127.0.0.1:8765/?vista=pubblico> — vista del lettore: solo contenuti pubblicati, oggi nessuno. Il vecchio `?modo=pubblico` funziona ancora;
@@ -22,16 +28,22 @@ Poi aprire:
 ## Ricostruire i dati
 
 ```
-python strumenti/importa.py met 435809            # payload Met, immagine, tile Deep Zoom
-python strumenti/importa.py wikidata Q776175      # payload Wikidata con etichette (anche Q3855265, Q500985, ...)
-python strumenti/importa.py commons "File.jpg"    # licenza e miniatura locale da Wikimedia Commons
-python strumenti/youtube.py query 435809          # mostra le query, senza chiamare l'API
-python strumenti/youtube.py cerca 435809          # candidati da YouTube (circa 800 unità di quota)
-python strumenti/youtube.py verifica 435809       # riverifica i soli video curati (1 unità)
-python strumenti/componi.py 435809                # web/api/opere/435809.json (anteprima)
-python strumenti/componi.py 435809 --pubblico     # web/api/opere/435809.pubblico.json
-python strumenti/prove.py                         # 41 prove automatiche
+python strumenti/importa.py met 435809                          # payload Met, immagine, tile Deep Zoom
+python strumenti/importa.py louvre cl010062370                  # scheda del Louvre (testi Etalab; foto non riusate)
+python strumenti/importa.py immagine-commons "File.jpg" chiave  # immagine di lavoro da Commons + tile
+python strumenti/importa.py wikidata Q12418                     # payload Wikidata con etichette
+python strumenti/importa.py commons "File.jpg"                  # licenza e miniatura locale da Commons
+python strumenti/letteratura.py openalex gioconda               # candidati bibliografici (OpenAlex, CC0)
+python strumenti/letteratura.py hal gioconda                    # candidati dall'archivio aperto HAL
+python strumenti/letteratura.py testo <id> <url> [licenza]      # testo di un articolo o pagina ad accesso aperto
+python strumenti/letteratura.py wikisource <id> it "<pagina>"   # fonte d'epoca da Wikisource
+python strumenti/youtube.py cerca 435809                        # candidati da YouTube (circa 800 unità di quota)
+python strumenti/youtube.py verifica 435809                     # riverifica i soli video curati (1 unità)
+python strumenti/componi.py --tutte                             # compone tutte le opere e l'indice
+python strumenti/prove.py                                       # 49 prove automatiche
 ```
+
+I candidati bibliografici sono solo metadati: una fonte entra nel registro curato (`dati/bibliografia/<opera>.json`) con il livello di lettura effettivo. I testi completi scaricati restano in locale (`dati/testi/*.txt`, esclusi da git); nel repository restano i metadati di acquisizione con l'impronta SHA-256.
 
 L'importazione si può ripetere: non crea duplicati e non rigenera le tile se l'immagine non è cambiata (stessa impronta SHA-256).
 
@@ -45,7 +57,11 @@ I metadati vanno riverificati entro 30 giorni (`youtube.py verifica`). Dopo quel
 
 | Percorso | Contenuto | Strato |
 |---|---|---|
-| `dati/fonti/` | Payload originali con URL, data e versione del connettore (Met, Wikidata, Commons) | Catalogo (record di fonte) |
+| `dati/opere/` | Configurazione di ogni opera: istituzione, Wikidata, immagine, query | Identità |
+| `dati/racconti/` | Racconto a scene: frasi con registro, fonti, regione, uscite dal quadro | Narrazione |
+| `dati/bibliografia/` | Registro curato delle fonti con categoria e livello di lettura | Fonti |
+| `dati/testi/` | Testi acquisiti (solo metadati nel repository) | Fonti |
+| `dati/fonti/` | Payload originali con URL, data e versione del connettore (Met, Louvre, Wikidata, Commons, SPARQL) | Catalogo (record di fonte) |
 | `dati/fonti/youtube/` | Risposte grezze di YouTube: solo in locale, escluse da git | Fonte esterna |
 | `dati/immagini/` | Versione dell'immagine: impronta, dimensioni, colore, diritti separati per livello | Catalogo (immagine) |
 | `dati/contenuti/` | Testi per sezione, a blocchi, con registro, fonti, origine e stato | Conoscenza |

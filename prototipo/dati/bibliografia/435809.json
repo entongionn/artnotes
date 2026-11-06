@@ -1,0 +1,32 @@
+{
+  "opera": "435809",
+  "nota": "Registro curato della letteratura. «lettura» dichiara che cosa è stato effettivamente letto: solo le fonti lette possono sostenere un'affermazione.",
+  "fonti": [
+    {"id": "vanmander-1604", "categoria": "primaria", "tipo": "fonte d'epoca: biografia d'artista",
+     "titolo": "Karel van Mander, Het Schilder-boeck, Haarlem 1604, «Het leven van Pieter Brueghel»", "breve": "van Mander, 1604", "anno": 1604,
+     "url": "https://www.dbnl.org/tekst/mand001schi01_01/mand001schi01_01_0221.php", "licenza": "testo in pubblico dominio; trascrizione DBNL",
+     "lettura": "testo completo", "testo": "vanmander-1604-bruegel", "consultato": "2026-11-06",
+     "note": "Testo in olandese del 1604. Le frasi del racconto ne sono parafrasi di ArtNotes (AI): da verificare su un'edizione critica o una traduzione pubblicata."},
+    {"id": "pehlivan-2021", "categoria": "letteratura", "tipo": "articolo (rivista universitaria)",
+     "titolo": "Burcu Pehlivan, «The Subject of Seasonal Cycles in Pieter Bruegel's Paintings and Premise Sources», The Journal of Social Sciences, 2021",
+     "breve": "Pehlivan (Beykent), 2021", "anno": 2021, "doi": "10.29228/sobider.50662", "istituzioni": ["Beykent University"],
+     "url": "http://sobider.com/files/sobider_makaleler/818764d8-e660-4b87-826c-c92e74a203d6.pdf", "licenza": "accesso aperto",
+     "lettura": "abstract", "consultato": "2026-11-06", "note": "Abstract in turco."},
+    {"id": "fischer-2025", "categoria": "letteratura", "tipo": "articolo",
+     "titolo": "Anna A. Fischer, «The painting cycle “The Seasons” by Pieter Brueghel the Elder: calendar symbolism and its interpretation», 2025",
+     "breve": "Fischer, 2025", "anno": 2025, "doi": "10.36340/2071-6818-2025-21-1-114-130",
+     "url": "https://doi.org/10.36340/2071-6818-2025-21-1-114-130", "licenza": "accesso aperto", "lettura": "abstract", "consultato": "2026-11-06"},
+    {"id": "payne-2017", "categoria": "letteratura", "tipo": "tesi di dottorato",
+     "titolo": "Brighton Kelley Payne, «The Bruegelians: Formation and Canonization of Peasant Imagery in the Tradition of Pieter Bruegel the Elder», tesi di dottorato, University of Maryland, 2017 (relatore Arthur K. Wheelock)",
+     "breve": "Payne (Maryland), 2017", "anno": 2017, "doi": "10.13016/m2358b", "istituzioni": ["University of Maryland"],
+     "url": "http://hdl.handle.net/1903/19375", "licenza": "accesso aperto", "lettura": "abstract", "consultato": "2026-11-06"},
+    {"id": "met-sito-435809", "categoria": "istituzione", "tipo": "pagina del museo con commento e bibliografia",
+     "titolo": "The Metropolitan Museum of Art, pagina dell'opera 435809", "breve": "Met, pagina dell'opera",
+     "url": "https://www.metmuseum.org/art/collection/search/435809", "licenza": "da verificare", "lettura": "non consultato",
+     "note": "Il sito ha risposto 429 (troppe richieste) il 6/11/2026: commento e bibliografia non letti."},
+    {"id": "smarthistory-harvesters", "categoria": "divulgazione", "tipo": "saggio didattico di storici dell'arte",
+     "titolo": "Smarthistory, «Pieter Bruegel the Elder, The Harvesters»", "breve": "Smarthistory",
+     "url": "https://smarthistory.org/bruegel-harvesters/", "licenza": "CC BY-NC-SA 4.0", "lettura": "non consultato",
+     "note": "Il sito ha rifiutato l'accesso automatico (HTTP 403) il 6/11/2026."}
+  ]
+}

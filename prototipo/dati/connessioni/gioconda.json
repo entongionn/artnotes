@@ -1,0 +1,58 @@
+{
+  "opera": "louvre:cl010062370",
+  "nota": "Connessioni con altre opere, tipizzate. Bozze generate da AI, non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "connessioni": [
+    {
+      "id": "k01", "tipo": "documentata", "relazione": "ripresa documentata dalla letteratura",
+      "titolo": "Raffaello guarda la Gioconda",
+      "opere": ["Q2607055", "Q2344396"],
+      "blocchi": [
+        {"registro": "documentato", "testo": "Il giovane Raffaello vide e ammirò la Gioconda durante il soggiorno a Firenze, fra il 1504 e il 1508, e se ne ispirò per i suoi ritratti.", "fonti": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"registro": "interpretazione", "testo": "Secondo Frank Zöllner, il ritratto di Maddalena Doni, la Dama col liocorno e il disegno preparatorio di quest'ultima presuppongono la Gioconda: per questo servono a datarla prima del 1504-1506.", "fonti": [{"fonte": "probst-2008", "nota": "riassume la tesi di Zöllner"}]}
+      ],
+      "stato": "bozza"
+    },
+    {
+      "id": "k02", "tipo": "documentata", "relazione": "modello fiammingo indicato dal museo",
+      "titolo": "La lezione fiamminga",
+      "opere": ["Q131579742"],
+      "blocchi": [
+        {"registro": "documentato", "testo": "Il Louvre indica come esempio di figura davanti a una balaustra aperta sul paesaggio il ritratto di Benedetto Portinari dipinto da Memling nel 1487, oggi agli Uffizi.", "fonti": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"registro": "interpretazione", "testo": "La posa di tre quarti, la balaustra, le mani in primo piano vengono dai ritratti fiamminghi; Leonardo li rende naturali, appoggiando le mani al bracciolo e facendo della posa la fine di una torsione.", "fonti": [{"fonte": "louvre-cl010062370-commento"}]}
+      ],
+      "annotazioni": ["g07", "g14"],
+      "stato": "bozza"
+    },
+    {
+      "id": "k03", "tipo": "documentata", "relazione": "copia di bottega",
+      "titolo": "La gemella del Prado",
+      "opere": ["Q2126369"],
+      "blocchi": [
+        {"registro": "documentato", "testo": "La copia eseguita nella bottega di Leonardo, recentemente restaurata e conservata al Museo del Prado, aiuta a capire la veste della Gioconda, oggi offuscata dalle vernici.", "fonti": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"registro": "documentato", "testo": "Wikidata registra la copia del Prado come «basata su» la Gioconda.", "fonti": [{"fonte": "wikidata-Q2126369", "campi": ["P144"]}]}
+      ],
+      "annotazioni": ["g06", "g08", "g09"],
+      "stato": "bozza"
+    },
+    {
+      "id": "k04", "tipo": "interpretativa", "relazione": "seconda versione proposta",
+      "titolo": "La Gioconda di Isleworth",
+      "opere": ["Q4390923"],
+      "blocchi": [
+        {"registro": "interpretazione", "testo": "Due ricercatori dell'Università di Bologna distinguono due versioni autografe, quella di Isleworth e quella del Louvre, dipinte da Leonardo in periodi diversi, dalle copie dell'una o dell'altra.", "fonti": [{"fonte": "lorusso-natali-2016", "nota": "abstract"}]},
+        {"registro": "documentato", "testo": "Il commento del Louvre non menziona questa tesi e parla di più di cento copie conosciute.", "fonti": [{"fonte": "louvre-cl010062370-commento"}]}
+      ],
+      "stato": "bozza"
+    },
+    {
+      "id": "k05", "tipo": "algoritmica", "relazione": "opere registrate come «basate su»",
+      "titolo": "Più di cento copie: quelle che Wikidata conosce",
+      "calcolo": {"metodo": "sparql_basati_su", "snapshot": "gioconda-basati-su"},
+      "blocchi": [
+        {"registro": "documentato", "testo": "Elenco calcolato dalle opere che Wikidata collega alla Gioconda con la proprietà «basato su» (P144): copie antiche, incisioni, reinterpretazioni moderne. È una fotografia dei dati, non un catalogo critico: include anche voci che non sono opere.", "fonti": [{"fonte": "wikidata-sparql-gioconda-basati-su"}]}
+      ],
+      "stato": "bozza"
+    }
+  ]
+}

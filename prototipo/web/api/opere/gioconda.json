@@ -1,0 +1,4333 @@
+{
+  "schema": "artnotes-prototipo/0.1",
+  "generato_il": "2026-11-06T17:39:33",
+  "modalita": "anteprima_redazionale",
+  "opera": {
+    "id": "louvre:cl010062370",
+    "chiave": "gioconda",
+    "catalogo": {
+      "titoli": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+          "lingua": "fr",
+          "tipo": "Titre"
+        },
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "La Joconde",
+          "lingua": "fr",
+          "tipo": "Titre d'usage"
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "valore": "La Gioconda",
+          "lingua": "it"
+        }
+      ],
+      "attribuzioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "autore": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci)",
+          "id_wikidata": "Q762",
+          "qualifica_originale": "Attribution actuelle"
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "autore": "Leonardo da Vinci",
+          "id_wikidata": "Q762",
+          "qualifica_originale": "",
+          "riferimenti": 1
+        }
+      ],
+      "attribuzione_in_evidenza": {
+        "fonte": "louvre-cl010062370",
+        "motivazione": "Scheda dell'istituzione che conserva l'opera. Wikidata indica la stessa persona."
+      },
+      "datazioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "testo_originale": "1e quart du XVIe siècle (1503 - 1519)",
+          "intervallo": [
+            1503,
+            1519
+          ]
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "testo_originale": "1503",
+          "riferimenti": 1
+        }
+      ],
+      "tecnica": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "huile sur bois (peuplier)"
+        }
+      ],
+      "dimensioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Hauteur: 0,794 m; Hauteur avec accessoire: 1,01 m; Largeur: 0,534 m; Largeur avec accessoire: 0,77 m"
+        }
+      ],
+      "istituzione": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Musée du Louvre, Département des Peintures",
+          "inventario": "INV 779, MR 316",
+          "linea_di_credito": "ancienne collection royale/de la Couronne (1793)"
+        }
+      ],
+      "identificativi": {
+        "louvre": "cl010062370",
+        "wikidata": "Q12418"
+      },
+      "soggetti_wikidata": [
+        {
+          "valore": "Lisa Gherardini",
+          "riferimenti": 2
+        },
+        {
+          "valore": "cielo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "massa d'acqua",
+          "riferimenti": 0
+        },
+        {
+          "valore": "ponte",
+          "riferimenti": 0
+        },
+        {
+          "valore": "bracciolo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "paesaggio",
+          "riferimenti": 1
+        },
+        {
+          "valore": "montagna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "figura",
+          "riferimenti": 0
+        },
+        {
+          "valore": "persona ritratta nella Gioconda",
+          "riferimenti": 0
+        }
+      ],
+      "proprietari_wikidata": [
+        {
+          "valore": "stato francese",
+          "qualificatori": {},
+          "riferimenti": 1
+        },
+        {
+          "valore": "Francesco I di Francia",
+          "qualificatori": {
+            "dal": [
+              "1519"
+            ],
+            "fino al": [
+              "1547"
+            ]
+          },
+          "riferimenti": 1
+        }
+      ]
+    }
+  },
+  "immagine": {
+    "id": "commons-4fd4ec6041e6-0aa85cdb70a5",
+    "sha256": "0aa85cdb70a5ea0fcfe4d93f077be1385c995dc975ab104779bee573607ed830",
+    "larghezza": 3840,
+    "altezza": 5622,
+    "a_colori": true,
+    "vista": "recto, intero; derivata Commons a 3840 px di larghezza (originale 7854 × 11498 px)",
+    "diritti": {
+      "metadati": "Wikimedia Commons: dati strutturati CC0; descrizione del file secondo la sua licenza",
+      "fotografia": "Public domain (Wikimedia Commons, verificato sul file)",
+      "opera": "pubblico dominio (opera del XVI secolo)",
+      "verificato_il": "2026-11-06"
+    },
+    "crediti": "Wikimedia Commons, Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg",
+    "dzi": "immagini/0aa85cdb70a5/immagine.dzi",
+    "file_fotografia": "Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg"
+  },
+  "copertura": {
+    "catalogo": "Dati essenziali presenti (Louvre, Wikidata).",
+    "approfondimenti_documentati": "7 interpretazioni attribuite a fonti, 7 da letteratura critica.",
+    "annotazioni": "19 regioni, nessuna revisionata.",
+    "revisione_umana": "Nessun contenuto revisionato."
+  },
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": [
+        {
+          "id": "c01",
+          "registro": "documentato",
+          "testo": "Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo, detto la Gioconda. Leonardo da Vinci, primo quarto del XVI secolo (1503-1519). Olio su tavola di pioppo, 79,4 × 53,4 cm. Parigi, Musée du Louvre, inv. 779.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370",
+              "campi": [
+                "title",
+                "dateCreated",
+                "materialsAndTechniques",
+                "dimension",
+                "objectNumber"
+              ]
+            },
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "c02",
+          "registro": "documentato",
+          "testo": "Cominciato almeno dall'ottobre 1503, probabilmente per il marito di Lisa, il ritratto rimase a Leonardo fino agli ultimi anni; molto probabilmente lo acquistò Francesco I nel 1518. È nelle collezioni reali, poi del Louvre.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            },
+            {
+              "fonte": "probst-2008"
+            },
+            {
+              "fonte": "louvre-cl010062370",
+              "campi": [
+                "acquisitionDetails"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "c03",
+          "registro": "interpretazione",
+          "testo": "Per il Louvre, durante la lunga esecuzione il dipinto divenne più del ritratto di una persona: l'immagine della «scienza divina della pittura», capace di ricreare la vita.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ]
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": [
+        {
+          "id": "c10",
+          "registro": "documentato",
+          "testo": "Il dipinto ha lasciato il Louvre solo per prestiti eccezionali: Washington e New York nel 1963, Tokyo e Mosca nel 1974.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370",
+              "campi": [
+                "exhibition"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        },
+        {
+          "id": "c11",
+          "registro": "documentato",
+          "testo": "La scheda del Louvre elenca 52 voci bibliografiche, dal 1852 al 2025. ArtNotes le riporta nella scheda Fonti: sono bibliografia, non testi letti, salvo quelli indicati come consultati.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370",
+              "campi": [
+                "bibliography"
+              ]
+            }
+          ],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ]
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": [
+        {
+          "id": "c20",
+          "registro": "lacuna",
+          "testo": "Le connessioni qui sotto dicono di che tipo sono. Confronti con altri ritratti di Leonardo (Ginevra de' Benci, Cecilia Gallerani) non sono ancora stati curati.",
+          "fonti": [],
+          "stato": "bozza",
+          "origine": {
+            "tipo": "ai",
+            "modello": "claude-opus-5-5",
+            "data": "2026-11-06"
+          },
+          "revisione": null
+        }
+      ],
+      "mostra_connessioni": true
+    }
+  ],
+  "annotazioni": [
+    {
+      "id": "g00",
+      "categoria": "osservazione",
+      "titolo": "Il volto",
+      "regione": "xywh=percent:32,11,25,26",
+      "domanda": "Da quale direzione arriva la luce sul volto?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Secondo il Louvre il volto è costruito con passaggi impercettibili dall'ombra alla luce, ottenuti con sottili velature d'olio che sfumano i contorni: lo «sfumato».",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g01",
+        "g02"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.32,
+        "y": 0.11,
+        "w": 0.25,
+        "h": 0.26
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g01",
+      "categoria": "osservazione",
+      "titolo": "Il sorriso",
+      "regione": "xywh=percent:38,28.5,15,5",
+      "domanda": "Guardalo da lontano, poi da vicino: cambia?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Vasari vi vedeva «un ghigno tanto piacevole che era cosa più divina che umana a vederlo».",
+          "fonti": [
+            {
+              "fonte": "vasari-1568"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "Secondo uno studio di psicologia della percezione, una zona sfumata sopra le labbra fa oscillare l'espressione fra contentezza e malinconia.",
+          "fonti": [
+            {
+              "fonte": "soranzo-2024",
+              "nota": "abstract"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g02"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.38,
+        "y": 0.285,
+        "w": 0.15,
+        "h": 0.05
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g02",
+      "categoria": "osservazione",
+      "titolo": "Gli occhi",
+      "regione": "xywh=percent:35,22.5,19,4",
+      "domanda": "Ti sta guardando?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Vasari descrive occhi con «quei lustri e quelle acquitrine, che di continuo si veggono nel vivo».",
+          "fonti": [
+            {
+              "fonte": "vasari-1568"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "In un esperimento, l'impressione che lo sguardo fissi l'osservatore è netta da lontano e diventa ambigua da vicino.",
+          "fonti": [
+            {
+              "fonte": "zavagno-2022",
+              "nota": "abstract"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g01",
+        "g03"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.35,
+        "y": 0.225,
+        "w": 0.19,
+        "h": 0.04
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g03",
+      "categoria": "osservazione",
+      "titolo": "Le sopracciglia",
+      "regione": "xywh=percent:35,19,19,3.5",
+      "domanda": "Vedi delle sopracciglia?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Vasari loda le «ciglia», con i peli che nascono dalla carne «dove più folti e dove più radi». Nella traduzione francese citata dal Louvre la parola diventa «sourcils», sopracciglia.",
+          "fonti": [
+            {
+              "fonte": "vasari-1568"
+            },
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "In questa fotografia, sopra gli occhi non si distinguono peli dipinti.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        },
+        {
+          "registro": "lacuna",
+          "testo": "Le fonti consultate non spiegano la differenza.",
+          "fonti": []
+        }
+      ],
+      "collegamenti": [
+        "g02"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.35,
+        "y": 0.19,
+        "w": 0.19,
+        "h": 0.035
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g04",
+      "categoria": "iconografia",
+      "titolo": "L'orlo del velo",
+      "regione": "xywh=percent:34,14.5,22,3",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "La testa è coperta da un velo trasparente; i capelli non sono sciolti, ma raccolti dietro in uno chignon trattenuto da una cuffia visibile in riflettografia.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "Secondo uno studio del 2020, sulla fronte affiora lo spolvero di un disegno preparatorio con un velo diverso e il volto girato altrove: un progetto abbandonato.",
+          "fonti": [
+            {
+              "fonte": "cotte-simonot-2020"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g05"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.34,
+        "y": 0.145,
+        "w": 0.22,
+        "h": 0.03
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g05",
+      "categoria": "tecnica",
+      "titolo": "La fenditura",
+      "regione": "xywh=percent:38.5,0,3,15",
+      "domanda": "Riesci a seguire la linea chiara che scende dal bordo?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Una fenditura di circa 11 cm parte dal bordo superiore, attraversa il cuoio capelluto e si ferma all'altezza della fronte.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            },
+            {
+              "fonte": "uzielli-2011",
+              "nota": "abstract"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "In questa fotografia si vede una linea chiara verticale che scende dal bordo fino alla fronte, compatibile con la descrizione.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g17"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.385,
+        "y": 0.0,
+        "w": 0.03,
+        "h": 0.15
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g06",
+      "categoria": "iconografia",
+      "titolo": "Il ricamo della scollatura",
+      "regione": "xywh=percent:32,51,24,5.5",
+      "domanda": "Segui l'intreccio: si ripete?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Fili d'oro ricamati formano intrecci geometrici e fissano al petto un grande velo di seta trasparente.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "L'intreccio si legge bene in questa fotografia, come una fascia di anelli concatenati.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g09"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.32,
+        "y": 0.51,
+        "w": 0.24,
+        "h": 0.055
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g07",
+      "categoria": "osservazione",
+      "titolo": "Le mani",
+      "regione": "xywh=percent:22,71,45,18",
+      "domanda": "Quale mano sta sopra?",
+      "blocchi": [
+        {
+          "registro": "interpretazione",
+          "testo": "Le mani non stanno su un parapetto, come nei ritratti fiamminghi: si appoggiano al bracciolo della sedia, la destra che raggiunge la sinistra.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g08"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.22,
+        "y": 0.71,
+        "w": 0.45,
+        "h": 0.18
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g08",
+      "categoria": "iconografia",
+      "titolo": "La manica",
+      "regione": "xywh=percent:11,66,20,14",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Le maniche, staccabili, erano probabilmente gialle; la veste forse verde scura. Le vernici ossidate rendono l'abito più sobrio di quanto fosse.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g07"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.11,
+        "y": 0.66,
+        "w": 0.2,
+        "h": 0.14
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g09",
+      "categoria": "iconografia",
+      "titolo": "Il velo sulla spalla",
+      "regione": "xywh=percent:62,47,20,12",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Il velo di seta risale sul gomito destro e si ripiega largamente sulla spalla sinistra.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "La sua natura è discussa: un «guarnello», veste delle donne in attesa, oppure un'invenzione di Leonardo, attratto dalle trasparenze.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g06"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.62,
+        "y": 0.47,
+        "w": 0.2,
+        "h": 0.12
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g10",
+      "categoria": "composizione",
+      "titolo": "La strada sinuosa",
+      "regione": "xywh=percent:4,47,20,11",
+      "domanda": "Dove porta?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "A sinistra una strada sinuosa attraversa i monti.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "Qui si vede un tracciato chiaro a S fra i rilievi rossicci.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g11"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.04,
+        "y": 0.47,
+        "w": 0.2,
+        "h": 0.11
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g11",
+      "categoria": "composizione",
+      "titolo": "Il ponte",
+      "regione": "xywh=percent:72,40,16,9",
+      "domanda": "Lo trovi?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "A destra un ponte attraversa il fiume.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "La regione è una stima: in questa fotografia, sotto le vernici, il ponte non si distingue con sicurezza.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g10"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.72,
+        "y": 0.4,
+        "w": 0.16,
+        "h": 0.09
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g12",
+      "categoria": "composizione",
+      "titolo": "L'acqua a destra",
+      "regione": "xywh=percent:62,20,35,8",
+      "domanda": "È alla stessa altezza dell'acqua a sinistra?",
+      "blocchi": [
+        {
+          "registro": "interpretazione",
+          "testo": "Il Louvre respinge l'idea, a volte sostenuta, di due orizzonti a quote diverse: la linea dell'acqua a destra prosegue a sinistra, in parte nascosta dai monti.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g13"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.62,
+        "y": 0.2,
+        "w": 0.35,
+        "h": 0.08
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g13",
+      "categoria": "composizione",
+      "titolo": "L'acqua a sinistra",
+      "regione": "xywh=percent:2,30,26,9",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "osservazione",
+          "testo": "A colpo d'occhio, in questa fotografia, l'acqua a sinistra sembra più bassa di quella a destra.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g12"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.02,
+        "y": 0.3,
+        "w": 0.26,
+        "h": 0.09
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g14",
+      "categoria": "composizione",
+      "titolo": "La colonnina",
+      "regione": "xywh=percent:0.5,51,7,12",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Alle estremità della balaustra si distinguono due colonnine che incorniciano il paesaggio.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "La forma scura e rotonda al bordo sinistro potrebbe essere la base di una di esse: identificazione dell'AI, non verificata.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.005,
+        "y": 0.51,
+        "w": 0.07,
+        "h": 0.12
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g15",
+      "categoria": "tecnica",
+      "titolo": "Il cielo verde",
+      "regione": "xywh=percent:2,2,96,9",
+      "domanda": "Di che colore è il cielo?",
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Gli strati di vernice ossidata aggiunti dopo la morte di Leonardo fanno da filtro giallo: il blu del cielo appare verde.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.02,
+        "y": 0.02,
+        "w": 0.96,
+        "h": 0.09
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g16",
+      "categoria": "tecnica",
+      "titolo": "Il gomito colpito nel 1956",
+      "regione": "xywh=percent:76,73,12,10",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Nel 1956 un uomo squilibrato lanciò una pietra contro il dipinto: il vetro si ruppe e il gomito sinistro fu un po' danneggiato.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "La macchia chiara in questa zona potrebbe corrispondere al danno: non è verificato.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.76,
+        "y": 0.73,
+        "w": 0.12,
+        "h": 0.1
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g17",
+      "categoria": "tecnica",
+      "titolo": "Il bordo del pannello",
+      "regione": "xywh=percent:0,0,100,1.6",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "I bordi nudi del pannello e la «barba», la cresta di colore formata contro il telaio di lavoro, provano che la tavola non è mai stata tagliata.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "osservazione",
+          "testo": "Lungo il bordo superiore, in questa fotografia, si vede il legno non dipinto.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [
+        "g05"
+      ],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.016
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    },
+    {
+      "id": "g18",
+      "categoria": "tecnica",
+      "titolo": "Il terreno abbozzato",
+      "regione": "xywh=percent:80,48,17,10",
+      "domanda": null,
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Il dipinto è in parte non finito, come si vede nell'abbozzo di terreno in basso a destra del paesaggio.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "ipotesi",
+          "testo": "La posizione della regione è una stima dell'AI a partire dalla descrizione.",
+          "fonti": [
+            {
+              "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+            }
+          ]
+        }
+      ],
+      "collegamenti": [],
+      "stato": "bozza",
+      "regione_normalizzata": {
+        "x": 0.8,
+        "y": 0.48,
+        "w": 0.17,
+        "h": 0.1
+      },
+      "immagine_riferimento": "commons-4fd4ec6041e6-0aa85cdb70a5",
+      "verifica_immagine": "valida",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null
+    }
+  ],
+  "racconto": {
+    "opera": "louvre:cl010062370",
+    "titolo": "Il ritratto che non fu mai consegnato",
+    "sottotitolo": "Una nota a margine, un sorriso, un legno che si incrina: la Gioconda raccontata con le sue fonti",
+    "durata": "circa 8 minuti",
+    "origine": {
+      "tipo": "ai",
+      "modello": "claude-opus-5-5",
+      "data": "2026-11-06"
+    },
+    "stato": "bozza",
+    "scene": [
+      {
+        "id": "s1",
+        "titolo": "Una nota a margine",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Firenze, ottobre 1503.",
+            "r": "raccordo"
+          },
+          {
+            "t": "Agostino Vespucci, collaboratore di Machiavelli nella cancelleria della Repubblica, sta leggendo le lettere di Cicerone in un'edizione stampata a Bologna nel 1477.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "probst-2008",
+                "nota": "pp. 12-13"
+              }
+            ],
+            "nota": 1,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Cicerone ricorda Apelle, il pittore antico che aveva rifinito con arte sublime la testa e il petto di una Venere, lasciando il resto del corpo appena abbozzato.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "probst-2008",
+                "nota": "p. 12, testo latino della lettera"
+              }
+            ],
+            "nota": 2,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Vespucci prende la penna e scrive a margine: «Così fa Leonardo da Vinci in tutte le sue pitture, come la testa di Lisa del Giocondo».",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento",
+                "nota": "citazione tradotta dalla versione francese del Louvre"
+              }
+            ],
+            "nota": 3,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Leonardo ha circa cinquant'anni: è nato a Vinci nel 1452 e da marzo è di nuovo a Firenze, dopo aver seguito come ingegnere le campagne militari di Cesare Borgia.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370",
+                "campi": [
+                  "creator.dates"
+                ]
+              },
+              {
+                "fonte": "probst-2008"
+              }
+            ],
+            "fuori": {
+              "tipo": "persona",
+              "wikidata": "Q762",
+              "didascalia": "Leonardo da Vinci in un ritratto che Wikidata e Commons attribuiscono a Francesco Melzi",
+              "scheda": {
+                "wikidata": "Q762",
+                "fonte": "wikidata-Q762",
+                "nome": "Leonardo da Vinci",
+                "nascita": "1452",
+                "morte": "1519",
+                "immagine": {
+                  "src": "immagini/confronti/144359dcd89f.jpg",
+                  "fonte": "commons-144359dcd89f",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png"
+                }
+              }
+            },
+            "nota": 4,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Quel volume di Cicerone è oggi nella Biblioteca universitaria di Heidelberg. La nota l'ha trovata nel 2005 Armin Schlechter, mentre catalogava gli incunaboli.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "probst-2008",
+                "nota": "p. 12"
+              },
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 5,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Quella riga fa due cose insieme: dimostra che il ritratto era già cominciato nell'ottobre 1503 e conferma chi è la donna dipinta.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 6,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Ma chi era Lisa? E perché, cinque secoli dopo, qualcuno ne dubitava ancora?",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370",
+          "louvre-cl010062370-commento",
+          "probst-2008"
+        ]
+      },
+      {
+        "id": "s2",
+        "titolo": "Lisa",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g00"
+        },
+        "frasi": [
+          {
+            "t": "Lisa Gherardini nasce a Firenze nel 1479, da un'antica famiglia di proprietari terrieri del Chianti.",
+            "r": "documentato",
+            "a": "g00",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 7,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il volto"
+          },
+          {
+            "t": "Nel 1495 sposa Francesco del Giocondo, mercante di seta, da cui avrà sei figli. Morirà nel 1542.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 8,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Giorgio Vasari, nelle sue Vite, scrive che fu il marito a chiedere il ritratto: «Prese Lionardo a fare per Francesco del Giocondo il ritratto di Monna Lisa sua moglie, e quattro anni penatovi lo lasciò imperfetto».",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 9,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Vasari il quadro non lo vide mai: era già in Francia. Ma a Firenze vivevano ancora i figli di Lisa, e la storia del ritratto doveva essere ben nota nella buona società fiorentina.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 10,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Anche lo storico dell'arte Frank Zöllner ha sostenuto, rileggendo fonti e documenti, che il ritratto è di Lisa e che lo commissionò il marito fra il 1503 e il 1506.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "zollner-2006-ritratto",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 11,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Eppure c'è un testimone che racconta un'altra storia.",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370-commento",
+          "vasari-1568",
+          "zollner-2006-ritratto"
+        ]
+      },
+      {
+        "id": "s3",
+        "titolo": "Il testimone scomodo",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Il 10 ottobre 1517 il cardinale d'Aragona fa visita a Leonardo, ormai in Francia, nel castello di Clos-Lucé.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 12,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Il suo segretario, Antonio de Beatis, annota di aver visto il ritratto «di una certa dama fiorentina fatta al naturale su istanza del fu Magnifico Giuliano de' Medici».",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento",
+                "nota": "citazione tradotta dalla versione francese del Louvre"
+              }
+            ],
+            "nota": 13,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Giuliano, non il marito? Da qui sono nate ipotesi su altre modelle, come Isabella Gualanda o Pacifica Brandani, che il Louvre giudica deboli.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 14,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "La lettura del conservatore Vincent Delieuvin è più semplice. Leonardo trattava i committenti con grande libertà: un quadro rimasto per anni nella sua bottega poteva attirare protettori diversi, da Luigi XII a Giuliano de' Medici, fino a Francesco I.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 15,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Alla fine fu Francesco I ad averlo, molto probabilmente nel 1518: un documento scoperto nel 1999 registra un pagamento enorme, 2604 livres, a Salaì, allievo di Leonardo, «per alcune tavole di pittura» consegnate al re.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento",
+                "nota": "citazione tradotta dalla versione francese del Louvre"
+              }
+            ],
+            "nota": 16,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Il ritratto, insomma, non fu mai consegnato a chi l'aveva chiesto. E si vede.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 17,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370-commento"
+        ]
+      },
+      {
+        "id": "s4",
+        "titolo": "Un quadro che non finisce",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g18"
+        },
+        "frasi": [
+          {
+            "t": "Leonardo tenne il quadro con sé fino alla morte, continuando a dipingerlo.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 18,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "In basso a destra, nel paesaggio, un tratto di terreno è rimasto allo stato di abbozzo.",
+            "r": "documentato",
+            "a": "g18",
+            "etichetta": "Terreno abbozzato (posizione stimata)",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 19,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Anche sotto la superficie ci sono ripensamenti.",
+            "r": "raccordo"
+          },
+          {
+            "t": "Nel 2020 Pascal Cotte e Lionel Simonot hanno pubblicato immagini multispettrali in cui, sulla fronte, compare uno «spolvero»: la fila di puntini lasciata dal trasferimento di un disegno preparatorio.",
+            "r": "documentato",
+            "a": "g04",
+            "etichetta": "Spolvero sulla fronte (Cotte e Simonot)",
+            "f": [
+              {
+                "fonte": "cotte-simonot-2020",
+                "nota": "§ 5.1"
+              }
+            ],
+            "nota": 20,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Secondo gli autori quel disegno prevedeva un velo diverso e un volto girato in un'altra direzione. E nel cielo, a destra della testa, ipotizzano uno spillone con una perla, poi abbandonato.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "cotte-simonot-2020",
+                "nota": "§ 5.1 e 5.3"
+              }
+            ],
+            "nota": 21,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Lo studio non compare nel commento del Louvre del 2021: è una lettura da tenere aperta, non un fatto acquisito.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "cotte-simonot-2020"
+              }
+            ],
+            "nota": 22,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "cotte-simonot-2020",
+          "louvre-cl010062370-commento"
+        ]
+      },
+      {
+        "id": "s5",
+        "titolo": "Il sorriso",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g01"
+        },
+        "frasi": [
+          {
+            "t": "Vasari descrive gli occhi con «quei lustri e quelle acquitrine, che di continuo si veggono nel vivo».",
+            "r": "documentato",
+            "a": "g02",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 23,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            },
+            "etichetta": "Gli occhi"
+          },
+          {
+            "t": "E una bocca che «non colori, ma carne pareva veramente».",
+            "r": "documentato",
+            "a": "g01",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 24,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            },
+            "etichetta": "Il sorriso"
+          },
+          {
+            "t": "Racconta che Leonardo, mentre dipingeva, faceva suonare e cantare e chiamava buffoni a tenerla allegra, «per levar via quel malinconico» che hanno spesso i ritratti.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 25,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Il risultato, scrive, era «un ghigno tanto piacevole che era cosa più divina che umana a vederlo».",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 26,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Il Louvre aggiunge un gioco di parole: «giocondo» vuol dire lieto. La Gioconda è letteralmente una donna felice, e il sorriso è il suo emblema.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 27,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Per la psicologia della percezione il sorriso resta un enigma misurabile. Uno studio dell'Università della Calabria lo lega a una zona sfumata sopra le labbra, che fa oscillare l'espressione tra contentezza e malinconia.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "soranzo-2024",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 28,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Un altro studio, di ricercatori della Sheffield Hallam University e dell'Università di Milano-Bicocca, ha osservato che lo sguardo sembra fissarci da lontano e diventa ambiguo da vicino.",
+            "r": "interpretazione",
+            "a": "g02",
+            "f": [
+              {
+                "fonte": "zavagno-2022",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 29,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Gli occhi"
+          },
+          {
+            "t": "Prova anche tu: allontanati dallo schermo, poi avvicinati.",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370-commento",
+          "soranzo-2024",
+          "vasari-1568",
+          "zavagno-2022"
+        ]
+      },
+      {
+        "id": "s6",
+        "titolo": "Le sopracciglia scomparse",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g03"
+        },
+        "frasi": [
+          {
+            "t": "Vasari loda anche le «ciglia»: peli che nascono dalla carne, «dove più folti e dove più radi», e girano secondo i pori della pelle.",
+            "r": "documentato",
+            "a": "g03",
+            "f": [
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 30,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            },
+            "etichetta": "Le sopracciglia"
+          },
+          {
+            "t": "Guarda sopra gli occhi: in questa fotografia non si distinguono peli dipinti.",
+            "r": "osservazione",
+            "a": "g03",
+            "f": [
+              {
+                "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+              }
+            ],
+            "nota": 31,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Le sopracciglia"
+          },
+          {
+            "t": "Va ricordato che Vasari non vide mai il dipinto. E la sua parola, «ciglia», nella traduzione francese citata dal Louvre diventa «sourcils», sopracciglia.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "vasari-1568"
+              }
+            ],
+            "nota": 32,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Le fonti consultate non spiegano la differenza: per ora è una domanda aperta.",
+            "r": "lacuna"
+          }
+        ],
+        "fonti_scena": [
+          "foto-commons-4fd4ec6041e6-0aa85cdb70a5",
+          "louvre-cl010062370-commento",
+          "vasari-1568"
+        ]
+      },
+      {
+        "id": "s7",
+        "titolo": "Un vestito più colorato di quanto sembri",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g06"
+        },
+        "frasi": [
+          {
+            "t": "Sulla scollatura corre un ricamo di fili d'oro che forma intrecci geometrici e fissa al petto un grande velo di seta trasparente.",
+            "r": "documentato",
+            "a": "g06",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 33,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il ricamo della scollatura"
+          },
+          {
+            "t": "Le maniche, staccabili, erano probabilmente gialle; la veste forse verde scura.",
+            "r": "documentato",
+            "a": "g08",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 34,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "La manica"
+          },
+          {
+            "t": "Il velo risale sul gomito destro e si ripiega largamente sulla spalla sinistra.",
+            "r": "documentato",
+            "a": "g09",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 35,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il velo sulla spalla"
+          },
+          {
+            "t": "Quella sobrietà, letta a volte come un abito da lutto, si deve in parte alle vernici ingiallite. In realtà è un costume alla moda fiorentina, ricco e colorato, come si addice alla moglie di un mercante di seta.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 36,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Per immaginare i colori aiuta una copia eseguita nella bottega di Leonardo, restaurata di recente e conservata al Museo del Prado.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q2126369",
+              "didascalia": "La copia del Museo del Prado, eseguita nella bottega di Leonardo",
+              "scheda": {
+                "wikidata": "Q2126369",
+                "fonte": "wikidata-Q2126369",
+                "titolo": "Gioconda",
+                "autori": [
+                  {
+                    "valore": "(valore sconosciuto)",
+                    "riferimenti": 1
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1511",
+                    "riferimenti": 1
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "Museo del Prado",
+                    "riferimenti": 1
+                  }
+                ],
+                "iconclass": [],
+                "immagine": {
+                  "src": "immagini/confronti/94b495303f79.jpg",
+                  "fonte": "commons-94b495303f79",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Gioconda_(copia_del_Museo_del_Prado_restaurada).jpg"
+                },
+                "avvisi": []
+              }
+            },
+            "nota": 37,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Che cosa fosse quel velo resta discusso: un «guarnello», veste delle donne in attesa, oppure un'invenzione di Leonardo, attratto dalle trasparenze.",
+            "r": "interpretazione",
+            "a": "g09",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 38,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il velo sulla spalla"
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370-commento"
+        ]
+      },
+      {
+        "id": "s8",
+        "titolo": "La lezione fiamminga",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "La messa in scena di questo ritratto viene dal Nord.",
+            "r": "raccordo"
+          },
+          {
+            "t": "La posa di tre quarti invece del profilo, la figura davanti a una balaustra aperta sul paesaggio, le mani in primo piano: sono soluzioni dei ritratti fiamminghi, molto amati nell'Italia del Rinascimento.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 39,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Il Louvre cita il ritratto di Benedetto Portinari dipinto da Hans Memling nel 1487, oggi agli Uffizi.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q131579742",
+              "didascalia": "Hans Memling, ritratto di Benedetto Portinari (1487), Firenze, Uffizi",
+              "scheda": {
+                "wikidata": "Q131579742",
+                "fonte": "wikidata-Q131579742",
+                "titolo": "Benedetto Portinari",
+                "autori": [],
+                "date": [],
+                "collezioni": [],
+                "iconclass": [],
+                "immagine": {
+                  "src": "immagini/confronti/7f06a9b72505.jpg",
+                  "fonte": "commons-7f06a9b72505",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Memling,_trittico_di_Benedetto_Portinari,_ritratto,_parte_destra.jpg"
+                },
+                "avvisi": []
+              }
+            },
+            "nota": 40,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Ma Leonardo rende naturale ogni dispositivo. Le mani non stanno su un parapetto: si appoggiano al bracciolo della sedia, e la destra raggiunge la sinistra a chiudere una torsione del corpo verso di noi.",
+            "r": "interpretazione",
+            "a": "g07",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 41,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Le mani"
+          },
+          {
+            "t": "Ai lati della balaustra, due colonnine incorniciano il paesaggio.",
+            "r": "documentato",
+            "a": "g14",
+            "etichetta": "Colonnina (identificazione da verificare)",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 42,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Se per Leon Battista Alberti il quadro era una finestra aperta, qui sembra una porta: Lisa ci accoglie sulla terrazza di una villa e si volta verso di noi, sorridendo.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 43,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "louvre-cl010062370-commento"
+        ]
+      },
+      {
+        "id": "s9",
+        "titolo": "Il paesaggio",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Alle sue spalle si apre un paesaggio di montagne e di acque.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 44,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "A sinistra una strada sinuosa attraversa i monti.",
+            "r": "documentato",
+            "a": "g10",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 45,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "La strada sinuosa"
+          },
+          {
+            "t": "A destra un ponte scavalca il fiume, anche se in questa fotografia, sotto le vernici, non si distingue con sicurezza.",
+            "r": "documentato",
+            "a": "g11",
+            "etichetta": "Il ponte (zona stimata)",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+              }
+            ],
+            "nota": 46,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "C'è chi ha scritto che l'orizzonte a sinistra sia più basso di quello a destra.",
+            "r": "documentato",
+            "a": "g13",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 47,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "L'acqua a sinistra"
+          },
+          {
+            "t": "Il Louvre lo nega: la linea dell'acqua a destra prosegue a sinistra, in parte nascosta dai monti.",
+            "r": "interpretazione",
+            "a": "g12",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 48,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "L'acqua a destra"
+          },
+          {
+            "t": "Guarda le due acque e giudica tu.",
+            "r": "raccordo"
+          },
+          {
+            "t": "Un gruppo di geologi dell'Università di Urbino ha proposto nel 2025 di riconoscervi il Montefeltro, nell'Appennino tosco-emiliano, con un antico lago ai piedi del monte Aquilone.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "nesci-2025",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 49,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Il commento del Louvre non adotta nessuna identificazione del luogo.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 50,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "foto-commons-4fd4ec6041e6-0aa85cdb70a5",
+          "louvre-cl010062370-commento",
+          "nesci-2025"
+        ]
+      },
+      {
+        "id": "s10",
+        "titolo": "Un legno che si muove",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "g05"
+        },
+        "frasi": [
+          {
+            "t": "Leonardo dipinse su una sottile tavola di pioppo di circa 79 per 53 centimetri, per ritrarre Lisa a grandezza naturale.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "uzielli-2011",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 51,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Col tempo il legno si è incurvato e si è aperto: una fenditura di circa 11 centimetri scende dal bordo superiore e si ferma, quasi per miracolo, all'altezza della fronte.",
+            "r": "documentato",
+            "a": "g05",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "uzielli-2011",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 52,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            },
+            "etichetta": "La fenditura"
+          },
+          {
+            "t": "Dal 2004 un gruppo di ricerca dell'Università di Firenze e del CNRS studia quella tavola. Secondo gli autori la fessura potrebbe risalire a poco dopo l'esecuzione del dipinto.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "uzielli-2011",
+                "nota": "abstract"
+              },
+              {
+                "fonte": "riparbelli-2019",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 53,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Lungo il bordo superiore si vede il legno nudo: con la «barba» di colore formata contro il telaio di lavoro, prova che la tavola non è mai stata tagliata.",
+            "r": "documentato",
+            "a": "g17",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+              }
+            ],
+            "nota": 54,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il bordo del pannello"
+          },
+          {
+            "t": "Sopra tutto, strati di vernice ossidata aggiunti dopo la morte di Leonardo fanno da filtro giallo: il blu del cielo è diventato verde.",
+            "r": "documentato",
+            "a": "g15",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 55,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            },
+            "etichetta": "Il cielo verde"
+          },
+          {
+            "t": "Già nel 2004 una ripresa multispettrale aveva provato a calcolare i colori «senza l'influenza della vernice invecchiata».",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "cotte-dupraz-2006",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 56,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "E nel 2023 un microcampione della preparazione, analizzato con i raggi X di un sincrotrone, ha rivelato un minerale raro, la plumbonacrite: forse Leonardo trattava l'olio con molto ossido di piombo per ottenere una pittura densa.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "gonzalez-2023",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 57,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Nel 1956 un uomo squilibrato lanciò una pietra contro il dipinto: il vetro si ruppe e il gomito sinistro fu un po' danneggiato.",
+            "r": "documentato",
+            "a": "g16",
+            "etichetta": "Gomito sinistro (punto del danno da verificare)",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 58,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "cotte-dupraz-2006",
+          "foto-commons-4fd4ec6041e6-0aa85cdb70a5",
+          "gonzalez-2023",
+          "louvre-cl010062370-commento",
+          "riparbelli-2019",
+          "uzielli-2011"
+        ]
+      },
+      {
+        "id": "s11",
+        "titolo": "Il quadro più famoso del mondo",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Il quadro affascinò subito i pittori. Il giovane Raffaello lo vide a Firenze negli anni fra il 1504 e il 1508.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "fuori": {
+              "tipo": "persona",
+              "wikidata": "Q5597",
+              "didascalia": "Raffaello Sanzio (immagine di Wikidata)",
+              "scheda": {
+                "wikidata": "Q5597",
+                "fonte": "wikidata-Q5597",
+                "nome": "Raffaello Sanzio",
+                "nascita": "1483",
+                "morte": "1520",
+                "immagine": {
+                  "src": "immagini/confronti/6a7dffdd4d55.jpg",
+                  "fonte": "commons-6a7dffdd4d55",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg"
+                }
+              }
+            },
+            "nota": 59,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Secondo Frank Zöllner, tre ritratti femminili di Raffaello, datati fra il 1504 e il 1506, presuppongono la Gioconda: fra questi la Maddalena Doni…",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "probst-2008",
+                "nota": "riassume la tesi di Zöllner"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q2607055",
+              "didascalia": "Raffaello, ritratto di Maddalena Doni, Firenze, Palazzo Pitti",
+              "scheda": {
+                "wikidata": "Q2607055",
+                "fonte": "wikidata-Q2607055",
+                "titolo": "Ritratto di Maddalena Strozzi",
+                "autori": [
+                  {
+                    "valore": "Raffaello Sanzio",
+                    "riferimenti": 1
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1505",
+                    "riferimenti": 1
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "Galleria Palatina (1946–?)",
+                    "riferimenti": 1
+                  }
+                ],
+                "iconclass": [],
+                "immagine": {
+                  "src": "immagini/confronti/a493a6524749.jpg",
+                  "fonte": "commons-a493a6524749",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Ritratto_di_maddalena_strozzi.jpg"
+                },
+                "avvisi": []
+              }
+            },
+            "nota": 60,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "…e la Dama col liocorno.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "probst-2008"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q2344396",
+              "didascalia": "Raffaello, Dama col liocorno, Roma, Galleria Borghese",
+              "scheda": {
+                "wikidata": "Q2344396",
+                "fonte": "wikidata-Q2344396",
+                "titolo": "Dama col liocorno",
+                "autori": [
+                  {
+                    "valore": "Raffaello Sanzio",
+                    "riferimenti": 0
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1505",
+                    "riferimenti": 1
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "Galleria Borghese (1902–?)",
+                    "riferimenti": 1
+                  },
+                  {
+                    "valore": "Collezione Borghese (?–1902)",
+                    "riferimenti": 1
+                  },
+                  {
+                    "valore": "Collezione Aldobrandini (?–1682)",
+                    "riferimenti": 1
+                  }
+                ],
+                "iconclass": [],
+                "immagine": {
+                  "src": "immagini/confronti/e50786e43344.jpg",
+                  "fonte": "commons-e50786e43344",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Lady_with_unicorn.jpg"
+                },
+                "avvisi": [
+                  "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+                ]
+              }
+            },
+            "nota": 61,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Le copie cominciarono già nel Cinquecento: oggi se ne conoscono più di cento.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 62,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Due ricercatori dell'Università di Bologna si spingono oltre: per loro anche la «Gioconda di Isleworth» sarebbe di Leonardo, in una versione diversa. Il commento del Louvre non ne parla.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "lorusso-natali-2016",
+                "nota": "abstract"
+              },
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q4390923",
+              "didascalia": "La «Gioconda di Isleworth» (collezione privata): attribuzione discussa",
+              "scheda": {
+                "wikidata": "Q4390923",
+                "fonte": "wikidata-Q4390923",
+                "titolo": "Monna Lisa di Isleworth",
+                "autori": [
+                  {
+                    "valore": "Leonardo da Vinci",
+                    "riferimenti": 0
+                  },
+                  {
+                    "valore": "(valore sconosciuto)",
+                    "riferimenti": 1
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1502",
+                    "riferimenti": 0
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "collezione, nome non indicato",
+                    "riferimenti": 0
+                  }
+                ],
+                "iconclass": [],
+                "immagine": {
+                  "src": "immagini/confronti/f2ef36f2442f.jpg",
+                  "fonte": "commons-f2ef36f2442f",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:The_Isleworth_Mona_Lisa.jpg"
+                },
+                "avvisi": []
+              }
+            },
+            "nota": 63,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "La fama popolare arrivò con un furto: nel 1911 Vincenzo Peruggia, un vetraio che lavorava al Louvre, la portò via. Fu ritrovata nel 1913.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 64,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Nel 1963 la Gioconda viaggiò negli Stati Uniti come ambasciatrice della Francia. Zöllner ha mostrato quanto quella mostra fosse politica, in piena Guerra fredda e a ridosso della crisi dei missili di Cuba, con il coinvolgimento diretto dei Kennedy.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              },
+              {
+                "fonte": "zollner-2006-kennedy",
+                "nota": "abstract"
+              }
+            ],
+            "nota": 65,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Dopo i viaggi in Giappone e in URSS, nel 1974, non ha più lasciato il Louvre, per la sua estrema fragilità.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 66,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "E il «segreto nascosto» nel quadro? Secondo il Louvre è un mito nato dalle descrizioni appassionate dei letterati dell'Ottocento.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "louvre-cl010062370-commento"
+              }
+            ],
+            "nota": 67,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Ora guardala di nuovo, da lontano.",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "lorusso-natali-2016",
+          "louvre-cl010062370-commento",
+          "probst-2008",
+          "zollner-2006-kennedy"
+        ]
+      }
+    ],
+    "note_totali": 67
+  },
+  "percorsi": [
+    {
+      "id": "curioso",
+      "titolo": "Sono curioso",
+      "invito": "Raccontami il quadro, mostrandomelo.",
+      "durata": "circa 8 minuti",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "c1",
+          "tipo": "scena",
+          "titolo": "Una nota a margine",
+          "scena": "s1"
+        },
+        {
+          "id": "c2",
+          "tipo": "scena",
+          "titolo": "Lisa",
+          "scena": "s2"
+        },
+        {
+          "id": "c3",
+          "tipo": "scena",
+          "titolo": "Il testimone scomodo",
+          "scena": "s3"
+        },
+        {
+          "id": "c4",
+          "tipo": "scena",
+          "titolo": "Un quadro che non finisce",
+          "scena": "s4"
+        },
+        {
+          "id": "c5",
+          "tipo": "scena",
+          "titolo": "Il sorriso",
+          "scena": "s5"
+        },
+        {
+          "id": "c6",
+          "tipo": "scena",
+          "titolo": "Le sopracciglia scomparse",
+          "scena": "s6"
+        },
+        {
+          "id": "c7",
+          "tipo": "scena",
+          "titolo": "Un vestito colorato",
+          "scena": "s7"
+        },
+        {
+          "id": "c8",
+          "tipo": "scena",
+          "titolo": "La lezione fiamminga",
+          "scena": "s8"
+        },
+        {
+          "id": "c9",
+          "tipo": "scena",
+          "titolo": "Il paesaggio",
+          "scena": "s9"
+        },
+        {
+          "id": "c10",
+          "tipo": "scena",
+          "titolo": "Un legno che si muove",
+          "scena": "s10"
+        },
+        {
+          "id": "c11",
+          "tipo": "scena",
+          "titolo": "Il quadro più famoso",
+          "scena": "s11"
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "titolo": "Voglio approfondire",
+      "invito": "Fammi vedere dove le fonti concordano e dove no.",
+      "durata": "circa 15 minuti",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "t1",
+          "tipo": "scrivi",
+          "titolo": "Osserva",
+          "annotazione": "g01",
+          "consegna": "Guarda il sorriso da lontano e da vicino. Descrivi che cosa cambia, senza ancora interpretare.",
+          "nota": "osserva",
+          "rivela": true
+        },
+        {
+          "id": "t2",
+          "tipo": "scena",
+          "titolo": "Due testimoni",
+          "scena": "s3"
+        },
+        {
+          "id": "t3",
+          "tipo": "scrivi",
+          "titolo": "Formula",
+          "consegna": "Vasari e de Beatis raccontano due commissioni diverse. Quale spiegazione ti convince di più, e perché?",
+          "nota": "ipotesi"
+        },
+        {
+          "id": "t4",
+          "tipo": "evidenze",
+          "titolo": "Verifica",
+          "raccordo": "Ogni affermazione ha una base diversa: istituzione, letteratura, laboratorio, fonte d'epoca, osservazione o semplice stima.",
+          "righe": [
+            "c01",
+            "c02",
+            "g05",
+            "g03",
+            "g12",
+            "g16",
+            "g18"
+          ],
+          "righe_risolte": [
+            {
+              "rif": "c01",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "documentato",
+              "testo": "Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo, detto la Gioconda. Leonardo da Vinci, primo quarto del XVI secolo (1503-1519). Olio su tavola di pioppo, 79,4 × 53,4 cm. Parigi, Musée du Louvre, inv. 779.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370",
+                  "campi": [
+                    "title",
+                    "dateCreated",
+                    "materialsAndTechniques",
+                    "dimension",
+                    "objectNumber"
+                  ]
+                },
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                }
+              ],
+              "certezza": {
+                "livello": "letteratura",
+                "testo": "Sostenuto dalla letteratura"
+              }
+            },
+            {
+              "rif": "c02",
+              "dettaglio": null,
+              "titolo": null,
+              "registro": "documentato",
+              "testo": "Cominciato almeno dall'ottobre 1503, probabilmente per il marito di Lisa, il ritratto rimase a Leonardo fino agli ultimi anni; molto probabilmente lo acquistò Francesco I nel 1518. È nelle collezioni reali, poi del Louvre.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                },
+                {
+                  "fonte": "probst-2008"
+                },
+                {
+                  "fonte": "louvre-cl010062370",
+                  "campi": [
+                    "acquisitionDetails"
+                  ]
+                }
+              ],
+              "certezza": {
+                "livello": "concorde",
+                "testo": "2 fonti indipendenti concordano"
+              }
+            },
+            {
+              "rif": "g05",
+              "dettaglio": "g05",
+              "titolo": "La fenditura",
+              "registro": "documentato",
+              "testo": "Una fenditura di circa 11 cm parte dal bordo superiore, attraversa il cuoio capelluto e si ferma all'altezza della fronte.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                },
+                {
+                  "fonte": "uzielli-2011",
+                  "nota": "abstract"
+                }
+              ],
+              "certezza": {
+                "livello": "concorde",
+                "testo": "2 fonti indipendenti concordano"
+              }
+            },
+            {
+              "rif": "g05",
+              "dettaglio": "g05",
+              "titolo": "La fenditura",
+              "registro": "osservazione",
+              "testo": "In questa fotografia si vede una linea chiara verticale che scende dal bordo fino alla fronte, compatibile con la descrizione.",
+              "fonti": [
+                {
+                  "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+                }
+              ],
+              "certezza": {
+                "livello": "verificabile",
+                "testo": "Verificabile guardando l'immagine"
+              }
+            },
+            {
+              "rif": "g03",
+              "dettaglio": "g03",
+              "titolo": "Le sopracciglia",
+              "registro": "documentato",
+              "testo": "Vasari loda le «ciglia», con i peli che nascono dalla carne «dove più folti e dove più radi». Nella traduzione francese citata dal Louvre la parola diventa «sourcils», sopracciglia.",
+              "fonti": [
+                {
+                  "fonte": "vasari-1568"
+                },
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                }
+              ],
+              "certezza": {
+                "livello": "concorde",
+                "testo": "2 fonti indipendenti concordano"
+              }
+            },
+            {
+              "rif": "g03",
+              "dettaglio": "g03",
+              "titolo": "Le sopracciglia",
+              "registro": "osservazione",
+              "testo": "In questa fotografia, sopra gli occhi non si distinguono peli dipinti.",
+              "fonti": [
+                {
+                  "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+                }
+              ],
+              "certezza": {
+                "livello": "verificabile",
+                "testo": "Verificabile guardando l'immagine"
+              }
+            },
+            {
+              "rif": "g03",
+              "dettaglio": "g03",
+              "titolo": "Le sopracciglia",
+              "registro": "lacuna",
+              "testo": "Le fonti consultate non spiegano la differenza.",
+              "fonti": [],
+              "certezza": {
+                "livello": "non_nota",
+                "testo": "Non nota: lacuna dichiarata"
+              }
+            },
+            {
+              "rif": "g12",
+              "dettaglio": "g12",
+              "titolo": "L'acqua a destra",
+              "registro": "interpretazione",
+              "testo": "Il Louvre respinge l'idea, a volte sostenuta, di due orizzonti a quote diverse: la linea dell'acqua a destra prosegue a sinistra, in parte nascosta dai monti.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                }
+              ],
+              "certezza": {
+                "livello": "letteratura",
+                "testo": "Sostenuto dalla letteratura"
+              }
+            },
+            {
+              "rif": "g16",
+              "dettaglio": "g16",
+              "titolo": "Il gomito colpito nel 1956",
+              "registro": "documentato",
+              "testo": "Nel 1956 un uomo squilibrato lanciò una pietra contro il dipinto: il vetro si ruppe e il gomito sinistro fu un po' danneggiato.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                }
+              ],
+              "certezza": {
+                "livello": "letteratura",
+                "testo": "Sostenuto dalla letteratura"
+              }
+            },
+            {
+              "rif": "g16",
+              "dettaglio": "g16",
+              "titolo": "Il gomito colpito nel 1956",
+              "registro": "ipotesi",
+              "testo": "La macchia chiara in questa zona potrebbe corrispondere al danno: non è verificato.",
+              "fonti": [
+                {
+                  "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+                }
+              ],
+              "certezza": {
+                "livello": "proposta",
+                "testo": "Proposta, non documentata"
+              }
+            },
+            {
+              "rif": "g18",
+              "dettaglio": "g18",
+              "titolo": "Il terreno abbozzato",
+              "registro": "documentato",
+              "testo": "Il dipinto è in parte non finito, come si vede nell'abbozzo di terreno in basso a destra del paesaggio.",
+              "fonti": [
+                {
+                  "fonte": "louvre-cl010062370-commento"
+                }
+              ],
+              "certezza": {
+                "livello": "letteratura",
+                "testo": "Sostenuto dalla letteratura"
+              }
+            },
+            {
+              "rif": "g18",
+              "dettaglio": "g18",
+              "titolo": "Il terreno abbozzato",
+              "registro": "ipotesi",
+              "testo": "La posizione della regione è una stima dell'AI a partire dalla descrizione.",
+              "fonti": [
+                {
+                  "fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"
+                }
+              ],
+              "certezza": {
+                "livello": "proposta",
+                "testo": "Proposta, non documentata"
+              }
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "tipo": "connessioni",
+          "titolo": "Collega",
+          "raccordo": "Una connessione documentata e una tesi discussa.",
+          "connessioni": [
+            "k01",
+            "k04"
+          ]
+        },
+        {
+          "id": "t6",
+          "tipo": "rielabora",
+          "titolo": "Rielabora",
+          "consegna": "Scrivi in 3–5 frasi la tua lettura del quadro, distinguendo ciò che hai visto, ciò che hai letto nelle fonti e ciò che ipotizzi tu.",
+          "nota": "lettura"
+        }
+      ]
+    },
+    {
+      "id": "ispirazione",
+      "titolo": "Cerco ispirazione",
+      "invito": "Mostrami da dove viene e dove è andato.",
+      "durata": "libera",
+      "stato": "bozza",
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "tappe": [
+        {
+          "id": "i1",
+          "tipo": "connessioni",
+          "titolo": "Dal Nord",
+          "raccordo": "Un modello fiammingo, indicato dal museo.",
+          "connessioni": [
+            "k02"
+          ]
+        },
+        {
+          "id": "i2",
+          "tipo": "connessioni",
+          "titolo": "Raffaello",
+          "raccordo": "Il primo grande pittore a riprenderla.",
+          "connessioni": [
+            "k01"
+          ]
+        },
+        {
+          "id": "i3",
+          "tipo": "connessioni",
+          "titolo": "Gemelle e copie",
+          "raccordo": "Una copia di bottega e una seconda versione proposta.",
+          "connessioni": [
+            "k03",
+            "k04"
+          ]
+        },
+        {
+          "id": "i4",
+          "tipo": "connessioni",
+          "titolo": "Cinque secoli di copie",
+          "raccordo": "Quello che i dati sanno delle sue discendenti.",
+          "connessioni": [
+            "k05"
+          ]
+        }
+      ]
+    }
+  ],
+  "connessioni": [
+    {
+      "id": "k01",
+      "tipo": "documentata",
+      "relazione": "ripresa documentata dalla letteratura",
+      "titolo": "Raffaello guarda la Gioconda",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Il giovane Raffaello vide e ammirò la Gioconda durante il soggiorno a Firenze, fra il 1504 e il 1508, e se ne ispirò per i suoi ritratti.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "Secondo Frank Zöllner, il ritratto di Maddalena Doni, la Dama col liocorno e il disegno preparatorio di quest'ultima presuppongono la Gioconda: per questo servono a datarla prima del 1504-1506.",
+          "fonti": [
+            {
+              "fonte": "probst-2008",
+              "nota": "riassume la tesi di Zöllner"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q2607055",
+          "fonte": "wikidata-Q2607055",
+          "titolo": "Ritratto di Maddalena Strozzi",
+          "autori": [
+            {
+              "valore": "Raffaello Sanzio",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1505",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Galleria Palatina (1946–?)",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/a493a6524749.jpg",
+            "fonte": "commons-a493a6524749",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Ritratto_di_maddalena_strozzi.jpg"
+          },
+          "avvisi": []
+        },
+        {
+          "wikidata": "Q2344396",
+          "fonte": "wikidata-Q2344396",
+          "titolo": "Dama col liocorno",
+          "autori": [
+            {
+              "valore": "Raffaello Sanzio",
+              "riferimenti": 0
+            }
+          ],
+          "date": [
+            {
+              "valore": "1505",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Galleria Borghese (1902–?)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Collezione Borghese (?–1902)",
+              "riferimenti": 1
+            },
+            {
+              "valore": "Collezione Aldobrandini (?–1682)",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/e50786e43344.jpg",
+            "fonte": "commons-e50786e43344",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Lady_with_unicorn.jpg"
+          },
+          "avvisi": [
+            "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "tipo": "documentata",
+      "relazione": "modello fiammingo indicato dal museo",
+      "titolo": "La lezione fiamminga",
+      "stato": "bozza",
+      "annotazioni": [
+        "g07",
+        "g14"
+      ],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Il Louvre indica come esempio di figura davanti a una balaustra aperta sul paesaggio il ritratto di Benedetto Portinari dipinto da Memling nel 1487, oggi agli Uffizi.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "interpretazione",
+          "testo": "La posa di tre quarti, la balaustra, le mani in primo piano vengono dai ritratti fiamminghi; Leonardo li rende naturali, appoggiando le mani al bracciolo e facendo della posa la fine di una torsione.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q131579742",
+          "fonte": "wikidata-Q131579742",
+          "titolo": "Benedetto Portinari",
+          "autori": [],
+          "date": [],
+          "collezioni": [],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/7f06a9b72505.jpg",
+            "fonte": "commons-7f06a9b72505",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Memling,_trittico_di_Benedetto_Portinari,_ritratto,_parte_destra.jpg"
+          },
+          "avvisi": []
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "tipo": "documentata",
+      "relazione": "copia di bottega",
+      "titolo": "La gemella del Prado",
+      "stato": "bozza",
+      "annotazioni": [
+        "g06",
+        "g08",
+        "g09"
+      ],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "La copia eseguita nella bottega di Leonardo, recentemente restaurata e conservata al Museo del Prado, aiuta a capire la veste della Gioconda, oggi offuscata dalle vernici.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Wikidata registra la copia del Prado come «basata su» la Gioconda.",
+          "fonti": [
+            {
+              "fonte": "wikidata-Q2126369",
+              "campi": [
+                "P144"
+              ]
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q2126369",
+          "fonte": "wikidata-Q2126369",
+          "titolo": "Gioconda",
+          "autori": [
+            {
+              "valore": "(valore sconosciuto)",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1511",
+              "riferimenti": 1
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "Museo del Prado",
+              "riferimenti": 1
+            }
+          ],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/94b495303f79.jpg",
+            "fonte": "commons-94b495303f79",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:Gioconda_(copia_del_Museo_del_Prado_restaurada).jpg"
+          },
+          "avvisi": []
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "tipo": "interpretativa",
+      "relazione": "seconda versione proposta",
+      "titolo": "La Gioconda di Isleworth",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "interpretazione",
+          "testo": "Due ricercatori dell'Università di Bologna distinguono due versioni autografe, quella di Isleworth e quella del Louvre, dipinte da Leonardo in periodi diversi, dalle copie dell'una o dell'altra.",
+          "fonti": [
+            {
+              "fonte": "lorusso-natali-2016",
+              "nota": "abstract"
+            }
+          ]
+        },
+        {
+          "registro": "documentato",
+          "testo": "Il commento del Louvre non menziona questa tesi e parla di più di cento copie conosciute.",
+          "fonti": [
+            {
+              "fonte": "louvre-cl010062370-commento"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [
+        {
+          "wikidata": "Q4390923",
+          "fonte": "wikidata-Q4390923",
+          "titolo": "Monna Lisa di Isleworth",
+          "autori": [
+            {
+              "valore": "Leonardo da Vinci",
+              "riferimenti": 0
+            },
+            {
+              "valore": "(valore sconosciuto)",
+              "riferimenti": 1
+            }
+          ],
+          "date": [
+            {
+              "valore": "1502",
+              "riferimenti": 0
+            }
+          ],
+          "collezioni": [
+            {
+              "valore": "collezione, nome non indicato",
+              "riferimenti": 0
+            }
+          ],
+          "iconclass": [],
+          "immagine": {
+            "src": "immagini/confronti/f2ef36f2442f.jpg",
+            "fonte": "commons-f2ef36f2442f",
+            "licenza": "Public domain",
+            "pagina": "https://commons.wikimedia.org/wiki/File:The_Isleworth_Mona_Lisa.jpg"
+          },
+          "avvisi": []
+        }
+      ]
+    },
+    {
+      "id": "k05",
+      "tipo": "algoritmica",
+      "relazione": "opere registrate come «basate su»",
+      "titolo": "Più di cento copie: quelle che Wikidata conosce",
+      "stato": "bozza",
+      "annotazioni": [],
+      "blocchi": [
+        {
+          "registro": "documentato",
+          "testo": "Elenco calcolato dalle opere che Wikidata collega alla Gioconda con la proprietà «basato su» (P144): copie antiche, incisioni, reinterpretazioni moderne. È una fotografia dei dati, non un catalogo critico: include anche voci che non sono opere.",
+          "fonti": [
+            {
+              "fonte": "wikidata-sparql-gioconda-basati-su"
+            }
+          ]
+        }
+      ],
+      "origine": {
+        "tipo": "ai",
+        "modello": "claude-opus-5-5",
+        "data": "2026-11-06"
+      },
+      "revisione": null,
+      "opere": [],
+      "calcolo": {
+        "metodo": "sparql_basati_su",
+        "snapshot": "gioconda-basati-su",
+        "elenco": [
+          {
+            "wikidata": "Q114180869",
+            "titolo": "Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Musée des Beaux-Arts"
+            ],
+            "anno": 1500
+          },
+          {
+            "wikidata": "Q2126369",
+            "titolo": "Gioconda",
+            "autori": [],
+            "collezioni": [
+              "Museo del Prado"
+            ],
+            "anno": 1511
+          },
+          {
+            "wikidata": "Q21723084",
+            "titolo": "Gioconda",
+            "autori": [],
+            "collezioni": [
+              "Ermitage"
+            ],
+            "anno": 1550
+          },
+          {
+            "wikidata": "Q28656879",
+            "titolo": "Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Museo nazionale di Varsavia"
+            ],
+            "anno": 1600
+          },
+          {
+            "wikidata": "Q112183443",
+            "titolo": "Mona Lisa (Thalwil)",
+            "autori": [
+              "Gian Giacomo Caprotti"
+            ],
+            "collezioni": [],
+            "anno": 1600
+          },
+          {
+            "wikidata": "Q112184510",
+            "titolo": "Mona Lisa (Troyes)",
+            "autori": [],
+            "collezioni": [
+              "Musée des Beaux-Arts (Troyes)"
+            ],
+            "anno": 1600
+          },
+          {
+            "wikidata": "Q112184571",
+            "titolo": "Vernon Mona Lisa",
+            "autori": [],
+            "collezioni": [],
+            "anno": 1600
+          },
+          {
+            "wikidata": "Q112184623",
+            "titolo": "Mona Lisa (Italian Parliament)",
+            "autori": [],
+            "collezioni": [
+              "Parlamento della Repubblica Italiana"
+            ],
+            "anno": 1600
+          },
+          {
+            "wikidata": "Q18748451",
+            "titolo": "Copy of the ''Mona Lisa\"",
+            "autori": [],
+            "collezioni": [
+              "Walters Art Museum"
+            ],
+            "anno": 1650
+          },
+          {
+            "wikidata": "Q55409291",
+            "titolo": "Mona Lisa (Oslo)",
+            "autori": [],
+            "collezioni": [
+              "Museo nazionale d'arte, architettura e disegno"
+            ],
+            "anno": 1674
+          },
+          {
+            "wikidata": "Q26995436",
+            "titolo": "La Gioconda (copia)",
+            "autori": [],
+            "collezioni": [
+              "Museo di storia della Francia"
+            ],
+            "anno": 1700
+          },
+          {
+            "wikidata": "Q29946540",
+            "titolo": "Leonardo da Vinci (da)",
+            "autori": [],
+            "collezioni": [
+              "Bayerische Staatsgemäldesammlungen"
+            ],
+            "anno": 1700
+          },
+          {
+            "wikidata": "Q111651075",
+            "titolo": "Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Musées Nationaux Récupération",
+              "dipartimento di pittura del museo del Louvre"
+            ],
+            "anno": 1700
+          },
+          {
+            "wikidata": "Q112247640",
+            "titolo": "La Joconde (copie)",
+            "autori": [],
+            "collezioni": [
+              "Musée des Beaux-Arts de Valenciennes"
+            ],
+            "anno": 1700
+          },
+          {
+            "wikidata": "Q52151757",
+            "titolo": "Mona Lisa (after Leonardo)",
+            "autori": [],
+            "collezioni": [
+              "National Trust for Places of Historic Interest or Natural Beauty"
+            ],
+            "anno": 1749
+          },
+          {
+            "wikidata": "Q115675133",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Gabriel Ferrier"
+            ],
+            "collezioni": [
+              "dipartimento di pittura del museo del Louvre"
+            ],
+            "anno": 1850
+          },
+          {
+            "wikidata": "Q58087321",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Luigi Calamatta"
+            ],
+            "collezioni": [],
+            "anno": 1857
+          },
+          {
+            "wikidata": "Q104525434",
+            "titolo": "Portrait of Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Staatliche Kunsthalle Karlsruhe"
+            ],
+            "anno": 1859
+          },
+          {
+            "wikidata": "Q131613454",
+            "titolo": "La Joconde",
+            "autori": [
+              "Clémentine Antoinette Pépin"
+            ],
+            "collezioni": [
+              "Centre national des arts plastiques",
+              "Fonds national d'art contemporain",
+              "Musée de l'Évêché de Limoges"
+            ],
+            "anno": 1874
+          },
+          {
+            "wikidata": "Q48711009",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Giovanni Rota"
+            ],
+            "collezioni": [
+              "Museo delle Belle Arti di Rennes"
+            ],
+            "anno": 1877
+          },
+          {
+            "wikidata": "Q79627478",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Timothy Cole"
+            ],
+            "collezioni": [
+              "Cleveland Museum of Art"
+            ],
+            "anno": 1914
+          },
+          {
+            "wikidata": "Q55905769",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Elsbeth Rudolff"
+            ],
+            "collezioni": [
+              "Art Museum of Estonia's painting collection"
+            ],
+            "anno": 1920
+          },
+          {
+            "wikidata": "Q20199553",
+            "titolo": "Mona Lisa",
+            "autori": [
+              "Andy Warhol"
+            ],
+            "collezioni": [
+              "Metropolitan Museum of Art"
+            ],
+            "anno": 1963
+          },
+          {
+            "wikidata": "Q122604954",
+            "titolo": "Monalisa",
+            "autori": [
+              "Fernando Botero"
+            ],
+            "collezioni": [
+              "Museo Botero"
+            ],
+            "anno": 1978
+          },
+          {
+            "wikidata": "Q136803256",
+            "titolo": "Lisa",
+            "autori": [
+              "Alexandre Mury"
+            ],
+            "collezioni": [],
+            "anno": 2013
+          },
+          {
+            "wikidata": "Q136803421",
+            "titolo": "Lisa",
+            "autori": [
+              "Alexandre Mury"
+            ],
+            "collezioni": [],
+            "anno": 2013
+          },
+          {
+            "wikidata": "Q136803503",
+            "titolo": "Lisa",
+            "autori": [],
+            "collezioni": [],
+            "anno": 2013
+          },
+          {
+            "wikidata": "Q7575329",
+            "titolo": "speculations about Mona Lisa",
+            "autori": [],
+            "collezioni": [],
+            "anno": null
+          },
+          {
+            "wikidata": "Q80006198",
+            "titolo": "Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Cleveland Museum of Art"
+            ],
+            "anno": null
+          },
+          {
+            "wikidata": "Q112183394",
+            "titolo": "La Joconde d’Épinal",
+            "autori": [],
+            "collezioni": [
+              "musée départemental d'art ancien et contemporain"
+            ],
+            "anno": null
+          },
+          {
+            "wikidata": "Q112863269",
+            "titolo": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dite Monna Lisa, la Gioconda ou la Joconde",
+            "autori": [],
+            "collezioni": [
+              "Musée des Beaux-Arts de Quimper"
+            ],
+            "anno": null
+          },
+          {
+            "wikidata": "Q119929177",
+            "titolo": "Mona Lisa",
+            "autori": [],
+            "collezioni": [
+              "Walker Art Gallery"
+            ],
+            "anno": null
+          }
+        ],
+        "per_secolo": {
+          "Cinquecento": 3,
+          "Seicento": 7,
+          "Settecento": 5,
+          "Ottocento": 5,
+          "Novecento": 4,
+          "Duemila": 3,
+          "senza data": 5
+        },
+        "spiegazione": "Wikidata collega 32 elementi alla Gioconda con «basato su» (P144). Le immagini non sono mostrate: molte riproduzioni hanno licenze da verificare e alcune opere moderne sono protette."
+      }
+    }
+  ],
+  "pulse": {
+    "politica": "ArtNotes Pulse segnala contenuti pubblici di terzi. Non sono contenuti di ArtNotes e non sono verificati scientificamente: ogni suggerimento dice perché è stato scelto e che cosa lo collega all'opera. La popolarità pesa poco (5%) e non equivale ad accuratezza. I video non sono incorporati: i link aprono la piattaforma originale. Le miniature sono caricate dai server di YouTube.",
+    "contenuti": [],
+    "selezioni": {
+      "curioso": [],
+      "studio": [],
+      "ispirazione": []
+    },
+    "conteggi": {},
+    "pesi": {
+      "pertinenza": 0.35,
+      "qualita": 0.25,
+      "intento": 0.15,
+      "diversita": 0.1,
+      "freschezza": 0.1,
+      "interesse": 0.05
+    },
+    "stato_fonte": "assente"
+  },
+  "fonti": {
+    "wikidata-Q12418": {
+      "titolo": "Wikidata, elemento Q12418",
+      "breve": "Wikidata",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q12418",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q12418",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q131579742": {
+      "titolo": "Wikidata, elemento Q131579742 (Benedetto Portinari)",
+      "breve": "Wikidata Q131579742",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q131579742",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q131579742",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q2126369": {
+      "titolo": "Wikidata, elemento Q2126369 (Gioconda)",
+      "breve": "Wikidata Q2126369",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q2126369",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2126369",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q2344396": {
+      "titolo": "Wikidata, elemento Q2344396 (Dama col liocorno)",
+      "breve": "Wikidata Q2344396",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q2344396",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2344396",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q2607055": {
+      "titolo": "Wikidata, elemento Q2607055 (Ritratto di Maddalena Strozzi)",
+      "breve": "Wikidata Q2607055",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q2607055",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2607055",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q4390923": {
+      "titolo": "Wikidata, elemento Q4390923 (Monna Lisa di Isleworth)",
+      "breve": "Wikidata Q4390923",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q4390923",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q4390923",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q5597": {
+      "titolo": "Wikidata, elemento Q5597 (Raffaello Sanzio)",
+      "breve": "Wikidata Q5597",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q5597",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q5597",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-Q762": {
+      "titolo": "Wikidata, elemento Q762 (Leonardo da Vinci)",
+      "breve": "Wikidata Q762",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q762",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q762",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "wikidata-sparql-gioconda-basati-su": {
+      "titolo": "Wikidata, interrogazione SPARQL «gioconda-basati-su» del 2026-11-06",
+      "breve": "Wikidata (query)",
+      "categoria": "collaborativa",
+      "tipo": "risultato datato di una query su base collaborativa",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FcreatorLabel+%3Fdata+%3FcollezioneLabel+%3Fimg+WHERE+%7B+%3Fitem+wdt%3AP144+wd%3AQ12418+.+OPTIONAL%7B%3Fitem+wdt%3AP170+%3Fcreator%7D+OPTIONAL%7B%3Fitem+wdt%3AP571+%3Fdata%7D+OPTIONAL%7B%3Fitem+wdt%3AP195+%3Fcollezione%7D+OPTIONAL%7B%3Fitem+wdt%3AP18+%3Fimg%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22it%2Cen%2Cfr%22.+%7D+%7D&format=json",
+      "consultato": "2026-11-06",
+      "licenza": "CC0",
+      "note": "35 righe."
+    },
+    "commons-144359dcd89f": {
+      "titolo": "Wikimedia Commons, Francesco Melzi - Portrait of Leonardo.png",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AFrancesco%20Melzi%20-%20Portrait%20of%20Leonardo.png",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "1286 × 1842 px. Crediti: File:Francesco_Molzi_-_Portrait_of_Leonardo_-_WGA14795.jpg"
+    },
+    "commons-6a7dffdd4d55": {
+      "titolo": "Wikimedia Commons, Raffaello Sanzio.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ARaffaello%20Sanzio.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "3898 × 5315 px. Crediti: http://nevsepic.com.ua/art-i-risovanaya-grafika/2409-raffaello-sanzio-rafael-santi-37-rabot.html image"
+    },
+    "commons-7f06a9b72505": {
+      "titolo": "Wikimedia Commons, Memling, trittico di Benedetto Portinari, ritratto, parte destra.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Memling,_trittico_di_Benedetto_Portinari,_ritratto,_parte_destra.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AMemling%2C%20trittico%20di%20Benedetto%20Portinari%2C%20ritratto%2C%20parte%20destra.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "850 × 1171 px. Crediti: Web Gallery of Art : Immagine Info about artwork wga QS:P11807,\"m/memling/3mature6/33nopor3\""
+    },
+    "commons-94b495303f79": {
+      "titolo": "Wikimedia Commons, Gioconda (copia del Museo del Prado restaurada).jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Gioconda_(copia_del_Museo_del_Prado_restaurada).jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AGioconda%20%28copia%20del%20Museo%20del%20Prado%20restaurada%29.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "2196 × 2860 px. Crediti: Questo file deriva da: La Gioconda (copia del Museo del Prado) (restaurada).jpg : , Obra derivada / œuvre dérivée / derivative work: Escarlati Questa è una imma"
+    },
+    "commons-a493a6524749": {
+      "titolo": "Wikimedia Commons, Ritratto di maddalena strozzi.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Ritratto_di_maddalena_strozzi.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ARitratto%20di%20maddalena%20strozzi.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "1723 × 2500 px. Crediti: www.aiwaz.net"
+    },
+    "commons-e50786e43344": {
+      "titolo": "Wikimedia Commons, Raffaello Sanzio - Lady with unicorn.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Lady_with_unicorn.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ARaffaello%20Sanzio%20-%20Lady%20with%20unicorn.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "1765 × 2270 px. Crediti: https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno"
+    },
+    "commons-f2ef36f2442f": {
+      "titolo": "Wikimedia Commons, The Isleworth Mona Lisa.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Isleworth_Mona_Lisa.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20Isleworth%20Mona%20Lisa.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "1210 × 1600 px. Crediti: The Mona Lisa Foundation"
+    },
+    "vasari-1568": {
+      "categoria": "primaria",
+      "tipo": "fonte d'epoca: biografia d'artista",
+      "titolo": "Giorgio Vasari, Le vite de' più eccellenti pittori, scultori e architettori, Firenze 1568 (2ª ed.; 1ª ed. 1550), «Vita di Lionardo da Vinci»",
+      "breve": "Vasari, Vite (1568)",
+      "anno": 1568,
+      "url": "https://it.wikisource.org/wiki/Le_vite_de%27_pi%C3%B9_eccellenti_pittori,_scultori_e_architettori_(1568)/Lionardo_da_Vinci",
+      "licenza": "testo in pubblico dominio; trascrizione Wikisource CC BY-SA",
+      "lettura": "passi pertinenti",
+      "testo": "vasari-1568-leonardo",
+      "consultato": "2026-11-06",
+      "note": "Vasari non vide mai il dipinto, già in Francia (Louvre, commento 2021)."
+    },
+    "probst-2008": {
+      "categoria": "letteratura",
+      "tipo": "testo universitario (deposito istituzionale)",
+      "titolo": "Veit Probst, «Zur Entstehungsgeschichte der Mona Lisa: Leonardo da Vinci trifft Niccolò Machiavelli und Agostino Vespucci», Heidelberg 2008",
+      "breve": "Probst (Heidelberg), 2008",
+      "anno": 2008,
+      "istituzioni": [
+        "Universitätsbibliothek Heidelberg"
+      ],
+      "url": "http://archiv.ub.uni-heidelberg.de/artdok/410/1/Probst_MonaLisa_2008.pdf",
+      "licenza": "accesso aperto (heiDOK)",
+      "lettura": "passi pertinenti",
+      "testo": "probst-2008-heidok",
+      "consultato": "2026-11-06"
+    },
+    "zollner-2006-ritratto": {
+      "categoria": "letteratura",
+      "tipo": "articolo di storia dell'arte (deposito istituzionale)",
+      "titolo": "Frank Zöllner, «Leonardo's Portrait of Mona Lisa del Giocondo», heiDOK, 2006",
+      "breve": "Zöllner, 2006",
+      "anno": 2006,
+      "doi": "10.11588/artdok.00000157",
+      "url": "http://archiv.ub.uni-heidelberg.de/artdok/157/",
+      "licenza": "accesso aperto (heiDOK)",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "zollner-2006-kennedy": {
+      "categoria": "letteratura",
+      "tipo": "articolo di storia dell'arte (deposito istituzionale)",
+      "titolo": "Frank Zöllner, «John F. Kennedy and Leonardo's Mona Lisa: Art as the Continuation of Politics», heiDOK, 2006",
+      "breve": "Zöllner, Kennedy, 2006",
+      "anno": 2006,
+      "doi": "10.11588/artdok.00000171",
+      "url": "http://archiv.ub.uni-heidelberg.de/artdok/171/",
+      "licenza": "accesso aperto (heiDOK)",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "cotte-simonot-2020": {
+      "categoria": "scientifica",
+      "tipo": "studio di imaging multispettrale (rivista scientifica)",
+      "titolo": "Pascal Cotte, Lionel Simonot, «Mona Lisa's spolvero revealed», Journal of Cultural Heritage 45 (2020), pp. 1-9",
+      "breve": "Cotte e Simonot, 2020",
+      "anno": 2020,
+      "doi": "10.1016/j.culher.2020.08.004",
+      "istituzioni": [
+        "Lumière Technology",
+        "Institut Pprime, Université de Poitiers"
+      ],
+      "url": "https://hal.science/hal-03907357/document",
+      "licenza": "accesso aperto (HAL)",
+      "lettura": "passi pertinenti",
+      "testo": "cotte-2020-spolvero",
+      "consultato": "2026-11-06",
+      "note": "Lo studio non è citato nel commento del Louvre del 2021."
+    },
+    "cotte-dupraz-2006": {
+      "categoria": "scientifica",
+      "tipo": "studio di imaging multispettrale (atti di convegno)",
+      "titolo": "Pascal Cotte, D. Dupraz, «Spectral imaging of Leonardo Da Vinci's Mona Lisa: A true color smile without the influence of aged varnish», CGIV 2006",
+      "breve": "Cotte e Dupraz, 2006",
+      "anno": 2006,
+      "doi": "10.2352/cgiv.2006.3.1.art00064",
+      "url": "https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/cgiv/3/1/art00064",
+      "licenza": "accesso aperto",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "uzielli-2011": {
+      "categoria": "scientifica",
+      "tipo": "studio sul supporto ligneo (atti di convegno)",
+      "titolo": "Luca Uzielli, Joseph Gril e altri, «Experimental studies on the wooden support of the Mona Lisa», 2011",
+      "breve": "Uzielli et al. (Firenze, CNRS), 2011",
+      "anno": 2011,
+      "istituzioni": [
+        "Università degli Studi di Firenze",
+        "CNRS"
+      ],
+      "url": "https://hal.science/hal-00945958/document",
+      "licenza": "accesso aperto (HAL)",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "riparbelli-2019": {
+      "categoria": "scientifica",
+      "tipo": "studio sul supporto ligneo (atti di convegno)",
+      "titolo": "Lorenzo Riparbelli e altri, «Studies for the Mona Lisa conservation», 2019",
+      "breve": "Riparbelli et al. (Firenze), 2019",
+      "anno": 2019,
+      "istituzioni": [
+        "Università degli Studi di Firenze",
+        "Université de Poitiers"
+      ],
+      "url": "https://hal.science/hal-02163717v1",
+      "licenza": "accesso aperto (HAL)",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "gonzalez-2023": {
+      "categoria": "scientifica",
+      "tipo": "analisi di laboratorio (rivista scientifica)",
+      "titolo": "Victor Gonzalez e altri, «X-ray and Infrared Microanalyses of Mona Lisa's Ground Layer and Significance Regarding Leonardo da Vinci's Palette», Journal of the American Chemical Society, 2023",
+      "breve": "Gonzalez et al., 2023",
+      "anno": 2023,
+      "doi": "10.1021/jacs.3c07000",
+      "istituzioni": [
+        "CNRS",
+        "Université Paris-Saclay",
+        "C2RMF"
+      ],
+      "url": "https://hal.science/hal-04298444v1",
+      "licenza": "accesso aperto (HAL)",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "zavagno-2022": {
+      "categoria": "scientifica",
+      "tipo": "studio di psicologia della percezione",
+      "titolo": "Daniele Zavagno, Rossana Actis-Grosso, Olga Daneyko, «Looking Into Mona Lisa's Smiling Eyes: Allusion to an Illusion», Frontiers in Human Neuroscience, 2022",
+      "breve": "Zavagno et al., 2022",
+      "anno": 2022,
+      "doi": "10.3389/fnhum.2022.878288",
+      "istituzioni": [
+        "Sheffield Hallam University",
+        "Università di Milano-Bicocca"
+      ],
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.878288/pdf",
+      "licenza": "CC BY",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "soranzo-2024": {
+      "categoria": "scientifica",
+      "tipo": "studio di psicologia della percezione",
+      "titolo": "Alessandro Soranzo, «The psychology of Mona Lisa's smile», Scientific Reports, 2024",
+      "breve": "Soranzo, 2024",
+      "anno": 2024,
+      "doi": "10.1038/s41598-024-59782-1",
+      "istituzioni": [
+        "Università della Calabria"
+      ],
+      "url": "https://doi.org/10.1038/s41598-024-59782-1",
+      "licenza": "CC BY",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "nesci-2025": {
+      "categoria": "scientifica",
+      "tipo": "studio geomorfologico",
+      "titolo": "Olivia Nesci, Rosetta Borchia, Giulio Pappafico, Laura Valentini, «The Background of the Gioconda: Geomorphological and Historical Data from the Montefeltro Area», Land, 2025",
+      "breve": "Nesci et al. (Urbino), 2025",
+      "anno": 2025,
+      "doi": "10.3390/land14051007",
+      "istituzioni": [
+        "Università di Urbino"
+      ],
+      "url": "https://doi.org/10.3390/land14051007",
+      "licenza": "CC BY",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "lorusso-natali-2016": {
+      "categoria": "letteratura",
+      "tipo": "articolo (rivista universitaria)",
+      "titolo": "Salvatore Lorusso, Andrea Natali, «Mona Lisa: A Comparative Evaluation of the Different Versions and Their Copies», Conservation Science in Cultural Heritage, 2016",
+      "breve": "Lorusso e Natali (Bologna), 2016",
+      "anno": 2016,
+      "doi": "10.6092/issn.1973-9494/6168",
+      "istituzioni": [
+        "Università di Bologna"
+      ],
+      "url": "https://conservation-science.unibo.it/article/download/6168/5936",
+      "licenza": "CC BY",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "louvre-cl010062370": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "url_dati": "https://collections.louvre.fr/ark:/53355/cl010062370.json",
+      "consultato": "2026-11-06",
+      "licenza": "Licence Ouverte Etalab (testi del Louvre, aggiornati il 2026-08-11)",
+      "titolo": "Musée du Louvre, scheda INV 779 (cl010062370)",
+      "breve": "Louvre, scheda",
+      "categoria": "istituzione",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "lettura": "testo completo",
+      "note": "Ultimo aggiornamento della scheda: 2026-08-11. Le fotografie del Louvre (© GrandPalaisRmn) non sono riusate."
+    },
+    "louvre-cl010062370-commento": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "url_dati": "https://collections.louvre.fr/ark:/53355/cl010062370.json",
+      "consultato": "2026-11-06",
+      "licenza": "Licence Ouverte Etalab (testi del Louvre, aggiornati il 2026-08-11)",
+      "titolo": "Vincent Delieuvin, commento alla scheda del Louvre (luglio 2021)",
+      "breve": "Delieuvin (Louvre), 2021",
+      "categoria": "letteratura",
+      "tipo": "letteratura critica: commento del conservatore",
+      "lettura": "testo completo",
+      "note": "Campo «objectHistory» della scheda, firmato dal conservatore."
+    },
+    "foto-commons-4fd4ec6041e6-0aa85cdb70a5": {
+      "titolo": "Fotografia Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg (3840 × 5622 px)",
+      "breve": "Fotografia (Commons)",
+      "categoria": "immagine",
+      "tipo": "immagine di riferimento per le osservazioni visive",
+      "url": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain (Wikimedia Commons, verificato sul file)",
+      "note": "recto, intero; derivata Commons a 3840 px di larghezza (originale 7854 × 11498 px). SHA-256 0aa85cdb70a5…"
+    }
+  },
+  "bibliografia_museo": [
+    {
+      "riferimento": "Ravaud, Elisabeth ; Eveno, Myriam ; Delieuvin, Vincent, « Révéler les choix matériels et techniques de Léonard de Vinci par l’analyse chimique : le cas du pigment blanc de plomb », Technè, Hors-série, 2025, Disponible sur : <https://doi.org/10.4000/11v4a>",
+      "anno": "2025",
+      "pagine": "p. 162-171"
+    },
+    {
+      "riferimento": "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025",
+      "anno": "2025",
+      "pagine": "p. 533-534, n°901"
+    },
+    {
+      "riferimento": "La Rochefoucauld, Sabine de, Louvre haute couture : la mode dans les collections de peintures du Louvre, Montreuil, Gourcuff Gradenigo, 2023",
+      "anno": "2023",
+      "pagine": "p. 30, 130, ill. coul. p. 31"
+    },
+    {
+      "riferimento": "Pietro C. Marini, « Leonardo e Francesco I, fonti ed ipotesi sulla committenza reale », dans Omaggio a Leonardo per cinque secoli di storia 1519-2019 .Atti di conferenze Vinci, Biblioteca Leonarddiana, 26/01-23/11/2019, Firenze, Leo S. Olschki, 2023",
+      "anno": "2023",
+      "pagine": "p. 45-61, ill.coul., Fig.1"
+    },
+    {
+      "riferimento": "Joconde, cat. exp. (Marseille, CCI - Bourse du Commerce, du 10 mars au 21 août 2022), Paris, Éditions de la Réunion des musées nationaux-Grand Palais / Louvre éditions, 2022",
+      "anno": "2022",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021",
+      "anno": "2021",
+      "pagine": "p. 17-43-67-69, 110-115; 193-205, -p.67, n° 25"
+    },
+    {
+      "riferimento": "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020",
+      "anno": "2020",
+      "pagine": "p. 180, 258-259, fig.3"
+    },
+    {
+      "riferimento": "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum)",
+      "anno": "2019 (rééd. 2003 avec addendum)",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019",
+      "anno": "2019",
+      "pagine": "p. 57, 79, 142, 144, 154, 224-233, 269, 270, 278, 316, 322, 335-337, 358-369, fig. 74, p. 227, détails p. 214-215, p. 346-347"
+    },
+    {
+      "riferimento": "Charles I : King and Collector, cat. exp. (Londres, Royal Academy of Arts, 27 janvier - 15 avril 2018), Londres, Royal Academy of Arts, 2018",
+      "anno": "2018",
+      "pagine": "p. 102"
+    },
+    {
+      "riferimento": "Milovanovic, Nicolas, Le Louvre 1h30 Chrono. Le guide de la visite, Paris, Hazan / Louvre éditions, 2018",
+      "anno": "2018",
+      "pagine": "p. 30-31, ill. coul."
+    },
+    {
+      "riferimento": "François Ier et l'art des Pays-Bas, cat. exp. (Paris, Musée du Louvre, 18 octobre 2017-15 janvier 2018), Paris, Somogy / Louvre éditions, 2017",
+      "anno": "2017",
+      "pagine": "p. 248-249"
+    },
+    {
+      "riferimento": "Paris Sorbonne Université ; Musée Pouchkine (dir.), Les voix du silence. Le Musée imaginaire d’André Malraux, cat. exp. (Moscou (Fédération de Russie), Musée d'Etat des Beaux-Arts Pouchkine, du 30 novembre 2016 au 16 février 2017), Moscou, Pareto-Print, 2016",
+      "anno": "2016",
+      "pagine": "p. 295, ill. coul."
+    },
+    {
+      "riferimento": "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015",
+      "anno": "2015",
+      "pagine": "p. 360, ill. coul. p. 360, n° 6"
+    },
+    {
+      "riferimento": "Ciardi, Roberto Paolo, « Il mito nel mito: la Gioconda di Leonardo, fantasmi e fantasie », dans Leonardo da Vinci 1452-1519 - Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, du 16 avril au 19 juillet 2015), Milan, Skira Editore, 2015, p. 490-513",
+      "anno": "2015",
+      "pagine": "p. 360-361, ill. coul."
+    },
+    {
+      "riferimento": "Szanto, Mickaël ; Milovanovic, Nicolas (dir.), Poussin et Dieu, cat. exp. (Paris, musée du Louvre, 30 mars - 29 juin 2015), Paris, Hazan/ Louvre éditions, 2015",
+      "anno": "2015",
+      "pagine": "p. 255"
+    },
+    {
+      "riferimento": "Bertinet, Arnaud, Les musées de Napoléon III : une institution pour les arts (1849-1872), Paris, mare & martin, 2015",
+      "anno": "2015",
+      "pagine": "p. 95, 523"
+    },
+    {
+      "riferimento": "Pomarède, Vincent, « Le tableau du mois n° 211: De la Jocondoclastie à la Jocondophilie. Une collection de Jocondes donnée au Louvre par Jean Margat », Tableau du mois, 211, du 7 mai au 2 juin 2014, 2014",
+      "anno": "2014",
+      "pagine": "p. 1-3"
+    },
+    {
+      "riferimento": "Chefs-d'œuvre des musées nationaux français - Obras Primas da Pintura dos Museus Nacionals de França - Masterpieces of Painting from French National Museums, cat. exp. (Macao (Chine), Macao Museum of Art, 27 juin - 7 septembre 2014), Macau / Paris, Musée d'Art de Macau / Réunion des musées nationaux (RMN), 2014",
+      "anno": "2014",
+      "pagine": "p. 47, ill. coul."
+    },
+    {
+      "riferimento": "Brownlee, Peter John, Samuel F. B. Morse's Gallery of the Louvre. A guide to the Painting, Chicago, Terra Foundation for American Art, 2014",
+      "anno": "2014",
+      "pagine": "p. 24"
+    },
+    {
+      "riferimento": "Peter John Brownlee (dir.), Samuel F. B. Morse's Gallery of the Louvre and the art of invention, cat. exp. (exposition itinérante à travers les Etats-Unis, 2015-2018), Chicago, Terra Foundation for American Art/ Yale University Press, 2014",
+      "anno": "2014",
+      "pagine": "p. 12, 27, 38, 162, 173, 199, pl. 1"
+    },
+    {
+      "riferimento": "Michelangelo Pistoletto Année 1- Le Paradis sur Terre, cat. exp. (Paris, Musée du Louvre, 25 avril - 2 septembre 2013), Arles / Paris, Louvre éditions / Actes Sud, 2013",
+      "anno": "2013",
+      "pagine": "IX, ill. coul."
+    },
+    {
+      "riferimento": "Delavaux, Céline ; Vignes, Marie-Hélène, Les procès de l'art. Petites histoires de l'art et grandes affaires de droit, Paris, Palette, 2013",
+      "anno": "2013",
+      "pagine": "p. 200-206, 347, repr."
+    },
+    {
+      "riferimento": "Bétard, Daphné, « Une Joconde-\"bis\", le génie en moins », Le Journal des Arts - L'actualité de l'art et de son marché à travers le monde, n° 363, 2012, p. 5",
+      "anno": "2012",
+      "pagine": "p. 5, ill. coul. p. 8"
+    },
+    {
+      "riferimento": "Shone, Richard, « Editorial: \"Leonardo\" », The Burlington Magazine, 154, 1306, 2012, p. 3, Disponible sur : <https://www.jstor.org/stable/41418895>",
+      "anno": "2012",
+      "pagine": "p. 3"
+    },
+    {
+      "riferimento": "Delieuvin, Vincent (dir.), La Sainte Anne, l'ultime chef d'oeuvre de Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 29 mars - 25 juin 2012), Paris et Milan, Louvre Editions / Officina Libraria, 2012",
+      "anno": "2012",
+      "pagine": "p. 236, ill. coul. p. 236"
+    },
+    {
+      "riferimento": "Bétard, Daphné, « Restauration - La 'Sainte Anne' dévoilée. Le Musée du Louvre retrace la genèse et la destinée du chef-d'oeuvre de Léonard de Vinci dont la restauration ne fait toujours pas l'unanimité », Le Journal des Arts - Expositions, n° 368, du 27 avril au 10 mai, 2012, p. 8",
+      "anno": "2012",
+      "pagine": "p.  8, ill. coul."
+    },
+    {
+      "riferimento": "Zugaza, Miguel, « Wie das Geheimnis der zweiten 'Mona Lisa' gelüfert wurde », Weltkunst, 82. Jahrgang, N°3 - März 2012, 2012, p. 20",
+      "anno": "2012",
+      "pagine": "p. 20, repr."
+    },
+    {
+      "riferimento": "Zugaza, Miguel, « Den Sturm überstehen. Er présentierte die neue 'Mona Lisa'. (...) Wie das Geheimnis der zweiten 'Mona Lisa' gelüfert wurde », Weltkunst, 82. Jahrgang, N°3 März 2012, 2012, p. 18-19",
+      "anno": "2012",
+      "pagine": "p. 4, 20"
+    },
+    {
+      "riferimento": "Staatliche Kunsthalle Karlsruhe (dir.), Camille Corot. Natur und Traum, cat. exp. (Karlsruhe, Staatliche Kunsthalle, du 29 septembre 2012 au 6 janvier 2013), Heidelberg Berlin, Kehrer Verlag, 2012",
+      "anno": "2012",
+      "pagine": "p. 239, Abb. I"
+    },
+    {
+      "riferimento": "Corot. L'Armoire secrète - Eine Lesende im Kontext, cat. exp. (Winterthur (Suisse), Sammlung Oskar Reinhart \"Am Römerholz\" (SOR), du 4 février au 15 mai 2011), Munich, Hirmer Verlag Gmbh, 2011",
+      "anno": "2011",
+      "pagine": "p. 119, Abb. 71"
+    },
+    {
+      "riferimento": "Hammer-Tugendhat, Daniela, Das Sichtbare und das Unsichtbare. Zur holländischen Malerei des 17. Jahrhunderts, Cologne, Böhlau Verlag, 2009",
+      "anno": "2009",
+      "pagine": "p. 184-185, fig. 84"
+    },
+    {
+      "riferimento": "Castelluccio, Stéphane, « Le Cabinet des tableaux de la Surintendance des Bâtiments du Roi à Versailles », Versalia, n°12, 2009, p. 21-54",
+      "anno": "2009",
+      "pagine": "p. 37"
+    },
+    {
+      "riferimento": "Habert, Jean ; Scailliérez, Cécile, « XVIe siècle », dans Foucart-Walter, Élisabeth (dir.), Catalogue des peintures italiennes du musée du Louvre. Catalogue sommaire, [Musée du Louvre, Département des peintures], Paris, Louvre éditions / Gallimard, 2007, p. 61-122",
+      "anno": "2007",
+      "pagine": "p. 81, ill. n&b"
+    },
+    {
+      "riferimento": "Arasse, Daniel, Histoires de peintures, Paris, Gallimard, Folio, 2006 (1ère éd., 2004)",
+      "anno": "2006 (1ère éd., 2004)",
+      "pagine": "p. 19, 27, 31-43, 229, fig. 4 couleurs"
+    },
+    {
+      "riferimento": "Mohen, Jean-Pierre (dir.), Au coeur de La Joconde. Léonard de Vinci décodé, Paris, Louvre éditions / Gallimard, 2006",
+      "anno": "2006",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Arminjon, Catherine ; Lavalle, Denis ; Chatenet Monique ; Anthenaise, Claude d' (dir.), De l’Italie à Chambord. François Ier : la chevauchée des princes français , cat. exp. (Chambord (France), Château de Chambord, 7 juillet - 7 octobre 2004), Paris, Somogy, 2004",
+      "anno": "2004",
+      "pagine": "p. 69-71, 81, 82, ill. coul."
+    },
+    {
+      "riferimento": "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Réunion des musées nationaux, 2003",
+      "anno": "2003",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Marani, Pietro C. ; Villata, Edoardo, Leonardo. Una carriera di pittore, Milan, F. Motta, 1999",
+      "anno": "1999",
+      "pagine": "p. 27"
+    },
+    {
+      "riferimento": "Zöllner, Frank, Leonardo da Vinci, Mona Lisa. Das Porträt der Lisa del Giocondo. Legende und Geschichte, Francfort-sur- Le Main, Fischer, 1994",
+      "anno": "1994",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Scailliérez, Cécile (dir.), Scailliérez, Cécile ; Baratte, Sophie ; Lefébure, Amaury ; Montembault, Marie, François 1er et ses artistes dans les collections du Louvre, Paris, Réunion des musées nationaux (RMN), 1992",
+      "anno": "1992",
+      "pagine": "p. 96-97, ill. n&b, n° 33"
+    },
+    {
+      "riferimento": "Shell, Janice ; Sironi, Grazioso, « Salai and Leonardo's Legacy », The Burlington Magazine, 133, 1055, 1991, février, p. 95-108, Disponible sur : <https://www.jstor.org/stable/884580>",
+      "anno": "1991, février",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Marani, Pietro C., Leonardo. Catalogo completo, Florence, Cantini, 1989",
+      "anno": "1989",
+      "pagine": "p. 21"
+    },
+    {
+      "riferimento": "Brejon de Lavergnée, Arnauld, L'inventaire Le Brun de 1683. La collection des tableaux de Louis XIV, Paris, Réunion des musées nationaux, 1987",
+      "anno": "1987",
+      "pagine": "p. 87-88, ill. n&b, n° 4"
+    },
+    {
+      "riferimento": "Brejon de Lavergnée, Arnauld ; Thiébaut, Dominique, Catalogue sommaire illustré des peintures du musée du Louvre. II. Italie, Espagne, Allemagne, Grande-Bretagne et divers, Paris, R.M.N., 1981",
+      "anno": "1981",
+      "pagine": "p. 192, ill. n&b"
+    },
+    {
+      "riferimento": "Ottino della Chiesa, Angela, Tout l'oeuvre peint de Caravage (présentation par André Chastel), Paris, Flammarion, 1968",
+      "anno": "1968",
+      "pagine": "p. 31"
+    },
+    {
+      "riferimento": "Heydenreich, Ludwig H., Leonardo da Vinci, Bâle, Holbein, 1954",
+      "anno": "1954",
+      "pagine": "p. 6"
+    },
+    {
+      "riferimento": "Hommage à Léonard de Vinci ; exposition en l’honneur du cinquième centenaire de sa naissance, cat. exp. (Paris, Musée du Louvre du 13 juin au 7 juillet 1952), Paris, Éditions des musées nationaux, 1952",
+      "anno": "1952",
+      "pagine": "p. 19-28"
+    },
+    {
+      "riferimento": "Hautecoeur, Louis, Musée national du Louvre. Catalogue des peintures exposées dans les galeries. II. Ecole italienne et Ecole espagnole, Paris, Musées nationaux, 1926",
+      "anno": "1926",
+      "pagine": "n° 1601"
+    },
+    {
+      "riferimento": "Ricci, Seymour de, Description raisonnée des peintures du Louvre. I. Ecoles étrangères. Italie et Espagne, Paris, Imprimerie de l'art, 1913",
+      "anno": "1913",
+      "pagine": "n° 1601"
+    },
+    {
+      "riferimento": "Müntz, Eugène, « Le château de Fontainebleau au XVIIe siècle d'après des documents inédits », Mémoires de la société de l'histoire de Paris et de l'Ile de France, 12, 1885, p. 259-278",
+      "anno": "1885",
+      "pagine": "p. 267-268"
+    },
+    {
+      "riferimento": "Villot, Frédéric, Notice des tableaux exposés dans les galeries du Musée National du Louvre. 1re partie. Écoles d'Italie, Paris, Vinchon, 1852",
+      "anno": "1852",
+      "pagine": "n° 484"
+    }
+  ]
+}

@@ -141,6 +141,12 @@ async function avvia() {
   if (stato.percorso && stato.percorso !== "libera" && !percorsoDati(stato.percorso)) stato.percorso = null;
 
   intestazione(scheda);
+  selettoreOpere(id);
+  if (scheda.racconto) {
+    const b = $("#avvia-visita");
+    b.hidden = false;
+    b.addEventListener("click", () => apriVisita(scheda.racconto.scene[0].id));
+  }
   banner(scheda);
   copertura(scheda);
   visualizzatore(scheda);
@@ -152,6 +158,24 @@ async function avvia() {
 
   const daHash = location.hash.slice(1);
   if (daHash && scheda.annotazioni.some((a) => a.id === daHash)) seleziona(daHash, { daUrl: true });
+}
+
+async function selettoreOpere(attuale) {
+  try {
+    const r = await fetch("api/opere/indice.json");
+    if (!r.ok) return;
+    const { opere } = await r.json();
+    if (!opere || opere.length < 2) return;
+    const nav = $("#selettore-opere");
+    const q = new URLSearchParams(location.search);
+    nav.append(el("span", { class: "etichetta-commutatore" }, "Opere:"), ...opere.map((o) => {
+      q.set("opera", o.chiave);
+      q.delete("tappa");
+      return el("a", { href: `?${q.toString()}`, "aria-current": o.chiave === attuale ? "page" : null }, `${o.titolo}`,
+        el("span", { class: "meta" }, ` · ${o.autore}`));
+    }));
+    nav.hidden = false;
+  } catch { /* indice non disponibile: nessun selettore */ }
 }
 
 function aggiornaUrl() {
@@ -408,6 +432,7 @@ function mostraDettaglio(a) {
     );
   }
   for (const b of a.blocchi) d.append(blocco(b, a.origine, a.stato, a.revisione));
+  d.append(rigaOrigineUnica([a]));
 
   const collegati = (a.collegamenti || []).map(annotazione).filter(Boolean);
   if (collegati.length) {
@@ -476,17 +501,29 @@ function riga_origine(origine, statoTesto, revisione) {
   );
 }
 
-function blocco(b, origineDefault, statoDefault, revisioneDefault) {
+/* Il blocco mostra registro, testo e base. L'origine (AI/redazione) e lo stato
+ * sono indicati una sola volta per sezione o pannello, non a ogni blocco. */
+function blocco(b, origineDefault, statoDefault, revisioneDefault, { conOrigine = false } = {}) {
   const reg = REGISTRI[b.registro];
-  const fonti = righeFonti(b.fonti);
+  const fonti = fontiBrevi(b.fonti);
   return el(
     "div",
     { class: `blocco reg-${b.registro}` },
     el("span", { class: "badge" }, el("span", { "aria-hidden": "true" }, reg.segno), reg.etichetta),
     el("p", {}, b.testo),
     fonti.length ? el("p", { class: "meta" }, "Base: ", ...fonti) : null,
-    riga_origine(b.origine || origineDefault, b.stato || statoDefault, b.revisione ?? revisioneDefault)
+    conOrigine ? riga_origine(b.origine || origineDefault, b.stato || statoDefault, b.revisione ?? revisioneDefault) : null
   );
+}
+
+function rigaOrigineUnica(elementi) {
+  const primo = elementi.find(Boolean);
+  if (!primo) return null;
+  const tuttiAi = elementi.every((x) => x?.origine?.tipo === "ai");
+  const nonRev = elementi.every((x) => !x?.revisione);
+  return el("p", { class: "meta origine-unica" },
+    tuttiAi ? `Testi generati da AI (${primo.origine.modello}), ${dataIt(primo.origine.data)}` : "Testi redazionali",
+    nonRev ? " · bozze non revisionate" : "");
 }
 
 function bloccoPerId(id) {
@@ -574,7 +611,8 @@ function renderPercorso() {
   const corpo = el("div", { class: "tappa" });
   if (t.raccordo && !["scelta"].includes(t.tipo)) corpo.append(el("p", { class: "raccordo" }, t.raccordo));
   ({ scelta: tappaScelta, scopri: tappaScopri, scrivi: tappaScrivi, leggi: tappaLeggi, evidenze: tappaEvidenze,
-     connessioni: tappaConnessioni, pulse: tappaPulse, rielabora: tappaRielabora })[t.tipo](corpo, t, p);
+     connessioni: tappaConnessioni, pulse: tappaPulse, rielabora: tappaRielabora,
+     scena: (c, tt) => renderRacconto(c, { scene: [tt.scena], compatto: true }) })[t.tipo](corpo, t, p);
   box.append(corpo);
 
   const nav = el("div", { class: "navigazione-tappe" });
@@ -588,8 +626,12 @@ function renderPercorso() {
 }
 
 function sceltaIniziale(box) {
+  const r = stato.scheda.racconto;
   box.append(
     el("h2", { id: "titolo-percorso", tabindex: "-1" }, "Che cosa vuoi scoprire oggi?"),
+    r ? el("button", { type: "button", class: "invito-visita", onclick: () => apriVisita(r.scene[0].id) },
+      el("span", { class: "invito-play", "aria-hidden": "true" }, "▶"),
+      el("span", {}, el("strong", {}, r.titolo), el("span", {}, `Visita guidata a schermo intero · ${r.durata}`))) : null,
     el("div", { class: "scelte-percorso" },
       PERCORSI.filter(percorsoDati).map((id) => {
         const p = percorsoDati(id);
@@ -715,10 +757,7 @@ function fontiBrevi(fonti) {
   const out = [];
   (fonti || []).forEach((r, i) => {
     const f = stato.scheda.fonti[r.fonte];
-    const breve = r.fonte.startsWith("met-") ? "Met (scheda)"
-      : r.fonte.startsWith("foto-") ? "Fotografia del Met"
-      : r.fonte.startsWith("wikidata-") ? `Wikidata ${r.fonte.slice(9)}`
-      : r.fonte.startsWith("commons-") ? "Commons" : (f?.titolo.split(",")[0] || r.fonte);
+    const breve = f?.breve || f?.titolo.split(",")[0] || r.fonte;
     const nota = /senza riferimenti/.test(r.nota || "") ? " (senza riferimenti)" : "";
     if (i) out.push("; ");
     out.push(f?.url ? el("a", { href: f.url, target: "_blank", rel: "noopener", title: descriviFonte(r) }, breve) : breve, nota);
@@ -794,7 +833,18 @@ function schedaConnessione(k) {
     el("p", { class: "meta" }, `Tipo: ${tipo.spiega}.`));
   for (const b of k.blocchi) art.append(blocco(b, k.origine, k.stato, k.revisione));
   if (k.opere.length) art.append(el("div", { class: "opere" }, k.opere.map(schedaOpera)));
-  if (k.calcolo) {
+  if (k.calcolo?.metodo === "sparql_basati_su") {
+    art.append(el("p", {}, k.calcolo.spiegazione),
+      el("p", { class: "meta" }, Object.entries(k.calcolo.per_secolo).map(([sec, n]) => `${sec}: ${n}`).join(" · ")),
+      el("details", {}, el("summary", {}, `Elenco (${k.calcolo.elenco.length})`),
+        el("table", { class: "tabella" },
+          el("thead", {}, el("tr", {}, ["Anno", "Opera", "Autore", "Collezione"].map((x) => el("th", { scope: "col" }, x)))),
+          el("tbody", {}, k.calcolo.elenco.map((o) => el("tr", {},
+            el("td", {}, o.anno ?? "—"),
+            el("td", {}, el("a", { href: `https://www.wikidata.org/wiki/${o.wikidata}`, target: "_blank", rel: "noopener" }, o.titolo)),
+            el("td", {}, o.autori.join(", ") || "—"),
+            el("td", {}, o.collezioni.join(", ") || "—")))))));
+  } else if (k.calcolo) {
     art.append(el("p", {}, k.calcolo.spiegazione));
     art.append(el("p", { class: "meta" }, `Notazioni di quest'opera: ${k.calcolo.notazioni_opera.join(", ")}`));
     for (const r of k.calcolo.risultati) {
@@ -911,7 +961,7 @@ function testoTaccuino() {
   const t = leggiTaccuino();
   const s = stato.scheda;
   const titolo = s.opera.catalogo.titoli[0].valore;
-  const indirizzo = location.origin + location.pathname;
+  const indirizzo = `${location.origin}${location.pathname}?opera=${encodeURIComponent(s.opera.chiave || "")}`;
   const righe = [`# Taccuino — ${titolo}`, "", `Esportato da ArtNotes il ${dataIt(new Date().toISOString())}. Opera: ${s.opera.id}.`, ""];
   const nomi = { osserva: "Che cosa ho osservato", ipotesi: "La mia domanda o ipotesi", lettura: "La mia lettura" };
   const note = Object.entries(t.note).filter(([, v]) => v && v.trim());
@@ -923,7 +973,7 @@ function testoTaccuino() {
     righe.push("## Riferimenti salvati", "");
     for (const v of t.voci) {
       if (v.tipo === "video") righe.push(`- Video (contenuto esterno, non verificato da ArtNotes): «${v.titolo}», ${v.canale}. ${v.url}`);
-      else if (v.tipo === "connessione") righe.push(`- Connessione ${TIPI_CONNESSIONE[v.sottotipo]?.etichetta.toLowerCase().replace("connessione ", "") || ""}: ${v.titolo}. ${indirizzo}?percorso=ispirazione`);
+      else if (v.tipo === "connessione") righe.push(`- Connessione ${TIPI_CONNESSIONE[v.sottotipo]?.etichetta.toLowerCase().replace("connessione ", "") || ""}: ${v.titolo}. ${indirizzo}&percorso=ispirazione`);
       else righe.push(`- Dettaglio ${v.id}: ${v.titolo}. ${indirizzo}#${v.id}`);
     }
     righe.push("");
@@ -982,6 +1032,7 @@ function sezioneTaccuino(box) {
 
 function schede(s) {
   const elencoSezioni = [
+    ...(s.racconto ? [{ id: "racconto", titolo: "Racconto" }] : []),
     { id: "catalogo", titolo: "Catalogo" },
     ...s.sezioni.map((x) => ({ id: x.id, titolo: x.titolo })),
     { id: "pulse", titolo: "Pulse" },
@@ -1009,7 +1060,7 @@ function schede(s) {
       }, sez.titolo)
     );
   });
-  apriSezione("in-breve");
+  apriSezione(s.racconto ? "racconto" : "in-breve");
 }
 
 function apriSezione(id) {
@@ -1026,9 +1077,10 @@ function apriSezione(id) {
   if (id === "fonti") return sezioneFonti(box);
   if (id === "pulse") return sezionePulse(box);
   if (id === "taccuino") return sezioneTaccuino(box);
+  if (id === "racconto") return renderRacconto(box);
 
   const sez = stato.scheda.sezioni.find((x) => x.id === id);
-  box.append(el("h2", {}, sez.titolo));
+  box.append(el("h2", {}, sez.titolo), rigaOrigineUnica(sez.blocchi));
   if (!sez.blocchi.length) box.append(el("p", { class: "vuoto" }, "Nessun contenuto pubblicato in questa sezione."));
   for (const b of sez.blocchi) {
     box.append(blocco(b, b.origine, b.stato, b.revisione));
@@ -1109,16 +1161,40 @@ function sezioneCatalogo(box) {
   );
 }
 
+const NOMI_CATEGORIE = {
+  istituzione: "Schede dei musei", letteratura: "Letteratura critica e universitaria", scientifica: "Studi scientifici e di laboratorio",
+  primaria: "Fonti d'epoca", collaborativa: "Basi di dati collaborative", classificazione: "Sistemi di classificazione",
+  immagine: "Riproduzioni fotografiche", divulgazione: "Divulgazione",
+};
+
 function sezioneFonti(box) {
-  box.append(el("h2", {}, "Fonti"));
-  for (const [id, f] of Object.entries(stato.scheda.fonti)) {
-    box.append(
-      el("div", { class: "fonte" },
-        el("h3", {}, f.url ? el("a", { href: f.url, target: "_blank", rel: "noopener" }, f.titolo) : f.titolo),
-        el("p", { class: "meta" }, `${f.tipo} · consultata il ${dataIt(f.consultato)} · licenza: ${f.licenza}`),
-        f.note ? el("p", { class: "meta" }, f.note) : null,
-        el("p", { class: "meta" }, `Identificativo interno: ${id}`))
-    );
+  const fonti = Object.entries(stato.scheda.fonti);
+  const lette = fonti.filter(([, f]) => f.lettura !== "non consultato").length;
+  box.append(el("h2", {}, "Fonti"),
+    el("p", { class: "meta" }, `${fonti.length} fonti, ${lette} consultate. Per i testi è indicato che cosa è stato letto davvero: `,
+      "testo completo, passi pertinenti o solo abstract. Le fonti non consultate non sostengono nessuna frase."));
+  const gruppi = {};
+  for (const [id, f] of fonti) (gruppi[f.categoria || "altro"] ||= []).push([id, f]);
+  const ordine = ["istituzione", "primaria", "letteratura", "scientifica", "divulgazione", "collaborativa", "classificazione", "immagine", "altro"];
+  for (const cat of ordine.filter((c) => gruppi[c])) {
+    box.append(el("h3", { class: "gruppo" }, `${NOMI_CATEGORIE[cat] || "Altre fonti"} (${gruppi[cat].length})`));
+    for (const [id, f] of gruppi[cat]) {
+      box.append(
+        el("div", { class: "fonte" },
+          el("h4", {}, f.url ? el("a", { href: f.url, target: "_blank", rel: "noopener" }, f.titolo) : f.titolo),
+          el("p", { class: "meta" }, [f.tipo, f.istituzioni?.length ? f.istituzioni.join(", ") : null,
+            f.consultato ? `consultata il ${dataIt(f.consultato)}` : null, `licenza: ${f.licenza}`,
+            f.lettura ? `letto: ${f.lettura}` : null].filter(Boolean).join(" · ")),
+          f.note ? el("p", { class: "meta" }, f.note) : null,
+          el("p", { class: "meta" }, `Identificativo interno: ${id}`))
+      );
+    }
+  }
+  const bib = stato.scheda.bibliografia_museo || [];
+  if (bib.length) {
+    box.append(el("details", { class: "bibliografia-museo" },
+      el("summary", {}, `Bibliografia indicata dal museo (${bib.length} voci, non consultate salvo dove indicato sopra)`),
+      el("ul", {}, bib.map((b) => el("li", {}, b.riferimento, b.pagine ? `, ${b.pagine}` : "")))));
   }
   if (stato.scheda.pulse.contenuti.length) {
     box.append(el("div", { class: "fonte" },

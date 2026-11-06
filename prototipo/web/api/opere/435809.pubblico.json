@@ -1,9 +1,10 @@
 {
   "schema": "artnotes-prototipo/0.1",
-  "generato_il": "2026-11-06T16:26:52",
+  "generato_il": "2026-11-06T17:39:33",
   "modalita": "pubblico",
   "opera": {
     "id": "met:435809",
+    "chiave": "435809",
     "catalogo": {
       "titoli": [
         {
@@ -303,6 +304,7 @@
     }
   ],
   "annotazioni": [],
+  "racconto": null,
   "percorsi": [],
   "connessioni": [],
   "pulse": {
@@ -334,6 +336,8 @@
   "fonti": {
     "wikidata-Q776175": {
       "titolo": "Wikidata, elemento Q776175",
+      "breve": "Wikidata",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q776175",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q776175",
@@ -343,6 +347,8 @@
     },
     "met-435809": {
       "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "breve": "Met, scheda",
+      "categoria": "istituzione",
       "tipo": "scheda istituzionale (dati strutturati)",
       "url": "https://www.metmuseum.org/art/collection/search/435809",
       "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
@@ -352,11 +358,14 @@
     },
     "foto-met-DP119115": {
       "titolo": "Fotografia DP119115.jpg (3811 × 2809 px)",
+      "breve": "Fotografia del Met",
+      "categoria": "immagine",
       "tipo": "immagine di riferimento per le osservazioni visive",
       "url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
       "consultato": "2026-11-06",
       "licenza": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
       "note": "SHA-256 3d2a611f7787…"
     }
-  }
+  },
+  "bibliografia_museo": []
 }

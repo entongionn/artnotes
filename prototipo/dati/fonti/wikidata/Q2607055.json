@@ -1,0 +1,1548 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q2607055",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2607055",
+    "data": "2026-11-06T15:57:25+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q2607055",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Portrait of Maddalena Doni"
+        },
+        "it": {
+          "language": "it",
+          "value": "Ritratto di Maddalena Strozzi"
+        }
+      },
+      "claims": {
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "11c480cba194e7e24ed92c3d464d074d075d56b2",
+              "datavalue": {
+                "value": "Ritratto di maddalena strozzi.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2607055$4D6C55E7-DE5A-4DA6-953C-BC21B348CB78",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3305213,
+                  "id": "Q3305213"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$DAB1938D-7827-4C4F-A67A-AB60B1A515DC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "869e1fea9a7af2cc27e35033a4e676dba1c67ddb",
+              "datavalue": {
+                "value": "/m/08rbsc",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$D197D534-C1DA-4AB7-9139-09A6A35EEB29",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "882a892b913cab45b3f165d83824959e1eb47a82",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5597,
+                  "id": "Q5597"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$FAFD84C8-FC21-4F42-8395-B4773D5102A6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P195": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "a3472588a23b18a1cf200f2e1a5bca0cf0e956b3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 866498,
+                  "id": "Q866498"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "afbb5e417a1ffc0bce0c3eecbe7765a6f3f5ff62",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1946-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2607055$EEF14B86-C40E-4561-9889-458C7ECEF2C4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7017eaeb1e47255dbea2cb666f219cc438de1167",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4c0ffc3d1226dd9a0bb882c363ae9a53ee8d8a83",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 27825023,
+                          "id": "Q27825023"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "839c8a5119e5faa7703816bfb0f7d54e89324848",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P186": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 296955,
+                  "id": "Q296955"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$037D2ECA-A83B-49C9-A4D9-1BE76AABBAD7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "32442acff3bd145a61bbd0b67fc5712a6a0bb800",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 106857709,
+                  "id": "Q106857709"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P518": [
+                {
+                  "snaktype": "value",
+                  "property": "P518",
+                  "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 861259,
+                      "id": "Q861259"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P518"
+            ],
+            "id": "Q2607055$d8308ce6-4b64-1f13-2aee-7343365cecff",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "67630d2790bfe869c0e2e278f3968763b438423c",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4869bdef08618fabc5993a6d18dc7dedb0a8e1a",
+                      "datavalue": {
+                        "value": "http://catalogo.fondazionezeri.unibo.it/entry/work/29248/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134307,
+                  "id": "Q134307"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$A93932F5-B398-40C4-9443-D2E48E84C355",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "34453a8a24aa8b6d1d1b1c4d080515ac82995c99",
+              "datavalue": {
+                "value": {
+                  "time": "+1505-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 8,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1319": [
+                {
+                  "snaktype": "value",
+                  "property": "P1319",
+                  "hash": "43cf80dd16dbf4260bba53d70b6c4857852f3cb9",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1505-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "ff331530ede727f78cadd9eb83ea9672baab51d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1506-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1480": [
+                {
+                  "snaktype": "value",
+                  "property": "P1480",
+                  "hash": "510e0a7384da1c4e5af8f67e645a5c3b27714509",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26961029,
+                      "id": "Q26961029"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1319",
+              "P1326",
+              "P1480"
+            ],
+            "id": "Q2607055$B63A9314-9844-4864-ABF9-277F7743F396",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7017eaeb1e47255dbea2cb666f219cc438de1167",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4c0ffc3d1226dd9a0bb882c363ae9a53ee8d8a83",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 27825023,
+                          "id": "Q27825023"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "839c8a5119e5faa7703816bfb0f7d54e89324848",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P135": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P135",
+              "hash": "568b5e1a0f16d2bc5f57e9244f2c2a819208e8cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1474884,
+                  "id": "Q1474884"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$3C32064F-E510-4E24-A284-1100A8BC5F72",
+            "rank": "normal"
+          }
+        ],
+        "P180": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "0b1ce700df5b2b9aa9a00abe21eec376e35f1bfc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 95651342,
+                  "id": "Q95651342"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$A3D298F5-8AB5-40E5-81E2-4922F5A27B69",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "8b2747e1377ced155e95f5011fdf12c39ae073b7",
+              "datavalue": {
+                "value": "Magdalena Strozzi's portrait paintings by Raffaello Sanzio",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2607055$5e667263-4ac5-aa2b-ce35-c77df5110d60",
+            "rank": "normal"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "7789bcb83159e1e8582a45576eb02a654aa114d2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 51252,
+                  "id": "Q51252"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$AADB91B2-BDEB-4B1F-9540-61E83EBB5D4A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8a9685b0f6b570c6347a6d9e2315c3393d119400",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "41e4b6487550c08edac3ea1836b91ab7e2c39820",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107011783,
+                          "id": "Q107011783"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b40892def1062fe78fb40154e66e60c0d637df26",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-03-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "80d7fad139dce6ea48d70110958f85cba2751568",
+              "datavalue": {
+                "value": "02449939n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$CFC2D135-5188-4512-AE16-74D62E116D74",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2048": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2048",
+              "hash": "b8c927be3ca2127f5c0a6ee06d10c6b75c497483",
+              "datavalue": {
+                "value": {
+                  "amount": "+63",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2607055$81FBB775-A3ED-46FE-B64D-247379A5D011",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b050957a414ce49938afebf44e10cb070d22bd4d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e774fa5bc1f4c61d3a2b4794ae1a4c1cedc6efcb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-06-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "859429b7236ec9bf4084b7ba7641cc42e5967126",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Raffael_036.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2049": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2049",
+              "hash": "fca6a0dadc5f672a83f6b76e6179e43cfa0abff0",
+              "datavalue": {
+                "value": {
+                  "amount": "+45",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2607055$F3724A81-BC5D-4EF2-9A7B-379ABEE3041D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b050957a414ce49938afebf44e10cb070d22bd4d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e774fa5bc1f4c61d3a2b4794ae1a4c1cedc6efcb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-06-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "859429b7236ec9bf4084b7ba7641cc42e5967126",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Raffael_036.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "aabf5c29c4fe48f7f658b5bb59a1731f89902da3",
+              "datavalue": {
+                "value": {
+                  "text": "Ritratto di Maddalena Doni",
+                  "language": "it"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2607055$EEB96175-4DAF-4940-8098-4A1A82890DBE",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "7017eaeb1e47255dbea2cb666f219cc438de1167",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4c0ffc3d1226dd9a0bb882c363ae9a53ee8d8a83",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 27825023,
+                          "id": "Q27825023"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "839c8a5119e5faa7703816bfb0f7d54e89324848",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "ece96fba5b42538322a63661cc36d57e3b69ebca",
+              "datavalue": {
+                "value": {
+                  "text": "Porträt der Maddalena Doni, geb. Strozzi",
+                  "language": "de"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2607055$BA042309-4663-4630-97A6-3C875C7FD659",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "50910b8c4f7df41533496d75e267eb865a7fbeef",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "7fd1086b52e097ccb40463333a8e55ffecbf5ee1",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-04-05T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "859429b7236ec9bf4084b7ba7641cc42e5967126",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Raffael_036.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 60332278,
+                      "id": "Q60332278"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29940705,
+                      "id": "Q29940705"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q2607055$A7B471E1-C5C6-440F-A057-193BF85543B2",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "e1da975ac60ca6550e95130d5f8e147daf7be0ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 110486538,
+                  "id": "Q110486538"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$5bdd3bdb-4693-507b-e004-3b1589ea2126",
+            "rank": "normal"
+          }
+        ],
+        "P9787": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9787",
+              "hash": "dc6ef08b0021650ddb2b1d590ce103b3bcf9efe3",
+              "datavalue": {
+                "value": "raphael-portrait-of-maddalena-doni",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$a8b5ace9-452b-9b90-e13f-eae18ddfca44",
+            "rank": "normal"
+          }
+        ],
+        "P3272": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3272",
+              "hash": "8bcdab404686e92dd43c08f73789ddd60f88e6bc",
+              "datavalue": {
+                "value": "29248",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$037f93c6-4b8b-5efb-10a5-3233316e64e5",
+            "rank": "normal"
+          }
+        ],
+        "P5891": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5891",
+              "hash": "9284a721de7c4fc534bf2def6c4ba1fc7d899b56",
+              "datavalue": {
+                "value": "00067907",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$ae3b11c9-4418-b046-4289-cc7d88f62763",
+            "rank": "normal"
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "476928dfe251051ffb0e947322b37a8e7dcd8d03",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 95651342,
+                  "id": "Q95651342"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$6312e24a-48e4-8673-11bd-129cf8cf53d1",
+            "rank": "normal"
+          }
+        ],
+        "P8335": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8335",
+              "hash": "fe599ab99a3c8d836df3b98226a6daaac2ad0950",
+              "datavalue": {
+                "value": "portraits-doni-raffaello",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$869023e0-4af9-2f36-7f7e-1644af94f287",
+            "rank": "preferred"
+          }
+        ],
+        "P1639": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1639",
+              "hash": "9faddc3984b3068b7706bc667916b327676912ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2515309,
+                  "id": "Q2515309"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2607055$6ac5e1a1-4d89-b156-4d43-d2077180df5a",
+            "rank": "normal"
+          }
+        ],
+        "P3504": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3504",
+              "hash": "85e31193b2293ca56d91a1c52173d03475c06454",
+              "datavalue": {
+                "value": "59",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$1e9b19f8-4512-7315-db8a-80578995315a",
+            "rank": "normal"
+          }
+        ],
+        "P217": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P217",
+              "hash": "d04de38c5c134e2b831703f5f85f186618a1284a",
+              "datavalue": {
+                "value": "59",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P195": [
+                {
+                  "snaktype": "value",
+                  "property": "P195",
+                  "hash": "a3472588a23b18a1cf200f2e1a5bca0cf0e956b3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 866498,
+                      "id": "Q866498"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P195"
+            ],
+            "id": "Q2607055$0c306a7d-41fc-4db3-0a2e-9cf8abe99479",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7017eaeb1e47255dbea2cb666f219cc438de1167",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4c0ffc3d1226dd9a0bb882c363ae9a53ee8d8a83",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 27825023,
+                          "id": "Q27825023"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "839c8a5119e5faa7703816bfb0f7d54e89324848",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-11-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7420": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7420",
+              "hash": "67cc1bf304e61322111e1b7d947df5eba64adabb",
+              "datavalue": {
+                "value": "Magdalena Strozzi's portrait in Pushkin museum (2016) by shakko 02.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2607055$e8e732b2-4d3f-54cb-8c0a-51650fd7fdb3",
+            "rank": "normal"
+          }
+        ],
+        "P2242": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2242",
+              "hash": "d1ac8ac6615095e295b6cc57b34b3903dc758006",
+              "datavalue": {
+                "value": "00281745",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "6002709108c42317962554269eec921a91b66d78",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1193907,
+                      "id": "Q1193907"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q2607055$3384173f-40be-11a1-3b43-80e421e08e44",
+            "rank": "deprecated"
+          }
+        ],
+        "P9051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9051",
+              "hash": "4dcd72a86dfad023ba42ebf0ce469a1672fac9e1",
+              "datavalue": {
+                "value": "HistoricOrArtisticProperty/0900281745-0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$16ea8cc4-4603-3c15-07dd-384c8b949070",
+            "rank": "normal"
+          }
+        ],
+        "P11807": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11807",
+              "hash": "eb78c374ab53e72d942d9ebc8c15b6dc2381bbaf",
+              "datavalue": {
+                "value": "r/raphael/2firenze/1/31doni2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2607055$6C3F0F80-1AC7-4655-AB16-0206133CB625",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "90505ed4bd1594c7fd7923595ecd2c41c087c010",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "45231894be8460741e10bd82a62590411f1180dd",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "62545e43d46d51cdfb796470c3350b969a1c462c",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Rafael_-_Retrato_de_Maddalena_Doni.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "صوره مادالينا دونى",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Maddalena Doninin porterti",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Portrait of Maddalena Doni",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Retrato de Maddalena Doni",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Portrait de Maddalena Doni",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Ritratto di Maddalena Strozzi",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "マッダレーナ・ドーニの肖像",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "പോർട്രെയ്റ്റ് ഓഫ് മദ്ദലീന ഡോണി",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Portret van Maddalena Doni",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Portret Maddaleny Doni",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Retrato de Maddalena Doni",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Портрет Маддалены Дони",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Maddalena Doni Portresi (Rafael)",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q106857709": "tavola",
+      "Q110486538": "Category:Magdalena Strozzi's portrait paintings by Raffaello Sanzio",
+      "Q1193907": "collegamento interrotto",
+      "Q134307": "ritratto",
+      "Q1474884": "Alto Rinascimento",
+      "Q19652": "pubblico dominio",
+      "Q2515309": "Ritratto di Agnolo Doni",
+      "Q26961029": "dichiarazione con data gregoriana precedente al 1584",
+      "Q296955": "colore a olio",
+      "Q29940705": "100 anni dalla morte dell'autore",
+      "Q3305213": "dipinto",
+      "Q51252": "Galleria degli Uffizi",
+      "Q5597": "Raffaello Sanzio",
+      "Q60332278": "giurisdizioni con 100 anni PMA o meno",
+      "Q861259": "supporto del dipinto",
+      "Q866498": "Galleria Palatina",
+      "Q95651342": "Maddalena Doni"
+    }
+  }
+}

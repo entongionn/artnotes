@@ -110,15 +110,17 @@ def _leggi(p: Path):
 def query_per_opera(object_id: str) -> list[dict]:
     """Query dai dati canonici: titolo del museo, titoli delle voci Wikipedia
     collegate all'elemento Wikidata (varianti multilingue), serie di appartenenza."""
-    met = _leggi(DATI / "fonti" / "met" / f"{object_id}.json")["payload"]
-    qid = met["objectWikidata_URL"].rsplit("/", 1)[-1]
+    man_p = DATI / "opere" / f"{object_id}.json"
+    man = _leggi(man_p) if man_p.exists() else {"istituzione": {"tipo": "met", "id": object_id}}
+    titoli: dict[str, str] = {}
+    if man["istituzione"]["tipo"] == "met":
+        met = _leggi(DATI / "fonti" / "met" / f"{man['istituzione']['id']}.json")["payload"]
+        qid = met["objectWikidata_URL"].rsplit("/", 1)[-1]
+        titoli["met"] = met["title"]
+    else:
+        qid = man["wikidata"]
     ent = _leggi(DATI / "fonti" / "wikidata" / f"{qid}.json")["payload"]["entita"]
-    autore = met["artistDisplayName"].split()[-1] if met.get("artistDisplayName") else ""
-    # «Pieter Bruegel the Elder» -> «Bruegel»
-    for parola in met.get("artistDisplayName", "").split():
-        if parola.lower().startswith("brueg") or parola.lower().startswith("breug"):
-            autore = parola
-    titoli: dict[str, str] = {"met": met["title"]}
+    autore = man.get("autore_query", "")
     for lingua in LINGUE_TITOLI:
         s = ent.get("sitelinks", {}).get(f"{lingua}wiki", {}).get("title")
         if s:

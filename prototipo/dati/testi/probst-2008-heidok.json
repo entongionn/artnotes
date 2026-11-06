@@ -1,0 +1,10 @@
+{
+ "id": "probst-2008-heidok",
+ "url": "http://archiv.ub.uni-heidelberg.de/artdok/410/1/Probst_MonaLisa_2008.pdf",
+ "formato": "pdf, 50 pagine",
+ "licenza": "heiDOK, accesso aperto",
+ "sha256": "23cded4761be50cdd3d40416e067ff1d941e38a10e3581334c9114d0934f3039",
+ "acquisito_il": "2026-11-06T15:54:27+00:00",
+ "caratteri": 118647,
+ "connettore": "letteratura.py 0.1.0"
+}

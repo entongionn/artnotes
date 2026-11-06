@@ -1,0 +1,680 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q4390923",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q4390923",
+    "data": "2026-11-06T15:57:35+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q4390923",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Isleworth Mona Lisa"
+        },
+        "it": {
+          "language": "it",
+          "value": "Monna Lisa di Isleworth"
+        }
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3305213,
+                  "id": "Q3305213"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q4390923$F5290E72-4F7E-4849-A8A3-6892552E7127",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ef5120ce0217c17267da485c0055bc55afd491d9",
+              "datavalue": {
+                "value": "/m/0fvq2c",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4390923$EB764581-7803-41C1-83D0-1B82DB193C86",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "3b1eba6f35af28f951e073718e03ed540b9c806d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 762,
+                  "id": "Q762"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P5102": [
+                {
+                  "snaktype": "value",
+                  "property": "P5102",
+                  "hash": "d473ad23b1da16a7d2cca42747f1b682e3b9db8e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 230768,
+                      "id": "Q230768"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P5102"
+            ],
+            "id": "Q4390923$d0c12462-4aa1-489e-3c01-decf85dfbf09",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P170",
+              "hash": "d3550e860f988c6675fff913440993f58f5c40c5",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$b773ba42-479d-d2f3-8f38-041bb643c025",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "20031703144803976bccbade6702fd9600e8ac15",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "12bc45ba5e0dccdb000847900113242ab21cf465",
+                      "datavalue": {
+                        "value": "https://www.gazette-drouot.com/article/la-multiplication-des-joconde/10373",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c34db01fedb1e6025769a8827e2aefcf7efcd4bb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-08-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134307,
+                  "id": "Q134307"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$475D2B9B-A694-42CD-9EC9-0BB227FF6107",
+            "rank": "normal"
+          }
+        ],
+        "P180": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "b1870ce7f5f2144fdeefaa714b7974079a5af123",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 467,
+                  "id": "Q467"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$BC9044B0-9EAF-4692-A109-8BB0016E004D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "5ebcd9007e3366fe3e142c2207eff10da7d77efb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 527,
+                  "id": "Q527"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$76d3111c-4aba-e060-d008-826b47602f11",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "27091c71d6453df36fdd3b545eb76d801c8927db",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8502,
+                  "id": "Q8502"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$c0ca5045-4840-98ba-6c56-6738734d6f21",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "9815549715d0af163a5dd31434921a16ac6e71c3",
+              "datavalue": {
+                "value": "The Isleworth Mona Lisa.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q4390923$cbe32938-44e9-ed59-0360-1e5732a12c50",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "f83b206fc2ed7ef5e97296cd8d1965476fca2d56",
+              "datavalue": {
+                "value": {
+                  "time": "+1502-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 8,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P31": [
+                {
+                  "snaktype": "value",
+                  "property": "P31",
+                  "hash": "d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26961029,
+                      "id": "Q26961029"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P31"
+            ],
+            "id": "Q4390923$ae1c4a3e-46f5-038e-4489-a48c87276397",
+            "rank": "normal"
+          }
+        ],
+        "P135": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P135",
+              "hash": "54c616d8c244a5007740bd9e760bd0fd83883398",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1404472,
+                  "id": "Q1404472"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4390923$81115A47-5EC5-4830-9A85-ED9DFB4800FF",
+            "rank": "normal"
+          }
+        ],
+        "P195": [
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P195",
+              "hash": "53fd75d02d536a32b38eab571a3a4c4ba7e62d65",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "746d1fcd2470a3c0419e50b5ec1ba96b6d02cae2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 768717,
+                      "id": "Q768717"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831"
+            ],
+            "id": "Q4390923$80CBB093-2B65-4080-8F21-4AA862132459",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "52099852ba6061a128de051e1ac68913432cd5b5",
+              "datavalue": {
+                "value": "The Isleworth Mona Lisa",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q4390923$459020BC-BE8A-41AE-AAE2-3A75B8F720E1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2048": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2048",
+              "hash": "994cad5b1e9049c2071c512cc0be7376cdf00639",
+              "datavalue": {
+                "value": {
+                  "amount": "+86",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q4390923$CFD6EDCA-8ECE-4386-BE46-803528FD499E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a87fc1ff9c229c35d3088369e39f9dd66d39f06a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "683a1e4e676e1469fe0fe869d4cbea0e7bb1e2fa",
+                      "datavalue": {
+                        "value": "https://it.wikipedia.org/w/index.php?title=Monna_Lisa_di_Isleworth&oldid=100190862",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 60332278,
+                      "id": "Q60332278"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29940705,
+                      "id": "Q29940705"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q4390923$89D7CF15-A65D-4EB7-B70A-DEC0423B6054",
+            "rank": "normal"
+          }
+        ],
+        "P528": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "fd20b9887363b60696a7b4af2d6eda5fe56cba4d",
+              "datavalue": {
+                "value": "31/n3",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "741dbc2e1b885d440cf6c364f33ac4820d1e0e8e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 109287558,
+                      "id": "Q109287558"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q4390923$d3087787-431f-39fa-14e6-480d9d74b99d",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "لوحة موناليزا أيزلورث",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Ayzeluort Mona Lizası",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:The Isleworth Mona Lisa",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Isleworth Mona Lisa",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Mona Lisa de Isleworth",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Mona Lisa d'Isleworth",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Monna Lisa di Isleworth",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "アイルワースのモナ・リザ",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Mona Lisa z Isleworth",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Айзелуортская Мона Лиза",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Isleworth Mona Lisa",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "艾爾沃斯蒙娜麗莎",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q109287558": "L'opera completa di Leonardo pittore",
+      "Q134307": "ritratto",
+      "Q1404472": "rinascimento italiano",
+      "Q19652": "pubblico dominio",
+      "Q230768": "attribuzione",
+      "Q26961029": "dichiarazione con data gregoriana precedente al 1584",
+      "Q29940705": "100 anni dalla morte dell'autore",
+      "Q3305213": "dipinto",
+      "Q467": "donna",
+      "Q527": "cielo",
+      "Q60332278": "giurisdizioni con 100 anni PMA o meno",
+      "Q762": "Leonardo da Vinci",
+      "Q768717": "collezione privata",
+      "Q8502": "montagna"
+    }
+  }
+}

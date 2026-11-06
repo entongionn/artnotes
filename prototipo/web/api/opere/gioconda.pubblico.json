@@ -1,0 +1,505 @@
+{
+  "schema": "artnotes-prototipo/0.1",
+  "generato_il": "2026-11-06T17:39:33",
+  "modalita": "pubblico",
+  "opera": {
+    "id": "louvre:cl010062370",
+    "chiave": "gioconda",
+    "catalogo": {
+      "titoli": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+          "lingua": "fr",
+          "tipo": "Titre"
+        },
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "La Joconde",
+          "lingua": "fr",
+          "tipo": "Titre d'usage"
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "valore": "La Gioconda",
+          "lingua": "it"
+        }
+      ],
+      "attribuzioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "autore": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci)",
+          "id_wikidata": "Q762",
+          "qualifica_originale": "Attribution actuelle"
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "autore": "Leonardo da Vinci",
+          "id_wikidata": "Q762",
+          "qualifica_originale": "",
+          "riferimenti": 1
+        }
+      ],
+      "attribuzione_in_evidenza": {
+        "fonte": "louvre-cl010062370",
+        "motivazione": "Scheda dell'istituzione che conserva l'opera. Wikidata indica la stessa persona."
+      },
+      "datazioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "testo_originale": "1e quart du XVIe siècle (1503 - 1519)",
+          "intervallo": [
+            1503,
+            1519
+          ]
+        },
+        {
+          "fonte": "wikidata-Q12418",
+          "testo_originale": "1503",
+          "riferimenti": 1
+        }
+      ],
+      "tecnica": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "huile sur bois (peuplier)"
+        }
+      ],
+      "dimensioni": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Hauteur: 0,794 m; Hauteur avec accessoire: 1,01 m; Largeur: 0,534 m; Largeur avec accessoire: 0,77 m"
+        }
+      ],
+      "istituzione": [
+        {
+          "fonte": "louvre-cl010062370",
+          "valore": "Musée du Louvre, Département des Peintures",
+          "inventario": "INV 779, MR 316",
+          "linea_di_credito": "ancienne collection royale/de la Couronne (1793)"
+        }
+      ],
+      "identificativi": {
+        "louvre": "cl010062370",
+        "wikidata": "Q12418"
+      },
+      "soggetti_wikidata": [
+        {
+          "valore": "Lisa Gherardini",
+          "riferimenti": 2
+        },
+        {
+          "valore": "cielo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "massa d'acqua",
+          "riferimenti": 0
+        },
+        {
+          "valore": "ponte",
+          "riferimenti": 0
+        },
+        {
+          "valore": "bracciolo",
+          "riferimenti": 0
+        },
+        {
+          "valore": "paesaggio",
+          "riferimenti": 1
+        },
+        {
+          "valore": "montagna",
+          "riferimenti": 0
+        },
+        {
+          "valore": "figura",
+          "riferimenti": 0
+        },
+        {
+          "valore": "persona ritratta nella Gioconda",
+          "riferimenti": 0
+        }
+      ],
+      "proprietari_wikidata": [
+        {
+          "valore": "stato francese",
+          "qualificatori": {},
+          "riferimenti": 1
+        },
+        {
+          "valore": "Francesco I di Francia",
+          "qualificatori": {
+            "dal": [
+              "1519"
+            ],
+            "fino al": [
+              "1547"
+            ]
+          },
+          "riferimenti": 1
+        }
+      ]
+    }
+  },
+  "immagine": {
+    "id": "commons-4fd4ec6041e6-0aa85cdb70a5",
+    "sha256": "0aa85cdb70a5ea0fcfe4d93f077be1385c995dc975ab104779bee573607ed830",
+    "larghezza": 3840,
+    "altezza": 5622,
+    "a_colori": true,
+    "vista": "recto, intero; derivata Commons a 3840 px di larghezza (originale 7854 × 11498 px)",
+    "diritti": {
+      "metadati": "Wikimedia Commons: dati strutturati CC0; descrizione del file secondo la sua licenza",
+      "fotografia": "Public domain (Wikimedia Commons, verificato sul file)",
+      "opera": "pubblico dominio (opera del XVI secolo)",
+      "verificato_il": "2026-11-06"
+    },
+    "crediti": "Wikimedia Commons, Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg",
+    "dzi": "immagini/0aa85cdb70a5/immagine.dzi",
+    "file_fotografia": "Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg"
+  },
+  "copertura": {
+    "catalogo": "Dati essenziali presenti (Louvre, Wikidata).",
+    "approfondimenti_documentati": "0 interpretazioni attribuite a fonti, 0 da letteratura critica. Testo critico ancora assente.",
+    "annotazioni": "0 regioni, nessuna revisionata.",
+    "revisione_umana": "Nessun contenuto revisionato."
+  },
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": []
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": []
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": [],
+      "mostra_connessioni": true
+    }
+  ],
+  "annotazioni": [],
+  "racconto": null,
+  "percorsi": [],
+  "connessioni": [],
+  "pulse": {
+    "politica": "ArtNotes Pulse segnala contenuti pubblici di terzi. Non sono contenuti di ArtNotes e non sono verificati scientificamente: ogni suggerimento dice perché è stato scelto e che cosa lo collega all'opera. La popolarità pesa poco (5%) e non equivale ad accuratezza. I video non sono incorporati: i link aprono la piattaforma originale. Le miniature sono caricate dai server di YouTube.",
+    "contenuti": [],
+    "selezioni": {
+      "curioso": [],
+      "studio": [],
+      "ispirazione": []
+    },
+    "conteggi": {},
+    "pesi": {
+      "pertinenza": 0.35,
+      "qualita": 0.25,
+      "intento": 0.15,
+      "diversita": 0.1,
+      "freschezza": 0.1,
+      "interesse": 0.05
+    },
+    "stato_fonte": "assente"
+  },
+  "fonti": {
+    "wikidata-Q12418": {
+      "titolo": "Wikidata, elemento Q12418",
+      "breve": "Wikidata",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q12418",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q12418",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
+    "louvre-cl010062370": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "url_dati": "https://collections.louvre.fr/ark:/53355/cl010062370.json",
+      "consultato": "2026-11-06",
+      "licenza": "Licence Ouverte Etalab (testi del Louvre, aggiornati il 2026-08-11)",
+      "titolo": "Musée du Louvre, scheda INV 779 (cl010062370)",
+      "breve": "Louvre, scheda",
+      "categoria": "istituzione",
+      "tipo": "scheda istituzionale (dati strutturati)",
+      "lettura": "testo completo",
+      "note": "Ultimo aggiornamento della scheda: 2026-08-11. Le fotografie del Louvre (© GrandPalaisRmn) non sono riusate."
+    },
+    "foto-commons-4fd4ec6041e6-0aa85cdb70a5": {
+      "titolo": "Fotografia Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg (3840 × 5622 px)",
+      "breve": "Fotografia (Commons)",
+      "categoria": "immagine",
+      "tipo": "immagine di riferimento per le osservazioni visive",
+      "url": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain (Wikimedia Commons, verificato sul file)",
+      "note": "recto, intero; derivata Commons a 3840 px di larghezza (originale 7854 × 11498 px). SHA-256 0aa85cdb70a5…"
+    }
+  },
+  "bibliografia_museo": [
+    {
+      "riferimento": "Ravaud, Elisabeth ; Eveno, Myriam ; Delieuvin, Vincent, « Révéler les choix matériels et techniques de Léonard de Vinci par l’analyse chimique : le cas du pigment blanc de plomb », Technè, Hors-série, 2025, Disponible sur : <https://doi.org/10.4000/11v4a>",
+      "anno": "2025",
+      "pagine": "p. 162-171"
+    },
+    {
+      "riferimento": "Loire, Stéphane, Les Peintures italiennes du Musée Napoléon (1810-1815). Édition illustrée et commentée du volume I de l'Inventaire Napoléon, Paris, Mare & Martin / Louvre éditions, 2025",
+      "anno": "2025",
+      "pagine": "p. 533-534, n°901"
+    },
+    {
+      "riferimento": "La Rochefoucauld, Sabine de, Louvre haute couture : la mode dans les collections de peintures du Louvre, Montreuil, Gourcuff Gradenigo, 2023",
+      "anno": "2023",
+      "pagine": "p. 30, 130, ill. coul. p. 31"
+    },
+    {
+      "riferimento": "Pietro C. Marini, « Leonardo e Francesco I, fonti ed ipotesi sulla committenza reale », dans Omaggio a Leonardo per cinque secoli di storia 1519-2019 .Atti di conferenze Vinci, Biblioteca Leonarddiana, 26/01-23/11/2019, Firenze, Leo S. Olschki, 2023",
+      "anno": "2023",
+      "pagine": "p. 45-61, ill.coul., Fig.1"
+    },
+    {
+      "riferimento": "Joconde, cat. exp. (Marseille, CCI - Bourse du Commerce, du 10 mars au 21 août 2022), Paris, Éditions de la Réunion des musées nationaux-Grand Palais / Louvre éditions, 2022",
+      "anno": "2022",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Leonardo y la copia de Mona Lisa del Museo del Prado : nuevos planteamientos sobre las practicas del taller vinciano, cat. exp. (Madrid, Museo Nacional del Prado, 28 septembre 2021-23 janvier 2022), Madrid, Museo Nacional del Prado, 2021",
+      "anno": "2021",
+      "pagine": "p. 17-43-67-69, 110-115; 193-205, -p.67, n° 25"
+    },
+    {
+      "riferimento": "Marani, Pietro C., L'ultimo Leonardo 1510-1519. Leonardo tra Milano, Roma e Amboise : committenze, progetti, studi fra arte, architettura e scienza, Varèse, Nomos, 2020",
+      "anno": "2020",
+      "pagine": "p. 180, 258-259, fig.3"
+    },
+    {
+      "riferimento": "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Louvre éditions / Editions El Viso, (Solo), 2019 (rééd. 2003 avec addendum)",
+      "anno": "2019 (rééd. 2003 avec addendum)",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Delieuvin, Vincent ; Frank, Louis (dir.), Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 24 octobre 2019 - 24 février 2020), Paris, Hazan / Louvre éditions, 2019",
+      "anno": "2019",
+      "pagine": "p. 57, 79, 142, 144, 154, 224-233, 269, 270, 278, 316, 322, 335-337, 358-369, fig. 74, p. 227, détails p. 214-215, p. 346-347"
+    },
+    {
+      "riferimento": "Charles I : King and Collector, cat. exp. (Londres, Royal Academy of Arts, 27 janvier - 15 avril 2018), Londres, Royal Academy of Arts, 2018",
+      "anno": "2018",
+      "pagine": "p. 102"
+    },
+    {
+      "riferimento": "Milovanovic, Nicolas, Le Louvre 1h30 Chrono. Le guide de la visite, Paris, Hazan / Louvre éditions, 2018",
+      "anno": "2018",
+      "pagine": "p. 30-31, ill. coul."
+    },
+    {
+      "riferimento": "François Ier et l'art des Pays-Bas, cat. exp. (Paris, Musée du Louvre, 18 octobre 2017-15 janvier 2018), Paris, Somogy / Louvre éditions, 2017",
+      "anno": "2017",
+      "pagine": "p. 248-249"
+    },
+    {
+      "riferimento": "Paris Sorbonne Université ; Musée Pouchkine (dir.), Les voix du silence. Le Musée imaginaire d’André Malraux, cat. exp. (Moscou (Fédération de Russie), Musée d'Etat des Beaux-Arts Pouchkine, du 30 novembre 2016 au 16 février 2017), Moscou, Pareto-Print, 2016",
+      "anno": "2016",
+      "pagine": "p. 295, ill. coul."
+    },
+    {
+      "riferimento": "Leonardo da Vinci 1452-1519. Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, 16 avril-19 juillet 2015), Milan, Skira, 2015",
+      "anno": "2015",
+      "pagine": "p. 360, ill. coul. p. 360, n° 6"
+    },
+    {
+      "riferimento": "Ciardi, Roberto Paolo, « Il mito nel mito: la Gioconda di Leonardo, fantasmi e fantasie », dans Leonardo da Vinci 1452-1519 - Il disegno del mondo, cat. exp. (Milan, Palazzo Reale, du 16 avril au 19 juillet 2015), Milan, Skira Editore, 2015, p. 490-513",
+      "anno": "2015",
+      "pagine": "p. 360-361, ill. coul."
+    },
+    {
+      "riferimento": "Szanto, Mickaël ; Milovanovic, Nicolas (dir.), Poussin et Dieu, cat. exp. (Paris, musée du Louvre, 30 mars - 29 juin 2015), Paris, Hazan/ Louvre éditions, 2015",
+      "anno": "2015",
+      "pagine": "p. 255"
+    },
+    {
+      "riferimento": "Bertinet, Arnaud, Les musées de Napoléon III : une institution pour les arts (1849-1872), Paris, mare & martin, 2015",
+      "anno": "2015",
+      "pagine": "p. 95, 523"
+    },
+    {
+      "riferimento": "Pomarède, Vincent, « Le tableau du mois n° 211: De la Jocondoclastie à la Jocondophilie. Une collection de Jocondes donnée au Louvre par Jean Margat », Tableau du mois, 211, du 7 mai au 2 juin 2014, 2014",
+      "anno": "2014",
+      "pagine": "p. 1-3"
+    },
+    {
+      "riferimento": "Chefs-d'œuvre des musées nationaux français - Obras Primas da Pintura dos Museus Nacionals de França - Masterpieces of Painting from French National Museums, cat. exp. (Macao (Chine), Macao Museum of Art, 27 juin - 7 septembre 2014), Macau / Paris, Musée d'Art de Macau / Réunion des musées nationaux (RMN), 2014",
+      "anno": "2014",
+      "pagine": "p. 47, ill. coul."
+    },
+    {
+      "riferimento": "Brownlee, Peter John, Samuel F. B. Morse's Gallery of the Louvre. A guide to the Painting, Chicago, Terra Foundation for American Art, 2014",
+      "anno": "2014",
+      "pagine": "p. 24"
+    },
+    {
+      "riferimento": "Peter John Brownlee (dir.), Samuel F. B. Morse's Gallery of the Louvre and the art of invention, cat. exp. (exposition itinérante à travers les Etats-Unis, 2015-2018), Chicago, Terra Foundation for American Art/ Yale University Press, 2014",
+      "anno": "2014",
+      "pagine": "p. 12, 27, 38, 162, 173, 199, pl. 1"
+    },
+    {
+      "riferimento": "Michelangelo Pistoletto Année 1- Le Paradis sur Terre, cat. exp. (Paris, Musée du Louvre, 25 avril - 2 septembre 2013), Arles / Paris, Louvre éditions / Actes Sud, 2013",
+      "anno": "2013",
+      "pagine": "IX, ill. coul."
+    },
+    {
+      "riferimento": "Delavaux, Céline ; Vignes, Marie-Hélène, Les procès de l'art. Petites histoires de l'art et grandes affaires de droit, Paris, Palette, 2013",
+      "anno": "2013",
+      "pagine": "p. 200-206, 347, repr."
+    },
+    {
+      "riferimento": "Bétard, Daphné, « Une Joconde-\"bis\", le génie en moins », Le Journal des Arts - L'actualité de l'art et de son marché à travers le monde, n° 363, 2012, p. 5",
+      "anno": "2012",
+      "pagine": "p. 5, ill. coul. p. 8"
+    },
+    {
+      "riferimento": "Shone, Richard, « Editorial: \"Leonardo\" », The Burlington Magazine, 154, 1306, 2012, p. 3, Disponible sur : <https://www.jstor.org/stable/41418895>",
+      "anno": "2012",
+      "pagine": "p. 3"
+    },
+    {
+      "riferimento": "Delieuvin, Vincent (dir.), La Sainte Anne, l'ultime chef d'oeuvre de Léonard de Vinci, cat. exp. (Paris, musée du Louvre, 29 mars - 25 juin 2012), Paris et Milan, Louvre Editions / Officina Libraria, 2012",
+      "anno": "2012",
+      "pagine": "p. 236, ill. coul. p. 236"
+    },
+    {
+      "riferimento": "Bétard, Daphné, « Restauration - La 'Sainte Anne' dévoilée. Le Musée du Louvre retrace la genèse et la destinée du chef-d'oeuvre de Léonard de Vinci dont la restauration ne fait toujours pas l'unanimité », Le Journal des Arts - Expositions, n° 368, du 27 avril au 10 mai, 2012, p. 8",
+      "anno": "2012",
+      "pagine": "p.  8, ill. coul."
+    },
+    {
+      "riferimento": "Zugaza, Miguel, « Wie das Geheimnis der zweiten 'Mona Lisa' gelüfert wurde », Weltkunst, 82. Jahrgang, N°3 - März 2012, 2012, p. 20",
+      "anno": "2012",
+      "pagine": "p. 20, repr."
+    },
+    {
+      "riferimento": "Zugaza, Miguel, « Den Sturm überstehen. Er présentierte die neue 'Mona Lisa'. (...) Wie das Geheimnis der zweiten 'Mona Lisa' gelüfert wurde », Weltkunst, 82. Jahrgang, N°3 März 2012, 2012, p. 18-19",
+      "anno": "2012",
+      "pagine": "p. 4, 20"
+    },
+    {
+      "riferimento": "Staatliche Kunsthalle Karlsruhe (dir.), Camille Corot. Natur und Traum, cat. exp. (Karlsruhe, Staatliche Kunsthalle, du 29 septembre 2012 au 6 janvier 2013), Heidelberg Berlin, Kehrer Verlag, 2012",
+      "anno": "2012",
+      "pagine": "p. 239, Abb. I"
+    },
+    {
+      "riferimento": "Corot. L'Armoire secrète - Eine Lesende im Kontext, cat. exp. (Winterthur (Suisse), Sammlung Oskar Reinhart \"Am Römerholz\" (SOR), du 4 février au 15 mai 2011), Munich, Hirmer Verlag Gmbh, 2011",
+      "anno": "2011",
+      "pagine": "p. 119, Abb. 71"
+    },
+    {
+      "riferimento": "Hammer-Tugendhat, Daniela, Das Sichtbare und das Unsichtbare. Zur holländischen Malerei des 17. Jahrhunderts, Cologne, Böhlau Verlag, 2009",
+      "anno": "2009",
+      "pagine": "p. 184-185, fig. 84"
+    },
+    {
+      "riferimento": "Castelluccio, Stéphane, « Le Cabinet des tableaux de la Surintendance des Bâtiments du Roi à Versailles », Versalia, n°12, 2009, p. 21-54",
+      "anno": "2009",
+      "pagine": "p. 37"
+    },
+    {
+      "riferimento": "Habert, Jean ; Scailliérez, Cécile, « XVIe siècle », dans Foucart-Walter, Élisabeth (dir.), Catalogue des peintures italiennes du musée du Louvre. Catalogue sommaire, [Musée du Louvre, Département des peintures], Paris, Louvre éditions / Gallimard, 2007, p. 61-122",
+      "anno": "2007",
+      "pagine": "p. 81, ill. n&b"
+    },
+    {
+      "riferimento": "Arasse, Daniel, Histoires de peintures, Paris, Gallimard, Folio, 2006 (1ère éd., 2004)",
+      "anno": "2006 (1ère éd., 2004)",
+      "pagine": "p. 19, 27, 31-43, 229, fig. 4 couleurs"
+    },
+    {
+      "riferimento": "Mohen, Jean-Pierre (dir.), Au coeur de La Joconde. Léonard de Vinci décodé, Paris, Louvre éditions / Gallimard, 2006",
+      "anno": "2006",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Arminjon, Catherine ; Lavalle, Denis ; Chatenet Monique ; Anthenaise, Claude d' (dir.), De l’Italie à Chambord. François Ier : la chevauchée des princes français , cat. exp. (Chambord (France), Château de Chambord, 7 juillet - 7 octobre 2004), Paris, Somogy, 2004",
+      "anno": "2004",
+      "pagine": "p. 69-71, 81, 82, ill. coul."
+    },
+    {
+      "riferimento": "Scailliérez, Cécile, Léonard de Vinci. La Joconde, Paris, Réunion des musées nationaux, 2003",
+      "anno": "2003",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Marani, Pietro C. ; Villata, Edoardo, Leonardo. Una carriera di pittore, Milan, F. Motta, 1999",
+      "anno": "1999",
+      "pagine": "p. 27"
+    },
+    {
+      "riferimento": "Zöllner, Frank, Leonardo da Vinci, Mona Lisa. Das Porträt der Lisa del Giocondo. Legende und Geschichte, Francfort-sur- Le Main, Fischer, 1994",
+      "anno": "1994",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Scailliérez, Cécile (dir.), Scailliérez, Cécile ; Baratte, Sophie ; Lefébure, Amaury ; Montembault, Marie, François 1er et ses artistes dans les collections du Louvre, Paris, Réunion des musées nationaux (RMN), 1992",
+      "anno": "1992",
+      "pagine": "p. 96-97, ill. n&b, n° 33"
+    },
+    {
+      "riferimento": "Shell, Janice ; Sironi, Grazioso, « Salai and Leonardo's Legacy », The Burlington Magazine, 133, 1055, 1991, février, p. 95-108, Disponible sur : <https://www.jstor.org/stable/884580>",
+      "anno": "1991, février",
+      "pagine": ""
+    },
+    {
+      "riferimento": "Marani, Pietro C., Leonardo. Catalogo completo, Florence, Cantini, 1989",
+      "anno": "1989",
+      "pagine": "p. 21"
+    },
+    {
+      "riferimento": "Brejon de Lavergnée, Arnauld, L'inventaire Le Brun de 1683. La collection des tableaux de Louis XIV, Paris, Réunion des musées nationaux, 1987",
+      "anno": "1987",
+      "pagine": "p. 87-88, ill. n&b, n° 4"
+    },
+    {
+      "riferimento": "Brejon de Lavergnée, Arnauld ; Thiébaut, Dominique, Catalogue sommaire illustré des peintures du musée du Louvre. II. Italie, Espagne, Allemagne, Grande-Bretagne et divers, Paris, R.M.N., 1981",
+      "anno": "1981",
+      "pagine": "p. 192, ill. n&b"
+    },
+    {
+      "riferimento": "Ottino della Chiesa, Angela, Tout l'oeuvre peint de Caravage (présentation par André Chastel), Paris, Flammarion, 1968",
+      "anno": "1968",
+      "pagine": "p. 31"
+    },
+    {
+      "riferimento": "Heydenreich, Ludwig H., Leonardo da Vinci, Bâle, Holbein, 1954",
+      "anno": "1954",
+      "pagine": "p. 6"
+    },
+    {
+      "riferimento": "Hommage à Léonard de Vinci ; exposition en l’honneur du cinquième centenaire de sa naissance, cat. exp. (Paris, Musée du Louvre du 13 juin au 7 juillet 1952), Paris, Éditions des musées nationaux, 1952",
+      "anno": "1952",
+      "pagine": "p. 19-28"
+    },
+    {
+      "riferimento": "Hautecoeur, Louis, Musée national du Louvre. Catalogue des peintures exposées dans les galeries. II. Ecole italienne et Ecole espagnole, Paris, Musées nationaux, 1926",
+      "anno": "1926",
+      "pagine": "n° 1601"
+    },
+    {
+      "riferimento": "Ricci, Seymour de, Description raisonnée des peintures du Louvre. I. Ecoles étrangères. Italie et Espagne, Paris, Imprimerie de l'art, 1913",
+      "anno": "1913",
+      "pagine": "n° 1601"
+    },
+    {
+      "riferimento": "Müntz, Eugène, « Le château de Fontainebleau au XVIIe siècle d'après des documents inédits », Mémoires de la société de l'histoire de Paris et de l'Ile de France, 12, 1885, p. 259-278",
+      "anno": "1885",
+      "pagine": "p. 267-268"
+    },
+    {
+      "riferimento": "Villot, Frédéric, Notice des tableaux exposés dans les galeries du Musée National du Louvre. 1re partie. Écoles d'Italie, Paris, Vinchon, 1852",
+      "anno": "1852",
+      "pagine": "n° 484"
+    }
+  ]
+}

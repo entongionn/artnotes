@@ -1,0 +1,213 @@
+{
+  "opera": "louvre:cl010062370",
+  "titolo": "Il ritratto che non fu mai consegnato",
+  "sottotitolo": "Una nota a margine, un sorriso, un legno che si incrina: la Gioconda raccontata con le sue fonti",
+  "durata": "circa 8 minuti",
+  "origine": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "stato": "bozza",
+  "scene": [
+    {
+      "id": "s1", "titolo": "Una nota a margine", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Firenze, ottobre 1503.", "r": "raccordo"},
+        {"t": "Agostino Vespucci, collaboratore di Machiavelli nella cancelleria della Repubblica, sta leggendo le lettere di Cicerone in un'edizione stampata a Bologna nel 1477.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "probst-2008", "nota": "pp. 12-13"}]},
+        {"t": "Cicerone ricorda Apelle, il pittore antico che aveva rifinito con arte sublime la testa e il petto di una Venere, lasciando il resto del corpo appena abbozzato.", "r": "documentato",
+         "f": [{"fonte": "probst-2008", "nota": "p. 12, testo latino della lettera"}]},
+        {"t": "Vespucci prende la penna e scrive a margine: «Così fa Leonardo da Vinci in tutte le sue pitture, come la testa di Lisa del Giocondo».", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento", "nota": "citazione tradotta dalla versione francese del Louvre"}]},
+        {"t": "Leonardo ha circa cinquant'anni: è nato a Vinci nel 1452 e da marzo è di nuovo a Firenze, dopo aver seguito come ingegnere le campagne militari di Cesare Borgia.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370", "campi": ["creator.dates"]}, {"fonte": "probst-2008"}],
+         "fuori": {"tipo": "persona", "wikidata": "Q762", "didascalia": "Leonardo da Vinci in un ritratto che Wikidata e Commons attribuiscono a Francesco Melzi"}},
+        {"t": "Quel volume di Cicerone è oggi nella Biblioteca universitaria di Heidelberg. La nota l'ha trovata nel 2005 Armin Schlechter, mentre catalogava gli incunaboli.", "r": "documentato",
+         "f": [{"fonte": "probst-2008", "nota": "p. 12"}, {"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Quella riga fa due cose insieme: dimostra che il ritratto era già cominciato nell'ottobre 1503 e conferma chi è la donna dipinta.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Ma chi era Lisa? E perché, cinque secoli dopo, qualcuno ne dubitava ancora?", "r": "raccordo"}
+      ]
+    },
+    {
+      "id": "s2", "titolo": "Lisa", "inquadra": {"tipo": "regione", "regione": "g00"},
+      "frasi": [
+        {"t": "Lisa Gherardini nasce a Firenze nel 1479, da un'antica famiglia di proprietari terrieri del Chianti.", "r": "documentato", "a": "g00",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Nel 1495 sposa Francesco del Giocondo, mercante di seta, da cui avrà sei figli. Morirà nel 1542.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Giorgio Vasari, nelle sue Vite, scrive che fu il marito a chiedere il ritratto: «Prese Lionardo a fare per Francesco del Giocondo il ritratto di Monna Lisa sua moglie, e quattro anni penatovi lo lasciò imperfetto».", "r": "documentato",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "Vasari il quadro non lo vide mai: era già in Francia. Ma a Firenze vivevano ancora i figli di Lisa, e la storia del ritratto doveva essere ben nota nella buona società fiorentina.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Anche lo storico dell'arte Frank Zöllner ha sostenuto, rileggendo fonti e documenti, che il ritratto è di Lisa e che lo commissionò il marito fra il 1503 e il 1506.", "r": "interpretazione",
+         "f": [{"fonte": "zollner-2006-ritratto", "nota": "abstract"}]},
+        {"t": "Eppure c'è un testimone che racconta un'altra storia.", "r": "raccordo"}
+      ]
+    },
+    {
+      "id": "s3", "titolo": "Il testimone scomodo", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Il 10 ottobre 1517 il cardinale d'Aragona fa visita a Leonardo, ormai in Francia, nel castello di Clos-Lucé.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Il suo segretario, Antonio de Beatis, annota di aver visto il ritratto «di una certa dama fiorentina fatta al naturale su istanza del fu Magnifico Giuliano de' Medici».", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento", "nota": "citazione tradotta dalla versione francese del Louvre"}]},
+        {"t": "Giuliano, non il marito? Da qui sono nate ipotesi su altre modelle, come Isabella Gualanda o Pacifica Brandani, che il Louvre giudica deboli.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "La lettura del conservatore Vincent Delieuvin è più semplice. Leonardo trattava i committenti con grande libertà: un quadro rimasto per anni nella sua bottega poteva attirare protettori diversi, da Luigi XII a Giuliano de' Medici, fino a Francesco I.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Alla fine fu Francesco I ad averlo, molto probabilmente nel 1518: un documento scoperto nel 1999 registra un pagamento enorme, 2604 livres, a Salaì, allievo di Leonardo, «per alcune tavole di pittura» consegnate al re.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento", "nota": "citazione tradotta dalla versione francese del Louvre"}]},
+        {"t": "Il ritratto, insomma, non fu mai consegnato a chi l'aveva chiesto. E si vede.", "r": "interpretazione", "f": [{"fonte": "louvre-cl010062370-commento"}]}
+      ]
+    },
+    {
+      "id": "s4", "titolo": "Un quadro che non finisce", "inquadra": {"tipo": "regione", "regione": "g18"},
+      "frasi": [
+        {"t": "Leonardo tenne il quadro con sé fino alla morte, continuando a dipingerlo.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "In basso a destra, nel paesaggio, un tratto di terreno è rimasto allo stato di abbozzo.", "r": "documentato", "a": "g18", "etichetta": "Terreno abbozzato (posizione stimata)",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Anche sotto la superficie ci sono ripensamenti.", "r": "raccordo"},
+        {"t": "Nel 2020 Pascal Cotte e Lionel Simonot hanno pubblicato immagini multispettrali in cui, sulla fronte, compare uno «spolvero»: la fila di puntini lasciata dal trasferimento di un disegno preparatorio.", "r": "documentato", "a": "g04", "etichetta": "Spolvero sulla fronte (Cotte e Simonot)",
+         "f": [{"fonte": "cotte-simonot-2020", "nota": "§ 5.1"}]},
+        {"t": "Secondo gli autori quel disegno prevedeva un velo diverso e un volto girato in un'altra direzione. E nel cielo, a destra della testa, ipotizzano uno spillone con una perla, poi abbandonato.", "r": "interpretazione",
+         "f": [{"fonte": "cotte-simonot-2020", "nota": "§ 5.1 e 5.3"}]},
+        {"t": "Lo studio non compare nel commento del Louvre del 2021: è una lettura da tenere aperta, non un fatto acquisito.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "cotte-simonot-2020"}]}
+      ]
+    },
+    {
+      "id": "s5", "titolo": "Il sorriso", "inquadra": {"tipo": "regione", "regione": "g01"},
+      "frasi": [
+        {"t": "Vasari descrive gli occhi con «quei lustri e quelle acquitrine, che di continuo si veggono nel vivo».", "r": "documentato", "a": "g02",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "E una bocca che «non colori, ma carne pareva veramente».", "r": "documentato", "a": "g01",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "Racconta che Leonardo, mentre dipingeva, faceva suonare e cantare e chiamava buffoni a tenerla allegra, «per levar via quel malinconico» che hanno spesso i ritratti.", "r": "documentato",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "Il risultato, scrive, era «un ghigno tanto piacevole che era cosa più divina che umana a vederlo».", "r": "documentato",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "Il Louvre aggiunge un gioco di parole: «giocondo» vuol dire lieto. La Gioconda è letteralmente una donna felice, e il sorriso è il suo emblema.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Per la psicologia della percezione il sorriso resta un enigma misurabile. Uno studio dell'Università della Calabria lo lega a una zona sfumata sopra le labbra, che fa oscillare l'espressione tra contentezza e malinconia.", "r": "interpretazione",
+         "f": [{"fonte": "soranzo-2024", "nota": "abstract"}]},
+        {"t": "Un altro studio, di ricercatori della Sheffield Hallam University e dell'Università di Milano-Bicocca, ha osservato che lo sguardo sembra fissarci da lontano e diventa ambiguo da vicino.", "r": "interpretazione", "a": "g02",
+         "f": [{"fonte": "zavagno-2022", "nota": "abstract"}]},
+        {"t": "Prova anche tu: allontanati dallo schermo, poi avvicinati.", "r": "raccordo"}
+      ]
+    },
+    {
+      "id": "s6", "titolo": "Le sopracciglia scomparse", "inquadra": {"tipo": "regione", "regione": "g03"},
+      "frasi": [
+        {"t": "Vasari loda anche le «ciglia»: peli che nascono dalla carne, «dove più folti e dove più radi», e girano secondo i pori della pelle.", "r": "documentato", "a": "g03",
+         "f": [{"fonte": "vasari-1568"}]},
+        {"t": "Guarda sopra gli occhi: in questa fotografia non si distinguono peli dipinti.", "r": "osservazione", "a": "g03",
+         "f": [{"fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"}]},
+        {"t": "Va ricordato che Vasari non vide mai il dipinto. E la sua parola, «ciglia», nella traduzione francese citata dal Louvre diventa «sourcils», sopracciglia.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "vasari-1568"}]},
+        {"t": "Le fonti consultate non spiegano la differenza: per ora è una domanda aperta.", "r": "lacuna"}
+      ]
+    },
+    {
+      "id": "s7", "titolo": "Un vestito più colorato di quanto sembri", "inquadra": {"tipo": "regione", "regione": "g06"},
+      "frasi": [
+        {"t": "Sulla scollatura corre un ricamo di fili d'oro che forma intrecci geometrici e fissa al petto un grande velo di seta trasparente.", "r": "documentato", "a": "g06",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Le maniche, staccabili, erano probabilmente gialle; la veste forse verde scura.", "r": "documentato", "a": "g08",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Il velo risale sul gomito destro e si ripiega largamente sulla spalla sinistra.", "r": "documentato", "a": "g09",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Quella sobrietà, letta a volte come un abito da lutto, si deve in parte alle vernici ingiallite. In realtà è un costume alla moda fiorentina, ricco e colorato, come si addice alla moglie di un mercante di seta.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Per immaginare i colori aiuta una copia eseguita nella bottega di Leonardo, restaurata di recente e conservata al Museo del Prado.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q2126369", "didascalia": "La copia del Museo del Prado, eseguita nella bottega di Leonardo"}},
+        {"t": "Che cosa fosse quel velo resta discusso: un «guarnello», veste delle donne in attesa, oppure un'invenzione di Leonardo, attratto dalle trasparenze.", "r": "interpretazione", "a": "g09",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]}
+      ]
+    },
+    {
+      "id": "s8", "titolo": "La lezione fiamminga", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "La messa in scena di questo ritratto viene dal Nord.", "r": "raccordo"},
+        {"t": "La posa di tre quarti invece del profilo, la figura davanti a una balaustra aperta sul paesaggio, le mani in primo piano: sono soluzioni dei ritratti fiamminghi, molto amati nell'Italia del Rinascimento.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Il Louvre cita il ritratto di Benedetto Portinari dipinto da Hans Memling nel 1487, oggi agli Uffizi.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q131579742", "didascalia": "Hans Memling, ritratto di Benedetto Portinari (1487), Firenze, Uffizi"}},
+        {"t": "Ma Leonardo rende naturale ogni dispositivo. Le mani non stanno su un parapetto: si appoggiano al bracciolo della sedia, e la destra raggiunge la sinistra a chiudere una torsione del corpo verso di noi.", "r": "interpretazione", "a": "g07",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Ai lati della balaustra, due colonnine incorniciano il paesaggio.", "r": "documentato", "a": "g14", "etichetta": "Colonnina (identificazione da verificare)",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Se per Leon Battista Alberti il quadro era una finestra aperta, qui sembra una porta: Lisa ci accoglie sulla terrazza di una villa e si volta verso di noi, sorridendo.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]}
+      ]
+    },
+    {
+      "id": "s9", "titolo": "Il paesaggio", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Alle sue spalle si apre un paesaggio di montagne e di acque.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "A sinistra una strada sinuosa attraversa i monti.", "r": "documentato", "a": "g10",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "A destra un ponte scavalca il fiume, anche se in questa fotografia, sotto le vernici, non si distingue con sicurezza.", "r": "documentato", "a": "g11", "etichetta": "Il ponte (zona stimata)",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"}]},
+        {"t": "C'è chi ha scritto che l'orizzonte a sinistra sia più basso di quello a destra.", "r": "documentato", "a": "g13", "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Il Louvre lo nega: la linea dell'acqua a destra prosegue a sinistra, in parte nascosta dai monti.", "r": "interpretazione", "a": "g12",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Guarda le due acque e giudica tu.", "r": "raccordo"},
+        {"t": "Un gruppo di geologi dell'Università di Urbino ha proposto nel 2025 di riconoscervi il Montefeltro, nell'Appennino tosco-emiliano, con un antico lago ai piedi del monte Aquilone.", "r": "interpretazione",
+         "f": [{"fonte": "nesci-2025", "nota": "abstract"}]},
+        {"t": "Il commento del Louvre non adotta nessuna identificazione del luogo.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]}
+      ]
+    },
+    {
+      "id": "s10", "titolo": "Un legno che si muove", "inquadra": {"tipo": "regione", "regione": "g05"},
+      "frasi": [
+        {"t": "Leonardo dipinse su una sottile tavola di pioppo di circa 79 per 53 centimetri, per ritrarre Lisa a grandezza naturale.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "uzielli-2011", "nota": "abstract"}]},
+        {"t": "Col tempo il legno si è incurvato e si è aperto: una fenditura di circa 11 centimetri scende dal bordo superiore e si ferma, quasi per miracolo, all'altezza della fronte.", "r": "documentato", "a": "g05",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "uzielli-2011", "nota": "abstract"}]},
+        {"t": "Dal 2004 un gruppo di ricerca dell'Università di Firenze e del CNRS studia quella tavola. Secondo gli autori la fessura potrebbe risalire a poco dopo l'esecuzione del dipinto.", "r": "documentato",
+         "f": [{"fonte": "uzielli-2011", "nota": "abstract"}, {"fonte": "riparbelli-2019", "nota": "abstract"}]},
+        {"t": "Lungo il bordo superiore si vede il legno nudo: con la «barba» di colore formata contro il telaio di lavoro, prova che la tavola non è mai stata tagliata.", "r": "documentato", "a": "g17",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "foto-commons-4fd4ec6041e6-0aa85cdb70a5"}]},
+        {"t": "Sopra tutto, strati di vernice ossidata aggiunti dopo la morte di Leonardo fanno da filtro giallo: il blu del cielo è diventato verde.", "r": "documentato", "a": "g15",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Già nel 2004 una ripresa multispettrale aveva provato a calcolare i colori «senza l'influenza della vernice invecchiata».", "r": "documentato",
+         "f": [{"fonte": "cotte-dupraz-2006", "nota": "abstract"}]},
+        {"t": "E nel 2023 un microcampione della preparazione, analizzato con i raggi X di un sincrotrone, ha rivelato un minerale raro, la plumbonacrite: forse Leonardo trattava l'olio con molto ossido di piombo per ottenere una pittura densa.", "r": "interpretazione",
+         "f": [{"fonte": "gonzalez-2023", "nota": "abstract"}]},
+        {"t": "Nel 1956 un uomo squilibrato lanciò una pietra contro il dipinto: il vetro si ruppe e il gomito sinistro fu un po' danneggiato.", "r": "documentato", "a": "g16", "etichetta": "Gomito sinistro (punto del danno da verificare)",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]}
+      ]
+    },
+    {
+      "id": "s11", "titolo": "Il quadro più famoso del mondo", "inquadra": {"tipo": "intera"},
+      "frasi": [
+        {"t": "Il quadro affascinò subito i pittori. Il giovane Raffaello lo vide a Firenze negli anni fra il 1504 e il 1508.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}],
+         "fuori": {"tipo": "persona", "wikidata": "Q5597", "didascalia": "Raffaello Sanzio (immagine di Wikidata)"}},
+        {"t": "Secondo Frank Zöllner, tre ritratti femminili di Raffaello, datati fra il 1504 e il 1506, presuppongono la Gioconda: fra questi la Maddalena Doni…", "r": "interpretazione",
+         "f": [{"fonte": "probst-2008", "nota": "riassume la tesi di Zöllner"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q2607055", "didascalia": "Raffaello, ritratto di Maddalena Doni, Firenze, Palazzo Pitti"}},
+        {"t": "…e la Dama col liocorno.", "r": "interpretazione",
+         "f": [{"fonte": "probst-2008"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q2344396", "didascalia": "Raffaello, Dama col liocorno, Roma, Galleria Borghese"}},
+        {"t": "Le copie cominciarono già nel Cinquecento: oggi se ne conoscono più di cento.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Due ricercatori dell'Università di Bologna si spingono oltre: per loro anche la «Gioconda di Isleworth» sarebbe di Leonardo, in una versione diversa. Il commento del Louvre non ne parla.", "r": "interpretazione",
+         "f": [{"fonte": "lorusso-natali-2016", "nota": "abstract"}, {"fonte": "louvre-cl010062370-commento"}],
+         "fuori": {"tipo": "opera", "wikidata": "Q4390923", "didascalia": "La «Gioconda di Isleworth» (collezione privata): attribuzione discussa"}},
+        {"t": "La fama popolare arrivò con un furto: nel 1911 Vincenzo Peruggia, un vetraio che lavorava al Louvre, la portò via. Fu ritrovata nel 1913.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Nel 1963 la Gioconda viaggiò negli Stati Uniti come ambasciatrice della Francia. Zöllner ha mostrato quanto quella mostra fosse politica, in piena Guerra fredda e a ridosso della crisi dei missili di Cuba, con il coinvolgimento diretto dei Kennedy.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "zollner-2006-kennedy", "nota": "abstract"}]},
+        {"t": "Dopo i viaggi in Giappone e in URSS, nel 1974, non ha più lasciato il Louvre, per la sua estrema fragilità.", "r": "documentato",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "E il «segreto nascosto» nel quadro? Secondo il Louvre è un mito nato dalle descrizioni appassionate dei letterati dell'Ottocento.", "r": "interpretazione",
+         "f": [{"fonte": "louvre-cl010062370-commento"}]},
+        {"t": "Ora guardala di nuovo, da lontano.", "r": "raccordo"}
+      ]
+    }
+  ]
+}

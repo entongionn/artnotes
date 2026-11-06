@@ -1,0 +1,18 @@
+{
+  "chiave": "gioconda",
+  "id": "louvre:cl010062370",
+  "istituzione": {"tipo": "louvre", "id": "cl010062370"},
+  "wikidata": "Q12418",
+  "immagine": "commons_gioconda",
+  "autore_query": "Leonardo",
+  "query_letteratura": [
+    "Mona Lisa Leonardo",
+    "Gioconda Leonardo",
+    "Lisa Gherardini portrait",
+    "Mona Lisa sfumato",
+    "Mona Lisa Vespucci note",
+    "Mona Lisa landscape background",
+    "Mona Lisa varnish panel conservation"
+  ],
+  "query_hal": ["Joconde Léonard", "Joconde sfumato", "Mona Lisa Leonardo"]
+}

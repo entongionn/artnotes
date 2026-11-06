@@ -1,0 +1,43 @@
+{
+  "opera": "louvre:cl010062370",
+  "nota": "Livello di presentazione: le tappe richiamano scene del racconto, regioni, blocchi e connessioni per identificativo. Bozze generate da AI, non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "percorsi": [
+    {
+      "id": "curioso", "titolo": "Sono curioso", "invito": "Raccontami il quadro, mostrandomelo.", "durata": "circa 8 minuti", "stato": "bozza",
+      "tappe": [
+        {"id": "c1", "tipo": "scena", "titolo": "Una nota a margine", "scena": "s1"},
+        {"id": "c2", "tipo": "scena", "titolo": "Lisa", "scena": "s2"},
+        {"id": "c3", "tipo": "scena", "titolo": "Il testimone scomodo", "scena": "s3"},
+        {"id": "c4", "tipo": "scena", "titolo": "Un quadro che non finisce", "scena": "s4"},
+        {"id": "c5", "tipo": "scena", "titolo": "Il sorriso", "scena": "s5"},
+        {"id": "c6", "tipo": "scena", "titolo": "Le sopracciglia scomparse", "scena": "s6"},
+        {"id": "c7", "tipo": "scena", "titolo": "Un vestito colorato", "scena": "s7"},
+        {"id": "c8", "tipo": "scena", "titolo": "La lezione fiamminga", "scena": "s8"},
+        {"id": "c9", "tipo": "scena", "titolo": "Il paesaggio", "scena": "s9"},
+        {"id": "c10", "tipo": "scena", "titolo": "Un legno che si muove", "scena": "s10"},
+        {"id": "c11", "tipo": "scena", "titolo": "Il quadro più famoso", "scena": "s11"}
+      ]
+    },
+    {
+      "id": "studio", "titolo": "Voglio approfondire", "invito": "Fammi vedere dove le fonti concordano e dove no.", "durata": "circa 15 minuti", "stato": "bozza",
+      "tappe": [
+        {"id": "t1", "tipo": "scrivi", "titolo": "Osserva", "annotazione": "g01", "consegna": "Guarda il sorriso da lontano e da vicino. Descrivi che cosa cambia, senza ancora interpretare.", "nota": "osserva", "rivela": true},
+        {"id": "t2", "tipo": "scena", "titolo": "Due testimoni", "scena": "s3"},
+        {"id": "t3", "tipo": "scrivi", "titolo": "Formula", "consegna": "Vasari e de Beatis raccontano due commissioni diverse. Quale spiegazione ti convince di più, e perché?", "nota": "ipotesi"},
+        {"id": "t4", "tipo": "evidenze", "titolo": "Verifica", "raccordo": "Ogni affermazione ha una base diversa: istituzione, letteratura, laboratorio, fonte d'epoca, osservazione o semplice stima.", "righe": ["c01", "c02", "g05", "g03", "g12", "g16", "g18"]},
+        {"id": "t5", "tipo": "connessioni", "titolo": "Collega", "raccordo": "Una connessione documentata e una tesi discussa.", "connessioni": ["k01", "k04"]},
+        {"id": "t6", "tipo": "rielabora", "titolo": "Rielabora", "consegna": "Scrivi in 3–5 frasi la tua lettura del quadro, distinguendo ciò che hai visto, ciò che hai letto nelle fonti e ciò che ipotizzi tu.", "nota": "lettura"}
+      ]
+    },
+    {
+      "id": "ispirazione", "titolo": "Cerco ispirazione", "invito": "Mostrami da dove viene e dove è andato.", "durata": "libera", "stato": "bozza",
+      "tappe": [
+        {"id": "i1", "tipo": "connessioni", "titolo": "Dal Nord", "raccordo": "Un modello fiammingo, indicato dal museo.", "connessioni": ["k02"]},
+        {"id": "i2", "tipo": "connessioni", "titolo": "Raffaello", "raccordo": "Il primo grande pittore a riprenderla.", "connessioni": ["k01"]},
+        {"id": "i3", "tipo": "connessioni", "titolo": "Gemelle e copie", "raccordo": "Una copia di bottega e una seconda versione proposta.", "connessioni": ["k03", "k04"]},
+        {"id": "i4", "tipo": "connessioni", "titolo": "Cinque secoli di copie", "raccordo": "Quello che i dati sanno delle sue discendenti.", "connessioni": ["k05"]}
+      ]
+    }
+  ]
+}

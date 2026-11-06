@@ -157,9 +157,15 @@ class ProveFase25(Base):
         self.assertEqual([p["id"] for p in s["percorsi"]], ["curioso", "studio", "ispirazione"])
 
     def test_cur01_almeno_tre_tappe_su_regioni(self):
-        p = next(p for p in componi.componi(ID)["percorsi"] if p["id"] == "curioso")
-        su_regioni = [t for t in p["tappe"] if t.get("annotazione") or t.get("scelte")]
-        self.assertGreaterEqual(len(su_regioni), 3)
+        s = componi.componi(ID)
+        p = next(p for p in s["percorsi"] if p["id"] == "curioso")
+        scene = {sc["id"]: sc for sc in (s["racconto"] or {}).get("scene", [])}
+        def su_regione(t):
+            if t.get("annotazione") or t.get("scelte"):
+                return True
+            sc = scene.get(t.get("scena"))
+            return bool(sc and (sc["inquadra"].get("regione") or any(f.get("a") for f in sc["frasi"])))
+        self.assertGreaterEqual(sum(1 for t in p["tappe"] if su_regione(t)), 3)
 
     def test_stu01_domanda_interpretazione_fonte(self):
         s = componi.componi(ID)
@@ -364,6 +370,66 @@ class ProveFase25(Base):
                 canale = next(v["canale_id"] for v in p["contenuti"] if v["video_id"] == s["id"])
                 self.assertEqual(s["componenti"]["diversita"], 0.0 if canale in canali else 1.0)
                 canali.add(canale)
+
+
+class ProveRacconto(Base):
+    """Racconto a scene, fonti lette, opere di istituzioni diverse (Louvre)."""
+
+    G = "gioconda"
+
+    def test_gioconda_composta_dal_louvre(self):
+        s = componi.componi(self.G)
+        c = s["opera"]["catalogo"]
+        self.assertEqual(s["opera"]["id"], "louvre:cl010062370")
+        self.assertIn("INV 779", c["istituzione"][0]["inventario"])
+        self.assertIn("stessa persona", c["attribuzione_in_evidenza"]["motivazione"])
+        self.assertEqual(len(s["bibliografia_museo"]), 52)
+        self.assertEqual(len(s["annotazioni"]), 19)
+
+    def test_racconto_ogni_frase_documentata_ha_fonti(self):
+        for chiave in (ID, self.G):
+            r = componi.componi(chiave)["racconto"]
+            for sc in r["scene"]:
+                for fr in sc["frasi"]:
+                    if fr["r"] in ("documentato", "interpretazione"):
+                        self.assertTrue(fr.get("f"), (chiave, sc["id"], fr["t"][:40]))
+
+    def test_frase_documentata_senza_fonti_rifiutata(self):
+        self._modifica(f"racconti/{self.G}.json", lambda d: d["scene"][0]["frasi"][1].update(f=[]))
+        with self.assertRaises(componi.ErroreValidazione):
+            componi.componi(self.G)
+
+    def test_fonte_non_consultata_non_sostiene_affermazioni(self):
+        self._modifica(f"racconti/{self.G}.json",
+                       lambda d: d["scene"][0]["frasi"][1].update(f=[{"fonte": "smarthistory-monalisa"}]))
+        with self.assertRaises(componi.ErroreValidazione) as ctx:
+            componi.componi(self.G)
+        self.assertIn("non è stata consultata", str(ctx.exception))
+
+    def test_regione_inesistente_nel_racconto_rifiutata(self):
+        self._modifica(f"racconti/{self.G}.json", lambda d: d["scene"][1]["frasi"][0].update(a="g99"))
+        with self.assertRaises(componi.ErroreValidazione):
+            componi.componi(self.G)
+
+    def test_uscite_dal_quadro_risolte(self):
+        r = componi.componi(self.G)["racconto"]
+        fuori = [fr["fuori"] for sc in r["scene"] for fr in sc["frasi"] if fr.get("fuori")]
+        self.assertGreaterEqual(len(fuori), 5)
+        for fu in fuori:
+            self.assertTrue(fu["scheda"]["immagine"], fu["wikidata"])
+            self.assertTrue(fu["scheda"]["immagine"]["licenza"])
+
+    def test_pubblico_nasconde_il_racconto_in_bozza(self):
+        s = componi.componi(self.G, pubblico=True)
+        self.assertIsNone(s["racconto"])
+        self.assertEqual(s["annotazioni"], [])
+
+    def test_certezza_concorde_solo_con_fonti_indipendenti(self):
+        reg = componi.componi(self.G)["fonti"]
+        due = {"registro": "documentato", "fonti": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "probst-2008"}]}
+        stesso_museo = {"registro": "documentato", "fonti": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "louvre-cl010062370"}]}
+        self.assertEqual(componi.certezza(due, reg)["livello"], "concorde")
+        self.assertNotEqual(componi.certezza(stesso_museo, reg)["livello"], "concorde")
 
 
 if __name__ == "__main__":

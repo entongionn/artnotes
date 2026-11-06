@@ -1,0 +1,111 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "4fd4ec6041e6",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=3840&titles=File%3AMona%20Lisa%2C%20by%20Leonardo%20da%20Vinci%2C%20from%20C2RMF.jpg",
+    "data": "2026-11-06T15:48:22+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg",
+    "pagina": {
+      "pageid": 15431721,
+      "ns": 6,
+      "title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 60066200,
+          "width": 7854,
+          "height": 11498,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 3840,
+          "thumbheight": 5622,
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 3840,
+            "height": 5622
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15431721",
+          "sha1": "9dd1ef62e956756ac03c33b373d9d839c4894a3d",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2011-06-07 08:46:54",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "The <a href=\"https://en.wikipedia.org/wiki/Mona_Lisa\" class=\"extiw\" title=\"w:Mona Lisa\">Mona Lisa</a> (or <i>La Joconde</i>, <i>La Gioconda</i>).",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Mona Lisa|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Originals|Large images|Base Joconde|High-resolution images from C2RMF|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:it:Leonardo da Vinci\"><span title=\"scienziato, inventore e artista italiano (1452–1519)\">Leonardo da Vinci</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "tra il 1503 e il 1505<div style=\"display: none;\">date QS:P571,+1503-00-00T00:00:00Z/8,P1319,+1503-00-00T00:00:00Z/9,P1326,+1505-00-00T00:00:00Z/9</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "C2RMF: <a rel=\"nofollow\" class=\"external text\" href=\"http://web.archive.org/web/20120524155855/http://www.technologies.c2rmf.fr/imaging/showcase\">Galerie de tableaux en très haute définition</a>: <a rel=\"nofollow\" class=\"external text\" href=\"http://www.technologies.c2rmf.fr/iipimage/showcase/zoom/cop29\">image page</a>",
+              "source": "commons-desc-page"
+            },
+            "Permission": {
+              "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"it\">\n<tbody><tr>\n<td>\n<div class=\"center\"><i>Questa è una fedele riproduzione fotografica di un'opera d'arte bidimensionale originale. L'opera d'arte fotografata è nel <a href=\"https://it.wikipedia.org/wiki/pubblico_dominio\" class=\"extiw\" title=\"it:pubblico dominio\">pubblico dominio</a> per la seguente ragione:</i></div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"it\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>L'autore è deceduto nel 1519, quindi quest'opera è nel <b><a href=\"https://it.wikipedia.org/wiki/Pubblico_dominio\" class=\"extiw\" title=\"it:Pubblico dominio\">pubblico dominio</a></b> anche in tutti i Paesi e nelle aree in cui la <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_length\" class=\"extiw\" title=\"w:List of countries' copyright length\">durata del copyright</a> è la <b>vita dell'autore più 100 anni o meno</b>.\n</p>\n<hr>\n<p>Quest'opera è nel <b><a href=\"https://it.wikipedia.org/wiki/pubblico_dominio\" class=\"extiw\" title=\"it:pubblico dominio\">pubblico dominio</a></b> negli Stati Uniti in quanto <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">pubblicata</a> (o registrata all'<a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) prima del 1º gennaio 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.it\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.it\">Questo file è stato identificato come libero da restrizioni conosciute riguardanti le leggi sul copyright, compresi tutti i diritti connessi e vicini.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">Le riproduzioni fedeli di opere d'arte bidimensionali nel pubblico dominio sono da considerarsi parimenti nel pubblico dominio, secondo la <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag#The_position_of_the_WMF\" title=\"Commons:When to use the PD-Art tag\">posizione ufficiale</a> della Wikimedia Foundation.<br><b>Questa riproduzione fotografica è di conseguenza da considerarsi nel pubblico dominio</b>. Verifica comunque che le leggi locali non proibiscano o limitino il <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">riutilizzo di questo contenuto</a>.</div> \n</td></tr></tbody></table>",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

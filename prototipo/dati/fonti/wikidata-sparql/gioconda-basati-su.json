@@ -1,0 +1,918 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata-sparql",
+    "identificativo": "gioconda-basati-su",
+    "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FcreatorLabel+%3Fdata+%3FcollezioneLabel+%3Fimg+WHERE+%7B+%3Fitem+wdt%3AP144+wd%3AQ12418+.+OPTIONAL%7B%3Fitem+wdt%3AP170+%3Fcreator%7D+OPTIONAL%7B%3Fitem+wdt%3AP571+%3Fdata%7D+OPTIONAL%7B%3Fitem+wdt%3AP195+%3Fcollezione%7D+OPTIONAL%7B%3Fitem+wdt%3AP18+%3Fimg%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22it%2Cen%2Cfr%22.+%7D+%7D&format=json",
+    "data": "2026-11-06T15:58:33+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "query": "SELECT ?item ?itemLabel ?creatorLabel ?data ?collezioneLabel ?img WHERE { ?item wdt:P144 wd:Q12418 . OPTIONAL{?item wdt:P170 ?creator} OPTIONAL{?item wdt:P571 ?data} OPTIONAL{?item wdt:P195 ?collezione} OPTIONAL{?item wdt:P18 ?img} SERVICE wikibase:label { bd:serviceParam wikibase:language \"it,en,fr\". } }",
+    "risultati": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2126369"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1511-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gioconda%20%28copia%20del%20Museo%20del%20Prado%20restaurada%29.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Gioconda"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/3ea9d533d112cc12b409d29edc8f3369"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo del Prado"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7575329"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "speculations about Mona Lisa"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18748451"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1650-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Copy%20of%20the%20Mona%20Lisa%20-%20Walters%20371158.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Copy of the ''Mona Lisa\""
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/f2c6886790954d5543e1399a3f3d5819"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Walters Art Museum"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20199553"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1963-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Andy Warhol"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Metropolitan Museum of Art"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21723084"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1550-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%20%28copy%2C%20Hermitage%29.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Gioconda"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/a81147c453f4bc65575013b035bf8def"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Ermitage"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26995436"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Copy%20of%20the%20Mona%20Lisa%2C%20called%20%27La%20Joconde%27%20or%20%27La%20Gioconda%27%20%28by%20after%20Leonardo%20da%20Vinci%29%20%E2%80%93%20National%20Museum%20of%20the%20Palace%20of%20Versailles.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "La Gioconda (copia)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/53cbc52378becd705bd35673f06a8601"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo di storia della Francia"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28656879"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Anonymous%20Mona%20Lisa.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/3717b4b9e2a7ed806032ad3e5224ca64"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo nazionale di Varsavia"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29946540"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Baden%20Variant-%20A%20German%20Twist%20on%20the%20Mona%20Lisa.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Leonardo da Vinci (da)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/099035117651067a6df7a3412d4f7db0"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Bayerische Staatsgemäldesammlungen"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48711009"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1877-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Rota%20-%20La%20Joconde.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Giovanni Rota"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo delle Belle Arti di Rennes"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q52151757"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1749-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%20da%20Vinci%20%281452-1519%29%20%28after%29%20-%20Mona%20Lisa%20%28before%20cutting%20down%20at%20sides%29%20-%20836195%20-%20National%20Trust.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa (after Leonardo)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/b3e6f3cd063100556103c573a6538c86"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "National Trust for Places of Historic Interest or Natural Beauty"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55409291"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1674-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ukjent%20kunstner%20-%20Painting%20-%20NG.M.00028%20-%20National%20Museum%20of%20Art%2C%20Architecture%20and%20Design.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa (Oslo)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/1d6059c7ad9677f3c35e6c2f74b6e8c6"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo nazionale d'arte, architettura e disegno"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55905769"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1920-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa.%20Gioconda%2C%20Elsbeth%20Rudolff%2C%20EKM%20j%204017%20M%202659.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Elsbeth Rudolff"
+        },
+        "collezioneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Art Museum of Estonia's painting collection"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q58087321"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1857-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joconde%20de%20Calamatta.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Luigi Calamatta"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79627478"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1914-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Timothy Cole"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cleveland Museum of Art"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q80006198"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Timothy%20Cole%20-%20Old%20Italian%20Masters-%20Mona%20Lisa%20-%201932.576%20-%20Cleveland%20Museum%20of%20Art.tif"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Cleveland Museum of Art"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q104525434"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1859-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Velten%20-%20Bildnis%20der%20Mona%20Lisa%20-%20830%20-%20Staatliche%20Kunsthalle%20Karlsruhe.tif"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portrait of Mona Lisa"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Staatliche Kunsthalle Karlsruhe"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q111651075"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/637001504df7413ae086dd85570c765d"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "dipartimento di pittura del museo del Louvre"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q111651075"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/637001504df7413ae086dd85570c765d"
+        },
+        "collezioneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Musées Nationaux Récupération"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112183394"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joconde-XVII-anonyme-Mus%C3%A9e%20%C3%89pinal.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "La Joconde d’Épinal"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/5ad4bcda1a5bd3062ecf10e96fb46543"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "musée départemental d'art ancien et contemporain"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112183443"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%20%28copy%2C%20Thalwil%2C%20Switzerland%29.JPG"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa (Thalwil)"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Gian Giacomo Caprotti"
+        },
+        "collezioneLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/a007f1a7a200942fd1685b61df4069fe"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112184510"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joconde%20copie%20XVIe%201304094.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa (Troyes)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/44780ee30d87c1745f1549c6936832a2"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Musée des Beaux-Arts (Troyes)"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112184571"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%20%28copy%2C%20Vernon%20collection%29.JPG"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vernon Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/514866a537b0658e8bd584add58e465a"
+        },
+        "collezioneLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/90e254995f75a37ed8a2e84eaaa4ee17"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112184623"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1600-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%20%28copy%2C%20Chamber%20of%20Deputies%2C%20Rome%29.JPG"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa (Italian Parliament)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/23f305613a7e734ce750b602a11919f2"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Parlamento della Repubblica Italiana"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112247640"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1700-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "La Joconde (copie)"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/6e3fee726e3950347b53218f14b9c008"
+        },
+        "collezioneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Musée des Beaux-Arts de Valenciennes"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112863269"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dite Monna Lisa, la Gioconda ou la Joconde"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/68987b5feed822952354a2ae2b33c03a"
+        },
+        "collezioneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Musée des Beaux-Arts de Quimper"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114180869"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1500-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Joconde%20%28copy%29%2016th%20century%20%28Q114180869%29.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/30d4500e1332e5bc15d39c7218e9a21f"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Musée des Beaux-Arts"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115675133"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1850-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Gabriel Ferrier"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "dipartimento di pittura del museo del Louvre"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q119929177"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mona Lisa"
+        },
+        "creatorLabel": {
+          "type": "literal",
+          "value": "http://www.wikidata.org/.well-known/genid/0ff4af31b46b1c4fe70ea0d1167bd833"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Walker Art Gallery"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q122604954"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1978-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Monalisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Fernando Botero"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Museo Botero"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131613454"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1874-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "La Joconde"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Clémentine Antoinette Pépin"
+        },
+        "collezioneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Musée de l'Évêché de Limoges"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131613454"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1874-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "La Joconde"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Clémentine Antoinette Pépin"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Centre national des arts plastiques"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131613454"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "1874-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "fr",
+          "type": "literal",
+          "value": "La Joconde"
+        },
+        "creatorLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Clémentine Antoinette Pépin"
+        },
+        "collezioneLabel": {
+          "xml:lang": "it",
+          "type": "literal",
+          "value": "Fonds national d'art contemporain"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q136803256"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "2013-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Poster%20Lisa%202013%20Alexandre%20Mury.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Alexandre Mury"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q136803421"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "2013-01-01T00:00:00Z"
+        },
+        "img": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Poster%20Lisa%202013%20Alexandre%20Mury.jpg"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lisa"
+        },
+        "creatorLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Alexandre Mury"
+        }
+      },
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q136803503"
+        },
+        "data": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "type": "literal",
+          "value": "2013-01-01T00:00:00Z"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lisa"
+        }
+      }
+    ]
+  }
+}

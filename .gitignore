@@ -6,6 +6,13 @@ prototipo/originali/
 # Nel repository restano solo i metadati minimi dei video curati.
 prototipo/dati/fonti/youtube/
 prototipo/dati/esterni/youtube/*.candidati.json
+# Letteratura: i testi completi e gli abstract degli editori restano in locale
+# (non tutte le licenze ne consentono la ripubblicazione). Nel repository restano
+# il registro curato (dati/bibliografia/<opera>.json) e i metadati di acquisizione.
+prototipo/dati/fonti/openalex/
+prototipo/dati/fonti/hal/
+prototipo/dati/bibliografia/*.candidati.json
+prototipo/dati/testi/*.txt
 # Credenziali: mai nel repository (la chiave sta in ~/.artnotes/)
 *api_key*
 *.key

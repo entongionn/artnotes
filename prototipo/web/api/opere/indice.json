@@ -1,0 +1,18 @@
+{
+  "opere": [
+    {
+      "chiave": "435809",
+      "id": "met:435809",
+      "titolo": "Mietitura",
+      "autore": "Pieter Bruegel il Vecchio",
+      "data": "1565"
+    },
+    {
+      "chiave": "gioconda",
+      "id": "louvre:cl010062370",
+      "titolo": "La Gioconda",
+      "autore": "Leonardo da Vinci",
+      "data": "1e quart du XVIe siècle (1503 - 1519)"
+    }
+  ]
+}

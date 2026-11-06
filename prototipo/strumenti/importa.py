@@ -3,7 +3,9 @@
 Uso:
     python strumenti/importa.py met 435809
     python strumenti/importa.py wikidata Q776175
-    python strumenti/importa.py commons "Nome del file.jpg"
+    python strumenti/importa.py commons "Nome del file.jpg"          # licenza + miniatura
+    python strumenti/importa.py louvre cl010062370                   # scheda del Louvre
+    python strumenti/importa.py immagine-commons "File.jpg" chiave   # immagine di lavoro + tile
 
 Per ogni fonte salva il payload originale con i metadati di acquisizione
 (URL, data, versione del connettore). Per un oggetto Met scarica anche
@@ -118,11 +120,31 @@ def importa_met(object_id: str) -> None:
         print("isPublicDomain = false: immagine non scaricata")
         return
 
-    dati = _scarica(url_img)
+    _registra_immagine(
+        _scarica(url_img),
+        chiave=f"met_{object_id}",
+        id_prefisso=f"met-{object_id}",
+        fonte="met",
+        record_fonte=object_id,
+        url_originale=url_img,
+        file_fotografia=url_img.rsplit("/", 1)[-1],
+        vista="recto, intero",
+        diritti={
+            "metadati": "CC0 (Met Open Access)",
+            "fotografia": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
+            "opera": "pubblico dominio (opera del 1565)",
+        },
+        crediti="The Metropolitan Museum of Art, Open Access",
+    )
+
+
+def _registra_immagine(dati: bytes, *, chiave: str, id_prefisso: str, fonte: str, record_fonte: str,
+                       url_originale: str, file_fotografia: str, vista: str, diritti: dict, crediti: str) -> dict:
+    """Salva l'originale, genera le tile (se nuove) e registra la versione dell'immagine."""
     impronta = hashlib.sha256(dati).hexdigest()
     corto = impronta[:12]
     DIR_ORIGINALI.mkdir(parents=True, exist_ok=True)
-    originale = DIR_ORIGINALI / f"met_{object_id}_{corto}.jpg"
+    originale = DIR_ORIGINALI / f"{chiave}_{corto}.jpg"
     if not originale.exists():
         originale.write_bytes(dati)
 
@@ -143,30 +165,76 @@ def importa_met(object_id: str) -> None:
 
     DIR_IMMAGINI.mkdir(parents=True, exist_ok=True)
     meta = {
-        "id": f"met-{object_id}-{corto}",
+        "id": f"{id_prefisso}-{corto}",
         "sha256": impronta,
-        "fonte": "met",
-        "record_fonte": object_id,
-        "url_originale": url_img,
-        "file_fotografia": url_img.rsplit("/", 1)[-1],
+        "fonte": fonte,
+        "record_fonte": record_fonte,
+        "url_originale": url_originale,
+        "file_fotografia": file_fotografia,
         "larghezza": w,
         "altezza": h,
         "a_colori": colore,
-        "vista": "recto, intero",
-        "diritti": {
-            "metadati": "CC0 (Met Open Access)",
-            "fotografia": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
-            "opera": "pubblico dominio (opera del 1565)",
-            "verificato_il": datetime.now().date().isoformat(),
-        },
-        "crediti": "The Metropolitan Museum of Art, Open Access",
+        "vista": vista,
+        "diritti": {**diritti, "verificato_il": datetime.now().date().isoformat()},
+        "crediti": crediti,
         "acquisita_il": _ora(),
         "dzi": f"immagini/{corto}/immagine.dzi",
     }
-    (DIR_IMMAGINI / f"met_{object_id}.json").write_text(
+    (DIR_IMMAGINI / f"{chiave}.json").write_text(
         json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print("immagine registrata:", meta["id"], f"{w}x{h}", "colore" if colore else "bianco e nero")
+    return meta
+
+
+def importa_louvre(ark: str) -> None:
+    """Scheda del Louvre (collections.louvre.fr). I testi sono sotto Licence Ouverte
+    Etalab: riuso consentito citando il Louvre, la data di aggiornamento e il link.
+    Le fotografie del Louvre (© GrandPalaisRmn) NON sono scaricate: il loro riuso
+    pubblico non è consentito dalle condizioni del sito."""
+    url = f"https://collections.louvre.fr/ark:/53355/{ark}.json"
+    rec = json.loads(_scarica(url))
+    print("payload salvato:", _salva_payload("louvre", ark, url, rec))
+
+
+def importa_immagine_commons(nome_file: str, chiave: str, larghezza: int = 3840) -> None:
+    """Immagine di lavoro da Wikimedia Commons, alla larghezza indicata, con tile Deep Zoom.
+    La licenza è letta dal file e registrata; i file non liberi sono rifiutati."""
+    import urllib.parse
+
+    nome_file = nome_file.removeprefix("File:")
+    url = (
+        "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
+        "&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it"
+        f"&iiurlwidth={larghezza}&titles=" + urllib.parse.quote("File:" + nome_file)
+    )
+    pagina = next(iter(json.loads(_scarica(url))["query"]["pages"].values()))
+    info = pagina["imageinfo"][0]
+    meta = info.get("extmetadata", {})
+    valore = lambda k: (meta.get(k) or {}).get("value", "")
+    licenza = valore("LicenseShortName")
+    if "public domain" not in licenza.lower() and not licenza.upper().startswith(("CC0", "CC BY")):
+        raise RuntimeError(f"licenza non adatta alla pubblicazione: {licenza!r}")
+    ident = hashlib.sha1(nome_file.encode("utf-8")).hexdigest()[:12]
+    _salva_payload("commons", ident, url, {"file": nome_file, "pagina": pagina})
+    origine = info["thumburl"] if info["width"] > larghezza else info["url"]
+    _registra_immagine(
+        _scarica(origine),
+        chiave=chiave,
+        id_prefisso=f"commons-{ident}",
+        fonte="commons",
+        record_fonte=nome_file,
+        url_originale=info["descriptionurl"],
+        file_fotografia=nome_file,
+        vista=f"recto, intero; derivata Commons a {min(larghezza, info['width'])} px di larghezza "
+              f"(originale {info['width']} × {info['height']} px)",
+        diritti={
+            "metadati": "Wikimedia Commons: dati strutturati CC0; descrizione del file secondo la sua licenza",
+            "fotografia": f"{licenza} (Wikimedia Commons, verificato sul file)",
+            "opera": "pubblico dominio (opera del XVI secolo)",
+        },
+        crediti=f"Wikimedia Commons, {nome_file}",
+    )
 
 
 def importa_wikidata(qid: str) -> None:
@@ -230,8 +298,22 @@ def importa_commons(nome_file: str, larghezza: int = 480) -> dict:
     return {"id": ident, "licenza": valore("LicenseShortName")}
 
 
+def importa_sparql(nome: str, query: str) -> None:
+    """Risultato datato di una query SPARQL su Wikidata (CC0)."""
+    import urllib.parse
+
+    url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": query, "format": "json"})
+    risposta = json.loads(_scarica(url))
+    _salva_payload("wikidata-sparql", nome, url, {"query": query, "risultati": risposta["results"]["bindings"]})
+    print("sparql:", nome, len(risposta["results"]["bindings"]), "righe")
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 3 or sys.argv[1] not in ("met", "wikidata", "commons"):
+    comandi = {"met": importa_met, "wikidata": importa_wikidata, "commons": importa_commons, "louvre": importa_louvre}
+    if len(sys.argv) == 4 and sys.argv[1] == "immagine-commons":
+        importa_immagine_commons(sys.argv[2], sys.argv[3])
+    elif len(sys.argv) == 3 and sys.argv[1] in comandi:
+        comandi[sys.argv[1]](sys.argv[2])
+    else:
         print(__doc__)
         sys.exit(1)
-    {"met": importa_met, "wikidata": importa_wikidata, "commons": importa_commons}[sys.argv[1]](sys.argv[2])

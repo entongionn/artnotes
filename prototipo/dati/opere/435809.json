@@ -1,0 +1,17 @@
+{
+  "chiave": "435809",
+  "id": "met:435809",
+  "istituzione": {"tipo": "met", "id": "435809"},
+  "wikidata": "Q776175",
+  "immagine": "met_435809",
+  "autore_query": "Bruegel",
+  "query_letteratura": [
+    "Bruegel Harvesters",
+    "Bruegel Kornernte",
+    "Bruegel Labours of the Months",
+    "Bruegel Jonghelinck",
+    "Bruegel seasons 1565 paintings",
+    "Bruegel peasant landscape harvest"
+  ],
+  "query_hal": ["Bruegel moissonneurs", "Bruegel saisons Jonghelinck", "Bruegel harvesters"]
+}

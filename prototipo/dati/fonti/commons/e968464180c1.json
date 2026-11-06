@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "e968464180c1",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20the%20Elder%20-%20The%20Painter%20and%20the%20Buyer%2C%20ca.%201566%20-%20Google%20Art%20Project.jpg",
+    "data": "2026-11-06T16:00:32+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Pieter Bruegel the Elder - The Painter and the Buyer, ca. 1566 - Google Art Project.jpg",
+    "pagina": {
+      "pageid": 21792367,
+      "ns": 6,
+      "title": "File:Pieter Bruegel the Elder - The Painter and the Buyer, ca. 1566 - Google Art Project.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 2393375,
+          "width": 2205,
+          "height": 2640,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg/500px-Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 575,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg/960px-Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg/500px-Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 575,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg/960px-Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21792367",
+          "sha1": "fc372b0a3413b246d98fefcd367f7852afe538d6",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2014-08-21 18:08:01",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">inglese:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Painter and the Buyer <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1887184#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Il pittore e l'acquirente</i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Painter and the Buyer <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1887184#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Painter and the Buyer <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1887184#P1476\" title=\"Modifica su Wikidata\"><img alt=\"Modifica su Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Il pittore e l'acquirente\"</div><div style=\"display: none;\">label QS:Lfr,\"Peintre et acheteur\"</div><div style=\"display: none;\">label QS:Luk,\"Митець і знавець\"</div><div style=\"display: none;\">label QS:Lnl,\"Schilder en koper\"</div><div style=\"display: none;\">label QS:Lru,\"Художник и знаток\"</div><div style=\"display: none;\">label QS:Lro,\"Pictorul și cumpărătorul\"</div><div style=\"display: none;\">label QS:Lde,\"Maler und Käufer\"</div><div style=\"display: none;\">label QS:Lda,\"Maleren og køberen\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Google Art Project works in Albertina, Vienna|PD-old-100-expired|Bruegel (I), Pieter - The Painter and the Buyer - 1566 - Albertina|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Pieter Bruegel the Elder|Artworks with Wikidata item missing genre|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Portraits of Pieter Bruegel (I)|Male people with pince-nez in art",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Pieter_Bruegel_il_Vecchio\" class=\"extiw\" title=\"w:it:Pieter Bruegel il Vecchio\"><span title=\"pittore fiammingo\">Pieter Bruegel il Vecchio</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1566",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a href=\"https://en.wikipedia.org/wiki/it:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:it:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/eQHtzz_SGMMZJQ\">eQHtzz_SGMMZJQ</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

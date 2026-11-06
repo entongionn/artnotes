@@ -1,0 +1,110 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "94b495303f79",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AGioconda%20%28copia%20del%20Museo%20del%20Prado%20restaurada%29.jpg",
+    "data": "2026-11-06T15:58:29+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Gioconda (copia del Museo del Prado restaurada).jpg",
+    "pagina": {
+      "pageid": 18744933,
+      "ns": 6,
+      "title": "File:Gioconda (copia del Museo del Prado restaurada).jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 4979635,
+          "width": 2196,
+          "height": 2860,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg/500px-Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 625,
+          "responsiveUrls": {
+            "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg/960px-Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg/500px-Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 625,
+            "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg/960px-Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gioconda_%28copia_del_Museo_del_Prado_restaurada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gioconda_(copia_del_Museo_del_Prado_restaurada).jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=18744933",
+          "sha1": "7da47d21f1f2ee25aa4ba425916f48fd215636b0",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2012-03-18 16:09:55",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Monna Lisa o La Gioconda.</i></div></div><div style=\"display: none;\">label QS:Les,\"Mona Lisa o La Gioconda.\"</div><div style=\"display: none;\">label QS:Lfr,\"Mona Lisa ou La Joconde\"</div><div style=\"display: none;\">label QS:Lit,\"Monna Lisa o La Gioconda.\"</div><div style=\"display: none;\">label QS:Lde,\"<a href=\"https://de.wikipedia.org/wiki/Mona_Lisa#Mona_Lisa_des_Prado\" class=\"extiw\" title=\"de:Mona Lisa\">Mona Lisa bzw. La Joconde|ja=プラド美術館のモナ・リザ</a>\"</div><div style=\"display: none;\">label QS:Len,\"Mona Lisa or The Joconde.\"</div></div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Copia de La Gioconda del Museo del Prado|Taken with Hasselblad H3D-39|Retouched pictures|PD-Art (PD-old-100)|Artworks with Wikidata item|Artworks with known accession number|Derivative versions|CC-PD-Mark|Uploaded with derivativeFX|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<div class=\"fn value\">\nAllievo di Leonardo da Vinci.</div>",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "tra il 1503 e il 1516<div style=\"display: none;\">date QS:P571,+1550-00-00T00:00:00Z/7,P1319,+1503-00-00T00:00:00Z/9,P1326,+1516-00-00T00:00:00Z/9</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<p>Questo file deriva da:  <a href=\"//commons.wikimedia.org/wiki/File:La_Gioconda_(copia_del_Museo_del_Prado)_(restaurada).jpg\" title=\"File:La Gioconda (copia del Museo del Prado) (restaurada).jpg\">La Gioconda (copia del Museo del Prado) (restaurada).jpg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:La_Gioconda_(copia_del_Museo_del_Prado)_(restaurada).jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/La_Gioconda_%28copia_del_Museo_del_Prado%29_%28restaurada%29.jpg/60px-La_Gioconda_%28copia_del_Museo_del_Prado%29_%28restaurada%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"66\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/La_Gioconda_%28copia_del_Museo_del_Prado%29_%28restaurada%29.jpg/120px-La_Gioconda_%28copia_del_Museo_del_Prado%29_%28restaurada%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"2224\" data-file-height=\"2952\"></a></span><br>, Obra derivada / œuvre dérivée / derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Escarlati\" title=\"User:Escarlati\">Escarlati</a> \n</p>\n<table class=\"layouttemplate\" lang=\"it\" dir=\"ltr\" style=\"margin:.5em auto;width:100%;background:var(--background-color-neutral-subtle,#f8f8f8);border:2px solid var(--border-color-muted,#EEE);color: inherit;padding:5px\">\n\n<tbody><tr>\n<td style=\"padding:5px\"><div class=\"wpImageAnnotatorControl wpImageAnnotatorOff\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Applications-graphics.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Applications-graphics.svg/60px-Applications-graphics.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"45\" height=\"45\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Applications-graphics.svg/120px-Applications-graphics.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a></span></div>\n</td>\n<td style=\"width:100%\">Questa è una <i><b><a href=\"https://en.wikipedia.org/wiki/Image_editing\" class=\"extiw\" title=\"en:Image editing\">immagine ritoccata</a></b></i>, il che significa che è stata modificata digitalmente dalla sua versione originale. Modifiche: <i>recortada, ajustes mínimos de niveles</i>. La versione originale può essere vista qui: <a href=\"//commons.wikimedia.org/wiki/File:La_Gioconda_(copia_del_Museo_del_Prado)_(restaurada).jpg\" title=\"File:La Gioconda (copia del Museo del Prado) (restaurada).jpg\"><b>La Gioconda (copia del Museo del Prado) (restaurada).jpg</b></a>. Le modifiche sono di <i><a href=\"//commons.wikimedia.org/wiki/User:Escarlati\" title=\"User:Escarlati\">Escarlati</a></i>.\n<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=Retouched+picture 1%3D 2%3D 3%3D 4%3D 5%3D\"> </span>\n</p>\n</td></tr></tbody></table>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

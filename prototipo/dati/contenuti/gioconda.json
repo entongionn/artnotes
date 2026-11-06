@@ -1,0 +1,37 @@
+{
+  "opera": "louvre:cl010062370",
+  "nota": "Contenuti di sezione: sintesi brevi. La narrazione completa è nel racconto (dati/racconti/gioconda.json). Bozze generate da AI, non revisionate.",
+  "origine_predefinita": {"tipo": "ai", "modello": "claude-opus-5-5", "data": "2026-11-06"},
+  "sezioni": [
+    {
+      "id": "in-breve",
+      "titolo": "In breve",
+      "blocchi": [
+        {"id": "c01", "registro": "documentato", "testo": "Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo, detto la Gioconda. Leonardo da Vinci, primo quarto del XVI secolo (1503-1519). Olio su tavola di pioppo, 79,4 × 53,4 cm. Parigi, Musée du Louvre, inv. 779.",
+         "fonti": [{"fonte": "louvre-cl010062370", "campi": ["title", "dateCreated", "materialsAndTechniques", "dimension", "objectNumber"]}, {"fonte": "louvre-cl010062370-commento"}], "stato": "bozza"},
+        {"id": "c02", "registro": "documentato", "testo": "Cominciato almeno dall'ottobre 1503, probabilmente per il marito di Lisa, il ritratto rimase a Leonardo fino agli ultimi anni; molto probabilmente lo acquistò Francesco I nel 1518. È nelle collezioni reali, poi del Louvre.",
+         "fonti": [{"fonte": "louvre-cl010062370-commento"}, {"fonte": "probst-2008"}, {"fonte": "louvre-cl010062370", "campi": ["acquisitionDetails"]}], "stato": "bozza"},
+        {"id": "c03", "registro": "interpretazione", "testo": "Per il Louvre, durante la lunga esecuzione il dipinto divenne più del ritratto di una persona: l'immagine della «scienza divina della pittura», capace di ricreare la vita.",
+         "fonti": [{"fonte": "louvre-cl010062370-commento"}], "stato": "bozza"}
+      ]
+    },
+    {
+      "id": "contesto",
+      "titolo": "Contesto",
+      "blocchi": [
+        {"id": "c10", "registro": "documentato", "testo": "Il dipinto ha lasciato il Louvre solo per prestiti eccezionali: Washington e New York nel 1963, Tokyo e Mosca nel 1974.",
+         "fonti": [{"fonte": "louvre-cl010062370", "campi": ["exhibition"]}], "stato": "bozza"},
+        {"id": "c11", "registro": "documentato", "testo": "La scheda del Louvre elenca 52 voci bibliografiche, dal 1852 al 2025. ArtNotes le riporta nella scheda Fonti: sono bibliografia, non testi letti, salvo quelli indicati come consultati.",
+         "fonti": [{"fonte": "louvre-cl010062370", "campi": ["bibliography"]}], "stato": "bozza"}
+      ]
+    },
+    {
+      "id": "confronti",
+      "titolo": "Confronti",
+      "blocchi": [
+        {"id": "c20", "registro": "lacuna", "testo": "Le connessioni qui sotto dicono di che tipo sono. Confronti con altri ritratti di Leonardo (Ginevra de' Benci, Cecilia Gallerani) non sono ancora stati curati.", "fonti": [], "stato": "bozza"}
+      ],
+      "mostra_connessioni": true
+    }
+  ]
+}

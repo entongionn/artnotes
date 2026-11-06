@@ -1,0 +1,2107 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q2126369",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2126369",
+    "data": "2026-11-06T15:57:33+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q2126369",
+      "labels": {
+        "it": {
+          "language": "it",
+          "value": "Gioconda"
+        },
+        "en": {
+          "language": "en",
+          "value": "Mona Lisa"
+        }
+      },
+      "claims": {
+        "P195": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "ad2f00b6f1f9e9ab77b72f414391eb3d901141f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160112,
+                  "id": "Q160112"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P217": [
+                {
+                  "snaktype": "value",
+                  "property": "P217",
+                  "hash": "9d541538b92d7ea087b75baa62e311bcdd4d192b",
+                  "datavalue": {
+                    "value": "P000504",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P217"
+            ],
+            "id": "q2126369$D36C0198-192B-4819-B920-971A8CD3F5B1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d8237c69c0ddbc0b5739460e129ae197db1797d6",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9023d1eb4c0d1168a91dbe98fa3fdbaf8d7528fb",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/coleccion/obra-de-arte/mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P144": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P144",
+              "hash": "b3aa7754008c527d04e25cfb436df941ba76fce9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 12418,
+                  "id": "Q12418"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2126369$945FEF0C-5B9C-4963-A37E-C5F4D25C81BB",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3305213,
+                  "id": "Q3305213"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$3f1c613d-48e4-485e-9e07-01d44718460c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2983ca24ecdc857b7d93e553a79bea563aa9daec",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1784021,
+                  "id": "Q1784021"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$7757d4f4-4802-745f-18ac-8a507b7f6fc6",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "7dfb00f119cd22c79a4f9e30d66695f05deea46a",
+              "datavalue": {
+                "value": "Gioconda (copia del Museo del Prado restaurada).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "q2126369$AF012C0F-CD66-4C5B-87A9-B7B8BB807E44",
+            "rank": "normal"
+          }
+        ],
+        "P186": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 296955,
+                  "id": "Q296955"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2126369$9a341066-4689-97d1-19df-b264d79edea7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "33fb32b007b90475d035f2dd20db3dcd2171c70d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 107103575,
+                  "id": "Q107103575"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P518": [
+                {
+                  "snaktype": "value",
+                  "property": "P518",
+                  "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 861259,
+                      "id": "Q861259"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P518"
+            ],
+            "id": "q2126369$b01ac10d-4df5-a6ca-7903-1dd1e564943d",
+            "rank": "normal"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "8969b94452f0b6fc40bcaedd05d8c12302d57840",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 160112,
+                  "id": "Q160112"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2126369$BE7C7907-4134-4653-BBDE-D37D9697F58C",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "a0ab2f7ab3da45542a61172219fefea75264fe62",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 171517,
+                  "id": "Q171517"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "ef649e9d86ae175218eb19087544b4eba69e6f6f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1814-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q2126369$53E72BE5-D4D7-4DA2-A500-70EC58A55228",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88fbe434657569e5398c228d9280f35c1394a7d7",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "330115b9bdb4702bf550c60a5f7393c18981a8f8",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 59676414,
+                          "id": "Q59676414"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134307,
+                  "id": "Q134307"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$5D8C45EC-399B-48CF-B940-C80884492D53",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "62faf00998325aad6b60b99fca1465baf1adb5a4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 38,
+                  "id": "Q38"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$DF0B0D57-04CA-4AA1-B315-C71ADF4C5E48",
+            "rank": "normal"
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P170",
+              "hash": "d3550e860f988c6675fff913440993f58f5c40c5",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1774": [
+                {
+                  "snaktype": "value",
+                  "property": "P1774",
+                  "hash": "cbe870ce5ba2369620ccc18b4240701cea8548a0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 762,
+                      "id": "Q762"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "85949230fce9fa2d3d310429b4ae408f90b65ea1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 4233718,
+                      "id": "Q4233718"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1774",
+              "P3831"
+            ],
+            "id": "Q2126369$E2725C49-CC96-42A1-9B3C-CB4971E9F77E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "30c9fff7b79e2cc14e0f9664756cd9152ee18313",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9023d1eb4c0d1168a91dbe98fa3fdbaf8d7528fb",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/coleccion/obra-de-arte/mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9814ebd7130dfac718de2dccd191343dfb088d51",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-11-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2048": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2048",
+              "hash": "56f2375ad6fb17295b6db83e13fab680f64ced3b",
+              "datavalue": {
+                "value": {
+                  "amount": "+76.3",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2126369$4255E3B7-1F11-4CA9-AEAD-DBBBAE3F0C0A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c9ee372b17ac2ad64f1821857d6b6f0c08791c79",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05b61489bd64dd2df953ae8061235a5162da3330",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-10-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2049": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2049",
+              "hash": "91afe906f7ba86af9a4ce936392b77b70591e529",
+              "datavalue": {
+                "value": {
+                  "amount": "+57",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2126369$CE9CC3AC-8ABD-4901-B292-3A00DC6E12A4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c9ee372b17ac2ad64f1821857d6b6f0c08791c79",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05b61489bd64dd2df953ae8061235a5162da3330",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-10-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "69df494d7fa0613c7bd8f047afc1e87bdc03a0f2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 29,
+                  "id": "Q29"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$6ecdc245-4b34-17e3-66c9-24d16c4e6ba3",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "59aea378c311dfe760dfec2dd8160170e88edce1",
+              "datavalue": {
+                "value": "13833890n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2126369$A7524AD3-C861-401E-A97E-6518EAB6C665",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "aa855abf4cc3286bfefb9c9b595fe09bae9e33f7",
+              "datavalue": {
+                "value": "Copia de La Gioconda del Museo del Prado",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2126369$417DC648-8C87-4801-9186-848C8A1A5C2E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5a3fdee33b3e865142c45f069e20e1183f1b3f96",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "dc8c2b9aae60d53316bfef6dd2c471d87eed4a3d",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=La_Joconde_(copie_du_Prado)&oldid=154929107",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P528": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "e53794057fa94412e8922de71c351870c359bb50",
+              "datavalue": {
+                "value": "[588]",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "52b4eae462b311e4bc41a327ac1a4216e269078e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59770975,
+                      "id": "Q59770975"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$95EA83BF-52FC-4418-83B9-DCF07D167E22",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "499b074c1ad1c7889068073431a2d6ad96f9034a",
+              "datavalue": {
+                "value": "s. n.",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "e4a2cdfbae7310d3a2b50a3a6d4d01afa66de8f2",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59681140,
+                      "id": "Q59681140"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "24f4ce25d3f0d71182755fb6ad17539e47f2aa18",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59680377,
+                      "id": "Q59680377"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "71e717707003ed858505a0b1aa20b5186f9b728f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59676414,
+                      "id": "Q59676414"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$4DB4DBB0-96D3-424E-89EC-7B42A5420429",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "30db5b8c6eda2b8b4dc3328a321287a405499892",
+              "datavalue": {
+                "value": "¿76?",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "1c96ed74cbe35a500fec6e4feb7d6b70bbac3d0d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59681196,
+                      "id": "Q59681196"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$E65F1186-D162-4B3A-BDA6-63A674C2C4E4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "5fe174a2193cba96a912e1211094f969f88213e7",
+              "datavalue": {
+                "value": "195",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "b933907d2be56037f64c48d1e39553b24020dace",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59676708,
+                      "id": "Q59676708"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "2f5ab4a7231827bf117fce8b1f7ef5a98ed0970f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59680588,
+                      "id": "Q59680588"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$4BDB2467-08E6-410E-9AD5-FBFA74027E24",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "dd7ed58a1500cbfd5798b96b2d00c42c2f86b00a",
+              "datavalue": {
+                "value": "393",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "3d7fe426888ca2762b3be9158a7a8e6b659a5f4e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59712610,
+                      "id": "Q59712610"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$CBC05108-55EE-4EA4-80F7-93C2726DF7CE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "919d0298b520e424e02e2850009efe446f459693",
+              "datavalue": {
+                "value": "666",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "f2b8e8c581d6216dfe58c6e2e0d4ff722c7ea601",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59645705,
+                      "id": "Q59645705"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "3ab6ac3ea4b5552d45115e9d6502a6b3e394ec94",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59645732,
+                      "id": "Q59645732"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$42989182-2983-4813-B4D1-2AD9888C0ACA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "32373912f5c6945d7b35f387cf0a64e622b8ac51",
+              "datavalue": {
+                "value": "550",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "e5bab4c7f9c7602447c58aab353c76d1e9983e3d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59645859,
+                      "id": "Q59645859"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$E61B786D-982B-4245-8DC3-9B0D98707A01",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "9e2ef02144029ad3ff2a652757b8676584a04839",
+              "datavalue": {
+                "value": "504",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "3884683f9dbc5ca721269b3e3b77b3c2f7f16935",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59646080,
+                      "id": "Q59646080"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "6a2405e0b501eb2570350da769dc56196c1ff04c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 54623192,
+                      "id": "Q54623192"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2126369$932DDB01-F5A4-45D5-B609-5CE240064F94",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c3323ddf66e913619b3929651ae2441dc5cc2891",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9f74cd12cd966ef54802048de88b31f463ea67e6",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/en/the-collection/art-work/the-mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fbb82335948dded05700b40aa70939a025132936",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-23T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 60332278,
+                      "id": "Q60332278"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29940705,
+                      "id": "Q29940705"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q2126369$5E678110-2852-4AA8-8D17-72C6D185862D",
+            "rank": "normal"
+          }
+        ],
+        "P217": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P217",
+              "hash": "9d541538b92d7ea087b75baa62e311bcdd4d192b",
+              "datavalue": {
+                "value": "P000504",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P195": [
+                {
+                  "snaktype": "value",
+                  "property": "P195",
+                  "hash": "ad2f00b6f1f9e9ab77b72f414391eb3d901141f8",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 160112,
+                      "id": "Q160112"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P195"
+            ],
+            "id": "Q2126369$AD2CE222-C9A8-445A-84A5-C9C9CA72C7A3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aec94780310b3b307363210b5f9259e9ae8f534f",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e4019df7a4962c75defb391c22f61a966f1cba0c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-02-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "f3d42c90837e3d70c6df53dcb3b6e811d630d089",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:La_Gioconda_(copia_del_Museo_del_Prado)_(restaurada).jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              },
+              {
+                "hash": "a2262b3ffad1d1028f7911f1480483d54ea7665f",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e4019df7a4962c75defb391c22f61a966f1cba0c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-02-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "ba1dba525450666f7e527d3c6a45187f9f1c43fb",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Gioconda_(copia_del_Museo_del_Prado_restaurada).jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              },
+              {
+                "hash": "19d157d6b55a7bf16da3b083e44bc9528b97b1a4",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e4019df7a4962c75defb391c22f61a966f1cba0c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-02-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "81c79b0420a3a88d2ae94fc7ae2dd7cf3a46ecc0",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:The_Joconde_by_a_student_of_Leonardo_da_Vinci.png",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              },
+              {
+                "hash": "d7ff8ce09a7b3f680daf88cb505e90d4d1a5dd9a",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e4019df7a4962c75defb391c22f61a966f1cba0c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-02-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "34be29b5a62588872cb651dc3dd75bb359679049",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Copy_of_La_Gioconda_-_Leonardo_da_Vinci's_apprentice.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8905": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8905",
+              "hash": "f35d0a11d1dfa3562035fa4f4d00df8e737c37e6",
+              "datavalue": {
+                "value": "80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2126369$76F46F76-E2E7-487E-942D-F64758954901",
+            "rank": "normal"
+          }
+        ],
+        "P2671": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2671",
+              "hash": "d3438925dc16df905c4254a0a3e13fbe27aa3739",
+              "datavalue": {
+                "value": "/g/1211jmpn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2126369$BF0DE56D-C5E5-4841-B066-949A43C6DE24",
+            "rank": "normal"
+          }
+        ],
+        "P127": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P127",
+              "hash": "abc0ae40fc2fa866c4aedf1f10a9f6d1bc957c4e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 186256,
+                  "id": "Q186256"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "ef649e9d86ae175218eb19087544b4eba69e6f6f",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1814-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q2126369$B0A1C84F-1EC8-420D-B081-D997EA1E90F6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88fbe434657569e5398c228d9280f35c1394a7d7",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "330115b9bdb4702bf550c60a5f7393c18981a8f8",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 59676414,
+                          "id": "Q59676414"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P180": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "d9a3927f2bc874b54f3228c2bad19beb877d3601",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 153032,
+                  "id": "Q153032"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$ed4a7aeb-4e6f-998a-7e35-5cbc6d4e5ade",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "0bba1d8f42cb34e1f3cb369eeff08463a6507236",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11879536,
+                  "id": "Q11879536"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$d87f9a3d-4688-b186-0bfa-a3a2263ccc91",
+            "rank": "normal"
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "76ad820d39f43f3cf3313a048de89a85de620ddc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 153032,
+                  "id": "Q153032"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2126369$fa1f599e-4a47-ddca-fbe0-1ea2333487e1",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "81cdb9b53645f4fe8d7e710a3063af45fbd387ee",
+              "datavalue": {
+                "value": {
+                  "time": "+1511-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 7,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1319": [
+                {
+                  "snaktype": "value",
+                  "property": "P1319",
+                  "hash": "e4f196ce6c02f788402ec7355218b1de141e6917",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1507-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "c41ecca7d1e9b0697963d713e910faa88193f1c8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1516-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1319",
+              "P1326"
+            ],
+            "id": "q2126369$e6d4aefe-4c1d-b117-fe26-1e863ddf8060",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f1e5e01e1b28b0103d48ea05454a906f2ebb1b55",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9023d1eb4c0d1168a91dbe98fa3fdbaf8d7528fb",
+                      "datavalue": {
+                        "value": "https://www.museodelprado.es/coleccion/obra-de-arte/mona-lisa/80c9b279-5c80-4d29-b72d-b19cdca6601c",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "1aca128d92697dcf2a68b2b70a02b219dedf17c5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-10-31T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "موناليزا (برادو)",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Mona Liza (Prado versiyası)",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "La Gioconda (còpia del Museu del Prado)",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Copia de La Gioconda del Museo del Prado",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Mona Lisa (Prado)",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "La Gioconda (kopio ĉe Prado-Muzeo)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "La Gioconda (taller de Leonardo da Vinci)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "La Joconde (copie du musée du Prado)",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "La Gioconda (copia do Museo do Prado)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Gioconda (Madrid)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "モナ・リザ (プラド美術館)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Mona Lisa van het Prado",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Gioconda (Madrid)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Мона Лиза (Прадо)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "蒙娜麗莎 (普拉多)",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q107103575": "pannello in legno di noce",
+      "Q11879536": "persona ritratta nella Gioconda",
+      "Q12418": "La Gioconda",
+      "Q134307": "ritratto",
+      "Q153032": "Lisa Gherardini",
+      "Q160112": "Museo del Prado",
+      "Q171517": "Palazzo reale di Madrid",
+      "Q1784021": "copia",
+      "Q186256": "Ferdinando VII di Spagna",
+      "Q19652": "pubblico dominio",
+      "Q29": "Spagna",
+      "Q296955": "colore a olio",
+      "Q29940705": "100 anni dalla morte dell'autore",
+      "Q3305213": "dipinto",
+      "Q38": "Italia",
+      "Q4233718": "anonimo",
+      "Q54623192": "Catalog Museo del Prado, 1910",
+      "Q59645705": "Catalog Museo del Prado, 1854-1858",
+      "Q59645732": "Inv. Real Museo, 1857",
+      "Q59645859": "Catalog Museo del Prado, 1872-1907",
+      "Q59646080": "Catalog Museo del Prado, 1942-1996",
+      "Q59676414": "Inv. Fernando VII, Palacio Nuevo, 1814-1818",
+      "Q59676708": "Inv. Felipe V, Palacio Nuevo, 1747",
+      "Q59680377": "Inv. Testamentaría Carlos III, Palacio Nuevo, 1794",
+      "Q59680588": "Inv. Carlos III, Palacio Nuevo, 1772",
+      "Q59681140": "Inv. Felipe IV, Alcázar de Madrid, 1686",
+      "Q59681196": "Inv. Testamentaría Carlos II, Alcázar de Madrid",
+      "Q59712610": "Museo Real de Pinturas a la muerte de Fernando VII. 1834",
+      "Q59770975": "Inv. Felipe IV. Alcázar de Madrid. 1666",
+      "Q60332278": "giurisdizioni con 100 anni PMA o meno",
+      "Q762": "Leonardo da Vinci",
+      "Q861259": "supporto del dipinto"
+    }
+  }
+}

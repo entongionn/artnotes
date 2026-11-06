@@ -15,6 +15,7 @@
 
   <header class="testata">
     <p class="marchio">ArtNotes <span>prototipo · Fase 2.5</span></p>
+    <nav id="selettore-opere" class="selettore-opere" aria-label="Opere" hidden></nav>
     <h1 id="titolo">Caricamento…</h1>
     <p id="sottotitolo" class="sottotitolo"></p>
     <nav id="commutatore" class="commutatore" aria-labelledby="etichetta-commutatore" hidden></nav>
@@ -28,6 +29,7 @@
         <button type="button" id="zoom-meno" aria-label="Riduci">−</button>
         <button type="button" id="adatta">Adatta</button>
         <button type="button" id="schermo">Schermo intero</button>
+        <button type="button" id="avvia-visita" class="primario" hidden>▶ Visita guidata</button>
         <label class="interruttore"><input type="checkbox" id="animazioni"> Animazioni</label>
       </div>
       <div id="visore" class="visore" role="img"></div>
@@ -64,5 +66,6 @@
   </footer>
 
   <script src="app.js"></script>
+  <script src="racconto.js"></script>
 </body>
 </html>

@@ -34,7 +34,20 @@ RE_REGIONE = re.compile(r"^xywh=percent:([\d.]+),([\d.]+),([\d.]+),([\d.]+)$")
 
 # --- Fase 2.5: percorsi, connessioni, contenuti esterni ---
 PERCORSI = ("curioso", "studio", "ispirazione")
-TIPI_TAPPA = {"scelta", "scopri", "scrivi", "leggi", "evidenze", "connessioni", "pulse", "rielabora"}
+TIPI_TAPPA = {"scelta", "scopri", "scrivi", "leggi", "evidenze", "connessioni", "pulse", "rielabora", "scena"}
+# Categorie di fonte e livelli di lettura: una fonte «non consultata» non può sostenere affermazioni.
+CATEGORIE_FONTE = {
+    "istituzione": "Scheda del museo",
+    "letteratura": "Letteratura critica e universitaria",
+    "scientifica": "Studio scientifico di laboratorio",
+    "primaria": "Fonte d'epoca",
+    "collaborativa": "Base di dati collaborativa",
+    "classificazione": "Sistema di classificazione",
+    "immagine": "Riproduzione fotografica",
+    "divulgazione": "Divulgazione",
+}
+LETTURE = {"testo completo", "passi pertinenti", "abstract", "non consultato"}
+REGISTRI_FRASE = REGISTRI | {"raccordo"}
 TIPI_CONNESSIONE = {"documentata", "interpretativa", "algoritmica"}
 RELAZIONI_ESTERNE = {
     "opera_esatta": "Parla direttamente dell'opera",
@@ -104,6 +117,8 @@ def registro_fonti(met, wd, img):
     return {
         "met-435809": {
             "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+            "breve": "Met, scheda",
+            "categoria": "istituzione",
             "tipo": "scheda istituzionale (dati strutturati)",
             "url": met["payload"]["objectURL"],
             "url_dati": acq_met["url"],
@@ -113,6 +128,8 @@ def registro_fonti(met, wd, img):
         },
         "wikidata-Q776175": {
             "titolo": "Wikidata, elemento Q776175",
+            "breve": "Wikidata",
+            "categoria": "collaborativa",
             "tipo": "base di conoscenza collaborativa",
             "url": "https://www.wikidata.org/wiki/Q776175",
             "url_dati": acq_wd["url"],
@@ -122,6 +139,8 @@ def registro_fonti(met, wd, img):
         },
         "iconclass": {
             "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",
+            "breve": "Iconclass",
+            "categoria": "classificazione",
             "tipo": "sistema di classificazione iconografica",
             "url": "https://iconclass.org/47I14",
             "consultato": "2026-11-06",
@@ -130,6 +149,8 @@ def registro_fonti(met, wd, img):
         },
         "foto-met-DP119115": {
             "titolo": f"Fotografia {img['file_fotografia']} ({img['larghezza']} × {img['altezza']} px)",
+            "breve": "Fotografia del Met",
+            "categoria": "immagine",
             "tipo": "immagine di riferimento per le osservazioni visive",
             "url": img["url_originale"],
             "consultato": img["acquisita_il"][:10],
@@ -237,17 +258,201 @@ def catalogo(met, wd):
     }
 
 
+def _verifica_fonti(rif_fonti, fonti, dove):
+    """Ogni fonte citata deve esistere ed essere stata letta: niente affermazioni
+    appoggiate a testi non consultati."""
+    for f in rif_fonti:
+        if f["fonte"] not in fonti:
+            raise ErroreValidazione(f"{dove}: fonte sconosciuta {f['fonte']!r}")
+        if fonti[f["fonte"]].get("lettura") == "non consultato":
+            raise ErroreValidazione(f"{dove}: la fonte {f['fonte']!r} non è stata consultata e non può sostenere un'affermazione")
+
+
 def _verifica_blocchi(blocchi, fonti, dove):
     for b in blocchi:
         if b.get("registro") not in REGISTRI:
             raise ErroreValidazione(f"{dove}: registro non valido {b.get('registro')!r}")
         if not b.get("testo", "").strip():
             raise ErroreValidazione(f"{dove}: testo vuoto")
-        for f in b.get("fonti", []):
-            if f["fonte"] not in fonti:
-                raise ErroreValidazione(f"{dove}: fonte sconosciuta {f['fonte']!r}")
-        if b["registro"] == "documentato" and not b.get("fonti"):
-            raise ErroreValidazione(f"{dove}: blocco «documentato» senza fonti")
+        _verifica_fonti(b.get("fonti", []), fonti, dove)
+        if b["registro"] in ("documentato", "interpretazione") and not b.get("fonti"):
+            raise ErroreValidazione(f"{dove}: blocco «{b['registro']}» senza fonti")
+
+
+# ---------- opere da istituzioni diverse ----------
+
+def manifesto(chiave: str) -> dict:
+    p = DATI / "opere" / f"{chiave}.json"
+    if p.exists():
+        return _leggi(p)
+    return {"chiave": chiave, "id": f"met:{chiave}", "istituzione": {"tipo": "met", "id": chiave}, "immagine": f"met_{chiave}"}
+
+
+def _fonte_immagine(img: dict, ident: str, breve: str) -> dict:
+    return {
+        ident: {
+            "titolo": f"Fotografia {img['file_fotografia']} ({img['larghezza']} × {img['altezza']} px)",
+            "breve": breve,
+            "categoria": "immagine",
+            "tipo": "immagine di riferimento per le osservazioni visive",
+            "url": img["url_originale"],
+            "consultato": img["acquisita_il"][:10],
+            "licenza": img["diritti"]["fotografia"],
+            "note": f"{img['vista']}. SHA-256 {img['sha256'][:12]}…",
+        }
+    }
+
+
+def registro_fonti_louvre(lv: dict, wd: dict, img: dict, qid: str) -> dict:
+    p, acq = lv["payload"], lv["acquisizione"]
+    ark = p["arkId"]
+    inv = next((o["value"] for o in p.get("objectNumber", []) if o.get("type") == "Numéro principal"), ark)
+    aggiornato = (p.get("modified ") or p.get("modified") or "")[:10]
+    comune = {
+        "url": p["url"],
+        "url_dati": acq["url"],
+        "consultato": acq["data"][:10],
+        "licenza": f"Licence Ouverte Etalab (testi del Louvre, aggiornati il {aggiornato})",
+    }
+    out = {
+        f"louvre-{ark}": {
+            **comune,
+            "titolo": f"Musée du Louvre, scheda {inv} ({ark})",
+            "breve": "Louvre, scheda",
+            "categoria": "istituzione",
+            "tipo": "scheda istituzionale (dati strutturati)",
+            "lettura": "testo completo",
+            "note": f"Ultimo aggiornamento della scheda: {aggiornato}. Le fotografie del Louvre (© GrandPalaisRmn) non sono riusate.",
+        },
+        f"louvre-{ark}-commento": {
+            **comune,
+            "titolo": "Vincent Delieuvin, commento alla scheda del Louvre (luglio 2021)",
+            "breve": "Delieuvin (Louvre), 2021",
+            "categoria": "letteratura",
+            "tipo": "letteratura critica: commento del conservatore",
+            "lettura": "testo completo",
+            "note": "Campo «objectHistory» della scheda, firmato dal conservatore.",
+        },
+        f"wikidata-{qid}": {
+            "titolo": f"Wikidata, elemento {qid}",
+            "breve": "Wikidata",
+            "categoria": "collaborativa",
+            "tipo": "base di conoscenza collaborativa",
+            "url": f"https://www.wikidata.org/wiki/{qid}",
+            "url_dati": wd["acquisizione"]["url"],
+            "consultato": wd["acquisizione"]["data"][:10],
+            "licenza": "CC0",
+        },
+    }
+    out.update(_fonte_immagine(img, f"foto-{img['id']}", "Fotografia (Commons)"))
+    return out
+
+
+def _attribuzioni_wd(c: dict, et: dict, fonte: str) -> list:
+    return [
+        {
+            "fonte": fonte,
+            "autore": _valore_wd(a, et),
+            "id_wikidata": a["mainsnak"].get("datavalue", {}).get("value", {}).get("id"),
+            "qualifica_originale": "; ".join(f"{k}: {', '.join(v)}" for k, v in _qualificatori_wd(a, et).items()),
+            "riferimenti": len(a.get("references", [])),
+        }
+        for a in c.get("P170", [])
+    ]
+
+
+def _parti_wikidata(ent: dict, et: dict) -> dict:
+    c = ent.get("claims", {})
+    refs = lambda a: len(a.get("references", []))
+    return {
+        "soggetti_wikidata": [{"valore": _valore_wd(a, et), "riferimenti": refs(a)} for a in c.get("P180", [])],
+        "proprietari_wikidata": [
+            {"valore": _valore_wd(a, et),
+             "qualificatori": {{"P580": "dal", "P582": "fino al"}.get(k, k): v for k, v in _qualificatori_wd(a, et).items()},
+             "riferimenti": refs(a)}
+            for a in c.get("P127", [])
+        ],
+    }
+
+
+def catalogo_louvre(lv: dict, wd: dict, qid: str) -> dict:
+    p = lv["payload"]
+    ark = p["arkId"]
+    f_lv, f_wd = f"louvre-{ark}", f"wikidata-{qid}"
+    ent, et = wd["payload"]["entita"], wd["payload"]["etichette"]
+    c = ent.get("claims", {})
+    creatore = (p.get("creator") or [{}])[0]
+    attribuzioni = [{
+        "fonte": f_lv,
+        "autore": creatore.get("label"),
+        "id_wikidata": creatore.get("wikidata") or None,
+        "qualifica_originale": creatore.get("attributionLevel", ""),
+    }] + _attribuzioni_wd(c, et, f_wd)
+    ids = [a["id_wikidata"] for a in attribuzioni]
+    if None in ids:
+        esito = " Concordanza fra fonti non verificabile: manca un identificativo."
+    elif len(set(ids)) == 1:
+        esito = " Wikidata indica la stessa persona."
+    else:
+        esito = " ATTENZIONE: le fonti non concordano sull'autore."
+    data = (p.get("dateCreated") or [{}])[0]
+    dim = {d["type"]: d["displayDimension"] for d in p.get("dimension", [])}
+    acq = (p.get("acquisitionDetails") or [{}])[0]
+    anno_acq = ((acq.get("dates") or [{}])[0]).get("value")
+    titoli = [{"fonte": f_lv, "valore": t["value"], "lingua": "fr", "tipo": t.get("type")} for t in p.get("denominationTitle", [])]
+    titoli.append({"fonte": f_wd, "valore": ent.get("labels", {}).get("it", {}).get("value"), "lingua": "it"})
+    return {
+        "titoli": titoli,
+        "attribuzioni": attribuzioni,
+        "attribuzione_in_evidenza": {"fonte": f_lv, "motivazione": "Scheda dell'istituzione che conserva l'opera." + esito},
+        "datazioni": [{"fonte": f_lv, "testo_originale": p.get("displayDateCreated", "").split(":", 1)[-1].strip(),
+                       "intervallo": [data.get("startYear"), data.get("endYear")]}]
+                     + [{"fonte": f_wd, "testo_originale": _valore_wd(a, et), "riferimenti": len(a.get("references", []))} for a in c.get("P571", [])],
+        "tecnica": [{"fonte": f_lv, "valore": p.get("materialsAndTechniques")}],
+        "dimensioni": [{"fonte": f_lv, "valore": "; ".join(f"{k}: {v}" for k, v in dim.items())}],
+        "istituzione": [{
+            "fonte": f_lv,
+            "valore": p.get("heldBy"),
+            "inventario": ", ".join(o["value"] for o in p.get("objectNumber", [])),
+            "linea_di_credito": f"{acq.get('mode', '')} ({anno_acq})" if anno_acq else acq.get("mode", ""),
+        }],
+        "identificativi": {"louvre": ark, "wikidata": qid},
+        **_parti_wikidata(ent, et),
+    }
+
+
+def fonti_bibliografia(chiave: str) -> dict:
+    """Registro curato della letteratura: ogni voce dichiara tipo e livello di lettura."""
+    p = DATI / "bibliografia" / f"{chiave}.json"
+    if not p.exists():
+        return {}
+    out = {}
+    for f in _leggi(p)["fonti"]:
+        if f.get("lettura") not in LETTURE:
+            raise ErroreValidazione(f"bibliografia {f['id']}: livello di lettura non valido {f.get('lettura')!r}")
+        if f.get("categoria") not in CATEGORIE_FONTE:
+            raise ErroreValidazione(f"bibliografia {f['id']}: categoria non valida {f.get('categoria')!r}")
+        out[f["id"]] = {k: v for k, v in f.items() if k != "id"}
+    return out
+
+
+def bibliografia_museo(manif: dict) -> list:
+    if manif["istituzione"]["tipo"] != "louvre":
+        return []
+    p = _leggi(DATI / "fonti" / "louvre" / f"{manif['istituzione']['id']}.json")["payload"]
+    voci = [{"riferimento": _senza_html(b.get("bibliographyRef", "")).replace("&lt;", "<").replace("&gt;", ">"),
+             "anno": b.get("bibliographyDate"), "pagine": b.get("bibliographyDetail")} for b in p.get("bibliography", [])]
+    return sorted(voci, key=lambda v: str(v["anno"] or ""), reverse=True)
+
+
+def scheda_persona_wd(qid: str, fonti: dict) -> dict:
+    d = _leggi(DATI / "fonti" / "wikidata" / f"{qid}.json")
+    e, et = d["payload"]["entita"], d["payload"]["etichette"]
+    c = e.get("claims", {})
+    anno = lambda k: next((_valore_wd(a, et) for a in c.get(k, [])), None)
+    base = scheda_opera_wd(qid, fonti)
+    return {"wikidata": qid, "fonte": f"wikidata-{qid}", "nome": base["titolo"],
+            "nascita": anno("P569"), "morte": anno("P570"), "immagine": base["immagine"]}
 
 
 # ---------- Fase 2.5: fonti aggiuntive e opere collegate ----------
@@ -265,11 +470,26 @@ def fonti_aggiuntive() -> dict:
         lab = (e.get("labels", {}).get("it") or e.get("labels", {}).get("en") or {}).get("value") or p.stem
         out[f"wikidata-{p.stem}"] = {
             "titolo": f"Wikidata, elemento {p.stem} ({lab})",
+            "breve": f"Wikidata {p.stem}",
+            "categoria": "collaborativa",
             "tipo": "base di conoscenza collaborativa",
             "url": f"https://www.wikidata.org/wiki/{p.stem}",
             "url_dati": d["acquisizione"]["url"],
             "consultato": d["acquisizione"]["data"][:10],
             "licenza": "CC0",
+        }
+    cartella_q = DATI / "fonti" / "wikidata-sparql"
+    for p in sorted(cartella_q.glob("*.json")) if cartella_q.exists() else []:
+        d = _leggi(p)
+        out[f"wikidata-sparql-{p.stem}"] = {
+            "titolo": f"Wikidata, interrogazione SPARQL «{p.stem}» del {d['acquisizione']['data'][:10]}",
+            "breve": "Wikidata (query)",
+            "categoria": "collaborativa",
+            "tipo": "risultato datato di una query su base collaborativa",
+            "url": d["acquisizione"]["url"],
+            "consultato": d["acquisizione"]["data"][:10],
+            "licenza": "CC0",
+            "note": f"{len(d['payload']['risultati'])} righe.",
         }
     cartella = DATI / "fonti" / "commons"
     for p in sorted(cartella.glob("*.json")) if cartella.exists() else []:
@@ -279,6 +499,8 @@ def fonti_aggiuntive() -> dict:
         v = lambda k: _senza_html((meta.get(k) or {}).get("value", ""))
         out[f"commons-{p.stem}"] = {
             "titolo": f"Wikimedia Commons, {d['payload']['file']}",
+            "breve": "Commons",
+            "categoria": "immagine",
             "tipo": "riproduzione fotografica",
             "url": info["descriptionurl"],
             "url_dati": d["acquisizione"]["url"],
@@ -347,7 +569,7 @@ def connessioni(object_id: str, qid_opera: str, fonti: dict, ids_annotazioni: se
         return []
     dati = _leggi(p)
     origine = dati["origine_predefinita"]
-    base_iconclass = set(scheda_opera_wd(qid_opera, fonti)["iconclass"])
+    base_iconclass = set(scheda_opera_wd(qid_opera, fonti)["iconclass"]) if (DATI / "fonti" / "wikidata" / f"{qid_opera}.json").exists() else set()
     out, visti = [], set()
     for k in dati["connessioni"]:
         dove = f"connessione {k['id']}"
@@ -380,6 +602,40 @@ def connessioni(object_id: str, qid_opera: str, fonti: dict, ids_annotazioni: se
             "revisione": k.get("revisione"),
             "opere": [scheda_opera_wd(q, fonti) for q in k.get("opere", [])],
         }
+        if k["tipo"] == "algoritmica" and k["calcolo"]["metodo"] == "sparql_basati_su":
+            righe = _leggi(DATI / "fonti" / "wikidata-sparql" / f"{k['calcolo']['snapshot']}.json")["payload"]["risultati"]
+            opere: dict[str, dict] = {}
+            utile = lambda b, c: b.get(c, {}).get("value", "") if not b.get(c, {}).get("value", "").startswith("http") else ""
+            for b in righe:
+                q = b["item"]["value"].rsplit("/", 1)[-1]
+                o = opere.setdefault(q, {"wikidata": q, "titolo": utile(b, "itemLabel") or q, "autori": set(), "anni": set(), "collezioni": set()})
+                if utile(b, "creatorLabel"):
+                    o["autori"].add(utile(b, "creatorLabel"))
+                if b.get("data"):
+                    o["anni"].add(int(b["data"]["value"][:5].lstrip("+").rstrip("-")))
+                if utile(b, "collezioneLabel"):
+                    o["collezioni"].add(utile(b, "collezioneLabel"))
+            elenco = sorted(
+                ({**o, "autori": sorted(o["autori"]), "anno": min(o["anni"]) if o["anni"] else None, "collezioni": sorted(o["collezioni"])}
+                 for o in opere.values()),
+                key=lambda o: (o["anno"] is None, o["anno"] or 0))
+            for o in elenco:
+                o.pop("anni")
+            secoli: dict[str, int] = {}
+            for o in elenco:
+                nomi_secoli = {14: "Quattrocento", 15: "Cinquecento", 16: "Seicento", 17: "Settecento",
+                               18: "Ottocento", 19: "Novecento", 20: "Duemila"}
+                chiave_s = nomi_secoli.get(o["anno"] // 100, f"anno {o['anno']}") if o["anno"] else "senza data"
+                secoli[chiave_s] = secoli.get(chiave_s, 0) + 1
+            voce["calcolo"] = {
+                **k["calcolo"],
+                "elenco": elenco,
+                "per_secolo": secoli,
+                "spiegazione": (f"Wikidata collega {len(elenco)} elementi alla Gioconda con «basato su» (P144). "
+                                "Le immagini non sono mostrate: molte riproduzioni hanno licenze da verificare e alcune opere moderne sono protette."),
+            }
+            out.append(voce)
+            continue
         if k["tipo"] == "algoritmica":
             calc = k["calcolo"]
             if calc["metodo"] != "iconclass_condivise":
@@ -572,8 +828,8 @@ def pulse(object_id: str, ids_annotazioni: set, pubblico: bool, adesso: datetime
 
 # ---------- Fase 2.5: percorsi ----------
 
-def certezza(b: dict) -> dict:
-    """Grado di certezza di un blocco, derivato da registro e fonti (§4.2, mappa delle evidenze)."""
+def certezza(b: dict, registro_fonti: dict | None = None) -> dict:
+    """Grado di certezza di un blocco, derivato da registro e categoria delle fonti (§4.2)."""
     r = b["registro"]
     if r == "lacuna":
         return {"livello": "non_nota", "testo": "Non nota: lacuna dichiarata"}
@@ -582,16 +838,85 @@ def certezza(b: dict) -> dict:
     if r == "osservazione":
         return {"livello": "verificabile", "testo": "Verificabile guardando l'immagine"}
     fonti = b.get("fonti", [])
-    note = " ".join(f.get("nota", "") for f in fonti)
-    if "senza riferimenti" in note or all(f["fonte"].startswith("wikidata-") for f in fonti):
+    registro_fonti = registro_fonti or {}
+    cat = lambda f: registro_fonti.get(f["fonte"], {}).get("categoria") or (
+        "istituzione" if f["fonte"].startswith(("met-", "louvre-")) else
+        "collaborativa" if f["fonte"].startswith("wikidata-") else None)
+    categorie = {cat(f) for f in fonti}
+    autorevoli = categorie & {"istituzione", "letteratura", "scientifica", "primaria"}
+    # Fonti indipendenti: esclusi i dati collaborativi e le immagini; scheda e commento dello stesso museo contano uno.
+    indipendenti = len({f["fonte"].split("-commento")[0] for f in fonti if cat(f) not in ("collaborativa", "immagine")})
+    if not autorevoli:
         return {"livello": "da_verificare", "testo": "Dato di una base collaborativa senza riferimenti: da verificare"}
-    if any(f["fonte"].startswith("met-") for f in fonti):
+    if r == "interpretazione" and autorevoli == {"istituzione"} and "collaborativa" in categorie:
+        return {"livello": "da_verificare", "testo": "Classificazione di catalogo, in parte senza riferimenti"}
+    if indipendenti >= 2:
+        return {"livello": "concorde", "testo": f"{indipendenti} fonti indipendenti concordano"}
+    if "letteratura" in categorie or "scientifica" in categorie:
+        return {"livello": "letteratura", "testo": "Sostenuto dalla letteratura"}
+    if "primaria" in categorie:
+        return {"livello": "primaria", "testo": "Attestato da una fonte d'epoca"}
+    if "istituzione" in categorie:
         return {"livello": "istituzionale", "testo": "Dato dell'istituzione che conserva l'opera"}
     return {"livello": "attribuito", "testo": "Attribuito a una fonte"}
 
 
+# ---------- racconto e visita guidata ----------
+
+def racconto(chiave: str, fonti: dict, annotazioni: dict, pubblico: bool) -> dict | None:
+    """Racconto a scene: ogni frase porta registro e fonti; può inquadrare una regione,
+    far comparire un'etichetta o uscire dal quadro verso una persona o un'altra opera."""
+    p = DATI / "racconti" / f"{chiave}.json"
+    if not p.exists():
+        return None
+    r = _leggi(p)
+    if r["stato"] not in STATI:
+        raise ErroreValidazione("racconto: stato non valido")
+    nota = 0
+    scene, viste = [], set()
+    for s in r["scene"]:
+        dove = f"racconto, scena {s.get('id')}"
+        if s["id"] in viste:
+            raise ErroreValidazione(f"{dove}: identificativo duplicato")
+        viste.add(s["id"])
+        inq = s.get("inquadra", {"tipo": "intera"})
+        if inq["tipo"] == "regione" and inq.get("regione") not in annotazioni:
+            raise ErroreValidazione(f"{dove}: regione inesistente {inq.get('regione')!r}")
+        frasi = []
+        for i, fr in enumerate(s["frasi"]):
+            dove_f = f"{dove}, frase {i + 1}"
+            if fr.get("r") not in REGISTRI_FRASE:
+                raise ErroreValidazione(f"{dove_f}: registro non valido {fr.get('r')!r}")
+            if not fr.get("t", "").strip():
+                raise ErroreValidazione(f"{dove_f}: testo vuoto")
+            _verifica_fonti(fr.get("f", []), fonti, dove_f)
+            if fr["r"] in ("documentato", "interpretazione") and not fr.get("f"):
+                raise ErroreValidazione(f"{dove_f}: frase «{fr['r']}» senza fonti")
+            if fr.get("a") and fr["a"] not in annotazioni:
+                raise ErroreValidazione(f"{dove_f}: regione inesistente {fr['a']!r}")
+            voce = dict(fr)
+            if fr.get("f"):
+                nota += 1
+                voce["nota"] = nota
+                voce["certezza"] = certezza({"registro": fr["r"] if fr["r"] != "raccordo" else "documentato", "fonti": fr["f"]}, fonti)
+            if fr.get("a"):
+                voce["etichetta"] = fr.get("etichetta") or annotazioni[fr["a"]]["titolo"]
+            if fr.get("fuori"):
+                fu = fr["fuori"]
+                if fu["tipo"] not in ("persona", "opera"):
+                    raise ErroreValidazione(f"{dove_f}: uscita dal quadro di tipo sconosciuto")
+                scheda = scheda_persona_wd(fu["wikidata"], fonti) if fu["tipo"] == "persona" else scheda_opera_wd(fu["wikidata"], fonti)
+                voce["fuori"] = {**fu, "scheda": scheda}
+            frasi.append(voce)
+        usate = sorted({f["fonte"] for fr in frasi for f in fr.get("f", [])})
+        scene.append({**{k: v for k, v in s.items() if k != "frasi"}, "inquadra": inq, "frasi": frasi, "fonti_scena": usate})
+    if pubblico and r["stato"] != "pubblicato":
+        return None
+    return {**{k: v for k, v in r.items() if k != "scene"}, "scene": scene, "note_totali": nota}
+
+
 def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: set,
-             ids_esterni: set, pubblico: bool) -> list:
+             ids_esterni: set, pubblico: bool, fonti: dict | None = None, ids_scene: set = frozenset()) -> list:
     p = DATI / "percorsi" / f"{object_id}.json"
     if not p.exists():
         return []
@@ -614,7 +939,7 @@ def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: 
             richiesti = {
                 "scelta": ("domanda", "scelte"), "scopri": ("annotazione",), "scrivi": ("consegna", "nota"),
                 "leggi": ("blocchi",), "evidenze": ("righe",), "connessioni": ("connessioni",),
-                "pulse": (), "rielabora": ("consegna", "nota"),
+                "pulse": (), "rielabora": ("consegna", "nota"), "scena": ("scena",),
             }[t["tipo"]]
             for campo in richiesti:
                 if not t.get(campo):
@@ -622,7 +947,7 @@ def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: 
             rif_annot = ([t["annotazione"]] if t.get("annotazione") else []) + t.get("scelte", [])
             rif_blocchi = t.get("blocchi", [])
             for r in t.get("righe", []):
-                (rif_annot if r.startswith("a") else rif_blocchi).append(r)
+                (rif_annot if r in annotazioni else rif_blocchi).append(r)
             for a in rif_annot:
                 if a not in annotazioni:
                     raise ErroreValidazione(f"{dove}: annotazione inesistente {a!r}")
@@ -632,21 +957,23 @@ def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: 
             for k in t.get("connessioni", []):
                 if k not in ids_connessioni:
                     raise ErroreValidazione(f"{dove}: connessione inesistente {k!r}")
+            if t["tipo"] == "scena" and t["scena"] not in ids_scene:
+                raise ErroreValidazione(f"{dove}: scena del racconto inesistente {t['scena']!r}")
             if t.get("pulse_categoria") and t["pulse_categoria"] not in CATEGORIE_PULSE:
                 raise ErroreValidazione(f"{dove}: categoria Pulse sconosciuta")
             voce = dict(t)
             if t["tipo"] == "evidenze":
                 righe = []
                 for r in t["righe"]:
-                    if r.startswith("a"):
+                    if r in annotazioni:
                         a = annotazioni[r]
                         for b in a["blocchi"]:
                             righe.append({"rif": r, "dettaglio": r, "titolo": a["titolo"], "registro": b["registro"],
-                                          "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b)})
+                                          "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b, fonti)})
                     else:
                         b = blocchi[r]
                         righe.append({"rif": r, "dettaglio": None, "titolo": None, "registro": b["registro"],
-                                      "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b)})
+                                      "testo": b["testo"], "fonti": b.get("fonti", []), "certezza": certezza(b, fonti)})
                 voce["righe_risolte"] = righe
             tappe.append(voce)
         if pubblico and perc["stato"] != "pubblicato":
@@ -657,13 +984,30 @@ def percorsi(object_id: str, blocchi: dict, annotazioni: dict, ids_connessioni: 
 
 
 def componi(object_id: str, pubblico: bool = False) -> dict:
-    met = _leggi(DATI / "fonti" / "met" / f"{object_id}.json")
-    qid = met["payload"]["objectWikidata_URL"].rsplit("/", 1)[-1]
-    wd = _leggi(DATI / "fonti" / "wikidata" / f"{qid}.json")
-    img = _leggi(DATI / "immagini" / f"met_{object_id}.json")
+    man = manifesto(object_id)
+    ist = man["istituzione"]
+    img = _leggi(DATI / "immagini" / f"{man['immagine']}.json")
+    if ist["tipo"] == "met":
+        met = _leggi(DATI / "fonti" / "met" / f"{ist['id']}.json")
+        qid = met["payload"]["objectWikidata_URL"].rsplit("/", 1)[-1]
+        wd = _leggi(DATI / "fonti" / "wikidata" / f"{qid}.json")
+        base = registro_fonti(met, wd, img)
+        cat = catalogo(met, wd)
+        base_ids = {"met-435809", f"wikidata-{qid}", "foto-met-DP119115"}
+        testo_catalogo = "Dati essenziali presenti (Met, Wikidata)."
+    elif ist["tipo"] == "louvre":
+        lv = _leggi(DATI / "fonti" / "louvre" / f"{ist['id']}.json")
+        qid = man["wikidata"]
+        wd = _leggi(DATI / "fonti" / "wikidata" / f"{qid}.json")
+        base = registro_fonti_louvre(lv, wd, img, qid)
+        cat = catalogo_louvre(lv, wd, qid)
+        base_ids = {f"louvre-{ist['id']}", f"wikidata-{qid}", f"foto-{img['id']}"}
+        testo_catalogo = "Dati essenziali presenti (Louvre, Wikidata)."
+    else:
+        raise ErroreValidazione(f"istituzione non supportata {ist['tipo']!r}")
     contenuti = _leggi(DATI / "contenuti" / f"{object_id}.json")
     annot = _leggi(DATI / "annotazioni" / f"{object_id}.json")
-    fonti = {**fonti_aggiuntive(), **registro_fonti(met, wd, img)}
+    fonti = {**fonti_aggiuntive(), **fonti_bibliografia(object_id), **base}
 
     def visibile(stato):
         if stato not in STATI:
@@ -715,8 +1059,11 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
     ids_conn_tutte = {k["id"] for k in _leggi(DATI / "connessioni" / f"{object_id}.json")["connessioni"]} \
         if (DATI / "connessioni" / f"{object_id}.json").exists() else set()
     esterni = pulse(object_id, set(tutte_annot), pubblico)
+    racc = racconto(object_id, fonti, tutte_annot, pubblico)
+    ids_scene = {sc["id"] for sc in _leggi(DATI / "racconti" / f"{object_id}.json")["scene"]} \
+        if (DATI / "racconti" / f"{object_id}.json").exists() else set()
     perc = percorsi(object_id, tutti_blocchi_sez, tutte_annot, ids_conn_tutte,
-                    {c["video_id"] for c in esterni["contenuti"]}, pubblico)
+                    {c["video_id"] for c in esterni["contenuti"]}, pubblico, fonti, ids_scene)
 
     tutti_blocchi = [b for s in sezioni for b in s["blocchi"]] + [
         b for a in annotazioni for b in a["blocchi"]
@@ -726,10 +1073,10 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
     n_critiche = sum(
         1 for b in tutti_blocchi
         if b["registro"] == "interpretazione"
-        and any("letteratura" in fonti.get(f["fonte"], {}).get("tipo", "") for f in b.get("fonti", []))
+        and any(fonti.get(f["fonte"], {}).get("categoria") in ("letteratura", "scientifica") for f in b.get("fonti", []))
     )
     copertura = {
-        "catalogo": "Dati essenziali presenti (Met, Wikidata).",
+        "catalogo": testo_catalogo,
         "approfondimenti_documentati": (
             f"{n_interp} {'interpretazione attribuita' if n_interp == 1 else 'interpretazioni attribuite'} a fonti, "
             f"{n_critiche} da letteratura critica."
@@ -747,7 +1094,7 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
         "schema": "artnotes-prototipo/0.1",
         "generato_il": datetime.now().isoformat(timespec="seconds"),
         "modalita": "pubblico" if pubblico else "anteprima_redazionale",
-        "opera": {"id": f"met:{object_id}", "catalogo": catalogo(met, wd)},
+        "opera": {"id": man["id"], "chiave": object_id, "catalogo": cat},
         "immagine": {
             k: img[k]
             for k in (
@@ -758,16 +1105,26 @@ def componi(object_id: str, pubblico: bool = False) -> dict:
         "copertura": copertura,
         "sezioni": sezioni,
         "annotazioni": annotazioni,
+        "racconto": racc,
         "percorsi": perc,
         "connessioni": conn,
         "pulse": esterni,
-        "fonti": _fonti_citate(fonti, sezioni, annotazioni, conn, perc),
+        "fonti": _fonti_citate(fonti, sezioni, annotazioni, conn, racc, base_ids),
+        "bibliografia_museo": bibliografia_museo(man),
     }
 
 
-def _fonti_citate(fonti, sezioni, annotazioni, conn, perc) -> dict:
+def _fonti_citate(fonti, sezioni, annotazioni, conn, racc, base_ids) -> dict:
     """Solo le fonti effettivamente citate, più quelle di catalogo e dell'immagine."""
-    usate = {"met-435809", "wikidata-Q776175", "foto-met-DP119115"}
+    usate = set(base_ids)
+    if racc:
+        for sc in racc["scene"]:
+            for fr in sc["frasi"]:
+                usate |= {f["fonte"] for f in fr.get("f", [])}
+                if fr.get("fuori"):
+                    usate.add(fr["fuori"]["scheda"]["fonte"])
+                    if fr["fuori"]["scheda"].get("immagine"):
+                        usate.add(fr["fuori"]["scheda"]["immagine"]["fonte"])
     for gruppo in ([b for s in sezioni for b in s["blocchi"]], [b for a in annotazioni for b in a["blocchi"]],
                    [b for k in conn for b in k["blocchi"]]):
         for b in gruppo:
@@ -780,17 +1137,41 @@ def _fonti_citate(fonti, sezioni, annotazioni, conn, perc) -> dict:
     return {k: v for k, v in fonti.items() if k in usate}
 
 
-if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    if len(args) != 1:
-        print(__doc__)
-        sys.exit(1)
-    pubblico = "--pubblico" in sys.argv
-    scheda = componi(args[0], pubblico)
+def scrivi(chiave: str, pubblico: bool) -> dict:
+    scheda = componi(chiave, pubblico)
     USCITA.mkdir(parents=True, exist_ok=True)
-    nome = f"{args[0]}{'.pubblico' if pubblico else ''}.json"
+    nome = f"{chiave}{'.pubblico' if pubblico else ''}.json"
     (USCITA / nome).write_text(json.dumps(scheda, ensure_ascii=False, indent=2), encoding="utf-8")
+    scene = len(scheda["racconto"]["scene"]) if scheda["racconto"] else 0
     print(
         f"scheda scritta: web/api/opere/{nome} - {len(scheda['annotazioni'])} annotazioni - "
-        f"{sum(len(s['blocchi']) for s in scheda['sezioni'])} blocchi - modalita {scheda['modalita']}"
+        f"{sum(len(s['blocchi']) for s in scheda['sezioni'])} blocchi - {scene} scene - modalita {scheda['modalita']}"
     )
+    return scheda
+
+
+def scrivi_tutte() -> None:
+    """Compone tutte le opere con un manifesto e scrive l'indice letto dal selettore."""
+    indice = []
+    for p in sorted((DATI / "opere").glob("*.json")):
+        chiave = p.stem
+        s = scrivi(chiave, False)
+        scrivi(chiave, True)
+        c = s["opera"]["catalogo"]
+        titolo_it = next((t["valore"] for t in c["titoli"] if t.get("lingua") == "it" and t.get("valore")), c["titoli"][0]["valore"])
+        autore_wd = next((a["autore"] for a in c["attribuzioni"] if a["fonte"].startswith("wikidata-")), c["attribuzioni"][0]["autore"])
+        indice.append({"chiave": chiave, "id": s["opera"]["id"], "titolo": titolo_it, "autore": autore_wd,
+                       "data": c["datazioni"][0]["testo_originale"]})
+    (USCITA / "indice.json").write_text(json.dumps({"opere": indice}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("indice scritto:", ", ".join(o["chiave"] for o in indice))
+
+
+if __name__ == "__main__":
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if "--tutte" in sys.argv:
+        scrivi_tutte()
+    elif len(args) == 1:
+        scrivi(args[0], "--pubblico" in sys.argv)
+    else:
+        print(__doc__)
+        sys.exit(1)

@@ -1,9 +1,10 @@
 {
   "schema": "artnotes-prototipo/0.1",
-  "generato_il": "2026-11-06T16:26:52",
+  "generato_il": "2026-11-06T17:39:32",
   "modalita": "anteprima_redazionale",
   "opera": {
     "id": "met:435809",
+    "chiave": "435809",
     "catalogo": {
       "titoli": [
         {
@@ -1305,12 +1306,810 @@
       "revisione": null
     }
   ],
+  "racconto": {
+    "opera": "met:435809",
+    "titolo": "L'uomo che guardava i contadini",
+    "sottotitolo": "Un campo d'estate, un pittore travestito, sei tavole per un anno: I mietitori raccontati con le loro fonti",
+    "durata": "circa 6 minuti",
+    "origine": {
+      "tipo": "ai",
+      "modello": "claude-opus-5-5",
+      "data": "2026-11-06"
+    },
+    "stato": "bozza",
+    "scene": [
+      {
+        "id": "s1",
+        "titolo": "Una pausa nel grano",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Metà del grano è ancora in piedi, un muro dorato che taglia il quadro.",
+            "r": "osservazione",
+            "a": "a12",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 1,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Il grano ancora in piedi"
+          },
+          {
+            "t": "Sotto un albero, un gruppo di contadini ha smesso di lavorare: mangiano da scodelle, tagliano il pane, uno beve da una brocca sollevata.",
+            "r": "osservazione",
+            "a": "a01",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 2,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Il pasto all'ombra"
+          },
+          {
+            "t": "Uno di loro non mangia. Dorme, disteso sulla schiena, la camicia slacciata, un braccio abbandonato a terra.",
+            "r": "osservazione",
+            "a": "a02",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 3,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "L'uomo che dorme"
+          },
+          {
+            "t": "Il Metropolitan Museum di New York data il quadro al 1565: olio su tavola di quercia.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "met-435809",
+                "campi": [
+                  "objectDate",
+                  "medium"
+                ]
+              }
+            ],
+            "nota": 4,
+            "certezza": {
+              "livello": "istituzionale",
+              "testo": "Dato dell'istituzione che conserva l'opera"
+            }
+          },
+          {
+            "t": "Chi l'ha dipinto aveva passato anni a guardare i contadini da vicino. Letteralmente.",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "foto-met-DP119115",
+          "met-435809"
+        ]
+      },
+      {
+        "id": "s2",
+        "titolo": "Pietro il buffo",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Nel 1604 il pittore e scrittore Karel van Mander raccoglie la vita di Pieter Bruegel nel suo Libro dei pittori.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "fuori": {
+              "tipo": "persona",
+              "wikidata": "Q43270",
+              "didascalia": "«Il pittore e il compratore» (c. 1566), disegno che Wikidata usa come immagine di Bruegel: non è un ritratto documentato",
+              "scheda": {
+                "wikidata": "Q43270",
+                "fonte": "wikidata-Q43270",
+                "nome": "Pieter Bruegel il Vecchio",
+                "nascita": "1525",
+                "morte": "1569",
+                "immagine": {
+                  "src": "immagini/confronti/e968464180c1.jpg",
+                  "fonte": "commons-e968464180c1",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg"
+                }
+              }
+            },
+            "nota": 5,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Racconta che nacque non lontano da Breda, in un villaggio chiamato Brueghel, e che da quel villaggio prese il nome.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 6,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Imparò il mestiere da Pieter Coecke van Aelst, e anni dopo ne sposò la figlia, che da bambina aveva portato tante volte in braccio.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 7,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Ad Anversa lavorava molto per un mercante, Hans Franckert, e con lui andava spesso nei villaggi, alle sagre e ai matrimoni, vestito da contadino.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 8,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Portavano doni come gli altri invitati e si spacciavano per parenti della sposa o dello sposo.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 9,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Lì Bruegel si divertiva a osservare come i contadini mangiavano, bevevano, ballavano, corteggiavano, e poi lo rifaceva con i colori, con grande arguzia.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 10,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Lo chiamavano «Pier den Drol», Pietro il buffo: dei suoi quadri, scrive van Mander, se ne vedono pochi che si possano guardare senza ridere.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 11,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Van Mander non parla dei Mietitori. Ma riguarda il gruppo che mangia: ha tutta l'aria di una scena vista da vicino.",
+            "r": "ipotesi",
+            "a": "a01",
+            "etichetta": "Il pasto all'ombra"
+          }
+        ],
+        "fonti_scena": [
+          "vanmander-1604"
+        ]
+      },
+      {
+        "id": "s3",
+        "titolo": "Le montagne inghiottite",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "a08"
+        },
+        "frasi": [
+          {
+            "t": "Bruegel aveva viaggiato in Francia e in Italia.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 12,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Si raccontava che, attraversando le Alpi, avesse inghiottito monti e rocce, per risputarli una volta a casa su tele e tavole: tanto bene sapeva imitare la natura.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 13,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Qui le Alpi non ci sono. Il paesaggio scende per gradi verso una pianura, un abitato con un campanile, un tratto di mare con le navi.",
+            "r": "osservazione",
+            "a": "a08",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 14,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Mare e navi"
+          },
+          {
+            "t": "La scena sembra costruita su due piani: a destra l'albero e il pasto, a sinistra la veduta che si apre e si allontana.",
+            "r": "ipotesi",
+            "a": "a11",
+            "etichetta": "Il tronco come asse"
+          },
+          {
+            "t": "Ma questo paesaggio non era solo.",
+            "r": "raccordo"
+          }
+        ],
+        "fonti_scena": [
+          "foto-met-DP119115",
+          "vanmander-1604"
+        ]
+      },
+      {
+        "id": "s4",
+        "titolo": "Sei tavole per un anno",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "I mietitori fanno parte di una serie di grandi tavole sulle stagioni. Secondo uno studio dell'Università Beykent di Istanbul erano sei, e ciascuna rappresentava due mesi dell'anno.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "pehlivan-2021"
+              }
+            ],
+            "nota": 15,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Wikidata ne registra cinque conservate: con i Mietitori, Cacciatori nella neve, Giornata buia, Ritorno della mandria e Fienagione.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q3855265",
+                "campi": [
+                  "P527",
+                  "P2635"
+                ],
+                "nota": "senza riferimenti"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q500985",
+              "didascalia": "Pieter Bruegel il Vecchio, Cacciatori nella neve (1565), Vienna, Kunsthistorisches Museum",
+              "scheda": {
+                "wikidata": "Q500985",
+                "fonte": "wikidata-Q500985",
+                "titolo": "Cacciatori nella neve",
+                "autori": [
+                  {
+                    "valore": "Pieter Bruegel il Vecchio",
+                    "riferimenti": 1
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1565",
+                    "riferimenti": 2
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "Kunsthistorisches Museum",
+                    "riferimenti": 1
+                  }
+                ],
+                "iconclass": [
+                  "23F42"
+                ],
+                "immagine": {
+                  "src": "immagini/confronti/0026b770944a.jpg",
+                  "fonte": "commons-0026b770944a",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg"
+                },
+                "avvisi": []
+              }
+            },
+            "nota": 16,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Tre sono oggi a Vienna, al Kunsthistorisches Museum.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q500985",
+                "campi": [
+                  "P195"
+                ]
+              },
+              {
+                "fonte": "wikidata-Q698219",
+                "campi": [
+                  "P195"
+                ]
+              },
+              {
+                "fonte": "wikidata-Q698254",
+                "campi": [
+                  "P195"
+                ]
+              }
+            ],
+            "nota": 17,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Il tema aveva una lunga storia: i lavori dei mesi illustravano i calendari dei manoscritti medievali, dei libri d'ore e degli almanacchi.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "pehlivan-2021"
+              },
+              {
+                "fonte": "fischer-2025"
+              }
+            ],
+            "nota": 18,
+            "certezza": {
+              "livello": "concorde",
+              "testo": "2 fonti indipendenti concordano"
+            }
+          },
+          {
+            "t": "Bruegel mette quei lavori all'aperto, dentro un paesaggio che cambia con la stagione.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "pehlivan-2021"
+              }
+            ],
+            "nota": 19,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Per chi fu dipinta la serie? Wikidata indica il collezionista Nicolaes Jonghelinck, ma senza riferimenti: è un dato da verificare.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q3855265",
+                "campi": [
+                  "P195"
+                ],
+                "nota": "senza riferimenti"
+              }
+            ],
+            "nota": 20,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Le fonti consultate non dicono quale coppia di mesi spettasse a ciascuna tavola.",
+            "r": "lacuna"
+          }
+        ],
+        "fonti_scena": [
+          "fischer-2025",
+          "pehlivan-2021",
+          "wikidata-Q3855265",
+          "wikidata-Q500985",
+          "wikidata-Q698219",
+          "wikidata-Q698254"
+        ]
+      },
+      {
+        "id": "s5",
+        "titolo": "Le cose da trovare",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "In basso a sinistra, fra le spighe, qualcuno ha lasciato una brocca dal collo stretto.",
+            "r": "osservazione",
+            "a": "a04",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 21,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "La brocca nel grano"
+          },
+          {
+            "t": "Nel campo, un uomo esce da un passaggio aperto nel grano: in una mano ha una brocca rossa.",
+            "r": "osservazione",
+            "a": "a03",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 22,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Chi porta da bere"
+          },
+          {
+            "t": "E sotto l'albero, un altro beve direttamente dal beccuccio di una grande brocca.",
+            "r": "osservazione",
+            "a": "a10",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 23,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Bere dalla brocca"
+          },
+          {
+            "t": "Brocche e bevande compaiono anche fra i soggetti che Wikidata assegna al quadro, senza riferimenti.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q776175",
+                "campi": [
+                  "P180"
+                ],
+                "nota": "senza riferimenti"
+              }
+            ],
+            "nota": 24,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Lontano, nel prato del villaggio, piccole figure in gruppo: a questa risoluzione non si capisce che cosa facciano.",
+            "r": "lacuna",
+            "a": "a06",
+            "etichetta": "Le figure lontane nel prato"
+          }
+        ],
+        "fonti_scena": [
+          "foto-met-DP119115",
+          "wikidata-Q776175"
+        ]
+      },
+      {
+        "id": "s6",
+        "titolo": "Le lettere nell'angolo",
+        "inquadra": {
+          "tipo": "regione",
+          "regione": "a13"
+        },
+        "frasi": [
+          {
+            "t": "Nell'angolo in basso a destra si leggono lettere maiuscole: «BRVEGE…». Il resto non si distingue con sicurezza.",
+            "r": "osservazione",
+            "a": "a13",
+            "f": [
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 25,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            },
+            "etichetta": "Lettere in basso a destra"
+          },
+          {
+            "t": "I dati del Met consultati non riportano iscrizioni: firma e data andranno verificate sulla scheda completa del museo.",
+            "r": "lacuna"
+          },
+          {
+            "t": "Il Met registra invece due misure: 119 × 162 cm in tutto, con strisce aggiunte in alto, in basso e a destra, e 116,5 × 159,5 cm di superficie dipinta originale.",
+            "r": "documentato",
+            "a": "a14",
+            "etichetta": "Striscia aggiunta (posizione calcolata)",
+            "f": [
+              {
+                "fonte": "met-435809",
+                "campi": [
+                  "dimensions"
+                ]
+              }
+            ],
+            "nota": 26,
+            "certezza": {
+              "livello": "istituzionale",
+              "testo": "Dato dell'istituzione che conserva l'opera"
+            }
+          }
+        ],
+        "fonti_scena": [
+          "foto-met-DP119115",
+          "met-435809"
+        ]
+      },
+      {
+        "id": "s7",
+        "titolo": "Dopo Bruegel",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Bruegel morì lasciando due figli pittori, Pieter e Jan.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "vanmander-1604"
+              }
+            ],
+            "nota": 27,
+            "certezza": {
+              "livello": "primaria",
+              "testo": "Attestato da una fonte d'epoca"
+            }
+          },
+          {
+            "t": "Le sue immagini di contadini divennero il ritratto stesso dell'arte fiamminga di metà Cinquecento: le collezionò l'imperatore Rodolfo II, e per un secolo furono imitate, fino a Brouwer, Teniers e Jan Steen.",
+            "r": "interpretazione",
+            "f": [
+              {
+                "fonte": "payne-2017"
+              }
+            ],
+            "nota": 28,
+            "certezza": {
+              "livello": "letteratura",
+              "testo": "Sostenuto dalla letteratura"
+            }
+          },
+          {
+            "t": "Wikidata registra un'«Estate» di Pieter Brueghel il Giovane, datata 1624, come derivata dai Mietitori, citando l'archivio olandese RKD.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q114707348",
+                "campi": [
+                  "P144",
+                  "P170",
+                  "P571"
+                ],
+                "nota": "riferimento: RKDimages 54304"
+              }
+            ],
+            "fuori": {
+              "tipo": "opera",
+              "wikidata": "Q114707348",
+              "didascalia": "Pieter Brueghel il Giovane, «Summer: the wheat harvest» (1624)",
+              "scheda": {
+                "wikidata": "Q114707348",
+                "fonte": "wikidata-Q114707348",
+                "titolo": "Summer: the wheat harvest",
+                "autori": [
+                  {
+                    "valore": "Pieter Brueghel il Giovane",
+                    "riferimenti": 1
+                  }
+                ],
+                "date": [
+                  {
+                    "valore": "1624",
+                    "riferimenti": 1
+                  }
+                ],
+                "collezioni": [
+                  {
+                    "valore": "Kunsthandel P. de Boer (1934)",
+                    "riferimenti": 1
+                  },
+                  {
+                    "valore": "collezione privata, nome non indicato",
+                    "riferimenti": 0
+                  }
+                ],
+                "iconclass": [
+                  "23D43",
+                  "47I14",
+                  "46A14",
+                  "23E43"
+                ],
+                "immagine": {
+                  "src": "immagini/confronti/064b8e50756c.jpg",
+                  "fonte": "commons-064b8e50756c",
+                  "licenza": "Public domain",
+                  "pagina": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg"
+                },
+                "avvisi": [
+                  "Wikidata elenca più collezioni, anche di momenti diversi: collocazione attuale da verificare."
+                ]
+              }
+            },
+            "nota": 29,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Ma mettile accanto: la scena è un'altra. Ritornano il pasto, i covoni, una figura distesa; il resto cambia.",
+            "r": "osservazione",
+            "f": [
+              {
+                "fonte": "commons-064b8e50756c"
+              },
+              {
+                "fonte": "foto-met-DP119115"
+              }
+            ],
+            "nota": 30,
+            "certezza": {
+              "livello": "verificabile",
+              "testo": "Verificabile guardando l'immagine"
+            }
+          },
+          {
+            "t": "In che senso sia «derivata», le fonti lette non lo dicono.",
+            "r": "lacuna"
+          }
+        ],
+        "fonti_scena": [
+          "commons-064b8e50756c",
+          "foto-met-DP119115",
+          "payne-2017",
+          "vanmander-1604",
+          "wikidata-Q114707348"
+        ]
+      },
+      {
+        "id": "s8",
+        "titolo": "Da Anversa a New York",
+        "inquadra": {
+          "tipo": "intera"
+        },
+        "frasi": [
+          {
+            "t": "Wikidata elenca sette proprietari del quadro; solo per due cita un riferimento.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "wikidata-Q776175",
+                "campi": [
+                  "P127"
+                ]
+              }
+            ],
+            "nota": 31,
+            "certezza": {
+              "livello": "da_verificare",
+              "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+            }
+          },
+          {
+            "t": "Nel 1919 lo acquistò il Metropolitan Museum, con il Rogers Fund: inventario 19.164.",
+            "r": "documentato",
+            "f": [
+              {
+                "fonte": "met-435809",
+                "campi": [
+                  "creditLine",
+                  "accessionNumber"
+                ]
+              }
+            ],
+            "nota": 32,
+            "certezza": {
+              "livello": "istituzionale",
+              "testo": "Dato dell'istituzione che conserva l'opera"
+            }
+          },
+          {
+            "t": "Il commento critico del museo non è stato raggiungibile: per quest'opera manca ancora un testo di letteratura specifica letto per intero.",
+            "r": "lacuna"
+          },
+          {
+            "t": "Torna al campo. Mentre gli altri mangiano, chi sta ancora lavorando?",
+            "r": "raccordo",
+            "a": "a07",
+            "etichetta": "Il lavoro continua sullo sfondo"
+          }
+        ],
+        "fonti_scena": [
+          "met-435809",
+          "wikidata-Q776175"
+        ]
+      }
+    ],
+    "note_totali": 32
+  },
   "percorsi": [
     {
       "id": "curioso",
       "titolo": "Sono curioso",
-      "invito": "Fammi vedere qualcosa che non avrei notato.",
-      "durata": "circa 3 minuti",
+      "invito": "Raccontami il quadro, mostrandomelo.",
+      "durata": "circa 6 minuti",
       "stato": "bozza",
       "origine": {
         "tipo": "ai",
@@ -1320,47 +2119,55 @@
       "tappe": [
         {
           "id": "c1",
-          "tipo": "scelta",
-          "titolo": "Il primo sguardo",
-          "domanda": "Guarda il quadro intero per qualche secondo. Dove è andato per primo il tuo sguardo?",
-          "scelte": [
-            "a01",
-            "a05",
-            "a08"
-          ],
-          "raccordo": "Non c'è una risposta giusta. Ecco una lettura di come è organizzata la scena: è un'ipotesi, e puoi metterla alla prova.",
-          "blocchi": [
-            "b20"
-          ]
+          "tipo": "scena",
+          "titolo": "Una pausa nel grano",
+          "scena": "s1"
         },
         {
           "id": "c2",
+          "tipo": "scena",
+          "titolo": "Pietro il buffo",
+          "scena": "s2"
+        },
+        {
+          "id": "c3",
           "tipo": "scopri",
           "titolo": "Un oggetto fra le spighe",
           "annotazione": "a04"
         },
         {
-          "id": "c3",
+          "id": "c4",
           "tipo": "scopri",
           "titolo": "Chi porta da bere",
           "raccordo": "Qualcuno, intanto, sta arrivando dal campo.",
           "annotazione": "a03"
         },
         {
-          "id": "c4",
-          "tipo": "scopri",
-          "titolo": "L'uomo che dorme",
-          "annotazione": "a02"
-        },
-        {
           "id": "c5",
-          "tipo": "scopri",
-          "titolo": "Le lettere nell'angolo",
-          "raccordo": "Un'ultima cosa, nell'angolo in basso a destra.",
-          "annotazione": "a13"
+          "tipo": "scena",
+          "titolo": "Le montagne inghiottite",
+          "scena": "s3"
         },
         {
           "id": "c6",
+          "tipo": "scena",
+          "titolo": "Sei tavole per un anno",
+          "scena": "s4"
+        },
+        {
+          "id": "c7",
+          "tipo": "scena",
+          "titolo": "Le lettere nell'angolo",
+          "scena": "s6"
+        },
+        {
+          "id": "c8",
+          "tipo": "scena",
+          "titolo": "Dopo Bruegel",
+          "scena": "s7"
+        },
+        {
+          "id": "c9",
           "tipo": "pulse",
           "titolo": "Per continuare",
           "raccordo": "Altri hanno raccontato quest'opera in video. Sono contenuti esterni: ArtNotes li segnala con il motivo della scelta, non ne garantisce l'accuratezza.",
@@ -1525,7 +2332,7 @@
               ],
               "certezza": {
                 "livello": "da_verificare",
-                "testo": "Dato di una base collaborativa senza riferimenti: da verificare"
+                "testo": "Classificazione di catalogo, in parte senza riferimenti"
               }
             },
             {
@@ -3976,6 +4783,8 @@
   "fonti": {
     "wikidata-Q114707348": {
       "titolo": "Wikidata, elemento Q114707348 (Summer: the wheat harvest)",
+      "breve": "Wikidata Q114707348",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q114707348",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q114707348",
@@ -3984,6 +4793,8 @@
     },
     "wikidata-Q119001118": {
       "titolo": "Wikidata, elemento Q119001118 (estate)",
+      "breve": "Wikidata Q119001118",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q119001118",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q119001118",
@@ -3992,6 +4803,8 @@
     },
     "wikidata-Q1213437": {
       "titolo": "Wikidata, elemento Q1213437 (Fienagione)",
+      "breve": "Wikidata Q1213437",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q1213437",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q1213437",
@@ -4000,14 +4813,28 @@
     },
     "wikidata-Q3855265": {
       "titolo": "Wikidata, elemento Q3855265 (Mesi)",
+      "breve": "Wikidata Q3855265",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q3855265",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q3855265",
       "consultato": "2026-11-06",
       "licenza": "CC0"
     },
+    "wikidata-Q43270": {
+      "titolo": "Wikidata, elemento Q43270 (Pieter Bruegel il Vecchio)",
+      "breve": "Wikidata Q43270",
+      "categoria": "collaborativa",
+      "tipo": "base di conoscenza collaborativa",
+      "url": "https://www.wikidata.org/wiki/Q43270",
+      "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q43270",
+      "consultato": "2026-11-06",
+      "licenza": "CC0"
+    },
     "wikidata-Q500985": {
       "titolo": "Wikidata, elemento Q500985 (Cacciatori nella neve)",
+      "breve": "Wikidata Q500985",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q500985",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q500985",
@@ -4016,6 +4843,8 @@
     },
     "wikidata-Q68838092": {
       "titolo": "Wikidata, elemento Q68838092 (Estate)",
+      "breve": "Wikidata Q68838092",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q68838092",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q68838092",
@@ -4024,6 +4853,8 @@
     },
     "wikidata-Q698219": {
       "titolo": "Wikidata, elemento Q698219 (Giornata buia)",
+      "breve": "Wikidata Q698219",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q698219",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q698219",
@@ -4032,6 +4863,8 @@
     },
     "wikidata-Q698254": {
       "titolo": "Wikidata, elemento Q698254 (Ritorno della mandria)",
+      "breve": "Wikidata Q698254",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q698254",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q698254",
@@ -4040,6 +4873,8 @@
     },
     "wikidata-Q776175": {
       "titolo": "Wikidata, elemento Q776175",
+      "breve": "Wikidata",
+      "categoria": "collaborativa",
       "tipo": "base di conoscenza collaborativa",
       "url": "https://www.wikidata.org/wiki/Q776175",
       "url_dati": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q776175",
@@ -4049,6 +4884,8 @@
     },
     "commons-0026b770944a": {
       "titolo": "Wikimedia Commons, Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20the%20Elder%20-%20Hunters%20in%20the%20Snow%20%28Winter%29%20-%20Google%20Art%20Project.jpg",
@@ -4058,6 +4895,8 @@
     },
     "commons-064b8e50756c": {
       "titolo": "Wikimedia Commons, Breughel, Pieter (II) - Summer - E632.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:Breughel,_Pieter_(II)_-_Summer_-_E632.jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3ABreughel%2C%20Pieter%20%28II%29%20-%20Summer%20-%20E632.jpg",
@@ -4067,6 +4906,8 @@
     },
     "commons-1641dcdcb9d8": {
       "titolo": "Wikimedia Commons, Pieter Bruegel d. Ä., , Kunsthistorisches Museum Wien, Gemäldegalerie - Heimkehr der Herde (Herbst) - GG 1018 - Kunsthistorisches Museum.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84.,_,_Kunsthistorisches_Museum_Wien,_Gem%C3%A4ldegalerie_-_Heimkehr_der_Herde_(Herbst)_-_GG_1018_-_Kunsthistorisches_Museum.jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20d.%20%C3%84.%2C%20%2C%20Kunsthistorisches%20Museum%20Wien%2C%20Gem%C3%A4ldegalerie%20-%20Heimkehr%20der%20Herde%20%28Herbst%29%20-%20GG%201018%20-%20Kunsthistorisches%20Museum.jpg",
@@ -4076,6 +4917,8 @@
     },
     "commons-7fb02c4590f6": {
       "titolo": "Wikimedia Commons, The haymaking, by Pieter Bruegel (I).jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:The_haymaking,_by_Pieter_Bruegel_(I).jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20haymaking%2C%20by%20Pieter%20Bruegel%20%28I%29.jpg",
@@ -4085,6 +4928,8 @@
     },
     "commons-d42300e2d84a": {
       "titolo": "Wikimedia Commons, Pieter Brueghel (II) - The four seasons, summer (Bukarest).jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_(II)_-_The_four_seasons,_summer_(Bukarest).jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Brueghel%20%28II%29%20-%20The%20four%20seasons%2C%20summer%20%28Bukarest%29.jpg",
@@ -4092,8 +4937,21 @@
       "licenza": "Public domain",
       "note": "3094 × 2290 px. Crediti: Muzeul Național de Artă al României"
     },
+    "commons-e968464180c1": {
+      "titolo": "Wikimedia Commons, Pieter Bruegel the Elder - The Painter and the Buyer, ca. 1566 - Google Art Project.jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
+      "tipo": "riproduzione fotografica",
+      "url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg",
+      "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3APieter%20Bruegel%20the%20Elder%20-%20The%20Painter%20and%20the%20Buyer%2C%20ca.%201566%20-%20Google%20Art%20Project.jpg",
+      "consultato": "2026-11-06",
+      "licenza": "Public domain",
+      "note": "2205 × 2640 px. Crediti: Google Arts &amp; Culture — eQHtzz_SGMMZJQ"
+    },
     "commons-fd2192fcd325": {
       "titolo": "Wikimedia Commons, The Gloomy Day (Bruegel).jpg",
+      "breve": "Commons",
+      "categoria": "immagine",
       "tipo": "riproduzione fotografica",
       "url": "https://commons.wikimedia.org/wiki/File:The_Gloomy_Day_(Bruegel).jpg",
       "url_dati": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AThe%20Gloomy%20Day%20%28Bruegel%29.jpg",
@@ -4101,8 +4959,66 @@
       "licenza": "Public domain",
       "note": "41296 × 30072 px. Crediti: http://insidebruegel.net/"
     },
+    "vanmander-1604": {
+      "categoria": "primaria",
+      "tipo": "fonte d'epoca: biografia d'artista",
+      "titolo": "Karel van Mander, Het Schilder-boeck, Haarlem 1604, «Het leven van Pieter Brueghel»",
+      "breve": "van Mander, 1604",
+      "anno": 1604,
+      "url": "https://www.dbnl.org/tekst/mand001schi01_01/mand001schi01_01_0221.php",
+      "licenza": "testo in pubblico dominio; trascrizione DBNL",
+      "lettura": "testo completo",
+      "testo": "vanmander-1604-bruegel",
+      "consultato": "2026-11-06",
+      "note": "Testo in olandese del 1604. Le frasi del racconto ne sono parafrasi di ArtNotes (AI): da verificare su un'edizione critica o una traduzione pubblicata."
+    },
+    "pehlivan-2021": {
+      "categoria": "letteratura",
+      "tipo": "articolo (rivista universitaria)",
+      "titolo": "Burcu Pehlivan, «The Subject of Seasonal Cycles in Pieter Bruegel's Paintings and Premise Sources», The Journal of Social Sciences, 2021",
+      "breve": "Pehlivan (Beykent), 2021",
+      "anno": 2021,
+      "doi": "10.29228/sobider.50662",
+      "istituzioni": [
+        "Beykent University"
+      ],
+      "url": "http://sobider.com/files/sobider_makaleler/818764d8-e660-4b87-826c-c92e74a203d6.pdf",
+      "licenza": "accesso aperto",
+      "lettura": "abstract",
+      "consultato": "2026-11-06",
+      "note": "Abstract in turco."
+    },
+    "fischer-2025": {
+      "categoria": "letteratura",
+      "tipo": "articolo",
+      "titolo": "Anna A. Fischer, «The painting cycle “The Seasons” by Pieter Brueghel the Elder: calendar symbolism and its interpretation», 2025",
+      "breve": "Fischer, 2025",
+      "anno": 2025,
+      "doi": "10.36340/2071-6818-2025-21-1-114-130",
+      "url": "https://doi.org/10.36340/2071-6818-2025-21-1-114-130",
+      "licenza": "accesso aperto",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
+    "payne-2017": {
+      "categoria": "letteratura",
+      "tipo": "tesi di dottorato",
+      "titolo": "Brighton Kelley Payne, «The Bruegelians: Formation and Canonization of Peasant Imagery in the Tradition of Pieter Bruegel the Elder», tesi di dottorato, University of Maryland, 2017 (relatore Arthur K. Wheelock)",
+      "breve": "Payne (Maryland), 2017",
+      "anno": 2017,
+      "doi": "10.13016/m2358b",
+      "istituzioni": [
+        "University of Maryland"
+      ],
+      "url": "http://hdl.handle.net/1903/19375",
+      "licenza": "accesso aperto",
+      "lettura": "abstract",
+      "consultato": "2026-11-06"
+    },
     "met-435809": {
       "titolo": "The Metropolitan Museum of Art, Collection API, oggetto 435809",
+      "breve": "Met, scheda",
+      "categoria": "istituzione",
       "tipo": "scheda istituzionale (dati strutturati)",
       "url": "https://www.metmuseum.org/art/collection/search/435809",
       "url_dati": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
@@ -4112,6 +5028,8 @@
     },
     "iconclass": {
       "titolo": "Iconclass, notazioni 47I14, 23E43, 23D43, 41C, 25H",
+      "breve": "Iconclass",
+      "categoria": "classificazione",
       "tipo": "sistema di classificazione iconografica",
       "url": "https://iconclass.org/47I14",
       "consultato": "2026-11-06",
@@ -4120,11 +5038,14 @@
     },
     "foto-met-DP119115": {
       "titolo": "Fotografia DP119115.jpg (3811 × 2809 px)",
+      "breve": "Fotografia del Met",
+      "categoria": "immagine",
       "tipo": "immagine di riferimento per le osservazioni visive",
       "url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
       "consultato": "2026-11-06",
       "licenza": "pubblico dominio secondo isPublicDomain = true (Met Open Access)",
       "note": "SHA-256 3d2a611f7787…"
     }
-  }
+  },
+  "bibliografia_museo": []
 }

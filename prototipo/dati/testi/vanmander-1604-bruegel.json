@@ -1,0 +1,10 @@
+{
+ "id": "vanmander-1604-bruegel",
+ "url": "https://www.dbnl.org/tekst/mand001schi01_01/mand001schi01_01_0221.php",
+ "formato": "html",
+ "licenza": "testo in pubblico dominio (1604); trascrizione DBNL",
+ "sha256": "e828d8d4d823be666a138764d5e376d0836a15feb21cf3697b86ee45d2fc15fc",
+ "acquisito_il": "2026-11-06T16:21:48+00:00",
+ "caratteri": 8390,
+ "connettore": "letteratura.py 0.1.0"
+}

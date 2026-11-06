@@ -1,0 +1,10 @@
+{
+ "id": "vasari-1568-leonardo",
+ "url": "https://it.wikisource.org/wiki/Le%20vite%20de%27%20pi%C3%B9%20eccellenti%20pittori%2C%20scultori%20e%20architettori%20%281568%29/Lionardo%20da%20Vinci",
+ "url_dati": "https://it.wikisource.org/w/api.php?action=parse&page=Le+vite+de%27+pi%C3%B9+eccellenti+pittori%2C+scultori+e+architettori+%281568%29%2FLionardo+da+Vinci&prop=text&format=json&formatversion=2",
+ "formato": "wikisource",
+ "licenza": "testo in pubblico dominio; trascrizione Wikisource CC BY-SA",
+ "acquisito_il": "2026-11-06T15:54:24+00:00",
+ "caratteri": 36627,
+ "connettore": "letteratura.py 0.1.0"
+}

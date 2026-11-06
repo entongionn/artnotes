@@ -1,0 +1,2100 @@
+{
+  "acquisizione": {
+    "fonte": "wikidata",
+    "identificativo": "Q2344396",
+    "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|claims|sitelinks&languages=it|en&ids=Q2344396",
+    "data": "2026-11-06T15:57:28+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "entita": {
+      "type": "item",
+      "id": "Q2344396",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Portrait of a Lady with a Unicorn"
+        },
+        "it": {
+          "language": "it",
+          "value": "Dama col liocorno"
+        }
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "09cb21c2c2f5103444dda65a301680a9963016c3",
+              "datavalue": {
+                "value": "Dama con Liocorno (Raffaello Sanzio)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q2344396$1BBE1B96-7CD5-4CE6-A7A3-F659708AD897",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3305213,
+                  "id": "Q3305213"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2344396$9889CA26-FDDB-4D86-A809-081B1AA99DB7",
+            "rank": "normal"
+          }
+        ],
+        "P186": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 296955,
+                  "id": "Q296955"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2344396$24C47DC4-1DCC-4B14-98BA-AA5B8BA0A92D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "32442acff3bd145a61bbd0b67fc5712a6a0bb800",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 106857709,
+                  "id": "Q106857709"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P518": [
+                {
+                  "snaktype": "value",
+                  "property": "P518",
+                  "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 861259,
+                      "id": "Q861259"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P518"
+            ],
+            "id": "Q2344396$d697c77e-47ff-3181-4955-49a9a2f8c96d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P186",
+              "hash": "a33853367fb7c4aa040b8e713ec6a492b3af7878",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 112259737,
+                  "id": "Q112259737"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P518": [
+                {
+                  "snaktype": "value",
+                  "property": "P518",
+                  "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 861259,
+                      "id": "Q861259"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P518"
+            ],
+            "id": "Q2344396$a9a0a7bc-4fac-ad8b-2055-cabb23052827",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "882a892b913cab45b3f165d83824959e1eb47a82",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5597,
+                  "id": "Q5597"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2344396$ACEC1EA9-4BEB-4715-88BC-61C1334B8AD9",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134307,
+                  "id": "Q134307"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q2344396$771472C0-C6C3-4F1D-ABFB-20A0EE66001D",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "72a45430b1850231634d08a57f3001255a203dbd",
+              "datavalue": {
+                "value": "Raffaello Sanzio - Lady with unicorn.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2344396$DC5F0A6F-D977-477C-8E45-DD5948B12AF0",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "8e7eb74cea73613353344f0cf987e906cf9e6981",
+              "datavalue": {
+                "value": "/m/02851qy",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$75CA80A7-DF29-4F35-A65A-CF7958E8CF28",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P195": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "de5d613115ac5de2a476be20fe272f5a6432a678",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 841506,
+                  "id": "Q841506"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "6149f30514ef998737e93a85b91dece158b9ca5a",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1902-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P580"
+            ],
+            "id": "Q2344396$AE477AFA-F5AD-4142-8C84-94F500899649",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "66101075c7edd60a46b407ef403b9cd2d72da730",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 683074,
+                  "id": "Q683074"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "f073427660920f354c30d6ef8931810da1198c27",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1902-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P582"
+            ],
+            "id": "Q2344396$a9c7dbc6-4ead-bf5c-4672-32edf8a8bc05",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P195",
+              "hash": "174322773042577de958086269ade3c7ccad596e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 121268832,
+                  "id": "Q121268832"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P582": [
+                {
+                  "snaktype": "value",
+                  "property": "P582",
+                  "hash": "2436521213da634f4d4bc65db0621a5d7e6a591c",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1682-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1480": [
+                {
+                  "snaktype": "value",
+                  "property": "P1480",
+                  "hash": "889f0ed131a3884de838ec548ff63e2faf15a504",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 56644435,
+                      "id": "Q56644435"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P582",
+              "P1480"
+            ],
+            "id": "Q2344396$5f375702-4e4f-96a8-74df-84b95669d83a",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2376294880dd4620dc8de16b3c1bd195b52a4f2e",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "34453a8a24aa8b6d1d1b1c4d080515ac82995c99",
+              "datavalue": {
+                "value": {
+                  "time": "+1505-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 8,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1319": [
+                {
+                  "snaktype": "value",
+                  "property": "P1319",
+                  "hash": "43cf80dd16dbf4260bba53d70b6c4857852f3cb9",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1505-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1326": [
+                {
+                  "snaktype": "value",
+                  "property": "P1326",
+                  "hash": "ff331530ede727f78cadd9eb83ea9672baab51d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1506-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985786"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1319",
+              "P1326"
+            ],
+            "id": "Q2344396$C85CA1AC-D9D3-4019-B514-1BAF22F9CBFD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dc4a50d70c9cb59881f744ad19e194551a17a482",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4bb26675b03804ae8a24c7080ba4c61f517dff9b",
+                      "datavalue": {
+                        "value": "http://catalogo.fondazionezeri.unibo.it/entry/work/29252/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "6cd0b9354b45b24a535399e045a8393dfb7a6a15",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-11-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P135": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P135",
+              "hash": "568b5e1a0f16d2bc5f57e9244f2c2a819208e8cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1474884,
+                  "id": "Q1474884"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$FE902042-9390-4282-B1C4-A7D3B3BD7324",
+            "rank": "normal"
+          }
+        ],
+        "P180": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "ed24e508f7fe1c93a095eab8339181dd3b7c9869",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 73273453,
+                  "id": "Q73273453"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$EB13FB5A-B65B-4C98-B88A-B2CABCB19662",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "7e54fd465b80538e514b47d1177349a50d225276",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7246,
+                  "id": "Q7246"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$f1ce828f-46a2-f4c8-3400-db28ea9a2086",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "f9ac85d6154f97a39b1d005c0be49bea40ac69ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 236243,
+                  "id": "Q236243"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$e48df900-497b-8d78-0cfb-b9d167135a56",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "3170f05c9261f64a0c8b26a1c9b5724d5e38f3ff",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 123592266,
+                  "id": "Q123592266"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$87575fc6-4ea1-9b19-bafe-4143a2e0a7ce",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P180",
+              "hash": "1a4688fd49b05d27b8ef6b2a052be7766b313209",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11753251,
+                  "id": "Q11753251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$13062861-48d8-1e3c-18d8-c16386ed1b5d",
+            "rank": "deprecated"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "5b5f6bf2b9a181cf466c51b996684ca6c2230bd8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 131812976,
+                  "id": "Q131812976"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$F4C4E3F6-C5D0-4F00-8C12-153C5031F34F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aaf333f78ce5d94812227c7a9d771a4b5a2f0186",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "15ee7d050769f0e6bc953c664c5ff182ef168d2c",
+                      "datavalue": {
+                        "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "c24a7c61be877a82b25e38076e3c5e3e2252ae2a",
+              "datavalue": {
+                "value": "03828638n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$63CDEA43-4C31-4B54-ADB9-10076071F205",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2048": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2048",
+              "hash": "0633bf0bfa1f19ce157f17fc18541cc3cddb1fe8",
+              "datavalue": {
+                "value": {
+                  "amount": "+65",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2344396$5E51C1E8-5447-4668-819D-2C2D61DEA6AC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb210783f086e9e7fb737a18fc5bd32c2a59c8b4",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e774fa5bc1f4c61d3a2b4794ae1a4c1cedc6efcb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-06-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "08dee42982e00555d2d64253dfe745418d4b8e2a",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Raffael_046.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2049": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2049",
+              "hash": "1c565c3287bf674ea3ca74fc6824ea9cc7b72213",
+              "datavalue": {
+                "value": {
+                  "amount": "+51",
+                  "unit": "http://www.wikidata.org/entity/Q174728"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2344396$7B5AA33B-08CC-4198-B6EC-602AD9ECF6E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bb210783f086e9e7fb737a18fc5bd32c2a59c8b4",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e774fa5bc1f4c61d3a2b4794ae1a4c1cedc6efcb",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-06-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "08dee42982e00555d2d64253dfe745418d4b8e2a",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Raffael_046.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "8b6ff8b37ed99cab12377f22e27bee294373ded9",
+              "datavalue": {
+                "value": {
+                  "text": "Dama col liocornoj",
+                  "language": "it"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2344396$7C9CF57E-C7E5-48D3-A9B7-AD752497DF4D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "cdd552b601c1e757454c67ce33c378a01e19bfb0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "444d2918a419ea9950bc501f3ffdfe4908015d0e",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-03-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 60332278,
+                      "id": "Q60332278"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29940705,
+                      "id": "Q29940705"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q2344396$96F05094-F1C5-497D-85CA-E617F3DA0559",
+            "rank": "normal"
+          }
+        ],
+        "P973": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "hash": "6f54fc89eb74a6db580ba7a0daa880554acfaa81",
+              "datavalue": {
+                "value": "https://www.collezionegalleriaborghese.it/opere/dama-con-liocorno",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "2ab2e485ce235a18142330fa1873a5bba7115d23",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 652,
+                      "id": "Q652"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q2344396$8a73650a-4715-0592-64d4-51ff0223a2ae",
+            "rank": "normal"
+          }
+        ],
+        "P217": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P217",
+              "hash": "e448c0f50f4e006b5cceff9302d52db62f33739b",
+              "datavalue": {
+                "value": "371",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P195": [
+                {
+                  "snaktype": "value",
+                  "property": "P195",
+                  "hash": "de5d613115ac5de2a476be20fe272f5a6432a678",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 841506,
+                      "id": "Q841506"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P195"
+            ],
+            "id": "Q2344396$529831b2-46b6-0847-821c-b8ababf1cbb2",
+            "rank": "normal"
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "aae0edabdbe38e6032c3d5b7620428161e873eab",
+              "datavalue": {
+                "value": "315595037",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$fa101bb8-4f4d-e2ef-36f8-3da8d7aaf44c",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "8d79517886303273f3ce9e7da2b61748e6b65b69",
+              "datavalue": {
+                "value": "1084830558",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$37eb5e16-4e20-30d6-7a03-21779cb548de",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "3412d7aa16ccc4a49602110a9637200e80df4c6a",
+              "datavalue": {
+                "value": "n2015027383",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$522d7117-4395-5276-8c6c-2f646441123f",
+            "rank": "normal"
+          }
+        ],
+        "P269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P269",
+              "hash": "4cf45899c6a4d30aa5dd1e1221dedb1eb797537b",
+              "datavalue": {
+                "value": "19300058X",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$364f436f-48fb-e851-9f6e-c5050b0d0be0",
+            "rank": "normal"
+          }
+        ],
+        "P3272": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3272",
+              "hash": "8e05097033820d7b291c6527fad70b3aef2c1990",
+              "datavalue": {
+                "value": "29252",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$3857b845-4fe3-fcec-bb9a-68421fee59ee",
+            "rank": "preferred"
+          }
+        ],
+        "P7420": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7420",
+              "hash": "539da0102045acec0477366e76b7edab2fb78b1f",
+              "datavalue": {
+                "value": "Raffaello, dama con l'unicorno, 1506 ca.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q2344396$88823061-4c1b-8857-b446-f62d60e3369c",
+            "rank": "normal"
+          }
+        ],
+        "P12754": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12754",
+              "hash": "56635a1d162b69718279b53fcbfc7155c711a2ef",
+              "datavalue": {
+                "value": "0000295865",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$6C6C39B1-68AF-4333-AEB2-9BB6F9FF4517",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12754",
+              "hash": "621379485107d93d3841906cf70d15748336a2d6",
+              "datavalue": {
+                "value": "0001186875",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$8f865ebb-43ae-df65-2696-698f616a1ab2",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12754",
+              "hash": "6f5bf990cc91f631888bea157efab9e0ca20fe41",
+              "datavalue": {
+                "value": "0001326656",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$4cd2e3a3-46b3-7f02-2ee0-dd87a5c83042",
+            "rank": "deprecated"
+          }
+        ],
+        "P2092": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2092",
+              "hash": "6517cb47e049b61f80362af8057cb8f5a59fa006",
+              "datavalue": {
+                "value": "08052717",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$d0260143-4ba7-7a53-acbd-9f85b3bb0b78",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2092",
+              "hash": "424a0b879310dde1d6373bcb33ba5d79d1c24479",
+              "datavalue": {
+                "value": "20014231",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$85a0962b-4e57-b272-4435-1645f1a0ef21",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2092",
+              "hash": "19d98b8f2c4bd8518709d2b1bca8f4ba1ca5ae60",
+              "datavalue": {
+                "value": "20222660",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$931a52c0-4982-5660-c1a0-165acc62d4a5",
+            "rank": "deprecated"
+          }
+        ],
+        "P13023": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13023",
+              "hash": "065865e46eddfc551c54f3405a9b7f3d449c7cab",
+              "datavalue": {
+                "value": "la-dama-del-unicornio",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$cc2c97ae-4d02-36c5-34e0-d507f6211921",
+            "rank": "normal"
+          }
+        ],
+        "P5891": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5891",
+              "hash": "0b110eaa73ebcdeec628bb10e7de742424066fe7",
+              "datavalue": {
+                "value": "00064862",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$71fe21a1-4304-4b93-0106-00537b35afb8",
+            "rank": "normal"
+          }
+        ],
+        "P9051": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9051",
+              "hash": "4e5b2b5e98f054b5700826123e9d0de8240f3e3f",
+              "datavalue": {
+                "value": "HistoricOrArtisticProperty/1201008127",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$ba242bf9-4b29-5a2d-13bb-0c2475d77dcf",
+            "rank": "preferred"
+          }
+        ],
+        "P350": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P350",
+              "hash": "e1772d91a8156f0eaff55eefc257e0b4521a2e5f",
+              "datavalue": {
+                "value": "309949",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$b492b775-4b24-f9ce-1189-8681e08c0f24",
+            "rank": "preferred"
+          }
+        ],
+        "P608": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P608",
+              "hash": "62e1b937bdabe04fe470c9dc937f4a9dc994c153",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 130598556,
+                  "id": "Q130598556"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P528": [
+                {
+                  "snaktype": "value",
+                  "property": "P528",
+                  "hash": "78235a080516c52a485045d0bc78e7b07428f981",
+                  "datavalue": {
+                    "value": "14",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P528"
+            ],
+            "id": "Q2344396$d39b438b-46c7-94bd-0ee9-3ee44b47fd3f",
+            "rank": "normal"
+          }
+        ],
+        "P11807": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11807",
+              "hash": "3c716f24f556ee73331f05732036f06dca9cd911",
+              "datavalue": {
+                "value": "r/raphael/2firenze/1/28unicor",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2344396$4630A722-F619-41BE-B8D2-426BBF4DA5B1",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "a74ba79bb1d3986818e7702208a7716f2706e830",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 565,
+                          "id": "Q565"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "45231894be8460741e10bd82a62590411f1180dd",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-04-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "c052fe33e95accceab8015041e180e612fb02de0",
+                      "datavalue": {
+                        "value": "https://commons.wikimedia.org/wiki/File:Lady_with_unicorn_by_Rafael_Santi.jpg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "1322bcadb388bbcaffaab8c8b6a43553a4f2bf77",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 73273453,
+                  "id": "Q73273453"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$d264f710-435c-b437-abb4-4a767f6eb2b7",
+            "rank": "normal"
+          }
+        ],
+        "P13296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13296",
+              "hash": "d2cdd7d11a1793ae9f887cbe850f5a0a4a720383",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 131786639,
+                  "id": "Q131786639"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$a12b2586-4303-2620-ff10-99d495b3bd51",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "b48529e9f7e0898ab1ddaefe8547cdb863e0167c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 38,
+                  "id": "Q38"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$6c8f6cd8-4c3a-f456-c5b9-a6af02b02a8a",
+            "rank": "normal"
+          }
+        ],
+        "P1435": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1435",
+              "hash": "5aaab4cb9a8ba871dd9053155d7e78af15cb5896",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 26971668,
+                  "id": "Q26971668"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2344396$d93d5c8f-4c62-5a04-dea2-66d3e0bab473",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b9d15554faeb4afe5c1e7a0466c1e4f25447d217",
+                "snaks": {
+                  "P9051": [
+                    {
+                      "snaktype": "value",
+                      "property": "P9051",
+                      "hash": "4e5b2b5e98f054b5700826123e9d0de8240f3e3f",
+                      "datavalue": {
+                        "value": "HistoricOrArtisticProperty/1201008127",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "ac50826d42aca45df7ba9f711c4d42d8c54ce31b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P9051",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P528": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "95a75b515ec78d26fd1215957e92bf7a309c8fc0",
+              "datavalue": {
+                "value": "51",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "07ef4f46b7b9ba17483d6978c4af761cab26b275",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 109287555,
+                      "id": "Q109287555"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2344396$30b1ee2c-4687-dbd9-0c23-c0033e1b9465",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P528",
+              "hash": "1fbb072e66aba684fabf2a676a0660229037fdf4",
+              "datavalue": {
+                "value": "26",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P972": [
+                {
+                  "snaktype": "value",
+                  "property": "P972",
+                  "hash": "484c588e67a295bd1009c2e715aba4681e5d9361",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 109287573,
+                      "id": "Q109287573"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P972"
+            ],
+            "id": "Q2344396$1eb2dd2c-4721-c12f-a1a6-19c75bbed0ff",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "امرأة شابة مع وحيد القرن",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "امراه شابه مع يونيكورن",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Gənc qadın təkbuynuzla",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Дама з аднарогам (карціна Рафаэля)",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Poltred un itron gant un unkorneg",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Dama con Liocorno (Raffaello Sanzio)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Dame mit dem Einhorn",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Portrait of a Young Woman with a Unicorn",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Dama del unicornio",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "La Dame à la licorne (Raphaël)",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Միաեղջյուրով կինը (կտավ)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Dama col liocorno",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "一角獣を抱く貴婦人",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "유니콘을 든 젊은 여인",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "യംഗ് വുമൺ വിത് യൂണികോൺ",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "De dame met de eenhoorn",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Dama z jednorożcem (obraz Rafaela)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Дама с единорогом (картина Рафаэля)",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Unicornlu Genç Kadın",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Пані з однорогом (Рафаель)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "独角兽与年轻女子",
+          "badges": []
+        }
+      }
+    },
+    "etichette": {
+      "Q106857709": "tavola",
+      "Q109287555": "L'opera completa di Raffaello",
+      "Q109287573": "Raffaello Sanzio catalog raisonné, 1989",
+      "Q112259737": "trasportato su tela",
+      "Q11753251": "Laura Orsini",
+      "Q121268832": "Collezione Aldobrandini",
+      "Q123592266": "unidentified woman",
+      "Q130598556": null,
+      "Q131786639": "Studio per la dama col liocorno",
+      "Q131812976": "Sala 9 di Didone",
+      "Q134307": "ritratto",
+      "Q1474884": "Alto Rinascimento",
+      "Q19652": "pubblico dominio",
+      "Q236243": "Giulia Farnese",
+      "Q26971668": "bene culturale italiano",
+      "Q296955": "colore a olio",
+      "Q29940705": "100 anni dalla morte dell'autore",
+      "Q3305213": "dipinto",
+      "Q38": "Italia",
+      "Q5597": "Raffaello Sanzio",
+      "Q56644435": "probabilmente",
+      "Q60332278": "giurisdizioni con 100 anni PMA o meno",
+      "Q652": "italiano",
+      "Q683074": "Collezione Borghese",
+      "Q7246": "unicorno",
+      "Q73273453": "donna giovane",
+      "Q841506": "Galleria Borghese",
+      "Q861259": "supporto del dipinto"
+    }
+  }
+}

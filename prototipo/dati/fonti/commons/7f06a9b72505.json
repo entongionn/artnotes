@@ -1,0 +1,114 @@
+{
+  "acquisizione": {
+    "fonte": "commons",
+    "identificativo": "7f06a9b72505",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|size|sha1|extmetadata&iiextmetadatalanguage=it&iiurlwidth=480&titles=File%3AMemling%2C%20trittico%20di%20Benedetto%20Portinari%2C%20ritratto%2C%20parte%20destra.jpg",
+    "data": "2026-11-06T15:58:26+00:00",
+    "connettore": "importa.py 0.1.0"
+  },
+  "payload": {
+    "file": "Memling, trittico di Benedetto Portinari, ritratto, parte destra.jpg",
+    "pagina": {
+      "pageid": 12211511,
+      "ns": 6,
+      "title": "File:Memling, trittico di Benedetto Portinari, ritratto, parte destra.jpg",
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 184348,
+          "width": 850,
+          "height": 1171,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg/500px-Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 480,
+          "thumbheight": 661,
+          "responsiveUrls": {
+            "2": "https://upload.wikimedia.org/wikipedia/commons/0/04/Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+          },
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg/500px-Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 480,
+            "height": 661,
+            "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/04/Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Memling%2C_trittico_di_Benedetto_Portinari%2C_ritratto%2C_parte_destra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Memling,_trittico_di_Benedetto_Portinari,_ritratto,_parte_destra.jpg",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12211511",
+          "sha1": "b10ce833d12b3eb9fa6aeda3a97236354329c1bc",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2010-12-03 20:24:32",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Portinari Triptych (right wing)",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Benedetto Portinari's Triptych|Images from Web Gallery of Art|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|15th-century portrait paintings in the Uffizi Gallery|Artworks digital representation of 2D work|15th-century Flemish paintings in the Uffizi Gallery|Paintings by Hans Memling in the Uffizi Gallery|Paintings in the Uffizi Gallery - Room A19, Rinascimento nordico",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/it:Hans_Memling\" class=\"extiw\" title=\"w:it:Hans Memling\"><span title=\"pittore tedesco di formazione fiamminga\">Hans Memling</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "ImageDescription": {
+              "value": "Probably portrait of Benedetto Portinari",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1487<div style=\"display: none;\">date QS:P571,+1487-00-00T00:00:00Z/9</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a href=\"https://en.wikipedia.org/wiki/it:Web_Gallery_of_Art\" class=\"extiw\" title=\"w:it:Web Gallery of Art\"><span title=\"virtual art gallery for European fine art created before 1900\">Web Gallery of Art</span></a>:  <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/art/m/memling/3mature6/33nopor3.jpg\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/20px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/art/m/memling/3mature6/33nopor3.jpg\">Immagine</a> <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/html/m/memling/3mature6/33nopor3.html\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/html/m/memling/3mature6/33nopor3.html\">Info about artwork</a><div style=\"display: none;\">wga QS:P11807,\"m/memling/3mature6/33nopor3\"</div>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}
